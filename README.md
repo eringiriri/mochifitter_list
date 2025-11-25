@@ -72,17 +72,13 @@ npx http-server -p 8000
 
 ### 最終更新日時の更新
 
-変更をコミットする前に、最終更新日時を更新してください：
+`data/profiles.json` を編集する際、`lastUpdated`フィールドも現在時刻（JST）に更新してください：
 
-**方法1: 自動更新スクリプトを使用（推奨）**
-```bash
-./update-timestamp.sh
-```
-
-**方法2: 手動で更新**
-`js/main.js` の以下の行を現在時刻（JST）に更新：
-```javascript
-const LAST_UPDATED = '2025-11-25 16:33:26 JST';
+```json
+{
+  "lastUpdated": "2025-11-25 17:00:00 JST",
+  "profiles": [...]
+}
 ```
 
 ### プロファイルデータの追加

@@ -2,22 +2,18 @@
 let allProfiles = [];
 let filteredProfiles = [];
 
-// 最終更新日時（コミット時に自動更新）
-const LAST_UPDATED = '2025-11-25 16:44:41 JST';
-
 // DOMContentLoaded時の初期化
 document.addEventListener('DOMContentLoaded', () => {
-    updateLastUpdatedDisplay();
     loadProfiles();
     setupEventListeners();
 });
 
 // 最終更新日時の表示
-function updateLastUpdatedDisplay() {
+function updateLastUpdatedDisplay(lastUpdated) {
     const updateTimeElement = document.getElementById('updateTime');
-    if (updateTimeElement) {
-        updateTimeElement.textContent = LAST_UPDATED;
-        updateTimeElement.setAttribute('datetime', LAST_UPDATED);
+    if (updateTimeElement && lastUpdated) {
+        updateTimeElement.textContent = lastUpdated;
+        updateTimeElement.setAttribute('datetime', lastUpdated);
     }
 }
 
@@ -31,6 +27,11 @@ async function loadProfiles() {
         const data = await response.json();
         allProfiles = data.profiles;
         filteredProfiles = [...allProfiles];
+
+        // 最終更新日時を表示
+        if (data.lastUpdated) {
+            updateLastUpdatedDisplay(data.lastUpdated);
+        }
 
         // 初期表示
         renderProfiles();
