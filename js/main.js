@@ -3,7 +3,7 @@ let allProfiles = [];
 let filteredProfiles = [];
 
 // 最終更新日時（コミット時に自動更新）
-const LAST_UPDATED = '2025-11-25 16:33:26 JST';
+const LAST_UPDATED = '2025-11-25 16:44:41 JST';
 
 // DOMContentLoaded時の初期化
 document.addEventListener('DOMContentLoaded', () => {
@@ -137,11 +137,19 @@ function createProfileCard(profile) {
             <img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">
         </div>` : '';
 
+    // リンク化ヘルパー関数
+    const createLink = (text, url) => {
+        if (url && url.trim()) {
+            return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="info-link">${escapeHtml(text)}</a>`;
+        }
+        return escapeHtml(text);
+    };
+
     return `
         <div class="profile-card">
             ${imageHtml}
             <div class="profile-header">
-                <h3 class="profile-name">${escapeHtml(profile.avatarName)}</h3>
+                <h3 class="profile-name">${createLink(profile.avatarName, profile.avatarNameUrl)}</h3>
                 ${officialBadge}
             </div>
 
@@ -152,11 +160,11 @@ function createProfileCard(profile) {
                 </div>
                 <div class="info-row">
                     <span class="info-label">アバター作者</span>
-                    <span class="info-value">${escapeHtml(profile.avatarAuthor)}</span>
+                    <span class="info-value">${createLink(profile.avatarAuthor, profile.avatarAuthorUrl)}</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label">プロファイル作者</span>
-                    <span class="info-value">${escapeHtml(profile.profileAuthor)}</span>
+                    <span class="info-value">${createLink(profile.profileAuthor, profile.profileAuthorUrl)}</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label">DL方法</span>
