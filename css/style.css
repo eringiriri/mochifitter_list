@@ -338,6 +338,40 @@ h2 {
 .info-value {
     color: var(--text-primary);
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* 価格バッジ */
+.price-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.price-badge.price-free {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.price-badge.price-paid {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.price-badge.price-bundled {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.price-amount {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
 
 .support-badges {

@@ -1,0 +1,595 @@
+"""
+profiles.json編集用GUIツール
+tkinterを使用してprofiles.jsonの編集を簡単に行えるツール
+"""
+
+import json
+import tkinter as tk
+from tkinter import ttk, messagebox, filedialog
+from tkcalendar import Calendar
+from datetime import datetime
+import os
+from PIL import Image, ImageTk
+import io
+import urllib.request
+import subprocess
+
+
+class ProfileEditor:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("もちふぃった～ プロファイルエディタ")
+        self.root.geometry("1400x800")
+
+        self.json_path = os.path.join(os.path.dirname(__file__), "data", "profiles.json")
+        self.data = None
+        self.current_selection = None
+        self.image_preview_label = None
+        self.form_modified = False  # フォームが編集されたかどうか
+
+        self.setup_ui()
+        self.load_data()
+
+    def setup_ui(self):
+        """UIのセットアップ"""
+        # メインフレーム
+        main_frame = ttk.Frame(self.root, padding="10")
+        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
+        main_frame.columnconfigure(1, weight=3)  # フォーム欄の幅を広く
+        main_frame.columnconfigure(2, weight=1)  # プレビュー欄
+        main_frame.rowconfigure(1, weight=1)
+
+        # 左側: リスト表示
+        list_frame = ttk.LabelFrame(main_frame, text="プロファイル一覧", padding="5")
+        list_frame.grid(row=0, column=0, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(0, 5))
+
+        # ツリービュー
+        self.tree = ttk.Treeview(list_frame, columns=("id", "avatar", "author"), show="headings", height=20)
+        self.tree.heading("id", text="ID")
+        self.tree.heading("avatar", text="アバター名")
+        self.tree.heading("author", text="作者")
+        self.tree.column("#0", width=30)
+        self.tree.column("id", width=50)
+        self.tree.column("avatar", width=120)
+        self.tree.column("author", width=120)
+
+        scrollbar = ttk.Scrollbar(list_frame, orient=tk.VERTICAL, command=self.tree.yview)
+        self.tree.configure(yscrollcommand=scrollbar.set)
+
+        self.tree.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+
+        list_frame.columnconfigure(0, weight=1)
+        list_frame.rowconfigure(0, weight=1)
+
+        self.tree.bind("<<TreeviewSelect>>", self.on_select)
+
+        # 中央上部: ツールバー
+        toolbar = ttk.Frame(main_frame)
+        toolbar.grid(row=0, column=1, sticky=(tk.W, tk.E), pady=(0, 5))
+
+        ttk.Button(toolbar, text="レコードを追加", command=self.add_profile).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="削除", command=self.delete_profile).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="保存", command=self.save_data).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="再読み込み", command=self.load_data).pack(side=tk.LEFT, padx=2)
+
+        # 中央下部: 編集フォーム
+        form_frame = ttk.LabelFrame(main_frame, text="プロファイル編集", padding="10")
+        form_frame.grid(row=1, column=1, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(0, 5))
+
+        # スクロール可能なフレーム
+        canvas = tk.Canvas(form_frame)
+        scrollbar_form = ttk.Scrollbar(form_frame, orient=tk.VERTICAL, command=canvas.yview)
+        scrollable_frame = ttk.Frame(canvas)
+
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+
+        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar_form.set)
+
+        canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar_form.pack(side=tk.RIGHT, fill=tk.Y)
+
+        # フォームフィールド
+        self.fields = {}
+        self.field_trace_ids = []  # トレース用のID保存
+        row = 0
+
+        # ID（空欄なら自動採番、入力済みならその値を使用）
+        ttk.Label(scrollable_frame, text="ID").grid(row=row, column=0, sticky=tk.W, pady=2)
+        id_frame = ttk.Frame(scrollable_frame)
+        id_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["id"] = ttk.Entry(id_frame, width=50)
+        self.fields["id"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Label(id_frame, text="※空欄で自動採番", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
+        row += 1
+
+        # 登録日（カレンダー付き）
+        ttk.Label(scrollable_frame, text="登録日").grid(row=row, column=0, sticky=tk.W, pady=2)
+        date_frame_registered = ttk.Frame(scrollable_frame)
+        date_frame_registered.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["registeredDate"] = ttk.Entry(date_frame_registered, width=40)
+        self.fields["registeredDate"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(date_frame_registered, text="今日", width=6,
+                   command=lambda: self.set_today("registeredDate")).pack(side=tk.LEFT, padx=2)
+        ttk.Button(date_frame_registered, text="📅", width=3,
+                   command=lambda: self.open_calendar("registeredDate")).pack(side=tk.LEFT)
+        row += 1
+
+        # 更新日（カレンダー付き）
+        ttk.Label(scrollable_frame, text="更新日").grid(row=row, column=0, sticky=tk.W, pady=2)
+        date_frame_updated = ttk.Frame(scrollable_frame)
+        date_frame_updated.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["updatedDate"] = ttk.Entry(date_frame_updated, width=40)
+        self.fields["updatedDate"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(date_frame_updated, text="今日", width=6,
+                   command=lambda: self.set_today("updatedDate")).pack(side=tk.LEFT, padx=2)
+        ttk.Button(date_frame_updated, text="📅", width=3,
+                   command=lambda: self.open_calendar("updatedDate")).pack(side=tk.LEFT)
+        row += 1
+
+        # その他の通常フィールド
+        normal_fields = [
+            ("アバター名", "avatarName"),
+            ("アバターURL", "avatarNameUrl"),
+            ("プロファイルバージョン", "profileVersion"),
+            ("アバター作者", "avatarAuthor"),
+            ("アバター作者URL", "avatarAuthorUrl"),
+            ("プロファイル作者", "profileAuthor"),
+            ("プロファイル作者URL", "profileAuthorUrl"),
+        ]
+
+        for label_text, field_name in normal_fields:
+            ttk.Label(scrollable_frame, text=label_text).grid(row=row, column=0, sticky=tk.W, pady=2)
+            self.fields[field_name] = ttk.Entry(scrollable_frame, width=50)
+            self.fields[field_name].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+            row += 1
+
+        # 配布方法（Boothボタン付き）
+        ttk.Label(scrollable_frame, text="配布方法").grid(row=row, column=0, sticky=tk.W, pady=2)
+        method_frame = ttk.Frame(scrollable_frame)
+        method_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["downloadMethod"] = ttk.Entry(method_frame, width=40)
+        self.fields["downloadMethod"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(method_frame, text="Booth", width=8,
+                   command=lambda: self.set_download_method("Booth")).pack(side=tk.LEFT, padx=2)
+        row += 1
+
+        # 残りのフィールド
+        ttk.Label(scrollable_frame, text="配布場所URL").grid(row=row, column=0, sticky=tk.W, pady=2)
+        self.fields["downloadLocation"] = ttk.Entry(scrollable_frame, width=50)
+        self.fields["downloadLocation"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        row += 1
+
+        ttk.Label(scrollable_frame, text="画像URL").grid(row=row, column=0, sticky=tk.W, pady=2)
+        self.fields["imageUrl"] = ttk.Entry(scrollable_frame, width=50)
+        self.fields["imageUrl"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        row += 1
+
+        # 価格区分（ボタン付き）
+        ttk.Label(scrollable_frame, text="価格区分").grid(row=row, column=0, sticky=tk.W, pady=2)
+        pricing_frame = ttk.Frame(scrollable_frame)
+        pricing_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+
+        # 上段: 入力欄
+        self.fields["pricing"] = ttk.Entry(pricing_frame, width=50)
+        self.fields["pricing"].pack(side=tk.TOP, fill=tk.X, pady=(0, 5))
+
+        # 下段: ボタン群
+        pricing_button_frame = ttk.Frame(pricing_frame)
+        pricing_button_frame.pack(side=tk.TOP, fill=tk.X)
+        ttk.Button(pricing_button_frame, text="無料", width=10,
+                   command=lambda: self.set_pricing("無料")).pack(side=tk.LEFT, padx=2)
+        ttk.Button(pricing_button_frame, text="単体有料", width=10,
+                   command=lambda: self.set_pricing("単体有料")).pack(side=tk.LEFT, padx=2)
+        ttk.Button(pricing_button_frame, text="アバター同梱", width=12,
+                   command=lambda: self.set_pricing("アバター同梱")).pack(side=tk.LEFT, padx=2)
+        row += 1
+
+        # 価格
+        ttk.Label(scrollable_frame, text="価格").grid(row=row, column=0, sticky=tk.W, pady=2)
+        self.fields["price"] = ttk.Entry(scrollable_frame, width=50)
+        self.fields["price"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        row += 1
+
+        # チェックボックスフィールド
+        checkbox_frame = ttk.Frame(scrollable_frame)
+        checkbox_frame.grid(row=row, column=0, columnspan=2, sticky=tk.W, pady=10)
+
+        self.fields["official"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="公式", variable=self.fields["official"]).pack(side=tk.LEFT, padx=5)
+
+        self.fields["forwardSupport"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="順方向対応", variable=self.fields["forwardSupport"]).pack(side=tk.LEFT, padx=5)
+
+        self.fields["reverseSupport"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="逆方向対応", variable=self.fields["reverseSupport"]).pack(side=tk.LEFT, padx=5)
+
+        scrollable_frame.columnconfigure(1, weight=1)
+
+        # 適用ボタン
+        ttk.Button(scrollable_frame, text="変更を適用", command=self.apply_changes).grid(row=row+1, column=0, columnspan=2, pady=10)
+
+        # 全てのEntryフィールドにキーイベントをバインド
+        self.bind_field_changes()
+
+        # 画像URLフィールドに自動プレビューをバインド
+        self.fields["imageUrl"].bind("<FocusOut>", lambda e: self.preview_image())
+        self.fields["imageUrl"].bind("<Return>", lambda e: self.preview_image())
+
+        # 右側: プレビューエリア
+        preview_panel = ttk.LabelFrame(main_frame, text="画像プレビュー", padding="10")
+        preview_panel.grid(row=0, column=2, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S))
+
+        self.image_preview_label = ttk.Label(preview_panel, text="画像URLを入力すると\n自動でプレビュー表示",
+                                            foreground="gray", anchor="center", justify="center")
+        self.image_preview_label.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
+
+    def bind_field_changes(self):
+        """全フィールドの変更を検知するバインドを設定"""
+        def mark_modified(event=None):
+            self.form_modified = True
+
+        # Entryフィールドにバインド
+        for field_name, widget in self.fields.items():
+            if isinstance(widget, ttk.Entry):
+                widget.bind("<KeyRelease>", mark_modified)
+            elif isinstance(widget, tk.BooleanVar):
+                # チェックボックスは trace で監視
+                widget.trace_add("write", lambda *args: setattr(self, "form_modified", True))
+
+    def load_data(self):
+        """JSONファイルを読み込み"""
+        try:
+            with open(self.json_path, 'r', encoding='utf-8') as f:
+                self.data = json.load(f)
+            self.refresh_tree()
+        except FileNotFoundError:
+            messagebox.showerror("エラー", f"ファイルが見つかりません: {self.json_path}")
+            self.data = {"lastUpdated": "", "profiles": []}
+        except json.JSONDecodeError as e:
+            messagebox.showerror("エラー", f"JSONの解析に失敗しました: {e}")
+            self.data = {"lastUpdated": "", "profiles": []}
+
+    def refresh_tree(self):
+        """ツリービューを更新"""
+        for item in self.tree.get_children():
+            self.tree.delete(item)
+
+        if self.data and "profiles" in self.data:
+            for profile in self.data["profiles"]:
+                self.tree.insert("", tk.END, values=(
+                    profile.get("id", ""),
+                    profile.get("avatarName", ""),
+                    profile.get("avatarAuthor", "")
+                ))
+
+    def on_select(self, event):
+        """リストアイテムが選択されたときの処理"""
+        print("on_select called")  # デバッグ用
+        selection = self.tree.selection()
+        print(f"selection: {selection}")  # デバッグ用
+        if not selection:
+            return
+
+        item = self.tree.item(selection[0])
+        values = item["values"]
+        print(f"values: {values}")  # デバッグ用
+
+        if not values:
+            return
+
+        profile_id = str(values[0]).zfill(3) if isinstance(values[0], int) else values[0]
+        print(f"profile_id: {profile_id}")  # デバッグ用
+
+        # 既に選択中の同じプロファイルなら何もしない
+        if self.current_selection and self.current_selection.get("id") == profile_id:
+            return
+
+        # 未保存の変更がある場合、確認ダイアログを表示
+        if self.form_modified:
+            result = messagebox.askyesno("確認", "未保存の変更があります。破棄しますか?")
+            if not result:
+                # キャンセル: イベントを一時的に無効化して元の選択に戻す
+                self.tree.unbind("<<TreeviewSelect>>")
+                if self.current_selection:
+                    for item_id in self.tree.get_children():
+                        item_values = self.tree.item(item_id)["values"]
+                        if item_values and str(item_values[0]).zfill(3) if isinstance(item_values[0], int) else item_values[0] == self.current_selection.get("id"):
+                            self.tree.selection_set(item_id)
+                            break
+                # イベントを再バインド
+                self.tree.bind("<<TreeviewSelect>>", self.on_select)
+                return
+
+        # プロファイルを検索
+        for profile in self.data["profiles"]:
+            if profile.get("id") == profile_id:
+                self.current_selection = profile
+                self.load_profile_to_form(profile)
+                self.form_modified = False  # 読み込み後は未編集状態
+                break
+
+    def load_profile_to_form(self, profile):
+        """プロファイルデータをフォームに読み込み"""
+        # テキストフィールド
+        for field_name, widget in self.fields.items():
+            if field_name in ["official", "forwardSupport", "reverseSupport"]:
+                widget.set(profile.get(field_name, False))
+            elif isinstance(widget, tk.Text):
+                widget.delete("1.0", tk.END)
+                widget.insert("1.0", profile.get(field_name, ""))
+            elif isinstance(widget, ttk.Entry):
+                widget.delete(0, tk.END)
+                widget.insert(0, profile.get(field_name, ""))
+
+    def set_today(self, field_name):
+        """今日の日付を設定"""
+        today = datetime.now().strftime("%Y-%m-%d")
+        self.fields[field_name].delete(0, tk.END)
+        self.fields[field_name].insert(0, today)
+
+    def set_download_method(self, method):
+        """配布方法を設定"""
+        self.fields["downloadMethod"].delete(0, tk.END)
+        self.fields["downloadMethod"].insert(0, method)
+
+    def set_pricing(self, pricing):
+        """価格区分を設定"""
+        self.fields["pricing"].delete(0, tk.END)
+        self.fields["pricing"].insert(0, pricing)
+
+    def preview_image(self):
+        """画像URLからプレビューを表示"""
+        image_url = self.fields["imageUrl"].get().strip()
+
+        if not image_url:
+            # 空欄の場合はプレビューをクリア
+            self.image_preview_label.configure(image="", text="画像URLを入力すると\n自動でプレビュー表示")
+            return
+
+        try:
+            # URLから画像をダウンロード
+            with urllib.request.urlopen(image_url) as response:
+                image_data = response.read()
+
+            # 画像を読み込み
+            image = Image.open(io.BytesIO(image_data))
+
+            # アスペクト比を保ちながらリサイズ（最大300x300）
+            max_size = (300, 300)
+            image.thumbnail(max_size, Image.Resampling.LANCZOS)
+
+            # Tkinter用の画像に変換
+            photo = ImageTk.PhotoImage(image)
+
+            # ラベルに画像を設定
+            self.image_preview_label.configure(image=photo, text="")
+            self.image_preview_label.image = photo  # 参照を保持
+
+        except urllib.error.URLError as e:
+            self.image_preview_label.configure(image="", text=f"画像の取得に失敗:\n{str(e)[:50]}")
+        except Exception as e:
+            self.image_preview_label.configure(image="", text=f"画像の表示に失敗:\n{str(e)[:50]}")
+
+    def open_calendar(self, field_name):
+        """カレンダーダイアログを開く"""
+        cal_window = tk.Toplevel(self.root)
+        cal_window.title("日付を選択")
+        cal_window.geometry("300x300")
+
+        # 現在の値を取得
+        current_value = self.fields[field_name].get()
+        try:
+            if current_value:
+                year, month, day = map(int, current_value.split("-"))
+                cal = Calendar(cal_window, selectmode="day", year=year, month=month, day=day)
+            else:
+                cal = Calendar(cal_window, selectmode="day")
+        except:
+            cal = Calendar(cal_window, selectmode="day")
+
+        cal.pack(pady=20)
+
+        def select_date():
+            selected = cal.get_date()
+            # カレンダーの日付フォーマットをYYYY-MM-DDに変換
+            date_obj = datetime.strptime(selected, "%m/%d/%y")
+            formatted_date = date_obj.strftime("%Y-%m-%d")
+            self.fields[field_name].delete(0, tk.END)
+            self.fields[field_name].insert(0, formatted_date)
+            cal_window.destroy()
+
+        ttk.Button(cal_window, text="選択", command=select_date).pack(pady=10)
+
+    def apply_changes(self):
+        """フォームの変更を適用"""
+        if not self.current_selection:
+            print("警告: プロファイルが選択されていません")
+            return
+
+        # フォームからデータを取得
+        for field_name, widget in self.fields.items():
+            if field_name == "id":
+                # IDの処理: 空欄なら自動採番、入力済みならその値を使用
+                input_id = widget.get().strip()
+                if input_id:
+                    # 入力されたIDが既に存在するか確認
+                    existing_ids = [p.get("id") for p in self.data["profiles"] if p != self.current_selection]
+                    if input_id in existing_ids:
+                        messagebox.showerror("エラー", f"ID '{input_id}' は既に使用されています")
+                        return
+                    self.current_selection[field_name] = input_id
+                else:
+                    # 空欄の場合は自動採番
+                    self.current_selection[field_name] = self.find_next_available_id()
+            elif field_name in ["official", "forwardSupport", "reverseSupport"]:
+                self.current_selection[field_name] = widget.get()
+            elif isinstance(widget, tk.Text):
+                self.current_selection[field_name] = widget.get("1.0", tk.END).strip()
+            elif isinstance(widget, ttk.Entry):
+                self.current_selection[field_name] = widget.get()
+
+        self.refresh_tree()
+        self.form_modified = False  # 適用後は未編集状態に
+
+    def find_next_available_id(self):
+        """空いている最も若いIDを見つける"""
+        existing_ids = set()
+        for profile in self.data["profiles"]:
+            try:
+                existing_ids.add(int(profile.get("id", "0")))
+            except ValueError:
+                continue
+
+        # 1から順に空いているIDを探す
+        next_id = 1
+        while next_id in existing_ids:
+            next_id += 1
+
+        return str(next_id).zfill(3)
+
+    def add_profile(self):
+        """新しいレコードを追加（IDと登録日のみ入力済み）"""
+        # IDを自動採番
+        new_id = self.find_next_available_id()
+        today = datetime.now().strftime("%Y-%m-%d")
+
+        new_profile = {
+            "id": new_id,
+            "registeredDate": today,
+            "updatedDate": today,
+            "avatarName": "",
+            "avatarNameUrl": "",
+            "profileVersion": "1.0",
+            "avatarAuthor": "",
+            "avatarAuthorUrl": "",
+            "profileAuthor": "",
+            "profileAuthorUrl": "",
+            "official": False,
+            "downloadMethod": "Booth",
+            "downloadLocation": "",
+            "imageUrl": "",
+            "pricing": "",
+            "price": "",
+            "forwardSupport": False,
+            "reverseSupport": False
+        }
+
+        self.data["profiles"].append(new_profile)
+        self.refresh_tree()
+
+        # 新規追加したプロファイルを選択
+        self.current_selection = new_profile
+        self.load_profile_to_form(new_profile)
+        self.form_modified = False  # 新規追加時は未編集状態
+
+    def delete_profile(self):
+        """選択中のプロファイルを削除"""
+        if not self.current_selection:
+            return
+
+        # 削除確認
+        result = messagebox.askyesno("確認", f"ID: {self.current_selection['id']} を削除しますか?")
+        if result:
+            self.data["profiles"].remove(self.current_selection)
+            self.current_selection = None
+            self.refresh_tree()
+            self.clear_form()
+            self.form_modified = False
+
+    def clear_form(self):
+        """フォームをクリア"""
+        for field_name, widget in self.fields.items():
+            if field_name in ["official", "forwardSupport", "reverseSupport"]:
+                widget.set(False)
+            elif isinstance(widget, tk.Text):
+                widget.delete("1.0", tk.END)
+            elif isinstance(widget, ttk.Entry):
+                widget.delete(0, tk.END)
+
+    def auto_git_push(self):
+        """GitHubに自動コミット&プッシュ"""
+        # 処理中ウィンドウを作成
+        progress_window = tk.Toplevel(self.root)
+        progress_window.title("処理中")
+        progress_window.geometry("300x100")
+        progress_window.transient(self.root)
+        progress_window.grab_set()
+
+        label = tk.Label(progress_window, text="GitHubにプッシュ中...", font=("", 12))
+        label.pack(expand=True)
+
+        progress_window.update()
+
+        try:
+            # 環境変数からトークンを取得
+            github_token = os.environ.get("GITHUB_TOKEN")
+            if not github_token:
+                raise Exception("GITHUB_TOKEN環境変数が設定されていません")
+
+            # Git操作
+            subprocess.run(["git", "add", "data/profiles.json"],
+                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+
+            commit_message = f"Update profiles.json - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            subprocess.run(["git", "commit", "-m", commit_message],
+                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+
+            # リモートURLを認証情報付きで設定
+            remote_url = f"https://x-access-token:{github_token}@github.com/eringiriri/mochifitter_list.git"
+            subprocess.run(["git", "remote", "set-url", "origin", remote_url],
+                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+
+            subprocess.run(["git", "push"],
+                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+
+            progress_window.destroy()
+            messagebox.showinfo("完了", "GitHubへのプッシュが完了しました。\nWebサイトは数分後に更新されます。")
+            return True
+
+        except subprocess.CalledProcessError as e:
+            progress_window.destroy()
+            messagebox.showerror("プッシュエラー",
+                               f"GitHubへのプッシュに失敗しました:\n{e.stderr}")
+            return False
+        except Exception as e:
+            progress_window.destroy()
+            messagebox.showerror("エラー", f"プッシュ処理でエラーが発生しました:\n{str(e)}")
+            return False
+
+    def save_data(self):
+        """データをJSONファイルに保存"""
+        try:
+            # 最終更新日時を更新
+            jst_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S JST")
+            self.data["lastUpdated"] = jst_time
+
+            with open(self.json_path, 'w', encoding='utf-8') as f:
+                json.dump(self.data, f, ensure_ascii=False, indent=2)
+
+            # 保存後に確認ダイアログを表示
+            result = messagebox.askyesno("確認",
+                                        "GitHubにプッシュしてWebサイトを更新しますか？")
+
+            if result:
+                self.auto_git_push()
+
+        except Exception as e:
+            messagebox.showerror("エラー", f"保存に失敗しました: {e}")
+
+
+def main():
+    root = tk.Tk()
+    app = ProfileEditor(root)
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    main()

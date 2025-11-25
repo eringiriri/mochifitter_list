@@ -118,6 +118,20 @@ function renderProfiles() {
     container.innerHTML = filteredProfiles.map(profile => createProfileCard(profile)).join('');
 }
 
+// 価格バッジのクラスを取得
+function getPriceBadgeClass(pricing) {
+    switch(pricing) {
+        case '無料':
+            return 'price-free';
+        case '単体有料':
+            return 'price-paid';
+        case 'アバター同梱':
+            return 'price-bundled';
+        default:
+            return '';
+    }
+}
+
 // プロファイルカードの生成
 function createProfileCard(profile) {
     const officialBadge = profile.official ?
@@ -170,6 +184,13 @@ function createProfileCard(profile) {
                 <div class="info-row">
                     <span class="info-label">DL方法</span>
                     <span class="info-value">${escapeHtml(profile.downloadMethod)}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">価格</span>
+                    <span class="info-value">
+                        <span class="price-badge ${getPriceBadgeClass(profile.pricing)}">${escapeHtml(profile.pricing)}</span>
+                        ${profile.price ? `<span class="price-amount">${escapeHtml(profile.price)}</span>` : ''}
+                    </span>
                 </div>
             </div>
 
