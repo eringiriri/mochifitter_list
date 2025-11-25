@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-26 00:07:31 JST",
+  "lastUpdated": "2025-11-26 00:19:08 JST",
   "profiles": [
     {
       "id": "001",
@@ -100,6 +100,66 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true
+    },
+    {
+      "id": "006",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "Lapwing",
+      "avatarNameUrl": "https://kujishift.booth.pm/items/4993931",
+      "profileVersion": "1.0",
+      "avatarAuthor": "kuji",
+      "avatarAuthorUrl": "https://kujishift.booth.pm/",
+      "profileAuthor": "kuromaru9",
+      "profileAuthorUrl": "https://kuromaru9.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://kuromaru9.booth.pm/items/7613516",
+      "imageUrl": "https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/7613516/735e0019-ac20-4162-b30f-32eaf977f4ae_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": true
+    },
+    {
+      "id": "007",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "ナナセ・ノワール -Nanase Noir-",
+      "avatarNameUrl": "https://booth.pm/ja/items/5827815",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ステラー",
+      "avatarAuthorUrl": "https://steller.booth.pm/",
+      "profileAuthor": "ステラー",
+      "profileAuthorUrl": "https://steller.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://booth.pm/ja/items/5827815",
+      "imageUrl": "https://booth.pximg.net/8dd1ea6b-1c31-4d82-bfec-cbc05177d146/i/5827815/cc5a9581-ecc5-4a30-9596-ac144de3d1f5_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": true
+    },
+    {
+      "id": "008",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "マリシア - Marycia -",
+      "avatarNameUrl": "https://booth.pm/ja/items/6305948",
+      "profileVersion": "1.0",
+      "avatarAuthor": "BeroarN",
+      "avatarAuthorUrl": "https://brn.booth.pm/",
+      "profileAuthor": "BeroarN",
+      "profileAuthorUrl": "https://brn.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://booth.pm/ja/items/6305948",
+      "imageUrl": "https://booth.pximg.net/f6d23951-d61e-4e47-908b-521afbb47fbf/i/6305948/40e8f0b2-82a8-49c2-a332-eebe2441968f_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": false
     }
   ]
 }
