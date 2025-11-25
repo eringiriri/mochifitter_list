@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>もちふぃったープロファイル一覧</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>もちふぃったープロファイル一覧</h1>
+            <p class="subtitle">VRChatアバター用 もちふぃったープロファイル情報まとめ</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 説明セクション -->
+        <section class="info-section">
+            <h2>もちふぃったーとは？</h2>
+            <p>
+                もちふぃったーは、VRChat用の3Dアバター向けの衣装を自動で合わせるためのツールです。<br>
+                アバター向けの衣装を、もちふぃったーTemplateに合わせることで、他のアバターにも着せることができます。
+            </p>
+            <ul>
+                <li><strong>順方向</strong>: Templateから別のアバターへ自動で合わせる</li>
+                <li><strong>逆方向</strong>: アバター用衣装をTemplateに自動で合わせる</li>
+            </ul>
+        </section>
+
+        <!-- 検索・フィルターセクション -->
+        <section class="search-section">
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="アバター名、作者名で検索...">
+
+                <div class="filter-controls">
+                    <label>
+                        <input type="checkbox" id="filterOfficial" checked>
+                        公式
+                    </label>
+                    <label>
+                        <input type="checkbox" id="filterUnofficial" checked>
+                        非公式
+                    </label>
+                    <label>
+                        <input type="checkbox" id="filterForward" checked>
+                        順方向対応
+                    </label>
+                    <label>
+                        <input type="checkbox" id="filterReverse" checked>
+                        逆方向対応
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <!-- プロファイル一覧 -->
+        <section class="profiles-section">
+            <div class="profiles-header">
+                <h2>プロファイル一覧</h2>
+                <div id="profileCount" class="count">読み込み中...</div>
+            </div>
+
+            <div id="profilesContainer" class="profiles-grid">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+        </section>
+
+        <!-- 登録要望セクション -->
+        <section class="request-section">
+            <h2>プロファイル登録要望</h2>
+            <p>新しいアバタープロファイルの登録をご希望の方は、こちらのフォームからリクエストしてください。</p>
+            <a href="#" id="requestFormLink" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                登録要望フォームを開く
+            </a>
+            <p class="note">※ GoogleフォームのURLは管理者が設定してください</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 もちふぃったープロファイル一覧 | VRChatコミュニティ</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

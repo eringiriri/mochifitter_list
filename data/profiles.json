@@ -1,0 +1,46 @@
+{
+  "profiles": [
+    {
+      "id": "001",
+      "registeredDate": "2025-11-25",
+      "updatedDate": "2025-11-20",
+      "avatarName": "桔梗",
+      "profileVersion": "1.0.0",
+      "avatarAuthor": "ポンデロニウム研究所",
+      "profileAuthor": "サンプル作者",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://example.com",
+      "forwardSupport": true,
+      "reverseSupport": true
+    },
+    {
+      "id": "002",
+      "registeredDate": "2025-11-25",
+      "updatedDate": "2025-11-18",
+      "avatarName": "森羅",
+      "profileVersion": "1.2.0",
+      "avatarAuthor": "あまとうさぎ",
+      "profileAuthor": "コミュニティ作者",
+      "official": false,
+      "downloadMethod": "GitHub",
+      "downloadLocation": "https://github.com/example/repo",
+      "forwardSupport": true,
+      "reverseSupport": false
+    },
+    {
+      "id": "003",
+      "registeredDate": "2025-11-24",
+      "updatedDate": "2025-11-15",
+      "avatarName": "マヌカ",
+      "profileVersion": "2.0.0",
+      "avatarAuthor": "JINGO CHANNEL",
+      "profileAuthor": "サンプル作者2",
+      "official": true,
+      "downloadMethod": "BOOTH",
+      "downloadLocation": "https://booth.pm/example",
+      "forwardSupport": true,
+      "reverseSupport": true
+    }
+  ]
+}
