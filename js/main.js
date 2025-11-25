@@ -189,7 +189,7 @@ function createProfileCard(profile) {
                     <span class="info-label">価格</span>
                     <span class="info-value">
                         <span class="price-badge ${getPriceBadgeClass(profile.pricing)}">${escapeHtml(profile.pricing)}</span>
-                        ${profile.price ? `<span class="price-amount">${escapeHtml(profile.price)}</span>` : ''}
+                        ${profile.price ? `<span class="price-amount">${escapeHtml(profile.price)}円</span>` : ''}
                     </span>
                 </div>
             </div>

@@ -194,8 +194,11 @@ class ProfileEditor:
 
         # 価格
         ttk.Label(scrollable_frame, text="価格").grid(row=row, column=0, sticky=tk.W, pady=2)
-        self.fields["price"] = ttk.Entry(scrollable_frame, width=50)
-        self.fields["price"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        price_frame = ttk.Frame(scrollable_frame)
+        price_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["price"] = ttk.Entry(price_frame, width=50)
+        self.fields["price"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Label(price_frame, text="※数字のみ(例: 500)", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
         row += 1
 
         # チェックボックスフィールド
