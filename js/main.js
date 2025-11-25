@@ -2,11 +2,24 @@
 let allProfiles = [];
 let filteredProfiles = [];
 
+// 最終更新日時（コミット時に自動更新）
+const LAST_UPDATED = '2025-11-25 07:29:05 UTC';
+
 // DOMContentLoaded時の初期化
 document.addEventListener('DOMContentLoaded', () => {
+    updateLastUpdatedDisplay();
     loadProfiles();
     setupEventListeners();
 });
+
+// 最終更新日時の表示
+function updateLastUpdatedDisplay() {
+    const updateTimeElement = document.getElementById('updateTime');
+    if (updateTimeElement) {
+        updateTimeElement.textContent = LAST_UPDATED;
+        updateTimeElement.setAttribute('datetime', LAST_UPDATED);
+    }
+}
 
 // プロファイルデータの読み込み
 async function loadProfiles() {
