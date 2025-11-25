@@ -118,8 +118,15 @@ function createProfileCard(profile) {
         '<div class="support-badge supported">逆方向: 対応</div>' :
         '<div class="support-badge not-supported">逆方向: 未対応</div>';
 
+    // 画像のHTML（imageUrlがある場合のみ表示）
+    const imageHtml = profile.imageUrl ?
+        `<div class="profile-image">
+            <img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">
+        </div>` : '';
+
     return `
         <div class="profile-card">
+            ${imageHtml}
             <div class="profile-header">
                 <h3 class="profile-name">${escapeHtml(profile.avatarName)}</h3>
                 ${officialBadge}

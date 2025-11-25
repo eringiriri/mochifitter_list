@@ -177,10 +177,11 @@ h2 {
 .profile-card {
     background: var(--card-bg);
     border-radius: 12px;
-    padding: 25px;
+    padding: 0;
     box-shadow: var(--shadow);
     transition: transform 0.2s, box-shadow 0.2s;
     border: 1px solid var(--border-color);
+    overflow: hidden;
 }
 
 .profile-card:hover {
@@ -188,11 +189,34 @@ h2 {
     box-shadow: var(--shadow-lg);
 }
 
+/* プロファイル画像 */
+.profile-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover .profile-image img {
+    transform: scale(1.05);
+}
+
 .profile-header {
     display: flex;
     justify-content: space-between;
     align-items: start;
     margin-bottom: 15px;
+    padding: 25px 25px 0 25px;
 }
 
 .profile-name {
@@ -222,6 +246,7 @@ h2 {
 
 .profile-info {
     margin: 15px 0;
+    padding: 0 25px;
 }
 
 .info-row {
@@ -250,6 +275,7 @@ h2 {
     display: flex;
     gap: 10px;
     margin: 15px 0;
+    padding: 0 25px;
 }
 
 .support-badge {
@@ -273,6 +299,7 @@ h2 {
 
 .profile-footer {
     margin-top: 15px;
+    padding: 0 25px 25px 25px;
 }
 
 .download-link {

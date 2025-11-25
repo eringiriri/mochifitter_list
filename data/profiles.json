@@ -11,6 +11,7 @@
       "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://example.com",
+      "imageUrl": "https://booth.pximg.net/ed52788c-0b3b-4e38-9ded-1e5797daf0ef/i/3681787/2409bb9f-24f3-42dd-8ad6-89a0656f2166_base_resized.jpg",
       "forwardSupport": true,
       "reverseSupport": true
     },
@@ -25,6 +26,7 @@
       "official": false,
       "downloadMethod": "GitHub",
       "downloadLocation": "https://github.com/example/repo",
+      "imageUrl": "https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/7613516/242fd891-5677-487a-b2bc-da2776454829_base_resized.jpg",
       "forwardSupport": true,
       "reverseSupport": false
     },
@@ -39,6 +41,7 @@
       "official": true,
       "downloadMethod": "BOOTH",
       "downloadLocation": "https://booth.pm/example",
+      "imageUrl": "https://booth.pximg.net/8a7426aa-ba62-4ef0-9e7d-2c8ea96e7c9b/i/5058077/a18424fe-a56e-411a-9c47-27c56909593c_base_resized.jpg",
       "forwardSupport": true,
       "reverseSupport": true
     }

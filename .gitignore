@@ -16,3 +16,7 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Cloudflare Workers (not needed for static site)
+wrangler.toml
+src/
