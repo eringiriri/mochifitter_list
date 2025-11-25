@@ -26,6 +26,8 @@ class ProfileEditor:
         self.current_selection = None
         self.image_preview_label = None
         self.form_modified = False  # フォームが編集されたかどうか
+        self.sort_column = "id"  # デフォルトのソート列
+        self.sort_reverse = False  # ソート順
 
         self.setup_ui()
         self.load_data()
@@ -47,14 +49,16 @@ class ProfileEditor:
         list_frame.grid(row=0, column=0, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(0, 5))
 
         # ツリービュー
-        self.tree = ttk.Treeview(list_frame, columns=("id", "avatar", "author"), show="headings", height=20)
-        self.tree.heading("id", text="ID")
-        self.tree.heading("avatar", text="アバター名")
-        self.tree.heading("author", text="作者")
+        self.tree = ttk.Treeview(list_frame, columns=("id", "avatar", "author", "profileAuthor"), show="headings", height=20)
+        self.tree.heading("id", text="ID", command=lambda: self.sort_tree("id"))
+        self.tree.heading("avatar", text="アバター名", command=lambda: self.sort_tree("avatar"))
+        self.tree.heading("author", text="アバター作者", command=lambda: self.sort_tree("author"))
+        self.tree.heading("profileAuthor", text="プロファイル作者", command=lambda: self.sort_tree("profileAuthor"))
         self.tree.column("#0", width=30)
         self.tree.column("id", width=50)
-        self.tree.column("avatar", width=120)
-        self.tree.column("author", width=120)
+        self.tree.column("avatar", width=100)
+        self.tree.column("author", width=100)
+        self.tree.column("profileAuthor", width=100)
 
         scrollbar = ttk.Scrollbar(list_frame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=scrollbar.set)
@@ -266,14 +270,42 @@ class ProfileEditor:
             self.tree.delete(item)
 
         if self.data and "profiles" in self.data:
-            # IDでソート
-            sorted_profiles = sorted(self.data["profiles"], key=lambda p: p.get("id", ""))
+            # ソート列に応じてソート
+            sorted_profiles = self.get_sorted_profiles()
             for profile in sorted_profiles:
                 self.tree.insert("", tk.END, values=(
                     profile.get("id", ""),
                     profile.get("avatarName", ""),
-                    profile.get("avatarAuthor", "")
+                    profile.get("avatarAuthor", ""),
+                    profile.get("profileAuthor", "")
                 ))
+
+    def get_sorted_profiles(self):
+        """ソート列と順序に基づいてプロファイルをソート"""
+        if not self.data or "profiles" not in self.data:
+            return []
+
+        # ソートキーのマッピング
+        key_map = {
+            "id": lambda p: p.get("id", ""),
+            "avatar": lambda p: p.get("avatarName", ""),
+            "author": lambda p: p.get("avatarAuthor", ""),
+            "profileAuthor": lambda p: p.get("profileAuthor", "")
+        }
+
+        sort_key = key_map.get(self.sort_column, key_map["id"])
+        return sorted(self.data["profiles"], key=sort_key, reverse=self.sort_reverse)
+
+    def sort_tree(self, column):
+        """ツリービューをソート"""
+        # 同じ列をクリックした場合は昇順/降順を切り替え
+        if self.sort_column == column:
+            self.sort_reverse = not self.sort_reverse
+        else:
+            self.sort_column = column
+            self.sort_reverse = False
+
+        self.refresh_tree()
 
     def on_select(self, event):
         """リストアイテムが選択されたときの処理"""
