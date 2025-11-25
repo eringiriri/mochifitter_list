@@ -15,6 +15,48 @@ import urllib.request
 import subprocess
 
 
+class PlaceholderEntry(ttk.Entry):
+    """プレースホルダー機能付きのEntryウィジェット"""
+    def __init__(self, master=None, placeholder="", **kwargs):
+        super().__init__(master, **kwargs)
+        self.placeholder = placeholder
+        self.placeholder_color = 'grey'
+        self.default_fg_color = 'black'
+
+        self.bind("<FocusIn>", self._on_focus_in)
+        self.bind("<FocusOut>", self._on_focus_out)
+
+        self._put_placeholder()
+
+    def _put_placeholder(self):
+        if not self.get():
+            self.insert(0, self.placeholder)
+            self.configure(foreground=self.placeholder_color)
+
+    def _on_focus_in(self, event):
+        if self.get() == self.placeholder:
+            self.delete(0, tk.END)
+            self.configure(foreground=self.default_fg_color)
+
+    def _on_focus_out(self, event):
+        if not self.get():
+            self._put_placeholder()
+
+    def get_value(self):
+        """実際の値を取得（プレースホルダーでない場合のみ）"""
+        value = self.get()
+        return "" if value == self.placeholder else value
+
+    def set_value(self, value):
+        """値を設定"""
+        self.delete(0, tk.END)
+        if value:
+            self.insert(0, value)
+            self.configure(foreground=self.default_fg_color)
+        else:
+            self._put_placeholder()
+
+
 class ProfileEditor:
     def __init__(self, root):
         self.root = root
@@ -140,18 +182,21 @@ class ProfileEditor:
 
         # その他の通常フィールド
         normal_fields = [
-            ("アバター名", "avatarName"),
-            ("アバターURL", "avatarNameUrl"),
-            ("プロファイルバージョン", "profileVersion"),
-            ("アバター作者", "avatarAuthor"),
-            ("アバター作者URL", "avatarAuthorUrl"),
-            ("プロファイル作者", "profileAuthor"),
-            ("プロファイル作者URL", "profileAuthorUrl"),
+            ("アバター名", "avatarName", False),
+            ("アバターURL", "avatarNameUrl", True),
+            ("プロファイルバージョン", "profileVersion", False),
+            ("アバター作者", "avatarAuthor", False),
+            ("アバター作者URL", "avatarAuthorUrl", True),
+            ("プロファイル作者", "profileAuthor", False),
+            ("プロファイル作者URL", "profileAuthorUrl", True),
         ]
 
-        for label_text, field_name in normal_fields:
+        for label_text, field_name, is_url in normal_fields:
             ttk.Label(scrollable_frame, text=label_text).grid(row=row, column=0, sticky=tk.W, pady=2)
-            self.fields[field_name] = ttk.Entry(scrollable_frame, width=50)
+            if is_url:
+                self.fields[field_name] = PlaceholderEntry(scrollable_frame, placeholder="https://", width=50)
+            else:
+                self.fields[field_name] = ttk.Entry(scrollable_frame, width=50)
             self.fields[field_name].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
             row += 1
 
@@ -167,12 +212,12 @@ class ProfileEditor:
 
         # 残りのフィールド
         ttk.Label(scrollable_frame, text="配布場所URL").grid(row=row, column=0, sticky=tk.W, pady=2)
-        self.fields["downloadLocation"] = ttk.Entry(scrollable_frame, width=50)
+        self.fields["downloadLocation"] = PlaceholderEntry(scrollable_frame, placeholder="https://", width=50)
         self.fields["downloadLocation"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
         row += 1
 
         ttk.Label(scrollable_frame, text="画像URL").grid(row=row, column=0, sticky=tk.W, pady=2)
-        self.fields["imageUrl"] = ttk.Entry(scrollable_frame, width=50)
+        self.fields["imageUrl"] = PlaceholderEntry(scrollable_frame, placeholder="https://", width=50)
         self.fields["imageUrl"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
         row += 1
 
@@ -362,6 +407,8 @@ class ProfileEditor:
             elif isinstance(widget, tk.Text):
                 widget.delete("1.0", tk.END)
                 widget.insert("1.0", profile.get(field_name, ""))
+            elif isinstance(widget, PlaceholderEntry):
+                widget.set_value(profile.get(field_name, ""))
             elif isinstance(widget, ttk.Entry):
                 widget.delete(0, tk.END)
                 widget.insert(0, profile.get(field_name, ""))
@@ -470,6 +517,8 @@ class ProfileEditor:
                 self.current_selection[field_name] = widget.get()
             elif isinstance(widget, tk.Text):
                 self.current_selection[field_name] = widget.get("1.0", tk.END).strip()
+            elif isinstance(widget, PlaceholderEntry):
+                self.current_selection[field_name] = widget.get_value()
             elif isinstance(widget, ttk.Entry):
                 self.current_selection[field_name] = widget.get()
 
