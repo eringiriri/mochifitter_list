@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-25 23:20:11 JST",
+  "lastUpdated": "2025-11-25 23:54:16 JST",
   "profiles": [
     {
       "id": "001",
@@ -16,8 +16,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "https://booth.pm/ja/items/7657840",
       "imageUrl": "https://booth.pximg.net/ed52788c-0b3b-4e38-9ded-1e5797daf0ef/i/3681787/2409bb9f-24f3-42dd-8ad6-89a0656f2166_base_resized.jpg",
-      "pricing": "単体有料",
-      "price": "500",
+      "pricing": "もちふぃった～同梱",
+      "price": "2500",
       "forwardSupport": true,
       "reverseSupport": true
     },
@@ -56,8 +56,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "https://booth.pm/ja/items/7657840",
       "imageUrl": "https://booth.pximg.net/8a7426aa-ba62-4ef0-9e7d-2c8ea96e7c9b/i/5058077/a18424fe-a56e-411a-9c47-27c56909593c_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "",
+      "pricing": "もちふぃった～同梱",
+      "price": "2500",
       "forwardSupport": true,
       "reverseSupport": true
     },
