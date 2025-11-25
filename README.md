@@ -80,9 +80,9 @@ npx http-server -p 8000
 ```
 
 **方法2: 手動で更新**
-`js/main.js` の以下の行を現在時刻に更新：
+`js/main.js` の以下の行を現在時刻（JST）に更新：
 ```javascript
-const LAST_UPDATED = '2025-11-25 07:29:05 UTC';
+const LAST_UPDATED = '2025-11-25 16:33:26 JST';
 ```
 
 ### プロファイルデータの追加

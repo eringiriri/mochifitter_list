@@ -3,7 +3,7 @@ let allProfiles = [];
 let filteredProfiles = [];
 
 // 最終更新日時（コミット時に自動更新）
-const LAST_UPDATED = '2025-11-25 07:29:05 UTC';
+const LAST_UPDATED = '2025-11-25 16:33:26 JST';
 
 // DOMContentLoaded時の初期化
 document.addEventListener('DOMContentLoaded', () => {
