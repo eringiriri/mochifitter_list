@@ -637,8 +637,28 @@ class ProfileEditor:
             messagebox.showerror("設定エラー", f"config.jsonの読み込みに失敗しました:\n{str(e)}")
             return None
 
+    def check_git_installed(self):
+        """Gitがインストールされているか確認"""
+        try:
+            result = subprocess.run(["git", "--version"],
+                                  capture_output=True, text=True, timeout=5)
+            return result.returncode == 0
+        except FileNotFoundError:
+            return False
+        except Exception:
+            return False
+
     def auto_git_push(self):
         """GitHubに自動コミット&プッシュ"""
+        # Gitがインストールされているか確認
+        if not self.check_git_installed():
+            messagebox.showerror("Gitエラー",
+                "Gitがインストールされていません。\n\n"
+                "自動プッシュを使用するには、Git for Windowsをインストールしてください。\n"
+                "ダウンロード: https://git-scm.com/download/win\n\n"
+                "または、手動でGit操作を行ってください。")
+            return False
+
         # 設定を読み込み
         config = self.load_config()
         if not config:

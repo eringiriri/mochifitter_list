@@ -9,6 +9,11 @@ profiles.jsonを簡単に編集できるGUIツール
 **対応OS:**
 - Windows 10/11
 
+**前提条件:**
+- Git for Windowsがインストールされていること（自動プッシュ機能を使う場合）
+  - ダウンロード: https://git-scm.com/download/win
+  - インストール後、PCを再起動してください
+
 **ダウンロードと配置:**
 1. [Releases](https://github.com/eringiriri/mochifitter_list/releases) から最新版(`MochiFitterProfileEditor.exe`)をダウンロード
 2. リポジトリのルートディレクトリに実行ファイルを配置
