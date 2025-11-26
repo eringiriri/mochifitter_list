@@ -136,6 +136,7 @@ class ProfileEditor:
         ttk.Button(toolbar, text="複製", command=self.duplicate_profile).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="削除", command=self.delete_profile).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="CSVインポート", command=self.import_csv).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="CSVエクスポート", command=self.export_csv).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="保存", command=self.save_data).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="再読み込み", command=self.load_data).pack(side=tk.LEFT, padx=2)
 
@@ -727,6 +728,55 @@ class ProfileEditor:
 
         except Exception as e:
             messagebox.showerror("エラー", f"CSVファイルの読み込みに失敗しました:\n{str(e)}")
+
+    def export_csv(self):
+        """プロファイルをCSVファイルにエクスポート"""
+        if not self.data or not self.data.get("profiles"):
+            messagebox.showwarning("警告", "エクスポートするデータがありません")
+            return
+
+        # 保存先を選択
+        csv_path = filedialog.asksaveasfilename(
+            title="CSVファイルを保存",
+            defaultextension=".csv",
+            filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
+            initialfile="profiles.csv"
+        )
+
+        if not csv_path:
+            return
+
+        try:
+            # フィールド名を定義（全項目）
+            fieldnames = [
+                "id", "registeredDate", "updatedDate",
+                "avatarName", "avatarNameUrl", "profileVersion",
+                "avatarAuthor", "avatarAuthorUrl",
+                "profileAuthor", "profileAuthorUrl",
+                "official", "downloadMethod", "downloadLocation",
+                "imageUrl", "pricing", "price",
+                "forwardSupport", "reverseSupport"
+            ]
+
+            with open(csv_path, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+
+                for profile in self.data["profiles"]:
+                    # Boolean型を文字列に変換
+                    row_data = {}
+                    for field in fieldnames:
+                        value = profile.get(field, "")
+                        if isinstance(value, bool):
+                            row_data[field] = str(value)
+                        else:
+                            row_data[field] = value
+                    writer.writerow(row_data)
+
+            messagebox.showinfo("完了", f"{len(self.data['profiles'])}件のプロファイルをエクスポートしました\n\n{csv_path}")
+
+        except Exception as e:
+            messagebox.showerror("エラー", f"CSVファイルの保存に失敗しました:\n{str(e)}")
 
     def delete_profile(self):
         """選択中のプロファイルを削除"""
