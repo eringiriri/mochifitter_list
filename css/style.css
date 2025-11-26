@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -206,7 +206,7 @@ h2 {
 
 .profiles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 25px;
 }
 
@@ -506,6 +506,12 @@ footer {
 }
 
 /* レスポンシブ対応 */
+@media (min-width: 1500px) {
+    .profiles-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
