@@ -66,36 +66,51 @@ function setupEventListeners() {
         }
     });
 
-    // 備考バッジのクリックイベント（イベントデリゲーション）
+    // 備考バッジのツールチップ（イベントデリゲーション）
     const profilesContainer = document.getElementById('profilesContainer');
     if (profilesContainer) {
-        profilesContainer.addEventListener('click', (event) => {
-            // クリックされた要素が備考バッジかチェック
+        profilesContainer.addEventListener('mouseover', (event) => {
             if (event.target.classList.contains('notes-badge')) {
-                event.preventDefault();
-                event.stopPropagation();
-                const profileId = event.target.dataset.profileId;
-                if (profileId) {
-                    openNotesModal(profileId);
-                }
+                showNotesTooltip(event.target);
+            }
+        });
+
+        profilesContainer.addEventListener('mouseout', (event) => {
+            if (event.target.classList.contains('notes-badge')) {
+                hideNotesTooltip();
             }
         });
     }
+}
 
-    // モーダル外クリックで閉じる
-    const modal = document.getElementById('notesModal');
-    if (modal) {
-        modal.addEventListener('click', (event) => {
-            if (event.target === modal) {
-                closeNotesModal();
-            }
-        });
-    }
+// ツールチップを表示
+function showNotesTooltip(badgeElement) {
+    const notes = badgeElement.dataset.notes;
+    if (!notes) return;
 
-    // モーダル閉じるボタン
-    const modalClose = document.querySelector('.modal-close');
-    if (modalClose) {
-        modalClose.addEventListener('click', closeNotesModal);
+    // 既存のツールチップを削除
+    hideNotesTooltip();
+
+    // ツールチップ要素を作成
+    const tooltip = document.createElement('div');
+    tooltip.className = 'notes-tooltip';
+    tooltip.textContent = notes;
+    tooltip.id = 'notesTooltip';
+
+    // 位置を計算
+    const rect = badgeElement.getBoundingClientRect();
+    tooltip.style.position = 'fixed';
+    tooltip.style.left = `${rect.left}px`;
+    tooltip.style.top = `${rect.bottom + 5}px`;
+
+    document.body.appendChild(tooltip);
+}
+
+// ツールチップを非表示
+function hideNotesTooltip() {
+    const tooltip = document.getElementById('notesTooltip');
+    if (tooltip) {
+        tooltip.remove();
     }
 }
 
@@ -181,7 +196,7 @@ function createProfileCard(profile) {
 
     // 備考バッジ（備考がある場合のみ表示）
     const notesBadge = profile.notes && profile.notes.trim() ?
-        `<span class="badge notes-badge" data-profile-id="${profile.id}">備考</span>` : '';
+        `<span class="badge notes-badge" data-notes="${escapeHtml(profile.notes)}">備考</span>` : '';
 
     // 画像のHTML（imageUrlがある場合のみ表示）
     const imageHtml = profile.imageUrl ?
@@ -248,28 +263,6 @@ function createProfileCard(profile) {
             </div>
         </div>
     `;
-}
-
-// モーダルを開く
-function openNotesModal(profileId) {
-    const profile = allProfiles.find(p => p.id === profileId);
-    if (!profile || !profile.notes) return;
-
-    const modal = document.getElementById('notesModal');
-    const modalText = document.getElementById('modalNotesText');
-
-    if (modal && modalText) {
-        modalText.textContent = profile.notes;
-        modal.style.display = 'block';
-    }
-}
-
-// モーダルを閉じる
-function closeNotesModal() {
-    const modal = document.getElementById('notesModal');
-    if (modal) {
-        modal.style.display = 'none';
-    }
 }
 
 // カウント表示の更新
