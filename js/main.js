@@ -151,7 +151,8 @@ function createProfileCard(profile) {
     const imageHtml = profile.imageUrl ?
         `<div class="profile-image">
             <img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">
-        </div>` : '';
+            ${officialBadge}
+        </div>` : `<div class="profile-image-placeholder">${officialBadge}</div>`;
 
     // リンク化ヘルパー関数
     const createLink = (text, url) => {
@@ -166,7 +167,6 @@ function createProfileCard(profile) {
             ${imageHtml}
             <div class="profile-header">
                 <h3 class="profile-name">${createLink(profile.avatarName, profile.avatarNameUrl)}</h3>
-                ${officialBadge}
             </div>
 
             <div class="profile-info">
