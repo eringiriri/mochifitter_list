@@ -828,20 +828,24 @@ class ProfileEditor:
             og_image = soup.find('meta', property='og:image')
             image_url = og_image['content'] if og_image else ""
 
-            # JSON-LDからブランド情報を取得
-            json_ld = soup.find('script', type='application/ld+json')
+            # home-link-container__nicknameから作者名を取得
+            nickname_div = soup.find('div', class_='home-link-container__nickname')
             avatar_author = ""
             avatar_author_url = ""
 
-            if json_ld:
-                import json
-                try:
-                    ld_data = json.loads(json_ld.string)
-                    if 'brand' in ld_data:
-                        avatar_author = ld_data['brand'].get('name', '')
-                        avatar_author_url = ld_data['brand'].get('url', '')
-                except:
-                    pass
+            if nickname_div:
+                link = nickname_div.find('a', class_='nav')
+                if link:
+                    avatar_author = link.get_text(strip=True)
+                    # hrefから作者URLを構築
+                    href = link.get('href', '')
+                    if href:
+                        # 相対URLを絶対URLに変換
+                        if href.startswith('/'):
+                            # パスからショップ名を抽出してBoothのURLを構築
+                            avatar_author_url = f"https://{href.strip('/')}.booth.pm/"
+                        else:
+                            avatar_author_url = href
 
             return {
                 "avatarName": avatar_name,
