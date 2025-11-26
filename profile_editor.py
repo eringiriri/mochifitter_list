@@ -9,10 +9,21 @@ from tkinter import ttk, messagebox, filedialog
 from tkcalendar import Calendar
 from datetime import datetime
 import os
+import sys
 from PIL import Image, ImageTk
 import io
 import urllib.request
 import subprocess
+
+
+def get_app_dir():
+    """アプリケーションのベースディレクトリを取得"""
+    if getattr(sys, 'frozen', False):
+        # PyInstallerで実行ファイル化されている場合
+        return os.path.dirname(sys.executable)
+    else:
+        # 通常のPythonスクリプトとして実行されている場合
+        return os.path.dirname(os.path.abspath(__file__))
 
 
 class PlaceholderEntry(ttk.Entry):
@@ -63,7 +74,8 @@ class ProfileEditor:
         self.root.title("もちふぃった～ プロファイルエディタ")
         self.root.geometry("1400x800")
 
-        self.json_path = os.path.join(os.path.dirname(__file__), "data", "profiles.json")
+        self.app_dir = get_app_dir()
+        self.json_path = os.path.join(self.app_dir, "data", "profiles.json")
         self.data = None
         self.current_selection = None
         self.image_preview_label = None
@@ -602,7 +614,7 @@ class ProfileEditor:
 
     def load_config(self):
         """設定ファイルを読み込み"""
-        config_path = os.path.join(os.path.dirname(__file__), "config.json")
+        config_path = os.path.join(self.app_dir, "config.json")
 
         if not os.path.exists(config_path):
             messagebox.showerror("設定エラー",
@@ -650,19 +662,19 @@ class ProfileEditor:
 
             # Git操作
             subprocess.run(["git", "add", "data/profiles.json"],
-                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+                          check=True, capture_output=True, text=True, cwd=self.app_dir)
 
             commit_message = f"Update profiles.json - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
             subprocess.run(["git", "commit", "-m", commit_message],
-                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+                          check=True, capture_output=True, text=True, cwd=self.app_dir)
 
             # リモートURLを認証情報付きで設定
             remote_url = repo_url.replace("https://", f"https://x-access-token:{github_token}@")
             subprocess.run(["git", "remote", "set-url", "origin", remote_url],
-                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+                          check=True, capture_output=True, text=True, cwd=self.app_dir)
 
             subprocess.run(["git", "push"],
-                          check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
+                          check=True, capture_output=True, text=True, cwd=self.app_dir)
 
             progress_window.destroy()
             messagebox.showinfo("完了", "GitHubへのプッシュが完了しました。\nWebサイトは数分後に更新されます。")

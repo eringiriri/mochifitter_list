@@ -10,11 +10,22 @@ profiles.jsonを簡単に編集できるGUIツール
 - Windows 10/11
 - macOS 10.15以降
 
-**ダウンロード:**
+**ダウンロードと配置:**
 1. [Releases](https://github.com/eringiriri/mochifitter_list/releases) から最新版をダウンロード
    - Windows: `MochiFitterProfileEditor.exe`
    - macOS: `MochiFitterProfileEditor`
-2. ダウンロードしたファイルをダブルクリックで起動
+2. リポジトリのルートディレクトリに実行ファイルを配置
+
+**ファイル配置:**
+```
+プロジェクトフォルダ/
+├── MochiFitterProfileEditor.exe  (実行ファイル)
+├── config.json                    (設定ファイル)
+└── data/
+    └── profiles.json              (データファイル)
+```
+
+3. 実行ファイルをダブルクリックで起動
 
 ### B. Python版（開発者向け）
 
