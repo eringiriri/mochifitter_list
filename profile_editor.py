@@ -600,8 +600,38 @@ class ProfileEditor:
             elif isinstance(widget, ttk.Entry):
                 widget.delete(0, tk.END)
 
+    def load_config(self):
+        """設定ファイルを読み込み"""
+        config_path = os.path.join(os.path.dirname(__file__), "config.json")
+
+        if not os.path.exists(config_path):
+            messagebox.showerror("設定エラー",
+                "config.jsonが見つかりません。\n"
+                "config.sample.jsonをコピーしてconfig.jsonを作成し、\n"
+                "GitHubトークンを設定してください。")
+            return None
+
+        try:
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+
+            if not config.get("github_token") or config["github_token"] == "YOUR_GITHUB_TOKEN_HERE":
+                messagebox.showerror("設定エラー",
+                    "config.jsonにGitHubトークンが設定されていません。")
+                return None
+
+            return config
+        except Exception as e:
+            messagebox.showerror("設定エラー", f"config.jsonの読み込みに失敗しました:\n{str(e)}")
+            return None
+
     def auto_git_push(self):
         """GitHubに自動コミット&プッシュ"""
+        # 設定を読み込み
+        config = self.load_config()
+        if not config:
+            return False
+
         # 処理中ウィンドウを作成
         progress_window = tk.Toplevel(self.root)
         progress_window.title("処理中")
@@ -615,10 +645,8 @@ class ProfileEditor:
         progress_window.update()
 
         try:
-            # 環境変数からトークンを取得
-            github_token = os.environ.get("GITHUB_TOKEN")
-            if not github_token:
-                raise Exception("GITHUB_TOKEN環境変数が設定されていません")
+            github_token = config["github_token"]
+            repo_url = config.get("github_repo_url", "https://github.com/eringiriri/mochifitter_list.git")
 
             # Git操作
             subprocess.run(["git", "add", "data/profiles.json"],
@@ -629,7 +657,7 @@ class ProfileEditor:
                           check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
 
             # リモートURLを認証情報付きで設定
-            remote_url = f"https://x-access-token:{github_token}@github.com/eringiriri/mochifitter_list.git"
+            remote_url = repo_url.replace("https://", f"https://x-access-token:{github_token}@")
             subprocess.run(["git", "remote", "set-url", "origin", remote_url],
                           check=True, capture_output=True, text=True, cwd=os.path.dirname(__file__))
 

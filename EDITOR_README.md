@@ -2,23 +2,44 @@
 
 profiles.jsonを簡単に編集できるGUIツール
 
-## 必要な環境
+## 2つの使い方
 
+### A. 実行ファイル版（Python不要・推奨）
+
+**対応OS:**
+- Windows 10/11
+- macOS 10.15以降
+
+**ダウンロード:**
+1. [Releases](https://github.com/eringiriri/mochifitter_list/releases) から最新版をダウンロード
+   - Windows: `MochiFitterProfileEditor.exe`
+   - macOS: `MochiFitterProfileEditor`
+2. ダウンロードしたファイルをダブルクリックで起動
+
+### B. Python版（開発者向け）
+
+**必要な環境:**
 - Python 3.6以降
 - tkinter（通常はPythonに標準で含まれている）
 - tkcalendar（カレンダー機能用）
 
-## セットアップ
-
-### 必要なライブラリのインストール
+**ライブラリのインストール:**
 
 ```bash
 pip install tkcalendar Pillow
 ```
 
+**起動方法:**
+
+```bash
+python profile_editor.py
+```
+
+## セットアップ
+
 ### GitHub Personal Access Token (PAT) の設定
 
-自動デプロイ機能を使用するには、GitHub Personal Access Tokenを環境変数に設定する必要があります。
+自動デプロイ機能を使用するには、GitHubトークンを設定ファイルに保存する必要があります。
 
 #### 1. GitHubでトークンを作成
 
@@ -30,41 +51,26 @@ pip install tkcalendar Pillow
 6. "Generate token" をクリック
 7. 生成されたトークンをコピー（このトークンは一度しか表示されません）
 
-#### 2. 環境変数に設定
+#### 2. 設定ファイルの作成
 
-**Windows (PowerShell):**
-```powershell
-[System.Environment]::SetEnvironmentVariable("GITHUB_TOKEN", "ghp_xxxxxxxxxxxx", "User")
+1. `config.sample.json` をコピーして `config.json` にリネーム
+2. `config.json` を開いて、以下のように編集:
+
+```json
+{
+  "github_token": "ghp_xxxxxxxxxxxx",
+  "github_repo_url": "https://github.com/eringiriri/mochifitter_list.git"
+}
 ```
 
-**Windows (コマンドプロンプト):**
-```cmd
-setx GITHUB_TOKEN "ghp_xxxxxxxxxxxx"
-```
+3. `github_token` に先ほど作成したトークンを貼り付け
+4. ファイルを保存
 
-設定後、ターミナルを再起動してください。
-
-#### 3. 確認
-
-PowerShellで確認:
-```powershell
-echo $env:GITHUB_TOKEN
-```
-
-コマンドプロンプトで確認:
-```cmd
-echo %GITHUB_TOKEN%
-```
+**注意:**
+- `config.json` は `.gitignore` に含まれているため、GitHubにプッシュされません
+- トークンは絶対に他人に見せないこと
 
 ## 使い方
-
-### 起動方法
-
-プロジェクトのルートディレクトリで以下のコマンドを実行:
-
-```bash
-python profile_editor.py
-```
 
 ### 機能
 
@@ -106,7 +112,7 @@ python profile_editor.py
 4. GitHub Pagesが自動的にサイトを更新（通常2-3分）
 
 **注意:**
-- 自動デプロイを使用するには、環境変数 `GITHUB_TOKEN` の設定が必要です（上記のセットアップを参照）
+- 自動デプロイを使用するには、`config.json` の設定が必要です（上記のセットアップを参照）
 - プッシュに失敗した場合はエラーダイアログが表示されます
 - GitHub Pagesの反映には数分かかる場合があります
 

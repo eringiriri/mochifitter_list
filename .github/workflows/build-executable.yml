@@ -1,0 +1,74 @@
+name: Build Executable
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller pillow tkcalendar
+
+      - name: Build executable
+        run: |
+          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" profile_editor.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MochiFitterProfileEditor-Windows
+          path: dist/MochiFitterProfileEditor.exe
+
+      - name: Create Release (if tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/MochiFitterProfileEditor.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller pillow tkcalendar
+
+      - name: Build executable
+        run: |
+          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" profile_editor.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MochiFitterProfileEditor-macOS
+          path: dist/MochiFitterProfileEditor
+
+      - name: Create Release (if tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/MochiFitterProfileEditor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

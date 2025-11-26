@@ -20,3 +20,6 @@ npm-debug.log*
 # Cloudflare Workers (not needed for static site)
 wrangler.toml
 src/
+
+# Configuration files with sensitive data
+config.json
