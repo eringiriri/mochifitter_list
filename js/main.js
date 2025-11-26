@@ -151,25 +151,13 @@ function createProfileCard(profile) {
     const notesBadge = profile.notes && profile.notes.trim() ?
         `<span class="badge notes-badge" onclick="event.stopPropagation(); openNotesModal('${escapeHtml(profile.id)}')">備考</span>` : '';
 
-    // 画像のHTML（imageUrlがある場合のみ表示、avatarNameUrlへのリンク付き）
-    const imageContent = profile.imageUrl ?
-        `<img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">` :
-        '';
-
+    // 画像のHTML（imageUrlがある場合のみ表示）
     const imageHtml = profile.imageUrl ?
-        (profile.avatarNameUrl && profile.avatarNameUrl.trim() ?
-            `<a href="${escapeHtml(profile.avatarNameUrl)}" target="_blank" rel="noopener noreferrer" class="profile-image-link">
-                <div class="profile-image">
-                    ${imageContent}
-                    ${notesBadge}
-                    ${officialBadge}
-                </div>
-            </a>` :
-            `<div class="profile-image">
-                ${imageContent}
-                ${notesBadge}
-                ${officialBadge}
-            </div>`) :
+        `<div class="profile-image">
+            <img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">
+            ${notesBadge}
+            ${officialBadge}
+        </div>` :
         `<div class="profile-image-placeholder">${notesBadge}${officialBadge}</div>`;
 
     // リンク化ヘルパー関数
