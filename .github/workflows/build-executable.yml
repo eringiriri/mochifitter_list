@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyinstaller pillow tkcalendar
+          pip install pyinstaller pillow tkcalendar requests
 
       - name: Build executable
         run: |

@@ -14,6 +14,8 @@ from PIL import Image, ImageTk
 import io
 import urllib.request
 import subprocess
+import base64
+import requests
 
 
 def get_app_dir():
@@ -637,28 +639,8 @@ class ProfileEditor:
             messagebox.showerror("設定エラー", f"config.jsonの読み込みに失敗しました:\n{str(e)}")
             return None
 
-    def check_git_installed(self):
-        """Gitがインストールされているか確認"""
-        try:
-            result = subprocess.run(["git", "--version"],
-                                  capture_output=True, text=True, timeout=5)
-            return result.returncode == 0
-        except FileNotFoundError:
-            return False
-        except Exception:
-            return False
-
-    def auto_git_push(self):
-        """GitHubに自動コミット&プッシュ"""
-        # Gitがインストールされているか確認
-        if not self.check_git_installed():
-            messagebox.showerror("Gitエラー",
-                "Gitがインストールされていません。\n\n"
-                "自動プッシュを使用するには、Git for Windowsをインストールしてください。\n"
-                "ダウンロード: https://git-scm.com/download/win\n\n"
-                "または、手動でGit操作を行ってください。")
-            return False
-
+    def auto_git_push_api(self):
+        """GitHub API経由でファイルを更新（Git CLI不要）"""
         # 設定を読み込み
         config = self.load_config()
         if not config:
@@ -678,37 +660,62 @@ class ProfileEditor:
 
         try:
             github_token = config["github_token"]
+
+            # リポジトリ情報を取得（URLから抽出）
             repo_url = config.get("github_repo_url", "https://github.com/eringiriri/mochifitter_list.git")
+            # "https://github.com/owner/repo.git" から "owner/repo" を抽出
+            repo_path = repo_url.replace("https://github.com/", "").replace(".git", "")
 
-            # Git操作
-            subprocess.run(["git", "add", "data/profiles.json"],
-                          check=True, capture_output=True, text=True, cwd=self.app_dir)
+            # profiles.jsonの内容を読み込み
+            with open(self.json_path, 'r', encoding='utf-8') as f:
+                content = f.read()
 
+            # GitHub APIのエンドポイント
+            api_url = f"https://api.github.com/repos/{repo_path}/contents/data/profiles.json"
+
+            headers = {
+                "Authorization": f"token {github_token}",
+                "Accept": "application/vnd.github.v3+json"
+            }
+
+            # 現在のファイル情報を取得（SHAが必要）
+            response = requests.get(api_url, headers=headers)
+            if response.status_code == 200:
+                current_file = response.json()
+                sha = current_file["sha"]
+            else:
+                progress_window.destroy()
+                messagebox.showerror("エラー",
+                    f"ファイル情報の取得に失敗しました: {response.status_code}\n{response.text}")
+                return False
+
+            # ファイルを更新
             commit_message = f"Update profiles.json - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-            subprocess.run(["git", "commit", "-m", commit_message],
-                          check=True, capture_output=True, text=True, cwd=self.app_dir)
+            content_base64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
 
-            # リモートURLを認証情報付きで設定
-            remote_url = repo_url.replace("https://", f"https://x-access-token:{github_token}@")
-            subprocess.run(["git", "remote", "set-url", "origin", remote_url],
-                          check=True, capture_output=True, text=True, cwd=self.app_dir)
+            data = {
+                "message": commit_message,
+                "content": content_base64,
+                "sha": sha
+            }
 
-            subprocess.run(["git", "push"],
-                          check=True, capture_output=True, text=True, cwd=self.app_dir)
+            response = requests.put(api_url, headers=headers, json=data)
 
             progress_window.destroy()
-            messagebox.showinfo("完了", "GitHubへのプッシュが完了しました。\nWebサイトは数分後に更新されます。")
-            return True
 
-        except subprocess.CalledProcessError as e:
-            progress_window.destroy()
-            messagebox.showerror("プッシュエラー",
-                               f"GitHubへのプッシュに失敗しました:\n{e.stderr}")
-            return False
+            if response.status_code in [200, 201]:
+                messagebox.showinfo("完了", "GitHubへのプッシュが完了しました。\nWebサイトは数分後に更新されます。")
+                return True
+            else:
+                messagebox.showerror("プッシュエラー",
+                    f"プッシュに失敗しました: {response.status_code}\n{response.text[:200]}")
+                return False
+
         except Exception as e:
             progress_window.destroy()
             messagebox.showerror("エラー", f"プッシュ処理でエラーが発生しました:\n{str(e)}")
             return False
+
 
     def save_data(self):
         """データをJSONファイルに保存"""
@@ -728,7 +735,7 @@ class ProfileEditor:
                                         "GitHubにプッシュしてWebサイトを更新しますか？")
 
             if result:
-                self.auto_git_push()
+                self.auto_git_push_api()
 
         except Exception as e:
             messagebox.showerror("エラー", f"保存に失敗しました: {e}")
