@@ -266,9 +266,8 @@ function debounce(func, wait) {
     };
 }
 
-// Googleフォームリンクの設定（後で管理者が設定する）
-// 以下のURLを実際のGoogleフォームURLに置き換えてください
-const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform';
+// Googleフォームリンクの設定
+const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdxX1ik7rtV8ofXRSED2-jsjJLCAAIkH-unuyGj_TtTVkvMjA/viewform';
 
 // フォームリンクの設定
 document.addEventListener('DOMContentLoaded', () => {
