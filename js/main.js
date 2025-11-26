@@ -149,7 +149,7 @@ function createProfileCard(profile) {
 
     // 備考バッジ（備考がある場合のみ表示）
     const notesBadge = profile.notes && profile.notes.trim() ?
-        `<span class="badge notes-badge" onclick="openNotesModal('${escapeHtml(profile.id)}')">備考</span>` : '';
+        `<span class="badge notes-badge" onclick="event.stopPropagation(); openNotesModal('${escapeHtml(profile.id)}')">備考</span>` : '';
 
     // 画像のHTML（imageUrlがある場合のみ表示、avatarNameUrlへのリンク付き）
     const imageContent = profile.imageUrl ?

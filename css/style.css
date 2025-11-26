@@ -315,8 +315,20 @@ h2 {
 .profile-image-placeholder .badge {
     position: absolute;
     top: 10px;
-    right: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image .badge.official,
+.profile-image-placeholder .badge.official,
+.profile-image .badge.unofficial,
+.profile-image-placeholder .badge.unofficial {
+    right: 10px;
+}
+
+.profile-image .badge.notes-badge,
+.profile-image-placeholder .badge.notes-badge {
+    left: 10px;
+    z-index: 10;
 }
 
 .badge.official {
