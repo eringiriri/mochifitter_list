@@ -1,8 +1,29 @@
 {
-  "lastUpdated": "2025-11-26 21:43:25 JST",
+  "lastUpdated": "2025-11-26 21:52:05 JST",
   "profiles": [
     {
       "id": "001",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "薄荷",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/2215270",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/2215270",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/2215270/171df12c-7721-46e1-8e81-49e3aa8e2f68_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中"
+    },
+    {
+      "id": "002",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "桔梗",
@@ -23,7 +44,7 @@
       "notes": ""
     },
     {
-      "id": "002",
+      "id": "003",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ベリル",
@@ -44,7 +65,7 @@
       "notes": "ベリルを購入するともちふぃった～本体も付属します。"
     },
     {
-      "id": "003",
+      "id": "004",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "マヌカ",
@@ -65,7 +86,7 @@
       "notes": ""
     },
     {
-      "id": "004",
+      "id": "005",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Ciel - シエル -",
@@ -86,20 +107,20 @@
       "notes": ""
     },
     {
-      "id": "005",
+      "id": "006",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "森羅",
-      "avatarNameUrl": "https://booth.pm/ja/items/4707634",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/4707634",
       "profileVersion": "1",
-      "avatarAuthor": "mio3io",
-      "avatarAuthorUrl": "https://mio3io.booth.pm/",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
       "official": false,
       "downloadMethod": "Booth",
       "downloadLocation": "https://kuromaru9.booth.pm/items/7613516",
-      "imageUrl": "https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/7613516/242fd891-5677-487a-b2bc-da2776454829_base_resized.jpg",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/4707634/d35eab0f-83be-44ab-aa4c-fc85491c1ee0_base_resized.jpg",
       "pricing": "無料",
       "price": "",
       "forwardSupport": true,
@@ -107,7 +128,7 @@
       "notes": "森羅本体は販売休止中"
     },
     {
-      "id": "006",
+      "id": "007",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Lapwing",
@@ -128,7 +149,7 @@
       "notes": ""
     },
     {
-      "id": "007",
+      "id": "008",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ルキフェル -Lucifer-",
@@ -149,7 +170,7 @@
       "notes": "まるぼでぃ共通素体"
     },
     {
-      "id": "008",
+      "id": "009",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "イェーナ -Yena-",
@@ -170,7 +191,7 @@
       "notes": "まるぼでぃ共通素体"
     },
     {
-      "id": "009",
+      "id": "010",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "リセ -Lise-",
@@ -191,7 +212,7 @@
       "notes": "まるぼでぃ共通素体"
     },
     {
-      "id": "010",
+      "id": "011",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ネミア -Nenmir-",
@@ -212,7 +233,7 @@
       "notes": "まるぼでぃ共通素体"
     },
     {
-      "id": "011",
+      "id": "012",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "むんき -Munkki -",
@@ -233,7 +254,7 @@
       "notes": "まるぼでぃ共通素体"
     },
     {
-      "id": "012",
+      "id": "013",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "かんぺきメイドメロトロン",
@@ -254,7 +275,7 @@
       "notes": ""
     },
     {
-      "id": "013",
+      "id": "014",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "びしょぬれのしずくさん",
@@ -275,7 +296,7 @@
       "notes": ""
     },
     {
-      "id": "014",
+      "id": "015",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "バナナのばななちゃん",
@@ -296,7 +317,7 @@
       "notes": ""
     },
     {
-      "id": "015",
+      "id": "016",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ナナセ・ノワール -Nanase Noir-",
@@ -317,7 +338,7 @@
       "notes": ""
     },
     {
-      "id": "016",
+      "id": "017",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "マリシア - Marycia -",
@@ -338,7 +359,7 @@
       "notes": ""
     },
     {
-      "id": "017",
+      "id": "018",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "サフィー-Sapphy-",
@@ -359,7 +380,7 @@
       "notes": ""
     },
     {
-      "id": "018",
+      "id": "019",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ペルラ -Perula-",
@@ -380,7 +401,7 @@
       "notes": ""
     },
     {
-      "id": "019",
+      "id": "020",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ルフィナ-Rufina-",
@@ -401,7 +422,7 @@
       "notes": ""
     },
     {
-      "id": "020",
+      "id": "021",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ルリエ -Lurie-",
@@ -422,7 +443,7 @@
       "notes": ""
     },
     {
-      "id": "021",
+      "id": "022",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ニクス -Nix-",
@@ -443,7 +464,7 @@
       "notes": ""
     },
     {
-      "id": "022",
+      "id": "023",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "望身 -Nozomi-",
@@ -464,7 +485,7 @@
       "notes": ""
     },
     {
-      "id": "023",
+      "id": "024",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "なのでび -Nanodevi-",
@@ -485,7 +506,7 @@
       "notes": ""
     },
     {
-      "id": "024",
+      "id": "025",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ヌーヴェル -Nouvelle-",
@@ -506,7 +527,7 @@
       "notes": ""
     },
     {
-      "id": "025",
+      "id": "026",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ねこめいつ -Nekomates-",
@@ -527,7 +548,7 @@
       "notes": ""
     },
     {
-      "id": "026",
+      "id": "027",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ハーミット -Hermit-",
@@ -548,7 +569,7 @@
       "notes": ""
     },
     {
-      "id": "027",
+      "id": "028",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ファルリア -Falria-",
@@ -569,7 +590,7 @@
       "notes": ""
     },
     {
-      "id": "028",
+      "id": "029",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ホライズ -Horiz-",
@@ -590,7 +611,7 @@
       "notes": ""
     },
     {
-      "id": "029",
+      "id": "030",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ノーチカ",
@@ -611,7 +632,7 @@
       "notes": ""
     },
     {
-      "id": "030",
+      "id": "031",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "キリセ Kirise",
@@ -632,7 +653,7 @@
       "notes": ""
     },
     {
-      "id": "031",
+      "id": "032",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ツキセ Tsukise",
@@ -653,7 +674,7 @@
       "notes": ""
     },
     {
-      "id": "032",
+      "id": "033",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "セヴィル Sevil",
@@ -674,7 +695,7 @@
       "notes": ""
     },
     {
-      "id": "033",
+      "id": "034",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ラズリ -Lazuli-",
@@ -695,7 +716,7 @@
       "notes": ""
     },
     {
-      "id": "034",
+      "id": "035",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "フレア -Flare-",
@@ -716,7 +737,7 @@
       "notes": ""
     },
     {
-      "id": "035",
+      "id": "036",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Helvetica - ヘルベチカ -",
@@ -737,7 +758,7 @@
       "notes": ""
     },
     {
-      "id": "036",
+      "id": "037",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "龍のヨルちゃん",
@@ -758,7 +779,7 @@
       "notes": ""
     },
     {
-      "id": "037",
+      "id": "038",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "アングラの子",
@@ -779,7 +800,7 @@
       "notes": ""
     },
     {
-      "id": "038",
+      "id": "039",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "アストラル Astral",
@@ -800,7 +821,7 @@
       "notes": ""
     },
     {
-      "id": "039",
+      "id": "040",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "アノネ",
@@ -821,7 +842,7 @@
       "notes": ""
     },
     {
-      "id": "040",
+      "id": "041",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "クロダ",
@@ -842,7 +863,7 @@
       "notes": ""
     },
     {
-      "id": "041",
+      "id": "042",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ALTGARAGE",
@@ -863,7 +884,7 @@
       "notes": ""
     },
     {
-      "id": "042",
+      "id": "043",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "かなづちちゃん",
@@ -884,7 +905,7 @@
       "notes": ""
     },
     {
-      "id": "043",
+      "id": "044",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "MOOSE",
@@ -905,7 +926,7 @@
       "notes": ""
     },
     {
-      "id": "044",
+      "id": "045",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "サラ",
@@ -926,7 +947,7 @@
       "notes": ""
     },
     {
-      "id": "045",
+      "id": "046",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "スピカ",
@@ -947,7 +968,7 @@
       "notes": ""
     },
     {
-      "id": "046",
+      "id": "047",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ミラ",
@@ -968,7 +989,7 @@
       "notes": ""
     },
     {
-      "id": "047",
+      "id": "048",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ユウ",
@@ -989,7 +1010,7 @@
       "notes": ""
     },
     {
-      "id": "048",
+      "id": "049",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "リル",
@@ -1010,7 +1031,7 @@
       "notes": ""
     },
     {
-      "id": "049",
+      "id": "050",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ミル",
@@ -1031,7 +1052,7 @@
       "notes": ""
     },
     {
-      "id": "050",
+      "id": "051",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ティナ",
@@ -1052,7 +1073,7 @@
       "notes": ""
     },
     {
-      "id": "051",
+      "id": "052",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "レイ",
@@ -1073,7 +1094,7 @@
       "notes": ""
     },
     {
-      "id": "052",
+      "id": "053",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "リリカ",
@@ -1094,7 +1115,7 @@
       "notes": ""
     },
     {
-      "id": "053",
+      "id": "054",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "にな",
@@ -1115,7 +1136,7 @@
       "notes": ""
     },
     {
-      "id": "054",
+      "id": "055",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "はるか",
@@ -1136,7 +1157,7 @@
       "notes": ""
     },
     {
-      "id": "055",
+      "id": "056",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "もも",
@@ -1157,7 +1178,7 @@
       "notes": ""
     },
     {
-      "id": "056",
+      "id": "057",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "焔花（ほのか）",
@@ -1167,18 +1188,18 @@
       "avatarAuthorUrl": "https://easternwind.booth.pm/",
       "profileAuthor": "willplus",
       "profileAuthorUrl": "https://easternwind.booth.pm/",
-      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://easternwind.booth.pm/items/7496742",
       "imageUrl": "https://booth.pximg.net/00074997-896d-4ef0-b224-3e1fff8a97e6/i/7496742/9a7fa000-12fb-4f17-bedd-aa768ceaadc1_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "7000",
+      "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
     },
     {
-      "id": "057",
+      "id": "058",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ネフェリサ",
@@ -1199,7 +1220,7 @@
       "notes": ""
     },
     {
-      "id": "058",
+      "id": "059",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "冬葵",
@@ -1220,7 +1241,7 @@
       "notes": ""
     },
     {
-      "id": "059",
+      "id": "060",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "千理",
@@ -1241,7 +1262,7 @@
       "notes": ""
     },
     {
-      "id": "060",
+      "id": "061",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "シャーレン",
@@ -1262,7 +1283,7 @@
       "notes": ""
     },
     {
-      "id": "061",
+      "id": "062",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "シャルメ",
@@ -1283,7 +1304,7 @@
       "notes": ""
     },
     {
-      "id": "062",
+      "id": "063",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "プレッツェル",
@@ -1304,7 +1325,7 @@
       "notes": ""
     },
     {
-      "id": "063",
+      "id": "064",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "弐番 -NIBAN-",
@@ -1325,7 +1346,7 @@
       "notes": ""
     },
     {
-      "id": "064",
+      "id": "065",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "スピルバ -Spielber-",
@@ -1346,7 +1367,7 @@
       "notes": ""
     },
     {
-      "id": "065",
+      "id": "066",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "バニラ -Vanilla-",
@@ -1367,7 +1388,7 @@
       "notes": ""
     },
     {
-      "id": "066",
+      "id": "067",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "うろぼ -urobo-",
@@ -1388,7 +1409,7 @@
       "notes": ""
     },
     {
-      "id": "067",
+      "id": "068",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "愛狼 -Melow-",
@@ -1409,7 +1430,7 @@
       "notes": ""
     },
     {
-      "id": "068",
+      "id": "069",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "イトネ -itone-",
@@ -1430,7 +1451,7 @@
       "notes": ""
     },
     {
-      "id": "069",
+      "id": "070",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Nio v2",
@@ -1451,7 +1472,7 @@
       "notes": ""
     },
     {
-      "id": "070",
+      "id": "071",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "フェイロン v3",
@@ -1472,7 +1493,7 @@
       "notes": ""
     },
     {
-      "id": "071",
+      "id": "072",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Wolfram",
@@ -1493,7 +1514,7 @@
       "notes": ""
     },
     {
-      "id": "072",
+      "id": "073",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "鳴耶",
@@ -1514,7 +1535,7 @@
       "notes": ""
     },
     {
-      "id": "073",
+      "id": "074",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Rono",
@@ -1535,7 +1556,7 @@
       "notes": ""
     },
     {
-      "id": "074",
+      "id": "075",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "NO.3",
@@ -1556,7 +1577,7 @@
       "notes": ""
     },
     {
-      "id": "075",
+      "id": "076",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "スヴァルトリリヤ",
@@ -1577,7 +1598,7 @@
       "notes": ""
     },
     {
-      "id": "076",
+      "id": "077",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "セレニウム",
@@ -1598,7 +1619,7 @@
       "notes": ""
     },
     {
-      "id": "077",
+      "id": "078",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Warabi",
@@ -1619,7 +1640,7 @@
       "notes": ""
     },
     {
-      "id": "078",
+      "id": "079",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Nemo",
@@ -1640,7 +1661,7 @@
       "notes": ""
     },
     {
-      "id": "079",
+      "id": "080",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "ミュオン",
@@ -1661,7 +1682,7 @@
       "notes": ""
     },
     {
-      "id": "080",
+      "id": "081",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Shery v2",
@@ -1682,7 +1703,7 @@
       "notes": ""
     },
     {
-      "id": "081",
+      "id": "082",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "水鏡祈",
@@ -1697,13 +1718,13 @@
       "imageUrl": "https://booth.pximg.net/78876c21-58df-40b1-84cb-e0c718545efb/i/4930486/22b69e3b-06e2-4ca3-8013-cbe1042674e9_base_resized.jpg",
       "pricing": "無料",
       "price": "",
+      "notes": "",
       "official": false,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": false
     },
     {
-      "id": "082",
+      "id": "083",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Techie/テッキー",
@@ -1724,7 +1745,7 @@
       "reverseSupport": true
     },
     {
-      "id": "083",
+      "id": "084",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Romad/ロマド",
@@ -1745,7 +1766,7 @@
       "reverseSupport": true
     },
     {
-      "id": "084",
+      "id": "085",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "社畜の連成さん",
@@ -1766,7 +1787,7 @@
       "reverseSupport": true
     },
     {
-      "id": "085",
+      "id": "086",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Nguyen/グエン",
@@ -1787,7 +1808,7 @@
       "reverseSupport": true
     },
     {
-      "id": "086",
+      "id": "087",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "SarvaDarsa/サルヴァダルシャ",
@@ -1808,7 +1829,7 @@
       "reverseSupport": true
     },
     {
-      "id": "087",
+      "id": "088",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Zev/ゼヴ",
@@ -1829,7 +1850,7 @@
       "reverseSupport": true
     },
     {
-      "id": "088",
+      "id": "089",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "伊依/Iyori",
@@ -1850,7 +1871,7 @@
       "reverseSupport": true
     },
     {
-      "id": "089",
+      "id": "090",
       "registeredDate": "11/26/2025",
       "updatedDate": "11/26/2025",
       "avatarName": "Bird/鳥",
@@ -1860,18 +1881,18 @@
       "avatarAuthorUrl": "https://tinmeshi.booth.pm/",
       "profileAuthor": "",
       "profileAuthorUrl": "",
+      "official": false,
       "downloadMethod": "",
       "downloadLocation": "",
       "imageUrl": "https://booth.pximg.net/07370588-d4f2-4924-bc55-84a958cff292/i/5927710/f6109b33-7bf2-47dc-b22a-211ba4183540_base_resized.jpg",
       "pricing": "",
       "price": "",
-      "notes": "未対応",
-      "official": false,
       "forwardSupport": false,
-      "reverseSupport": false
+      "reverseSupport": false,
+      "notes": "未対応"
     },
     {
-      "id": "090",
+      "id": "091",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "法螺",
@@ -1892,7 +1913,7 @@
       "notes": ""
     },
     {
-      "id": "091",
+      "id": "092",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ネイヴァシー",
@@ -1913,7 +1934,7 @@
       "notes": ""
     },
     {
-      "id": "092",
+      "id": "093",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ルビオル",
@@ -1934,7 +1955,7 @@
       "notes": ""
     },
     {
-      "id": "093",
+      "id": "094",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "煙滅",
@@ -1955,7 +1976,7 @@
       "notes": "非対応"
     },
     {
-      "id": "094",
+      "id": "095",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ビトロ",
@@ -1976,7 +1997,7 @@
       "notes": ""
     },
     {
-      "id": "095",
+      "id": "096",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "イベリス-Iberis-",
@@ -1997,7 +2018,7 @@
       "notes": ""
     },
     {
-      "id": "096",
+      "id": "097",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "イチゴ",
@@ -2018,7 +2039,7 @@
       "notes": ""
     },
     {
-      "id": "097",
+      "id": "098",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ミルティナ",
@@ -2039,7 +2060,7 @@
       "notes": "作者から制作許可あり"
     },
     {
-      "id": "098",
+      "id": "099",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "愛莉",
@@ -2060,7 +2081,7 @@
       "notes": ""
     },
     {
-      "id": "099",
+      "id": "100",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "舞夜",
@@ -2081,7 +2102,7 @@
       "notes": ""
     },
     {
-      "id": "100",
+      "id": "101",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "セレスティア",
@@ -2102,7 +2123,7 @@
       "notes": ""
     },
     {
-      "id": "101",
+      "id": "102",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "真冬 Mafuyu",
@@ -2123,7 +2144,7 @@
       "notes": ""
     },
     {
-      "id": "102",
+      "id": "103",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リナシータ -Rinasciita-",
@@ -2144,7 +2165,7 @@
       "notes": ""
     },
     {
-      "id": "103",
+      "id": "104",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "カリン -Karin-",
@@ -2165,7 +2186,7 @@
       "notes": ""
     },
     {
-      "id": "104",
+      "id": "105",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "シフォン -Chiffon-",
@@ -2186,7 +2207,7 @@
       "notes": ""
     },
     {
-      "id": "105",
+      "id": "106",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ショコラ -Chocolat-",
@@ -2207,7 +2228,7 @@
       "notes": ""
     },
     {
-      "id": "106",
+      "id": "107",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ライム -Lime-",
@@ -2228,7 +2249,7 @@
       "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載"
     },
     {
-      "id": "107",
+      "id": "108",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Sio / しお",
@@ -2249,7 +2270,7 @@
       "notes": ""
     },
     {
-      "id": "108",
+      "id": "109",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ゾメちゃん",
@@ -2270,7 +2291,7 @@
       "notes": ""
     },
     {
-      "id": "109",
+      "id": "110",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "サマル-Samar-",
@@ -2291,7 +2312,7 @@
       "notes": ""
     },
     {
-      "id": "110",
+      "id": "111",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "スキミア - Skimmia -",
@@ -2312,7 +2333,7 @@
       "notes": ""
     },
     {
-      "id": "111",
+      "id": "112",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ベニちゃん",
@@ -2333,7 +2354,7 @@
       "notes": ""
     },
     {
-      "id": "112",
+      "id": "113",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "レグニア-Legnia-",
@@ -2354,7 +2375,7 @@
       "notes": ""
     },
     {
-      "id": "113",
+      "id": "114",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "サナティア-Sanatia-",
@@ -2375,7 +2396,7 @@
       "notes": ""
     },
     {
-      "id": "114",
+      "id": "115",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "鈴華",
@@ -2396,7 +2417,7 @@
       "notes": ""
     },
     {
-      "id": "115",
+      "id": "116",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "E-tA-イータ-",
@@ -2417,7 +2438,7 @@
       "notes": ""
     },
     {
-      "id": "116",
+      "id": "117",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リーナ",
@@ -2438,7 +2459,7 @@
       "notes": ""
     },
     {
-      "id": "117",
+      "id": "118",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "シェーナ",
@@ -2459,7 +2480,7 @@
       "notes": ""
     },
     {
-      "id": "118",
+      "id": "119",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "フレーナ",
@@ -2480,7 +2501,7 @@
       "notes": ""
     },
     {
-      "id": "119",
+      "id": "120",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ビナア〈Binah〉",
@@ -2501,10 +2522,10 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "120",
+      "id": "121",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
-      "avatarName": "ホド 〈Hod〉 ",
+      "avatarName": "ホド 〈Hod〉",
       "avatarNameUrl": "https://sephir.booth.pm/items/3929383",
       "profileVersion": "1.0",
       "avatarAuthor": "セフィ",
@@ -2522,7 +2543,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "121",
+      "id": "122",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ネツァク 〈Netzach〉",
@@ -2543,7 +2564,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "122",
+      "id": "123",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "マルクト 〈Malkuth〉",
@@ -2564,7 +2585,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "123",
+      "id": "124",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ケセド 〈Chesed〉",
@@ -2585,7 +2606,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "124",
+      "id": "125",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "セフィ 〈Sephir〉",
@@ -2606,7 +2627,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "125",
+      "id": "126",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "MIKOMIA - ミコミア -",
@@ -2627,7 +2648,7 @@
       "notes": ""
     },
     {
-      "id": "126",
+      "id": "127",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "EMISTIA -エミスティア-",
@@ -2648,7 +2669,7 @@
       "notes": ""
     },
     {
-      "id": "127",
+      "id": "128",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "LIMILIA -リミリア-",
@@ -2669,7 +2690,7 @@
       "notes": ""
     },
     {
-      "id": "128",
+      "id": "129",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ERUQYUNA2 - エルキュナ2 -",
@@ -2690,7 +2711,7 @@
       "notes": ""
     },
     {
-      "id": "129",
+      "id": "130",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "CURISHIA - キュリシア -",
@@ -2711,7 +2732,7 @@
       "notes": ""
     },
     {
-      "id": "130",
+      "id": "131",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "YRISPHERE -ユリスフィア-",
@@ -2732,7 +2753,7 @@
       "notes": ""
     },
     {
-      "id": "131",
+      "id": "132",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リリエネ Lilliene",
@@ -2753,7 +2774,7 @@
       "notes": ""
     },
     {
-      "id": "132",
+      "id": "133",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "いあ - IA",
@@ -2774,7 +2795,7 @@
       "notes": "アバター同梱"
     },
     {
-      "id": "133",
+      "id": "134",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "+Head アバター制作者向けVRChat用素体",
@@ -2784,15 +2805,15 @@
       "avatarAuthorUrl": "https://lsw.booth.pm/items/5153266",
       "profileAuthor": "四拾弐(yosohuta)",
       "profileAuthorUrl": "https://yosohuta.booth.pm/",
-      "official": false,
       "downloadMethod": "Booth",
       "downloadLocation": "https://yosohuta.booth.pm/items/7678272",
       "imageUrl": "https://booth.pximg.net/c/620x620/9e316222-2e53-4586-9471-58ac96f0baec/i/7678272/ed31c557-7709-4763-9610-5e3c414904b7_base_resized.jpg",
       "pricing": "無料",
       "price": "",
+      "notes": "",
+      "official": false,
       "forwardSupport": true,
-      "reverseSupport": true,
-      "notes": ""
+      "reverseSupport": true
     }
   ]
 }
