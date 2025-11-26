@@ -132,6 +132,7 @@ class ProfileEditor:
         toolbar.grid(row=0, column=1, sticky=(tk.W, tk.E), pady=(0, 5))
 
         ttk.Button(toolbar, text="レコードを追加", command=self.add_profile).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="複製", command=self.duplicate_profile).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="削除", command=self.delete_profile).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="保存", command=self.save_data).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="再読み込み", command=self.load_data).pack(side=tk.LEFT, padx=2)
@@ -589,6 +590,38 @@ class ProfileEditor:
         self.current_selection = new_profile
         self.load_profile_to_form(new_profile)
         self.form_modified = False  # 新規追加時は未編集状態
+
+    def duplicate_profile(self):
+        """選択中のプロファイルを複製"""
+        if not self.current_selection:
+            messagebox.showwarning("警告", "複製するプロファイルを選択してください")
+            return
+
+        # IDを自動採番
+        new_id = self.find_next_available_id()
+        today = datetime.now().strftime("%Y-%m-%d")
+
+        # 現在のプロファイルをコピー
+        new_profile = self.current_selection.copy()
+
+        # 新しいIDと日付を設定
+        new_profile["id"] = new_id
+        new_profile["registeredDate"] = today
+        new_profile["updatedDate"] = today
+
+        # 指定されたフィールドをクリア
+        new_profile["imageUrl"] = ""
+        new_profile["avatarName"] = ""
+        new_profile["avatarNameUrl"] = ""
+        new_profile["downloadLocation"] = ""
+
+        self.data["profiles"].append(new_profile)
+        self.refresh_tree()
+
+        # 新規複製したプロファイルを選択
+        self.current_selection = new_profile
+        self.load_profile_to_form(new_profile)
+        self.form_modified = False
 
     def delete_profile(self):
         """選択中のプロファイルを削除"""
