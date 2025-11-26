@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-26 23:41:45 JST",
+  "lastUpdated": "2025-11-26 23:55:14 JST",
   "profiles": [
     {
       "id": "001",
@@ -62,7 +62,7 @@
       "price": "5500円,2500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "ベリルを購入するともちふぃった～本体も付属します。"
+      "notes": "ベリルを購入するともちふぃった～本体も付属\n萌→ベリルプロファイルもあり"
     },
     {
       "id": "004",
@@ -2001,7 +2001,7 @@
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "イベリス-Iberis-",
-      "avatarNameUrl": "https://booth.pm/ja/items/6292193",
+      "avatarNameUrl": "https://eisukevrc.booth.pm/items/7660397",
       "profileVersion": "1.0",
       "avatarAuthor": "miyqko",
       "avatarAuthorUrl": "https://just-ducky.booth.pm/",
@@ -3843,6 +3843,69 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "販売中止"
+    },
+    {
+      "id": "184",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "萌",
+      "avatarNameUrl": "https://kyubihome.booth.pm/items/4667400",
+      "profileVersion": "1.0",
+      "avatarAuthor": "キュビ",
+      "avatarAuthorUrl": "https://kyubihome.booth.pm/",
+      "profileAuthor": "🫧DohyaDream🫧",
+      "profileAuthorUrl": "https://dohhyaaaa.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://dohhyaaaa.booth.pm/items/7671541",
+      "imageUrl": "https://booth.pximg.net/c/620x620/f420c992-4225-4ce0-b751-3a4acdceaab6/i/4667400/1641b18e-eb97-4cbe-85fd-0f04cd53b46a_base_resized.jpg",
+      "pricing": "単体有料",
+      "price": "500",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "185",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "萌",
+      "avatarNameUrl": "https://kyubihome.booth.pm/items/4667400",
+      "profileVersion": "1.0",
+      "avatarAuthor": "キュビ",
+      "avatarAuthorUrl": "https://kyubihome.booth.pm/",
+      "profileAuthor": "kani",
+      "profileAuthorUrl": "https://dowaax7.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://dowaax7.booth.pm/items/7667703",
+      "imageUrl": "https://booth.pximg.net/c/620x620/f420c992-4225-4ce0-b751-3a4acdceaab6/i/4667400/1641b18e-eb97-4cbe-85fd-0f04cd53b46a_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり"
+    },
+    {
+      "id": "186",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "そよ / Soyo",
+      "avatarNameUrl": "https://eggmaru.booth.pm/items/6753865",
+      "profileVersion": "1.0",
+      "avatarAuthor": "eggmaru",
+      "avatarAuthorUrl": "https://eggmaru.booth.pm/",
+      "profileAuthor": "eggmaru",
+      "profileAuthorUrl": "https://eggmaru.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://eggmaru.booth.pm/items/6753865",
+      "imageUrl": "https://booth.pximg.net/c/620x620/af517acf-e443-4cf8-b481-69addbd06f88/i/6753865/41a42113-d737-4262-9b56-0b5af54180b9_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
     }
   ]
 }
