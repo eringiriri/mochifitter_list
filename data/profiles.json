@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-26 20:33:16 JST",
+  "lastUpdated": "2025-11-26 21:00:25 JST",
   "profiles": [
     {
       "id": "001",
@@ -2730,6 +2730,48 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
+    },
+    {
+      "id": "131",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "リリエネ Lilliene",
+      "avatarNameUrl": "https://fukuma.booth.pm/items/7428267",
+      "profileVersion": "1.0",
+      "avatarAuthor": "doku_f",
+      "avatarAuthorUrl": "https://fukuma.booth.pm/",
+      "profileAuthor": "doku_f",
+      "profileAuthorUrl": "https://fukuma.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://fukuma.booth.pm/items/7428267",
+      "imageUrl": "https://booth.pximg.net/c/620x620/81bcb3d9-ff05-4ec9-8975-dfdf862a66be/i/7428267/818c3184-0d87-4aa3-ad6e-54eb56e29a83_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "4000",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "132",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "いあ - IA",
+      "avatarNameUrl": "https://happalog.booth.pm/items/7065134",
+      "profileVersion": "1.0",
+      "avatarAuthor": "葉葉波",
+      "avatarAuthorUrl": "https://happalog.booth.pm/",
+      "profileAuthor": "葉葉波",
+      "profileAuthorUrl": "https://happalog.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://happalog.booth.pm/items/7065134",
+      "imageUrl": "https://booth.pximg.net/c/620x620/373204c6-e566-459f-ad9f-7c4ee8daa3f3/i/7065134/2679177f-4c5a-45e9-81bf-c45081d2b11a_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": "アバター同梱"
     }
   ]
 }
