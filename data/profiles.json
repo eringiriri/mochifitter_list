@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-27 01:52:40 JST",
+  "lastUpdated": "2025-11-27 01:53:46 JST",
   "profiles": [
     {
       "id": "001",
@@ -5691,6 +5691,27 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "11/30日まで7000→4500"
+    },
+    {
+      "id": "272",
+      "registeredDate": "2025-11-27",
+      "updatedDate": "2025-11-27",
+      "avatarName": "「セール中！」アウルカ -Aulka-/オリジナル3Dモデル",
+      "avatarNameUrl": "https://ebell.booth.pm/items/7502523",
+      "profileVersion": "1.0",
+      "avatarAuthor": "E_BELL",
+      "avatarAuthorUrl": "https://ebell.booth.pm/",
+      "profileAuthor": "E_BELL",
+      "profileAuthorUrl": "https://ebell.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://ebell.booth.pm/items/7502523",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0e9b9df1-539b-4989-8bff-cc30885b931b/i/7502523/d560fe6a-294a-4be1-a338-95fcf4099bf4_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "4000",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
     }
   ]
 }
