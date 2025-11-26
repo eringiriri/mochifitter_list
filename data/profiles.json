@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-26 11:34:36 JST",
+  "lastUpdated": "2025-11-26 11:37:36 JST",
   "profiles": [
     {
       "id": "001",
@@ -820,6 +820,46 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true
+    },
+    {
+      "id": "042",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "かなづちちゃん",
+      "avatarNameUrl": "https://skd-noratama.booth.pm/items/2225377",
+      "profileVersion": "1.0",
+      "avatarAuthor": "薫",
+      "avatarAuthorUrl": "https://skd-noratama.booth.pm/",
+      "profileAuthor": "薫",
+      "profileAuthorUrl": "https://skd-noratama.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://docs.google.com/spreadsheets/d/17bsf4xFF6C51m8R0U9fevwTuJNau5Q64OxFuoQZLZ24/edit?gid=0#gid=0",
+      "imageUrl": "https://booth.pximg.net/3923a6a5-7600-4cc2-9240-d92591e77ceb/i/2225377/9a7280bc-870b-4fa8-b4ac-1a9321ab0485_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": false
+    },
+    {
+      "id": "043",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
+      "avatarName": "MOOSE",
+      "avatarNameUrl": "https://skd-noratama.booth.pm/items/3657561",
+      "profileVersion": "1.0",
+      "avatarAuthor": "薫",
+      "avatarAuthorUrl": "https://skd-noratama.booth.pm/",
+      "profileAuthor": "薫",
+      "profileAuthorUrl": "https://skd-noratama.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://docs.google.com/spreadsheets/d/17bsf4xFF6C51m8R0U9fevwTuJNau5Q64OxFuoQZLZ24/edit?gid=0#gid=0",
+      "imageUrl": "https://booth.pximg.net/3923a6a5-7600-4cc2-9240-d92591e77ceb/i/3657561/b6ed6c72-58b1-4ac1-ae61-40800cc5a404_base_resized.jpg",
+      "pricing": "無料",
+      "price": "",
+      "forwardSupport": true,
+      "reverseSupport": false
     }
   ]
 }
