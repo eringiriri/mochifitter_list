@@ -329,6 +329,18 @@ h2 {
     color: #6b21a8;
 }
 
+.badge.notes-badge {
+    background-color: #fef3c7;
+    color: #92400e;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.badge.notes-badge:hover {
+    background-color: #fcd34d;
+    transform: scale(1.05);
+}
+
 .profile-info {
     margin: 15px 0;
     padding: 0 25px;
@@ -503,6 +515,77 @@ footer {
 .empty-state h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+}
+
+/* 画像リンク */
+.profile-image-link {
+    display: block;
+    text-decoration: none;
+}
+
+/* モーダル */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-close {
+    color: var(--text-secondary);
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: var(--text-primary);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.modal-content p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 /* レスポンシブ対応 */

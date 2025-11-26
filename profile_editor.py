@@ -268,6 +268,17 @@ class ProfileEditor:
         ttk.Label(price_frame, text="※数字のみ(例: 500)", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
         row += 1
 
+        # 備考（複数行入力可能）
+        ttk.Label(scrollable_frame, text="備考").grid(row=row, column=0, sticky=(tk.W, tk.N), pady=2)
+        notes_frame = ttk.Frame(scrollable_frame)
+        notes_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["notes"] = tk.Text(notes_frame, width=50, height=4, wrap=tk.WORD)
+        self.fields["notes"].pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        notes_scrollbar = ttk.Scrollbar(notes_frame, orient=tk.VERTICAL, command=self.fields["notes"].yview)
+        notes_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.fields["notes"].configure(yscrollcommand=notes_scrollbar.set)
+        row += 1
+
         # チェックボックスフィールド
         checkbox_frame = ttk.Frame(scrollable_frame)
         checkbox_frame.grid(row=row, column=0, columnspan=2, sticky=tk.W, pady=10)
@@ -308,7 +319,9 @@ class ProfileEditor:
 
         # Entryフィールドにバインド
         for field_name, widget in self.fields.items():
-            if isinstance(widget, ttk.Entry):
+            if isinstance(widget, ttk.Entry) or isinstance(widget, PlaceholderEntry):
+                widget.bind("<KeyRelease>", mark_modified)
+            elif isinstance(widget, tk.Text):
                 widget.bind("<KeyRelease>", mark_modified)
             elif isinstance(widget, tk.BooleanVar):
                 # チェックボックスは trace で監視
@@ -583,7 +596,8 @@ class ProfileEditor:
             "pricing": "",
             "price": "",
             "forwardSupport": False,
-            "reverseSupport": False
+            "reverseSupport": False,
+            "notes": ""
         }
 
         self.data["profiles"].append(new_profile)
@@ -687,7 +701,7 @@ class ProfileEditor:
                         for field_name in ["avatarName", "avatarNameUrl", "profileVersion",
                                           "avatarAuthor", "avatarAuthorUrl", "profileAuthor",
                                           "profileAuthorUrl", "downloadMethod", "downloadLocation",
-                                          "imageUrl", "pricing", "price"]:
+                                          "imageUrl", "pricing", "price", "notes"]:
                             if field_name in row:
                                 profile_data[field_name] = row[field_name].strip()
 
@@ -755,7 +769,7 @@ class ProfileEditor:
                 "profileAuthor", "profileAuthorUrl",
                 "official", "downloadMethod", "downloadLocation",
                 "imageUrl", "pricing", "price",
-                "forwardSupport", "reverseSupport"
+                "forwardSupport", "reverseSupport", "notes"
             ]
 
             with open(csv_path, 'w', encoding='utf-8', newline='') as f:
@@ -799,6 +813,8 @@ class ProfileEditor:
                 widget.set(False)
             elif isinstance(widget, tk.Text):
                 widget.delete("1.0", tk.END)
+            elif isinstance(widget, PlaceholderEntry):
+                widget.set_value("")
             elif isinstance(widget, ttk.Entry):
                 widget.delete(0, tk.END)
 

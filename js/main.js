@@ -147,12 +147,30 @@ function createProfileCard(profile) {
         '<div class="support-badge supported">逆方向: 対応</div>' :
         '<div class="support-badge not-supported">逆方向: 未対応</div>';
 
-    // 画像のHTML（imageUrlがある場合のみ表示）
+    // 備考バッジ（備考がある場合のみ表示）
+    const notesBadge = profile.notes && profile.notes.trim() ?
+        `<span class="badge notes-badge" onclick="openNotesModal('${escapeHtml(profile.id)}')">備考</span>` : '';
+
+    // 画像のHTML（imageUrlがある場合のみ表示、avatarNameUrlへのリンク付き）
+    const imageContent = profile.imageUrl ?
+        `<img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">` :
+        '';
+
     const imageHtml = profile.imageUrl ?
-        `<div class="profile-image">
-            <img src="${escapeHtml(profile.imageUrl)}" alt="${escapeHtml(profile.avatarName)}" loading="lazy">
-            ${officialBadge}
-        </div>` : `<div class="profile-image-placeholder">${officialBadge}</div>`;
+        (profile.avatarNameUrl && profile.avatarNameUrl.trim() ?
+            `<a href="${escapeHtml(profile.avatarNameUrl)}" target="_blank" rel="noopener noreferrer" class="profile-image-link">
+                <div class="profile-image">
+                    ${imageContent}
+                    ${notesBadge}
+                    ${officialBadge}
+                </div>
+            </a>` :
+            `<div class="profile-image">
+                ${imageContent}
+                ${notesBadge}
+                ${officialBadge}
+            </div>`) :
+        `<div class="profile-image-placeholder">${notesBadge}${officialBadge}</div>`;
 
     // リンク化ヘルパー関数
     const createLink = (text, url) => {
@@ -163,17 +181,13 @@ function createProfileCard(profile) {
     };
 
     return `
-        <div class="profile-card">
+        <div class="profile-card" data-profile-id="${escapeHtml(profile.id)}">
             ${imageHtml}
             <div class="profile-header">
                 <h3 class="profile-name">${createLink(profile.avatarName, profile.avatarNameUrl)}</h3>
             </div>
 
             <div class="profile-info">
-                <div class="info-row">
-                    <span class="info-label">バージョン</span>
-                    <span class="info-value">${escapeHtml(profile.profileVersion)}</span>
-                </div>
                 <div class="info-row">
                     <span class="info-label">アバター作者</span>
                     <span class="info-value">${createLink(profile.avatarAuthor, profile.avatarAuthorUrl)}</span>
@@ -214,6 +228,28 @@ function createProfileCard(profile) {
             </div>
         </div>
     `;
+}
+
+// モーダルを開く
+function openNotesModal(profileId) {
+    const profile = allProfiles.find(p => p.id === profileId);
+    if (!profile || !profile.notes) return;
+
+    const modal = document.getElementById('notesModal');
+    const modalText = document.getElementById('modalNotesText');
+
+    if (modal && modalText) {
+        modalText.textContent = profile.notes;
+        modal.style.display = 'block';
+    }
+}
+
+// モーダルを閉じる
+function closeNotesModal() {
+    const modal = document.getElementById('notesModal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
 }
 
 // カウント表示の更新
