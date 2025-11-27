@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-27 15:17:39 JST",
+  "lastUpdated": "2025-11-27 15:19:15 JST",
   "profiles": [
     {
       "id": "001",
@@ -7202,7 +7202,7 @@
       "price": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売中止"
+      "notes": "販売休止中"
     },
     {
       "id": "344",
@@ -7223,7 +7223,7 @@
       "price": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売中止"
+      "notes": "販売休止中"
     }
   ]
 }
