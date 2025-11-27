@@ -822,6 +822,19 @@ class ProfileEditor:
                 if len(parts) > 1:
                     avatar_name = parts[0].strip()
 
+                # 「オリジナル3Dモデル」を削除
+                import re
+                avatar_name = avatar_name.replace("オリジナル3Dモデル", "").strip()
+
+                # ver~~ を削除（大文字小文字区別なし）
+                avatar_name = re.sub(r'\s*ver\s*[^\s\(\)\[\]【】]*', '', avatar_name, flags=re.IGNORECASE).strip()
+
+                # カッコと引用符を削除（全角・半角）
+                avatar_name = re.sub(r'[\(\)\[\]【】「」『』""\'\'"]', '', avatar_name).strip()
+
+                # 複数の空白を1つに
+                avatar_name = re.sub(r'\s+', ' ', avatar_name).strip()
+
             # OGタグから画像URLを取得
             og_image = soup.find('meta', property='og:image')
             image_url = og_image['content'] if og_image else ""
