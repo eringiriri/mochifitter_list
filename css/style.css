@@ -6,18 +6,18 @@
 }
 
 :root {
-    --primary-color: #6366f1;
-    --primary-hover: #4f46e5;
-    --secondary-color: #10b981;
-    --danger-color: #ef4444;
-    --bg-color: #f8fafc;
+    --primary-color: #ffc0e3;
+    --primary-hover: #ffadd9;
+    --secondary-color: #ff9acf;
+    --danger-color: #ff6b9d;
+    --bg-color: #fff5fa;
     --card-bg: #ffffff;
-    --text-primary: #1e293b;
-    --text-secondary: #64748b;
-    --border-color: #e2e8f0;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --text-primary: #4a2640;
+    --text-secondary: #8b6b84;
+    --border-color: #ffe4f1;
+    --shadow: 0 1px 3px rgba(255, 182, 218, 0.2);
+    --shadow-md: 0 4px 6px rgba(255, 182, 218, 0.25);
+    --shadow-lg: 0 10px 15px rgba(255, 182, 218, 0.3);
 }
 
 body {
@@ -68,6 +68,27 @@ header .subtitle {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.btn-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn-twitter:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.btn-twitter svg {
+    display: block;
 }
 
 .btn-lite {
@@ -261,7 +282,7 @@ h2 {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background: #e2e8f0;
+    background: #ffe4f1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,7 +303,7 @@ h2 {
 .profile-image-placeholder {
     width: 100%;
     height: 200px;
-    background: #e2e8f0;
+    background: #ffe4f1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,24 +383,24 @@ h2 {
 }
 
 .badge.official {
-    background-color: #dbeafe;
-    color: #1e40af;
+    background-color: #ffe4f1;
+    color: #c2185b;
 }
 
 .badge.unofficial {
-    background-color: #f3e8ff;
-    color: #6b21a8;
+    background-color: #fce4ec;
+    color: #880e4f;
 }
 
 .badge.notes-badge {
-    background-color: #fef3c7;
-    color: #92400e;
+    background-color: #fff9e6;
+    color: #d97706;
     cursor: pointer;
     transition: transform 0.2s, background-color 0.2s;
 }
 
 .badge.notes-badge:hover {
-    background-color: #fcd34d;
+    background-color: #fde68a;
     transform: scale(1.05);
 }
 
@@ -424,18 +445,18 @@ h2 {
 }
 
 .price-badge.price-free {
-    background-color: #d1fae5;
-    color: #065f46;
+    background-color: #f0f4c3;
+    color: #558b2f;
 }
 
 .price-badge.price-paid {
-    background-color: #fef3c7;
-    color: #92400e;
+    background-color: #fff9e6;
+    color: #d97706;
 }
 
 .price-badge.price-bundled {
-    background-color: #dbeafe;
-    color: #1e40af;
+    background-color: #ffe4f1;
+    color: #c2185b;
 }
 
 .price-amount {
@@ -461,13 +482,13 @@ h2 {
 }
 
 .support-badge.supported {
-    background-color: #d1fae5;
-    color: #065f46;
+    background-color: #f0f4c3;
+    color: #558b2f;
 }
 
 .support-badge.not-supported {
-    background-color: #fee2e2;
-    color: #991b1b;
+    background-color: #ffccdd;
+    color: #c2185b;
 }
 
 .profile-footer {
@@ -527,7 +548,7 @@ h2 {
 }
 
 .btn-primary:hover {
-    background-color: #059669;
+    background-color: #ff85b8;
     transform: scale(1.05);
 }
 

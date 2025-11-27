@@ -40,7 +40,8 @@
       "Bash(git remote:*)",
       "Bash(cat:*)",
       "Bash(python test_extractor.py:*)",
-      "Bash(del:*)"
+      "Bash(del:*)",
+      "Bash(python -m http.server:*)"
     ],
     "deny": [],
     "ask": []
