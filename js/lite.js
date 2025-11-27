@@ -134,14 +134,23 @@ function renderTable() {
             <td>${escapeHtml(profile.registeredDate)}</td>
             <td>${escapeHtml(profile.updatedDate)}</td>
             <td>
-                ${profile.boothUrl ?
-                    `<a href="${escapeHtml(profile.boothUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.avatarName)}</a>` :
+                ${profile.avatarNameUrl ?
+                    `<a href="${escapeHtml(profile.avatarNameUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.avatarName)}</a>` :
                     escapeHtml(profile.avatarName)
                 }
             </td>
-            <td>${escapeHtml(profile.profileVersion)}</td>
-            <td>${escapeHtml(profile.avatarAuthor)}</td>
-            <td>${escapeHtml(profile.profileAuthor)}</td>
+            <td>
+                ${profile.avatarAuthorUrl ?
+                    `<a href="${escapeHtml(profile.avatarAuthorUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.avatarAuthor)}</a>` :
+                    escapeHtml(profile.avatarAuthor)
+                }
+            </td>
+            <td>
+                ${profile.profileAuthorUrl ?
+                    `<a href="${escapeHtml(profile.profileAuthorUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.profileAuthor)}</a>` :
+                    escapeHtml(profile.profileAuthor)
+                }
+            </td>
             <td>
                 <span class="badge ${profile.official ? 'badge-official' : 'badge-unofficial'}">
                     ${profile.official ? '公式' : '非公式'}
