@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>もちふぃった～プロファイル一覧（軽量版）</title>
+    <link rel="stylesheet" href="css/lite.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>もちふぃった～プロファイル一覧（軽量版）</h1>
+            <div class="header-actions">
+                <a href="index.html" class="btn-back">通常版へ</a>
+                <div class="last-updated">
+                    最終更新: <span id="updateTime">読み込み中...</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="検索...">
+            <div class="filter-group">
+                <label><input type="checkbox" id="filterOfficial" checked> 公式</label>
+                <label><input type="checkbox" id="filterUnofficial" checked> 非公式</label>
+                <label><input type="checkbox" id="filterForward" checked> 順方向</label>
+                <label><input type="checkbox" id="filterReverse" checked> 逆方向</label>
+            </div>
+            <div class="count">
+                表示中: <span id="profileCount">0</span>件
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="profileTable">
+                <thead>
+                    <tr>
+                        <th data-sort="id">ID</th>
+                        <th data-sort="registeredDate">登録日</th>
+                        <th data-sort="updatedDate">更新日</th>
+                        <th data-sort="avatarName">アバター名</th>
+                        <th data-sort="profileVersion">Ver</th>
+                        <th data-sort="avatarAuthor">アバター作者</th>
+                        <th data-sort="profileAuthor">プロファイル作者</th>
+                        <th data-sort="official">公式</th>
+                        <th data-sort="downloadMethod">DL方法</th>
+                        <th>DLリンク</th>
+                        <th data-sort="forwardSupport">順方向</th>
+                        <th data-sort="reverseSupport">逆方向</th>
+                        <th>備考</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- JavaScriptで動的に生成 -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; えりんぎ</p>
+        </div>
+    </footer>
+
+    <script src="js/lite.js"></script>
+</body>
+</html>
