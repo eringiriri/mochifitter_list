@@ -139,7 +139,6 @@ function renderTable() {
                     escapeHtml(profile.avatarName)
                 }
             </td>
-            <td>${escapeHtml(profile.profileVersion)}</td>
             <td>
                 ${profile.avatarAuthorUrl ?
                     `<a href="${escapeHtml(profile.avatarAuthorUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.avatarAuthor)}</a>` :
