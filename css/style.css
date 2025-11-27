@@ -521,8 +521,13 @@ footer {
     background-color: var(--text-primary);
     color: white;
     padding: 20px 0;
-    text-align: center;
+    text-align: right;
     margin-top: 60px;
+}
+
+footer p {
+    font-size: 0.75rem;
+    opacity: 0.7;
 }
 
 /* 空状態 */
