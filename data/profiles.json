@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-27 15:24:19 JST",
+  "lastUpdated": "2025-11-27 15:38:17 JST",
   "profiles": [
     {
       "id": "001",
@@ -7245,6 +7245,27 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "びきたんさん公認"
+    },
+    {
+      "id": "346",
+      "registeredDate": "2025-11-27",
+      "updatedDate": "2025-11-27",
+      "avatarName": "れう LEU",
+      "avatarNameUrl": "https://unyapo.booth.pm/items/4789903",
+      "profileVersion": "1.0",
+      "avatarAuthor": "しゆ",
+      "avatarAuthorUrl": "https://unyapo.booth.pm/",
+      "profileAuthor": "しゆ",
+      "profileAuthorUrl": "https://unyapo.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://unyapo.booth.pm/items/4789903",
+      "imageUrl": "https://booth.pximg.net/ba662c64-4256-49b8-b6e5-32d5453eeff8/i/4789903/3e065c3f-8f6e-484b-95f4-c81e608245f9_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "6000",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
     }
   ]
 }
