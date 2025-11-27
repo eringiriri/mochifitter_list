@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-27 16:16:01 JST",
+  "lastUpdated": "2025-11-27 16:24:43 JST",
   "profiles": [
     {
       "id": "001",
@@ -7329,6 +7329,27 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "Fanbox限定配布アバター"
+    },
+    {
+      "id": "350",
+      "registeredDate": "2025-11-27",
+      "updatedDate": "2025-11-27",
+      "avatarName": "狛乃-Komano-",
+      "avatarNameUrl": "https://hyuuganatu.booth.pm/items/5260363",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ひゅうがなつ",
+      "avatarAuthorUrl": "https://hyuuganatu.booth.pm/",
+      "profileAuthor": "MOON LIGHT",
+      "profileAuthorUrl": "https://moon-rai.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://moon-rai.booth.pm/items/7643554",
+      "imageUrl": "https://booth.pximg.net/a724e93d-5634-41cf-ac1f-8f8985536a5a/i/5260363/051a65d4-583a-439b-add8-5170e4fcd25f_base_resized.jpg",
+      "pricing": "単体有料",
+      "price": "500",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
     }
   ]
 }
