@@ -38,7 +38,7 @@ body {
 header {
     background: linear-gradient(135deg, var(--primary-color), #8b5cf6);
     color: white;
-    padding: 40px 0;
+    padding: 20px 0;
     box-shadow: var(--shadow-md);
 }
 
@@ -54,13 +54,13 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
     font-weight: 700;
 }
 
 header .subtitle {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     opacity: 0.95;
 }
 
