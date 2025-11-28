@@ -1,15 +1,25 @@
 # もちふぃったープロファイル一覧
 
-VRChat用3Dアバター向けの衣装自動調整ツール「もちふぃったー」の対応アバタープロファイル情報をまとめた静的Webサイト。
+VRChat用アバターの「もちふぃったー」対応プロファイル情報をまとめた静的Webサイトと管理ツール群。
 
-## もちふぃったーとは
+## 内容
 
-VRChat用3Dアバターの衣装を、専用のTemplateを介して他のアバターに自動で合わせるツール。
+### Webページ
 
-- **順方向**: Templateから別のアバターへ衣装を自動調整
-- **逆方向**: アバター専用衣装をTemplateに自動調整
+- **index.html** - メインの一覧ページ（検索・フィルター機能付き）
+- **lite.html** - 軽量版一覧ページ
 
-アバター向けの衣装をTemplateに合わせることで、Template対応の他のアバターにも着用可能になる。
+### 管理ツール
+
+- **profile_editor.py** - プロファイル編集GUI（フル機能版、BeautifulSoup4依存）
+- **profile_editor_lower.py** - プロファイル編集GUI（軽量版、依存少）
+- **booth_url_extractor.py** - Booth URLを抽出
+- **diff_checker.py** - プロファイルの差分チェック
+- **url_investigation.py** - URL調査ツール
+
+### データ
+
+- **data/profiles.json** - プロファイル情報（アバター名、作者、配布場所など）
 
 ## ライセンス
 
