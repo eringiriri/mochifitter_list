@@ -31,42 +31,49 @@ flowchart TD
     Extract --> Diff[diff_checker.py実行<br/>→ unregistered_avatars.txt]
     Diff --> Investigate[url_investigation.pyで次へ<br/>URLを開く]
 
-    Investigate --> CheckURL{URL判定}
-    CheckURL -->|非登録対象| Block[ブロック登録<br/>Block_URLs.txt]
-    CheckURL -->|アバターURL| AddRecord[レコード追加をクリック]
+    Investigate --> CheckURL{目視判定}
+    CheckURL -->|1.非登録対象<br/>衣装/テクスチャ等| Block[ブロック登録<br/>Block_URLs.txt]
+    CheckURL -->|2.非公式<br/>変換プロファイル| UnofficialSearch[対応アバター手動検索・調査<br/>どのアバター用か特定]
+    CheckURL -->|3.公式<br/>アバターURL| Official[レコード追加<br/>自動入力: ID/登録日/更新日/配布場所Booth]
 
     Block --> Investigate
 
-    AddRecord --> Paste1[アバターURLペースト]
-    Paste1 --> CheckPage[ページ確認<br/>□公式/非公式<br/>□順方向/逆方向]
+    UnofficialSearch --> Unofficial[レコード追加<br/>自動入力: ID/登録日/更新日/配布場所Booth]
+    Unofficial --> UnofficialInput[アバターURLペースト<br/>取得ボタン押下]
+    UnofficialInput --> UnofficialAuto[自動入力:<br/>アバター名/作者/作者URL/画像URL]
+    UnofficialAuto --> UnofficialCheck[順方向/逆方向チェック]
+    UnofficialCheck --> UnofficialDist{配布場所}
 
-    CheckPage --> Official{公式?}
+    UnofficialDist -->|Booth| UnofficialBooth[配布場所URLペースト<br/>取得ボタン押下]
+    UnofficialBooth --> UnofficialBoothAuto[自動入力:<br/>プロファイル作者/作者URL]
+    UnofficialBoothAuto --> UnofficialPrice{価格}
 
-    Official -->|Yes| GetOfficial[公式チェックON<br/>取得ボタン押下]
-    GetOfficial --> AutoOfficial[自動入力:<br/>アバター名/作者/作者URL<br/>プロファイル作者/作者URL<br/>画像URL]
-    AutoOfficial --> VerifyOfficial[入力内容を目視確認]
-    VerifyOfficial --> Price
+    UnofficialPrice -->|2-A.有料| UnofficialPaid[単体有料選択<br/>価格手動入力]
+    UnofficialPrice -->|2-B.無料| UnofficialFree[無料ボタン押下<br/>価格 → 0]
 
-    Official -->|No| GetUnofficial[取得ボタン押下]
-    GetUnofficial --> AutoUnofficial[自動入力:<br/>アバター名/作者/作者URL<br/>画像URL]
-    AutoUnofficial --> DistCheck{配布場所}
+    UnofficialPaid --> AvatarPrice
+    UnofficialFree --> AvatarPrice
 
-    DistCheck -->|Booth| PasteBooth[配布場所URLペースト<br/>取得ボタン押下]
-    PasteBooth --> AutoBooth[自動入力:<br/>プロファイル作者<br/>プロファイル作者URL]
-    AutoBooth --> Price
+    UnofficialDist -->|Booth以外| UnofficialOther[配布場所URLペースト<br/>プロファイル作者/作者URL手動入力]
+    UnofficialOther --> AvatarPrice
 
-    DistCheck -->|Booth以外| PasteOther[配布場所URLペースト<br/>手動入力:<br/>プロファイル作者<br/>プロファイル作者URL]
-    PasteOther --> Price
+    Official --> OfficialInput[公式チェックON<br/>アバターURLペースト<br/>取得ボタン押下]
+    OfficialInput --> OfficialAuto[自動入力:<br/>アバター名/作者/作者URL<br/>プロファイル作者/作者URL/画像URL]
+    OfficialAuto --> OfficialCheck[順方向/逆方向チェック]
+    OfficialCheck --> OfficialDist{配布方法}
 
-    Price[価格情報入力]
-    Price --> PriceType{価格区分}
-    PriceType -->|無料| Free[価格 → 0]
-    PriceType -->|単体有料| Paid[価格手動入力]
-    PriceType -->|アバター同梱| Bundle[価格 → -<br/>配布場所=アバターURL]
+    OfficialDist -->|3-A.同梱| OfficialBundle[アバター同梱ボタン押下<br/>価格 → -<br/>配布場所=アバターURL]
+    OfficialBundle --> AvatarPrice
 
-    Free --> AvatarPrice
-    Paid --> AvatarPrice
-    Bundle --> AvatarPrice
+    OfficialDist -->|3-B.同じページ| OfficialSamePage{価格}
+    OfficialSamePage -->|3-B-A.無料| OfficialSameFree[無料ボタン押下<br/>価格 → 0<br/>配布場所=アバターURL]
+    OfficialSamePage -->|3-B-B.有料| OfficialSamePaid[単体有料選択<br/>価格手動入力<br/>配布場所=アバターURL]
+
+    OfficialSameFree --> AvatarPrice
+    OfficialSamePaid --> AvatarPrice
+
+    OfficialDist -->|3-C.別サイト<br/>GoogleDrive等| OfficialExternal[配布場所URLに外部リンクペースト<br/>プロファイル作者/作者URL手動入力]
+    OfficialExternal --> AvatarPrice
 
     AvatarPrice[アバター価格入力]
     AvatarPrice --> Sale{セール?}

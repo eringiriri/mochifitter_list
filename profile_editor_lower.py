@@ -367,6 +367,9 @@ class ProfileEditor:
         self.fields["imageUrl"].bind("<FocusOut>", lambda e: self.preview_image())
         self.fields["imageUrl"].bind("<Return>", lambda e: self.preview_image())
 
+        # 配布場所URLフィールドに配布方法自動判定をバインド
+        self.fields["downloadLocation"].bind("<FocusOut>", lambda e: self.auto_detect_download_method())
+
         # 右側: プレビューエリア
         preview_panel = ttk.LabelFrame(main_frame, text="画像プレビュー", padding="10")
         preview_panel.grid(row=0, column=2, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S))
@@ -586,6 +589,28 @@ class ProfileEditor:
         # 入力状況を更新
         self.update_validation_status()
 
+    def auto_detect_download_method(self):
+        """配布場所URLから配布方法を自動判定"""
+        url = self.fields["downloadLocation"].get_value()
+        if not url:
+            return
+
+        # URLパターンによる判定
+        if "booth.pm" in url:
+            method = "Booth"
+        elif "drive.google.com" in url or "docs.google.com" in url:
+            method = "GoogleDrive"
+        elif "github.com" in url:
+            method = "GitHub"
+        elif "discord.com" in url or "discord.gg" in url:
+            method = "Discord"
+        else:
+            # 判定できない場合は何もしない
+            return
+
+        # 配布方法を自動設定
+        self.set_download_method(method)
+
     def set_pricing(self, pricing):
         """価格区分を設定"""
         self.fields["pricing"].delete(0, tk.END)
@@ -710,6 +735,11 @@ class ProfileEditor:
         if not self.current_selection:
             print("警告: プロファイルが選択されていません")
             return
+
+        # 更新日を自動で今日の日付に設定
+        today = datetime.now().strftime("%Y-%m-%d")
+        self.fields["updatedDate"].delete(0, tk.END)
+        self.fields["updatedDate"].insert(0, today)
 
         # フォームからデータを取得
         for field_name, widget in self.fields.items():

@@ -88,6 +88,10 @@ class ProfileEditor:
         self.sort_reverse = True  # ソート順（True=降順、ID001が下に）
         self.status_labels = {}  # ステータス表示ラベル
 
+        # URL調査用
+        self.current_investigation_url = ""
+        self.block_urls_path = os.path.join(self.app_dir, "Block_URLs.txt")
+
         self.setup_ui()
         self.load_data()
         # 初期状態ではフィールドを無効化
@@ -377,13 +381,22 @@ class ProfileEditor:
         self.fields["imageUrl"].bind("<FocusOut>", lambda e: self.preview_image())
         self.fields["imageUrl"].bind("<Return>", lambda e: self.preview_image())
 
-        # 右側: プレビューエリア
+        # 配布場所URLフィールドに配布方法自動判定をバインド
+        self.fields["downloadLocation"].bind("<FocusOut>", lambda e: self.auto_detect_download_method())
+
+        # 右上: プレビューエリア
         preview_panel = ttk.LabelFrame(main_frame, text="画像プレビュー", padding="10")
-        preview_panel.grid(row=0, column=2, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S))
+        preview_panel.grid(row=0, column=2, sticky=(tk.W, tk.E, tk.N, tk.S))
 
         self.image_preview_label = ttk.Label(preview_panel, text="画像URLを入力すると\n自動でプレビュー表示",
                                             foreground="gray", anchor="center", justify="center")
         self.image_preview_label.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
+
+        # 右下: URL調査パネル
+        url_investigation_panel = ttk.LabelFrame(main_frame, text="URL調査", padding="10")
+        url_investigation_panel.grid(row=1, column=2, sticky=(tk.W, tk.E, tk.N, tk.S))
+
+        self.setup_url_investigation_panel(url_investigation_panel)
 
     def add_status_to_frame(self, frame, field_name, always_gray=False):
         """フレームにステータスインジケーターを追加"""
@@ -650,6 +663,28 @@ class ProfileEditor:
         # 入力状況を更新
         self.update_validation_status()
 
+    def auto_detect_download_method(self):
+        """配布場所URLから配布方法を自動判定"""
+        url = self.fields["downloadLocation"].get_value()
+        if not url:
+            return
+
+        # URLパターンによる判定
+        if "booth.pm" in url:
+            method = "Booth"
+        elif "drive.google.com" in url or "docs.google.com" in url:
+            method = "GoogleDrive"
+        elif "github.com" in url:
+            method = "GitHub"
+        elif "discord.com" in url or "discord.gg" in url:
+            method = "Discord"
+        else:
+            # 判定できない場合は何もしない
+            return
+
+        # 配布方法を自動設定
+        self.set_download_method(method)
+
     def set_pricing(self, pricing):
         """価格区分を設定"""
         self.fields["pricing"].delete(0, tk.END)
@@ -774,6 +809,12 @@ class ProfileEditor:
         if not self.current_selection:
             print("警告: プロファイルが選択されていません")
             return
+
+        # 更新日を自動で今日の日付に設定
+        from datetime import datetime
+        today = datetime.now().strftime("%Y-%m-%d")
+        self.fields["updatedDate"].delete(0, tk.END)
+        self.fields["updatedDate"].insert(0, today)
 
         # フォームからデータを取得
         for field_name, widget in self.fields.items():
@@ -1361,6 +1402,89 @@ class ProfileEditor:
 
         except Exception as e:
             messagebox.showerror("エラー", f"保存に失敗しました: {e}")
+
+    def setup_url_investigation_panel(self, panel):
+        """URL調査パネルのUIをセットアップ"""
+        # 現在調査中のURL表示エリア
+        current_frame = ttk.Frame(panel)
+        current_frame.pack(fill=tk.X, pady=(0, 10))
+
+        ttk.Label(current_frame, text="現在調査中:").pack(anchor=tk.W)
+        self.current_url_entry = ttk.Entry(current_frame, state="readonly")
+        self.current_url_entry.pack(fill=tk.X, pady=(5, 0))
+
+        # ボタンフレーム
+        button_frame = ttk.Frame(panel)
+        button_frame.pack(fill=tk.X, pady=(0, 10))
+
+        ttk.Button(button_frame, text="次へ", command=self.investigation_next_url).pack(side=tk.LEFT, padx=(0, 5))
+        ttk.Button(button_frame, text="登録", command=self.investigation_register_url).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="ブロック", command=self.investigation_block_url).pack(side=tk.LEFT, padx=5)
+
+        # URL一覧入力エリア
+        ttk.Label(panel, text="URL一覧:").pack(anchor=tk.W, pady=(0, 5))
+
+        from tkinter import scrolledtext
+        self.url_list_text = scrolledtext.ScrolledText(panel, width=40, height=15, wrap=tk.WORD)
+        self.url_list_text.pack(fill=tk.BOTH, expand=True)
+
+    def investigation_next_url(self):
+        """次のURLへ移動（URL調査パネル）"""
+        text_content = self.url_list_text.get("1.0", tk.END).strip()
+
+        if not text_content:
+            return
+
+        # 改行で分割してURL一覧を作成
+        urls = [line.strip() for line in text_content.split('\n') if line.strip()]
+
+        if not urls:
+            return
+
+        # 最初のURLを取得
+        self.current_investigation_url = urls[0]
+
+        # 現在のURLを表示
+        self.current_url_entry.config(state="normal")
+        self.current_url_entry.delete(0, tk.END)
+        self.current_url_entry.insert(0, self.current_investigation_url)
+        self.current_url_entry.config(state="readonly")
+
+        # デフォルトブラウザで開く
+        import webbrowser
+        webbrowser.open(self.current_investigation_url)
+
+        # URL一覧から削除
+        remaining_urls = urls[1:]
+        self.url_list_text.delete("1.0", tk.END)
+        if remaining_urls:
+            self.url_list_text.insert("1.0", '\n'.join(remaining_urls))
+
+    def investigation_register_url(self):
+        """現在のURLで新規レコードを作成（URL調査パネル）"""
+        if not self.current_investigation_url:
+            return
+
+        # 新規レコードを作成
+        self.add_profile()
+
+        # avatarNameUrl に URL を挿入
+        self.fields["avatarNameUrl"].set_value(self.current_investigation_url)
+
+        # 取得ボタンを自動実行
+        self.fetch_from_url()
+
+    def investigation_block_url(self):
+        """現在のURLをブロックリストに追加して次へ（URL調査パネル）"""
+        if not self.current_investigation_url:
+            return
+
+        # Block_URLs.txt に追加
+        with open(self.block_urls_path, 'a', encoding='utf-8') as f:
+            f.write(self.current_investigation_url + '\n')
+
+        # 次のURLへ
+        self.investigation_next_url()
 
 
 def main():
