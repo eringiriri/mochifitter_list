@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-29 00:20:36 JST",
+  "lastUpdated": "2025-11-29 00:29:02 JST",
   "profiles": [
     {
       "id": "001",
@@ -2970,24 +2970,29 @@
     {
       "id": "134",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "avatarName": "+Head アバター制作者向けVRChat用素体",
+      "updatedDate": "2025-11-29",
+      "avatarName": "+Head 制作者向け用素体",
       "avatarNameUrl": "https://lsw.booth.pm/items/5153266",
       "profileVersion": "1.0",
       "avatarAuthor": "よわい",
-      "avatarAuthorUrl": "https://lsw.booth.pm/items/5153266",
-      "bodyBase": "",
+      "avatarAuthorUrl": "https://lsw.booth.pm/",
+      "bodyBase": "+Head",
       "profileAuthor": "四拾弐(yosohuta)",
       "profileAuthorUrl": "https://yosohuta.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://yosohuta.booth.pm/items/7678272",
-      "imageUrl": "https://booth.pximg.net/c/620x620/9e316222-2e53-4586-9471-58ac96f0baec/i/7678272/ed31c557-7709-4763-9610-5e3c414904b7_base_resized.jpg",
+      "imageUrl": "https://booth.pximg.net/c/620x620/1c35c496-0283-4684-8543-7149d9a7eb62/i/5153266/5d937614-a74e-4f7e-9368-c7188127f06e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "notes": "",
       "official": false,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarPrice": "-",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "135",
@@ -7297,13 +7302,13 @@
     {
       "id": "330",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-29",
       "avatarName": "+Head アバター制作者向けVRChat用素体",
       "avatarNameUrl": "https://lsw.booth.pm/items/5153266",
       "profileVersion": "1.0",
       "avatarAuthor": "よわい",
       "avatarAuthorUrl": "https://lsw.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "+Head",
       "profileAuthor": "yuufyu",
       "profileAuthorUrl": "https://yuufyu.booth.pm/",
       "official": false,
@@ -7311,10 +7316,15 @@
       "downloadLocation": "https://yuufyu.booth.pm/items/7664000",
       "imageUrl": "https://booth.pximg.net/c/620x620/1c35c496-0283-4684-8543-7149d9a7eb62/i/5153266/5d937614-a74e-4f7e-9368-c7188127f06e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": false,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "-",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "331",
