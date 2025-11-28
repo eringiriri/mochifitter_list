@@ -75,7 +75,7 @@ class ProfileEditor:
     def __init__(self, root):
         self.root = root
         self.root.title("もちふぃった～ プロファイルエディタ")
-        self.root.geometry("1400x800")
+        self.root.geometry("1400x900")
 
         self.app_dir = get_app_dir()
         self.json_path = os.path.join(self.app_dir, "data", "profiles.json")
@@ -84,10 +84,12 @@ class ProfileEditor:
         self.image_preview_label = None
         self.form_modified = False  # フォームが編集されたかどうか
         self.sort_column = "id"  # デフォルトのソート列
-        self.sort_reverse = False  # ソート順
+        self.sort_reverse = True  # ソート順（True=降順、ID001が下に）
 
         self.setup_ui()
         self.load_data()
+        # 初期状態ではフィールドを無効化
+        self.disable_form_fields()
 
     def setup_ui(self):
         """UIのセットアップ"""
@@ -198,6 +200,20 @@ class ProfileEditor:
                    command=lambda: self.open_calendar("updatedDate")).pack(side=tk.LEFT)
         row += 1
 
+        # チェックボックスフィールド
+        checkbox_frame = ttk.Frame(scrollable_frame)
+        checkbox_frame.grid(row=row, column=0, columnspan=2, sticky=tk.W, pady=10)
+
+        self.fields["official"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="公式", variable=self.fields["official"]).pack(side=tk.LEFT, padx=5)
+
+        self.fields["forwardSupport"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="順方向対応", variable=self.fields["forwardSupport"]).pack(side=tk.LEFT, padx=5)
+
+        self.fields["reverseSupport"] = tk.BooleanVar()
+        ttk.Checkbutton(checkbox_frame, text="逆方向対応", variable=self.fields["reverseSupport"]).pack(side=tk.LEFT, padx=5)
+        row += 1
+
         # その他の通常フィールド
         normal_fields = [
             ("アバター名", "avatarName", False),
@@ -264,13 +280,60 @@ class ProfileEditor:
                    command=lambda: self.set_pricing("アバター同梱")).pack(side=tk.LEFT, padx=2)
         row += 1
 
-        # 価格
-        ttk.Label(scrollable_frame, text="価格").grid(row=row, column=0, sticky=tk.W, pady=2)
+        # プロファイル価格
+        ttk.Label(scrollable_frame, text="プロファイル価格").grid(row=row, column=0, sticky=tk.W, pady=2)
         price_frame = ttk.Frame(scrollable_frame)
         price_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
         self.fields["price"] = ttk.Entry(price_frame, width=50)
         self.fields["price"].pack(side=tk.LEFT, fill=tk.X, expand=True)
         ttk.Label(price_frame, text="※数字のみ(例: 500)", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
+        row += 1
+
+        # アバター価格
+        ttk.Label(scrollable_frame, text="アバター価格").grid(row=row, column=0, sticky=tk.W, pady=2)
+        avatar_price_frame = ttk.Frame(scrollable_frame)
+        avatar_price_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["avatarPrice"] = ttk.Entry(avatar_price_frame, width=50)
+        self.fields["avatarPrice"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Label(avatar_price_frame, text="※数字のみ(例: 3000)", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
+        row += 1
+
+        # セールチェックボックス
+        ttk.Label(scrollable_frame, text="セール").grid(row=row, column=0, sticky=tk.W, pady=2)
+        sale_check_frame = ttk.Frame(scrollable_frame)
+        sale_check_frame.grid(row=row, column=1, sticky=tk.W, pady=2, padx=(5, 0))
+        self.fields["onSale"] = tk.BooleanVar()
+        ttk.Checkbutton(sale_check_frame, text="セール中", variable=self.fields["onSale"],
+                       command=self.toggle_sale_fields).pack(side=tk.LEFT)
+        row += 1
+
+        # セール開始日
+        ttk.Label(scrollable_frame, text="セール開始日").grid(row=row, column=0, sticky=tk.W, pady=2)
+        sale_start_frame = ttk.Frame(scrollable_frame)
+        sale_start_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["saleStartDate"] = ttk.Entry(sale_start_frame, width=40)
+        self.fields["saleStartDate"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(sale_start_frame, text="📅", width=3,
+                   command=lambda: self.open_calendar("saleStartDate")).pack(side=tk.LEFT, padx=2)
+        row += 1
+
+        # セール終了日
+        ttk.Label(scrollable_frame, text="セール終了日").grid(row=row, column=0, sticky=tk.W, pady=2)
+        sale_end_frame = ttk.Frame(scrollable_frame)
+        sale_end_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["saleEndDate"] = ttk.Entry(sale_end_frame, width=40)
+        self.fields["saleEndDate"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Button(sale_end_frame, text="📅", width=3,
+                   command=lambda: self.open_calendar("saleEndDate")).pack(side=tk.LEFT, padx=2)
+        row += 1
+
+        # セール価格
+        ttk.Label(scrollable_frame, text="セール価格").grid(row=row, column=0, sticky=tk.W, pady=2)
+        sale_price_frame = ttk.Frame(scrollable_frame)
+        sale_price_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
+        self.fields["salePrice"] = ttk.Entry(sale_price_frame, width=50)
+        self.fields["salePrice"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        ttk.Label(sale_price_frame, text="※数字のみ(例: 2000)", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
         row += 1
 
         # 備考（複数行入力可能）
@@ -284,20 +347,15 @@ class ProfileEditor:
         self.fields["notes"].configure(yscrollcommand=notes_scrollbar.set)
         row += 1
 
-        # チェックボックスフィールド
-        checkbox_frame = ttk.Frame(scrollable_frame)
-        checkbox_frame.grid(row=row, column=0, columnspan=2, sticky=tk.W, pady=10)
-
-        self.fields["official"] = tk.BooleanVar()
-        ttk.Checkbutton(checkbox_frame, text="公式", variable=self.fields["official"]).pack(side=tk.LEFT, padx=5)
-
-        self.fields["forwardSupport"] = tk.BooleanVar()
-        ttk.Checkbutton(checkbox_frame, text="順方向対応", variable=self.fields["forwardSupport"]).pack(side=tk.LEFT, padx=5)
-
-        self.fields["reverseSupport"] = tk.BooleanVar()
-        ttk.Checkbutton(checkbox_frame, text="逆方向対応", variable=self.fields["reverseSupport"]).pack(side=tk.LEFT, padx=5)
-
         scrollable_frame.columnconfigure(1, weight=1)
+
+        # 入力状況表示
+        row += 1
+        validation_frame = ttk.LabelFrame(scrollable_frame, text="入力状況", padding="10")
+        validation_frame.grid(row=row, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=10)
+
+        self.validation_label = tk.Label(validation_frame, text="", fg="red", justify=tk.LEFT, anchor=tk.W)
+        self.validation_label.pack(fill=tk.BOTH, expand=True)
 
         # 適用ボタン
         ttk.Button(scrollable_frame, text="変更を適用", command=self.apply_changes).grid(row=row+1, column=0, columnspan=2, pady=10)
@@ -321,6 +379,8 @@ class ProfileEditor:
         """全フィールドの変更を検知するバインドを設定"""
         def mark_modified(event=None):
             self.form_modified = True
+            # 入力状況を更新
+            self.update_validation_status()
 
         # Entryフィールドにバインド
         for field_name, widget in self.fields.items():
@@ -331,6 +391,54 @@ class ProfileEditor:
             elif isinstance(widget, tk.BooleanVar):
                 # チェックボックスは trace で監視
                 widget.trace_add("write", lambda *args: setattr(self, "form_modified", True))
+
+    def update_validation_status(self):
+        """入力状況を更新"""
+        # チェック対象フィールド（必須項目）
+        required_fields = {
+            "id": "ID",
+            "avatarName": "アバター名",
+            "avatarNameUrl": "アバターURL",
+            "profileVersion": "プロファイルバージョン",
+            "avatarAuthor": "アバター作者",
+            "avatarAuthorUrl": "アバター作者URL",
+            "profileAuthor": "プロファイル作者",
+            "profileAuthorUrl": "プロファイル作者URL",
+            "downloadMethod": "配布方法",
+            "downloadLocation": "配布場所URL",
+            "imageUrl": "画像URL",
+            "pricing": "価格区分",
+            "price": "プロファイル価格",
+            "avatarPrice": "アバター価格",
+        }
+
+        missing_fields = []
+
+        for field_name, display_name in required_fields.items():
+            widget = self.fields.get(field_name)
+            if not widget:
+                continue
+
+            has_value = False
+
+            if isinstance(widget, tk.Text):
+                has_value = bool(widget.get("1.0", tk.END).strip())
+            elif isinstance(widget, PlaceholderEntry):
+                has_value = bool(widget.get_value())
+            elif isinstance(widget, ttk.Entry):
+                # 無効化されている場合はスキップ
+                if str(widget.cget("state")) == "disabled":
+                    continue
+                has_value = bool(widget.get().strip())
+
+            if not has_value:
+                missing_fields.append(f"× {display_name}")
+
+        # 表示更新
+        if missing_fields:
+            self.validation_label.config(text="\n".join(missing_fields), fg="red")
+        else:
+            self.validation_label.config(text="✓ 全て入力済み", fg="green")
 
     def load_data(self):
         """JSONファイルを読み込み"""
@@ -436,9 +544,12 @@ class ProfileEditor:
 
     def load_profile_to_form(self, profile):
         """プロファイルデータをフォームに読み込み"""
+        # フィールドを有効化
+        self.enable_form_fields()
+
         # テキストフィールド
         for field_name, widget in self.fields.items():
-            if field_name in ["official", "forwardSupport", "reverseSupport"]:
+            if field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
                 widget.set(profile.get(field_name, False))
             elif isinstance(widget, tk.Text):
                 widget.delete("1.0", tk.END)
@@ -449,25 +560,88 @@ class ProfileEditor:
                 widget.delete(0, tk.END)
                 widget.insert(0, profile.get(field_name, ""))
 
+        # セールフィールドの状態を更新
+        self.toggle_sale_fields()
+
+        # 入力状況を更新
+        self.update_validation_status()
+
+        # 画像プレビューを更新
+        self.preview_image()
+
     def set_today(self, field_name):
         """今日の日付を設定"""
         today = datetime.now().strftime("%Y-%m-%d")
         self.fields[field_name].delete(0, tk.END)
         self.fields[field_name].insert(0, today)
 
+        # 入力状況を更新
+        self.update_validation_status()
+
     def set_download_method(self, method):
         """配布方法を設定"""
         self.fields["downloadMethod"].delete(0, tk.END)
         self.fields["downloadMethod"].insert(0, method)
+
+        # 入力状況を更新
+        self.update_validation_status()
 
     def set_pricing(self, pricing):
         """価格区分を設定"""
         self.fields["pricing"].delete(0, tk.END)
         self.fields["pricing"].insert(0, pricing)
 
+        # 「無料」の場合はプロファイル価格に0を自動入力
+        if pricing == "無料":
+            self.fields["price"].delete(0, tk.END)
+            self.fields["price"].insert(0, "0")
+        # 「アバター同梱」の場合はプロファイル価格に-を自動入力し、アバターURLを配布場所URLにコピー
+        elif pricing == "アバター同梱":
+            self.fields["price"].delete(0, tk.END)
+            self.fields["price"].insert(0, "-")
+            # アバターURLを配布場所URLにコピー
+            avatar_url = self.fields["avatarNameUrl"].get_value()
+            if avatar_url:
+                self.fields["downloadLocation"].set_value(avatar_url)
+
+        # 入力状況を更新
+        self.update_validation_status()
+
+    def toggle_sale_fields(self):
+        """セール中チェックボックスの状態に応じてセール関連フィールドを有効/無効化"""
+        is_on_sale = self.fields["onSale"].get()
+        state = "normal" if is_on_sale else "disabled"
+
+        # セール関連フィールドの状態を変更
+        self.fields["saleStartDate"].config(state=state)
+        self.fields["saleEndDate"].config(state=state)
+        self.fields["salePrice"].config(state=state)
+
+    def enable_form_fields(self):
+        """全フォームフィールドを有効化"""
+        for field_name, widget in self.fields.items():
+            if field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
+                # チェックボックスは常に有効
+                continue
+            elif isinstance(widget, tk.Text):
+                widget.config(state="normal")
+            elif isinstance(widget, (ttk.Entry, PlaceholderEntry)):
+                widget.config(state="normal")
+
+    def disable_form_fields(self):
+        """全フォームフィールドを無効化"""
+        for field_name, widget in self.fields.items():
+            if field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
+                # チェックボックスは常に無効化
+                continue
+            elif isinstance(widget, tk.Text):
+                widget.config(state="disabled")
+            elif isinstance(widget, (ttk.Entry, PlaceholderEntry)):
+                widget.config(state="disabled")
+
     def preview_image(self):
         """画像URLからプレビューを表示"""
-        image_url = self.fields["imageUrl"].get().strip()
+        image_url = self.fields["imageUrl"].get_value().strip()
 
         if not image_url:
             # 空欄の場合はプレビューをクリア
@@ -526,6 +700,9 @@ class ProfileEditor:
             self.fields[field_name].insert(0, formatted_date)
             cal_window.destroy()
 
+            # 入力状況を更新
+            self.update_validation_status()
+
         ttk.Button(cal_window, text="選択", command=select_date).pack(pady=10)
 
     def apply_changes(self):
@@ -549,7 +726,7 @@ class ProfileEditor:
                 else:
                     # 空欄の場合は自動採番
                     self.current_selection[field_name] = self.find_next_available_id()
-            elif field_name in ["official", "forwardSupport", "reverseSupport"]:
+            elif field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
                 self.current_selection[field_name] = widget.get()
             elif isinstance(widget, tk.Text):
                 self.current_selection[field_name] = widget.get("1.0", tk.END).strip()
@@ -600,6 +777,11 @@ class ProfileEditor:
             "imageUrl": "",
             "pricing": "",
             "price": "",
+            "avatarPrice": "",
+            "onSale": False,
+            "saleStartDate": "",
+            "saleEndDate": "",
+            "salePrice": "",
             "forwardSupport": False,
             "reverseSupport": False,
             "notes": ""
@@ -706,7 +888,8 @@ class ProfileEditor:
                         for field_name in ["avatarName", "avatarNameUrl", "profileVersion",
                                           "avatarAuthor", "avatarAuthorUrl", "profileAuthor",
                                           "profileAuthorUrl", "downloadMethod", "downloadLocation",
-                                          "imageUrl", "pricing", "price", "notes"]:
+                                          "imageUrl", "pricing", "price", "avatarPrice",
+                                          "saleStartDate", "saleEndDate", "salePrice", "notes"]:
                             if field_name in row:
                                 profile_data[field_name] = row[field_name].strip()
 
@@ -722,7 +905,7 @@ class ProfileEditor:
                                 profile_data["updatedDate"] = row["updatedDate"].strip()
 
                         # Boolean型フィールド
-                        for field_name in ["official", "forwardSupport", "reverseSupport"]:
+                        for field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
                             if field_name in row:
                                 value = row[field_name].strip().lower()
                                 profile_data[field_name] = value in ["true", "1", "yes", "TRUE", "True"]
@@ -775,7 +958,8 @@ class ProfileEditor:
                 "avatarAuthor", "avatarAuthorUrl",
                 "profileAuthor", "profileAuthorUrl",
                 "official", "downloadMethod", "downloadLocation",
-                "imageUrl", "pricing", "price",
+                "imageUrl", "pricing", "price", "avatarPrice",
+                "onSale", "saleStartDate", "saleEndDate", "salePrice",
                 "forwardSupport", "reverseSupport", "notes"
             ]
 
@@ -816,7 +1000,7 @@ class ProfileEditor:
     def clear_form(self):
         """フォームをクリア"""
         for field_name, widget in self.fields.items():
-            if field_name in ["official", "forwardSupport", "reverseSupport"]:
+            if field_name in ["official", "forwardSupport", "reverseSupport", "onSale"]:
                 widget.set(False)
             elif isinstance(widget, tk.Text):
                 widget.delete("1.0", tk.END)
