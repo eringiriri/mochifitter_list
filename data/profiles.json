@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-30 01:59:50 JST",
+  "lastUpdated": "2025-11-30 02:21:20 JST",
   "profiles": [
     {
       "id": "001",
@@ -12189,6 +12189,60 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
+    },
+    {
+      "id": "513",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "杏里",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/3203894",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/3203894",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/3203894/70f7faa1-d1b0-407a-8faa-36c57bb776cf_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
+    },
+    {
+      "id": "514",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "透羽",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/3016885",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/3016885",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/3016885/6fcb4bed-313d-49f3-a3d9-600ded8b8183_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     }
   ]
 }
