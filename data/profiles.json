@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-28 23:42:06 JST",
+  "lastUpdated": "2025-11-30 05:32:39 JST",
   "profiles": [
     {
       "id": "001",
@@ -30,6 +30,114 @@
     },
     {
       "id": "002",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "透羽",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/3016885",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/3016885",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/3016885/6fcb4bed-313d-49f3-a3d9-600ded8b8183_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
+    },
+    {
+      "id": "003",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "杏里",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/3203894",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/3203894",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/3203894/70f7faa1-d1b0-407a-8faa-36c57bb776cf_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
+    },
+    {
+      "id": "004",
+      "registeredDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
+      "avatarName": "一介天使",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/1896193",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/1896193",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/1896193/d68aebaa-f833-48c8-ae5d-fddaae274744_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
+    },
+    {
+      "id": "005",
+      "registeredDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
+      "avatarName": "翠蓮",
+      "avatarNameUrl": "https://mio3works.booth.pm/items/1812495",
+      "profileVersion": "1.0",
+      "avatarAuthor": "mio",
+      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "mio",
+      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://mio3works.booth.pm/items/1812495",
+      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/1812495/0454624c-bf9e-45b1-8b03-7786d7bdb769_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売休止中",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
+    },
+    {
+      "id": "006",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "桔梗",
@@ -56,7 +164,7 @@
       "salePrice": ""
     },
     {
-      "id": "003",
+      "id": "007",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "ベリル",
@@ -83,7 +191,7 @@
       "salePrice": ""
     },
     {
-      "id": "004",
+      "id": "008",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "マヌカ",
@@ -110,9 +218,9 @@
       "salePrice": ""
     },
     {
-      "id": "005",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "009",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Ciel - シエル -",
       "avatarNameUrl": "https://armoirelepus.booth.pm/items/3368697",
       "profileVersion": "1",
@@ -132,7 +240,7 @@
       "notes": ""
     },
     {
-      "id": "006",
+      "id": "010",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "森羅",
@@ -159,9 +267,9 @@
       "salePrice": ""
     },
     {
-      "id": "007",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "011",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Lapwing",
       "avatarNameUrl": "https://kujishift.booth.pm/items/4993931",
       "profileVersion": "1",
@@ -181,15 +289,15 @@
       "notes": ""
     },
     {
-      "id": "008",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "2025-11-28",
+      "id": "012",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-29",
       "avatarName": "ルキフェル -Lucifer-",
       "avatarNameUrl": "https://nyahuuu.booth.pm/items/4358123",
       "profileVersion": "1",
       "avatarAuthor": "香坂もち",
       "avatarAuthorUrl": "https://nyahuuu.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
       "official": true,
@@ -200,7 +308,7 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "まるぼでぃ共通素体",
+      "notes": "",
       "avatarPrice": "8500",
       "onSale": false,
       "saleStartDate": "",
@@ -208,81 +316,96 @@
       "salePrice": ""
     },
     {
-      "id": "009",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "013",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "イェーナ -Yena-",
       "avatarNameUrl": "https://stray-lamb.booth.pm/items/4398963",
       "profileVersion": "1",
       "avatarAuthor": "火村ユウヤ",
       "avatarAuthorUrl": "https://stray-lamb.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://kuromaru9.booth.pm/items/7552195",
       "imageUrl": "https://booth.pximg.net/c5f5c24d-2662-43bc-98be-454d8623bccb/i/4398963/a8503d79-e694-4316-9a83-572059dbbe62_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "まるぼでぃ共通素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "010",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "014",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "リセ -Lise-",
       "avatarNameUrl": "https://regs.booth.pm/items/4390073",
       "profileVersion": "1",
       "avatarAuthor": "れじ",
       "avatarAuthorUrl": "https://regs.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://kuromaru9.booth.pm/items/7552195",
       "imageUrl": "https://booth.pximg.net/38d12e48-b117-4086-a5c7-b02cd8f9c952/i/4390073/0bb0d1dd-4f64-4493-bf17-31abbfd113e9_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "まるぼでぃ共通素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "011",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "015",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "ネミア -Nenmir-",
       "avatarNameUrl": "https://rokota.booth.pm/items/4376366",
       "profileVersion": "1",
       "avatarAuthor": "roko shop",
       "avatarAuthorUrl": "https://rokota.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://kuromaru9.booth.pm/items/7552195",
       "imageUrl": "https://booth.pximg.net/e3843aaf-9232-4a4c-9d6e-e0a09646f417/i/4376366/566a769d-c448-446a-aaae-b337195968ef_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "まるぼでぃ共通素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "012",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "2025-11-28",
+      "id": "016",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-29",
       "avatarName": "むんき -Munkki -",
       "avatarNameUrl": "https://nanka-tsukurouyo.booth.pm/items/5787485",
       "profileVersion": "1",
       "avatarAuthor": "thw",
       "avatarAuthorUrl": "https://nanka-tsukurouyo.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "kuromaru9",
       "profileAuthorUrl": "https://kuromaru9.booth.pm/",
       "official": true,
@@ -293,7 +416,7 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "まるぼでぃ共通素体",
+      "notes": "",
       "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
@@ -301,9 +424,9 @@
       "salePrice": ""
     },
     {
-      "id": "013",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "017",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "かんぺきメイドメロトロン",
       "avatarNameUrl": "https://kuromaru9.booth.pm/items/5860593",
       "profileVersion": "1",
@@ -323,9 +446,9 @@
       "notes": ""
     },
     {
-      "id": "014",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "018",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "びしょぬれのしずくさん",
       "avatarNameUrl": "https://kuromaru9.booth.pm/items/3828632",
       "profileVersion": "1",
@@ -345,9 +468,9 @@
       "notes": ""
     },
     {
-      "id": "015",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "019",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "バナナのばななちゃん",
       "avatarNameUrl": "https://kuromaru9.booth.pm/items/2411814",
       "profileVersion": "1",
@@ -367,9 +490,9 @@
       "notes": ""
     },
     {
-      "id": "016",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "020",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ナナセ・ノワール -Nanase Noir-",
       "avatarNameUrl": "https://booth.pm/ja/items/5827815",
       "profileVersion": "1",
@@ -389,9 +512,9 @@
       "notes": ""
     },
     {
-      "id": "017",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "021",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "マリシア - Marycia -",
       "avatarNameUrl": "https://booth.pm/ja/items/6305948",
       "profileVersion": "1",
@@ -411,9 +534,9 @@
       "notes": ""
     },
     {
-      "id": "018",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "022",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "サフィー-Sapphy-",
       "avatarNameUrl": "https://booth.pm/ja/items/3939858",
       "profileVersion": "1",
@@ -433,9 +556,9 @@
       "notes": ""
     },
     {
-      "id": "019",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "023",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ペルラ -Perula-",
       "avatarNameUrl": "https://booth.pm/ja/items/5565569",
       "profileVersion": "1",
@@ -455,9 +578,9 @@
       "notes": ""
     },
     {
-      "id": "020",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "024",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ルフィナ-Rufina-",
       "avatarNameUrl": "https://yueou.booth.pm/items/4670579",
       "profileVersion": "1",
@@ -477,9 +600,9 @@
       "notes": ""
     },
     {
-      "id": "021",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "025",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ルリエ -Lurie-",
       "avatarNameUrl": "https://yueou.booth.pm/items/7427949",
       "profileVersion": "1",
@@ -499,9 +622,9 @@
       "notes": ""
     },
     {
-      "id": "022",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "026",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ニクス -Nix-",
       "avatarNameUrl": "https://booth.pm/ja/items/6481122",
       "profileVersion": "1",
@@ -521,9 +644,9 @@
       "notes": ""
     },
     {
-      "id": "023",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "027",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "望身 -Nozomi-",
       "avatarNameUrl": "https://booth.pm/ja/items/4962068",
       "profileVersion": "1",
@@ -543,9 +666,9 @@
       "notes": ""
     },
     {
-      "id": "024",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "028",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "なのでび -Nanodevi-",
       "avatarNameUrl": "https://athv.booth.pm/items/7334826",
       "profileVersion": "1",
@@ -565,9 +688,9 @@
       "notes": ""
     },
     {
-      "id": "025",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "029",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ヌーヴェル -Nouvelle-",
       "avatarNameUrl": "https://athv.booth.pm/items/5779320",
       "profileVersion": "1",
@@ -587,9 +710,9 @@
       "notes": ""
     },
     {
-      "id": "026",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "030",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ねこめいつ -Nekomates-",
       "avatarNameUrl": "https://athv.booth.pm/items/5328310",
       "profileVersion": "1",
@@ -609,9 +732,9 @@
       "notes": ""
     },
     {
-      "id": "027",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "031",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ハーミット -Hermit-",
       "avatarNameUrl": "https://athv.booth.pm/items/4503850",
       "profileVersion": "1",
@@ -631,9 +754,9 @@
       "notes": ""
     },
     {
-      "id": "028",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "032",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ファルリア -Falria-",
       "avatarNameUrl": "https://athv.booth.pm/items/3808012",
       "profileVersion": "1",
@@ -653,9 +776,9 @@
       "notes": ""
     },
     {
-      "id": "029",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "033",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ホライズ -Horiz-",
       "avatarNameUrl": "https://athv.booth.pm/items/3605652",
       "profileVersion": "1",
@@ -675,9 +798,9 @@
       "notes": ""
     },
     {
-      "id": "030",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "034",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ノーチカ",
       "avatarNameUrl": "https://booth.pm/ja/items/7363489",
       "profileVersion": "1",
@@ -697,9 +820,9 @@
       "notes": ""
     },
     {
-      "id": "031",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "035",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "キリセ Kirise",
       "avatarNameUrl": "https://booth.pm/ja/items/5789025",
       "profileVersion": "1",
@@ -719,9 +842,9 @@
       "notes": ""
     },
     {
-      "id": "032",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "036",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ツキセ Tsukise",
       "avatarNameUrl": "https://ikshop.booth.pm/items/6834358",
       "profileVersion": "1",
@@ -741,9 +864,9 @@
       "notes": ""
     },
     {
-      "id": "033",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "037",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "セヴィル Sevil",
       "avatarNameUrl": "https://ikshop.booth.pm/items/5147424",
       "profileVersion": "1",
@@ -763,9 +886,9 @@
       "notes": ""
     },
     {
-      "id": "034",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "038",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ラズリ -Lazuli-",
       "avatarNameUrl": "https://booth.pm/ja/items/5255692",
       "profileVersion": "1",
@@ -785,9 +908,9 @@
       "notes": ""
     },
     {
-      "id": "035",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "039",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "フレア -Flare-",
       "avatarNameUrl": "https://elychiffon.booth.pm/items/4768506",
       "profileVersion": "1",
@@ -807,9 +930,9 @@
       "notes": ""
     },
     {
-      "id": "036",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "040",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Helvetica - ヘルベチカ -",
       "avatarNameUrl": "https://booth.pm/ja/items/5405062",
       "profileVersion": "1",
@@ -829,9 +952,9 @@
       "notes": ""
     },
     {
-      "id": "037",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "041",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "龍のヨルちゃん",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/3923094",
       "profileVersion": "1",
@@ -851,9 +974,9 @@
       "notes": ""
     },
     {
-      "id": "038",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "042",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "アングラの子",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/2313554",
       "profileVersion": "1",
@@ -873,9 +996,9 @@
       "notes": ""
     },
     {
-      "id": "039",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "043",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "アストラル Astral",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/1490378",
       "profileVersion": "1",
@@ -895,9 +1018,9 @@
       "notes": ""
     },
     {
-      "id": "040",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "044",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "アノネ",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/3155828",
       "profileVersion": "1",
@@ -917,9 +1040,9 @@
       "notes": "https://skd-noratama.booth.pm/items/3118209"
     },
     {
-      "id": "041",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "045",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "クロダ",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/3378181",
       "profileVersion": "1",
@@ -939,9 +1062,9 @@
       "notes": ""
     },
     {
-      "id": "042",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "046",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ALTGARAGE",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/2955823",
       "profileVersion": "1",
@@ -961,9 +1084,9 @@
       "notes": ""
     },
     {
-      "id": "043",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "047",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "かなづちちゃん",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/2225377",
       "profileVersion": "1",
@@ -983,9 +1106,9 @@
       "notes": ""
     },
     {
-      "id": "044",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "048",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "MOOSE",
       "avatarNameUrl": "https://skd-noratama.booth.pm/items/3657561",
       "profileVersion": "1",
@@ -1005,9 +1128,9 @@
       "notes": ""
     },
     {
-      "id": "045",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "049",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "サラ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/6311566",
       "profileVersion": "1",
@@ -1027,9 +1150,9 @@
       "notes": ""
     },
     {
-      "id": "046",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "050",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "スピカ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/1808374",
       "profileVersion": "1",
@@ -1049,9 +1172,9 @@
       "notes": ""
     },
     {
-      "id": "047",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "051",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ミラ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/2140459",
       "profileVersion": "1",
@@ -1071,9 +1194,9 @@
       "notes": ""
     },
     {
-      "id": "048",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "052",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ユウ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/2417889",
       "profileVersion": "1",
@@ -1093,9 +1216,9 @@
       "notes": ""
     },
     {
-      "id": "049",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "053",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "リル",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/3092723",
       "profileVersion": "1",
@@ -1115,9 +1238,9 @@
       "notes": ""
     },
     {
-      "id": "050",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "054",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ミル",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/3413206",
       "profileVersion": "1",
@@ -1137,9 +1260,9 @@
       "notes": ""
     },
     {
-      "id": "051",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "055",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ティナ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/4074925",
       "profileVersion": "1",
@@ -1159,9 +1282,9 @@
       "notes": ""
     },
     {
-      "id": "052",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "056",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "レイ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/4360868",
       "profileVersion": "1",
@@ -1181,9 +1304,9 @@
       "notes": ""
     },
     {
-      "id": "053",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "057",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "リリカ",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/4897562",
       "profileVersion": "1",
@@ -1203,9 +1326,9 @@
       "notes": ""
     },
     {
-      "id": "054",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "058",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "にな",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/5268564\n",
       "profileVersion": "1",
@@ -1225,9 +1348,9 @@
       "notes": ""
     },
     {
-      "id": "055",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "059",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "はるか",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/5859318",
       "profileVersion": "1",
@@ -1247,9 +1370,9 @@
       "notes": ""
     },
     {
-      "id": "056",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "060",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "もも",
       "avatarNameUrl": "https://wakonoatorie.booth.pm/items/7108322",
       "profileVersion": "1",
@@ -1269,9 +1392,9 @@
       "notes": ""
     },
     {
-      "id": "057",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "061",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "焔花（ほのか）",
       "avatarNameUrl": "https://easternwind.booth.pm/items/7496742",
       "profileVersion": "1",
@@ -1291,9 +1414,9 @@
       "notes": ""
     },
     {
-      "id": "058",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "062",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "ネフェリサ",
       "avatarNameUrl": "https://easternwind.booth.pm/items/6227048",
       "profileVersion": "1",
@@ -1313,9 +1436,9 @@
       "notes": ""
     },
     {
-      "id": "059",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "063",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "冬葵",
       "avatarNameUrl": "https://easternwind.booth.pm/items/4540757",
       "profileVersion": "1",
@@ -1335,9 +1458,9 @@
       "notes": ""
     },
     {
-      "id": "060",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "064",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "千理",
       "avatarNameUrl": "https://easternwind.booth.pm/items/5391581",
       "profileVersion": "1",
@@ -1357,9 +1480,9 @@
       "notes": ""
     },
     {
-      "id": "061",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "065",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "シャーレン",
       "avatarNameUrl": "https://easternwind.booth.pm/items/4759672",
       "profileVersion": "1",
@@ -1379,9 +1502,9 @@
       "notes": ""
     },
     {
-      "id": "062",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "066",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "シャルメ",
       "avatarNameUrl": "https://easternwind.booth.pm/items/3838766",
       "profileVersion": "1",
@@ -1401,9 +1524,9 @@
       "notes": ""
     },
     {
-      "id": "063",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "067",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "プレッツェル",
       "avatarNameUrl": "https://avakin.booth.pm/items/7558678",
       "profileVersion": "1",
@@ -1423,9 +1546,9 @@
       "notes": ""
     },
     {
-      "id": "064",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "068",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "弐番 -NIBAN-",
       "avatarNameUrl": "https://avakin.booth.pm/items/6858738",
       "profileVersion": "1",
@@ -1445,9 +1568,9 @@
       "notes": ""
     },
     {
-      "id": "065",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "069",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "スピルバ -Spielber-",
       "avatarNameUrl": "https://avakin.booth.pm/items/6119302",
       "profileVersion": "1",
@@ -1467,9 +1590,9 @@
       "notes": ""
     },
     {
-      "id": "066",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "070",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "バニラ -Vanilla-",
       "avatarNameUrl": "https://avakin.booth.pm/items/5839326",
       "profileVersion": "1",
@@ -1489,9 +1612,9 @@
       "notes": ""
     },
     {
-      "id": "067",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "071",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "うろぼ -urobo-",
       "avatarNameUrl": "https://avakin.booth.pm/items/6406377",
       "profileVersion": "1",
@@ -1511,9 +1634,9 @@
       "notes": ""
     },
     {
-      "id": "068",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "072",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "愛狼 -Melow-",
       "avatarNameUrl": "https://avakin.booth.pm/items/6218001",
       "profileVersion": "1",
@@ -1533,9 +1656,9 @@
       "notes": ""
     },
     {
-      "id": "069",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "073",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "イトネ -itone-",
       "avatarNameUrl": "https://avakin.booth.pm/items/6333504",
       "profileVersion": "1",
@@ -1555,273 +1678,333 @@
       "notes": ""
     },
     {
-      "id": "070",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "074",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Nio v2",
       "avatarNameUrl": "https://flastore.booth.pm/items/2610533",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/2610533/da1fb2a9-b83f-4d38-adab-9155020a3a66_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "071",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "075",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "フェイロン v3",
       "avatarNameUrl": "https://flastore.booth.pm/items/1903612",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/1903612/2d912f9e-34f7-4290-a2a3-9a884ca8978a_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "3500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "072",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "076",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Wolfram",
       "avatarNameUrl": "https://flastore.booth.pm/items/5769373",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/5769373/49953852-9b9f-497f-a80e-6d1208116456_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "073",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "077",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "鳴耶",
       "avatarNameUrl": "https://flastore.booth.pm/items/2328361",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/2328361/617c8403-9f14-45e2-b4ec-27d2ef2ed1b2_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "074",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "078",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Rono",
       "avatarNameUrl": "https://flastore.booth.pm/items/3011302",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/3011302/bb0680f0-af28-4c51-8055-f45a8a5ad72c_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "075",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "079",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "NO.3",
       "avatarNameUrl": "https://flastore.booth.pm/items/1731868",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/1731868/84b86a94-b367-4c74-b846-c2f6361b3850_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "3000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "076",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "080",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "スヴァルトリリヤ",
       "avatarNameUrl": "https://flastore.booth.pm/items/3604487",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/3604487/2ff7e608-4dd7-456d-b632-ea824f430e60_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "077",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "081",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "セレニウム",
       "avatarNameUrl": "https://flastore.booth.pm/items/4315963",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/4315963/60bd2d3a-4964-43a1-a8da-ce4eb2279bda_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "078",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "082",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Warabi",
       "avatarNameUrl": "https://flastore.booth.pm/items/5517146",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/5517146/32a0ebca-2143-4dc0-bcc9-d125d94f7de9_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "079",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "083",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Nemo",
       "avatarNameUrl": "https://flastore.booth.pm/items/6855392",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/6855392/e6b4027e-199c-4b19-bcdc-3ace9cd63318_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "080",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "084",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "ミュオン",
       "avatarNameUrl": "https://flastore.booth.pm/items/4613679",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/4613679/9c3fc860-4f9c-41ff-9b8e-28acf9a8958c_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "081",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "085",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "Shery v2",
       "avatarNameUrl": "https://flastore.booth.pm/items/2140210",
       "profileVersion": "1",
       "avatarAuthor": "FLANK/Feedback03",
       "avatarAuthorUrl": "https://flastore.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "Bodyset2",
       "profileAuthor": "FLANK/Feedback03",
       "profileAuthorUrl": "https://flastore.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://flastore.booth.pm/items/7611477",
       "imageUrl": "https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/2140210/3580c613-3621-4794-9b5f-070bf8ab3909_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "082",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "086",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "水鏡祈",
       "avatarNameUrl": "https://formerpaper.booth.pm/items/4930486",
       "profileVersion": "1",
@@ -1841,9 +2024,9 @@
       "reverseSupport": false
     },
     {
-      "id": "083",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "087",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Techie/テッキー",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/4919799",
       "profileVersion": "1",
@@ -1863,9 +2046,9 @@
       "reverseSupport": true
     },
     {
-      "id": "084",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "088",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Romad/ロマド",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/5321673",
       "profileVersion": "1",
@@ -1885,9 +2068,9 @@
       "reverseSupport": true
     },
     {
-      "id": "085",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "089",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "社畜の連成さん",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/5498540",
       "profileVersion": "1",
@@ -1907,9 +2090,9 @@
       "reverseSupport": true
     },
     {
-      "id": "086",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "090",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Nguyen/グエン",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/6106392",
       "profileVersion": "1",
@@ -1929,9 +2112,9 @@
       "reverseSupport": true
     },
     {
-      "id": "087",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "091",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "SarvaDarsa/サルヴァダルシャ",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/6282388",
       "profileVersion": "1",
@@ -1951,9 +2134,9 @@
       "reverseSupport": true
     },
     {
-      "id": "088",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "092",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Zev/ゼヴ",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/6717995",
       "profileVersion": "1",
@@ -1973,9 +2156,9 @@
       "reverseSupport": true
     },
     {
-      "id": "089",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "093",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "伊依/Iyori",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/6958479",
       "profileVersion": "1",
@@ -1995,9 +2178,9 @@
       "reverseSupport": true
     },
     {
-      "id": "090",
-      "registeredDate": "11/26/2025",
-      "updatedDate": "11/26/2025",
+      "id": "094",
+      "registeredDate": "2025-11-26",
+      "updatedDate": "2025-11-26",
       "avatarName": "Bird/鳥",
       "avatarNameUrl": "https://tinmeshi.booth.pm/items/5927710",
       "profileVersion": "",
@@ -2017,7 +2200,7 @@
       "notes": "未対応"
     },
     {
-      "id": "091",
+      "id": "095",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "法螺",
@@ -2039,7 +2222,7 @@
       "notes": ""
     },
     {
-      "id": "092",
+      "id": "096",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ネイヴァシー",
@@ -2061,7 +2244,7 @@
       "notes": ""
     },
     {
-      "id": "093",
+      "id": "097",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ルビオル",
@@ -2083,7 +2266,7 @@
       "notes": ""
     },
     {
-      "id": "094",
+      "id": "098",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "煙滅",
@@ -2105,7 +2288,7 @@
       "notes": "非対応"
     },
     {
-      "id": "095",
+      "id": "099",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ビトロ",
@@ -2127,7 +2310,7 @@
       "notes": ""
     },
     {
-      "id": "096",
+      "id": "100",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "イベリス-Iberis-",
@@ -2149,9 +2332,9 @@
       "notes": ""
     },
     {
-      "id": "097",
+      "id": "101",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "イチゴ",
       "avatarNameUrl": "https://hamini.booth.pm/items/7328789",
       "profileVersion": "1.0",
@@ -2165,13 +2348,18 @@
       "downloadLocation": "https://ekasilicon.booth.pm/items/7688110",
       "imageUrl": "https://booth.pximg.net/4f15ee05-fb38-455e-81c3-4f1df93edd07/i/7328789/03b9c7b6-e4b5-45bc-ac80-e978ecd99630_base_resized.jpg",
       "pricing": "単体有料",
-      "price": "400",
+      "price": "600",
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": ""
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "098",
+      "id": "102",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ミルティナ",
@@ -2193,7 +2381,7 @@
       "notes": "作者から制作許可あり"
     },
     {
-      "id": "099",
+      "id": "103",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "愛莉",
@@ -2215,7 +2403,7 @@
       "notes": ""
     },
     {
-      "id": "100",
+      "id": "104",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "舞夜",
@@ -2237,7 +2425,7 @@
       "notes": ""
     },
     {
-      "id": "101",
+      "id": "105",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "セレスティア",
@@ -2259,7 +2447,7 @@
       "notes": ""
     },
     {
-      "id": "102",
+      "id": "106",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "真冬 Mafuyu",
@@ -2281,7 +2469,7 @@
       "notes": ""
     },
     {
-      "id": "103",
+      "id": "107",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リナシータ -Rinasciita-",
@@ -2303,7 +2491,7 @@
       "notes": ""
     },
     {
-      "id": "104",
+      "id": "108",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "カリン -Karin-",
@@ -2325,7 +2513,7 @@
       "notes": ""
     },
     {
-      "id": "105",
+      "id": "109",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "シフォン -Chiffon-",
@@ -2347,7 +2535,7 @@
       "notes": ""
     },
     {
-      "id": "106",
+      "id": "110",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ショコラ -Chocolat-",
@@ -2369,7 +2557,7 @@
       "notes": ""
     },
     {
-      "id": "107",
+      "id": "111",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ライム -Lime-",
@@ -2391,7 +2579,7 @@
       "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載"
     },
     {
-      "id": "108",
+      "id": "112",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Sio / しお",
@@ -2413,7 +2601,7 @@
       "notes": ""
     },
     {
-      "id": "109",
+      "id": "113",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ゾメちゃん",
@@ -2435,7 +2623,7 @@
       "notes": ""
     },
     {
-      "id": "110",
+      "id": "114",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "サマル-Samar-",
@@ -2457,7 +2645,7 @@
       "notes": ""
     },
     {
-      "id": "111",
+      "id": "115",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "スキミア - Skimmia -",
@@ -2479,7 +2667,7 @@
       "notes": ""
     },
     {
-      "id": "112",
+      "id": "116",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ベニちゃん",
@@ -2501,7 +2689,7 @@
       "notes": ""
     },
     {
-      "id": "113",
+      "id": "117",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "レグニア-Legnia-",
@@ -2523,7 +2711,7 @@
       "notes": ""
     },
     {
-      "id": "114",
+      "id": "118",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "サナティア-Sanatia-",
@@ -2545,7 +2733,7 @@
       "notes": ""
     },
     {
-      "id": "115",
+      "id": "119",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "鈴華",
@@ -2567,7 +2755,7 @@
       "notes": ""
     },
     {
-      "id": "116",
+      "id": "120",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "E-tA-イータ-",
@@ -2589,7 +2777,7 @@
       "notes": ""
     },
     {
-      "id": "117",
+      "id": "121",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リーナ",
@@ -2611,7 +2799,7 @@
       "notes": ""
     },
     {
-      "id": "118",
+      "id": "122",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "シェーナ",
@@ -2633,7 +2821,7 @@
       "notes": ""
     },
     {
-      "id": "119",
+      "id": "123",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "フレーナ",
@@ -2655,7 +2843,7 @@
       "notes": ""
     },
     {
-      "id": "120",
+      "id": "124",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ビナア〈Binah〉",
@@ -2677,7 +2865,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "121",
+      "id": "125",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ホド 〈Hod〉",
@@ -2699,7 +2887,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "122",
+      "id": "126",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ネツァク 〈Netzach〉",
@@ -2721,7 +2909,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "123",
+      "id": "127",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "マルクト 〈Malkuth〉",
@@ -2743,7 +2931,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "124",
+      "id": "128",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ケセド 〈Chesed〉",
@@ -2765,7 +2953,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "125",
+      "id": "129",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "セフィ 〈Sephir〉",
@@ -2787,7 +2975,7 @@
       "notes": "共通素体EFBody"
     },
     {
-      "id": "126",
+      "id": "130",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "MIKOMIA - ミコミア -",
@@ -2809,7 +2997,7 @@
       "notes": ""
     },
     {
-      "id": "127",
+      "id": "131",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "EMISTIA -エミスティア-",
@@ -2831,7 +3019,7 @@
       "notes": ""
     },
     {
-      "id": "128",
+      "id": "132",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "LIMILIA -リミリア-",
@@ -2853,7 +3041,7 @@
       "notes": ""
     },
     {
-      "id": "129",
+      "id": "133",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ERUQYUNA2 - エルキュナ2 -",
@@ -2875,7 +3063,7 @@
       "notes": ""
     },
     {
-      "id": "130",
+      "id": "134",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "CURISHIA - キュリシア -",
@@ -2897,7 +3085,7 @@
       "notes": ""
     },
     {
-      "id": "131",
+      "id": "135",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "YRISPHERE -ユリスフィア-",
@@ -2919,7 +3107,7 @@
       "notes": ""
     },
     {
-      "id": "132",
+      "id": "136",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リリエネ Lilliene",
@@ -2941,7 +3129,7 @@
       "notes": ""
     },
     {
-      "id": "133",
+      "id": "137",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "いあ - IA",
@@ -2968,29 +3156,34 @@
       "salePrice": ""
     },
     {
-      "id": "134",
+      "id": "138",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "avatarName": "+Head アバター制作者向けVRChat用素体",
+      "updatedDate": "2025-11-29",
+      "avatarName": "+Head 制作者向け用素体",
       "avatarNameUrl": "https://lsw.booth.pm/items/5153266",
       "profileVersion": "1.0",
       "avatarAuthor": "よわい",
-      "avatarAuthorUrl": "https://lsw.booth.pm/items/5153266",
-      "bodyBase": "",
+      "avatarAuthorUrl": "https://lsw.booth.pm/",
+      "bodyBase": "+Head",
       "profileAuthor": "四拾弐(yosohuta)",
       "profileAuthorUrl": "https://yosohuta.booth.pm/",
       "downloadMethod": "Booth",
       "downloadLocation": "https://yosohuta.booth.pm/items/7678272",
-      "imageUrl": "https://booth.pximg.net/c/620x620/9e316222-2e53-4586-9471-58ac96f0baec/i/7678272/ed31c557-7709-4763-9610-5e3c414904b7_base_resized.jpg",
+      "imageUrl": "https://booth.pximg.net/c/620x620/1c35c496-0283-4684-8543-7149d9a7eb62/i/5153266/5d937614-a74e-4f7e-9368-c7188127f06e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "notes": "",
       "official": false,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarPrice": "-",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "135",
+      "id": "139",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ドリス [Doris]",
@@ -3012,7 +3205,7 @@
       "notes": ""
     },
     {
-      "id": "136",
+      "id": "140",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ラズロッテ -Lazlotte-",
@@ -3034,7 +3227,7 @@
       "notes": ""
     },
     {
-      "id": "137",
+      "id": "141",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "チオ -Thio-",
@@ -3056,7 +3249,7 @@
       "notes": ""
     },
     {
-      "id": "138",
+      "id": "142",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "マトカ -Matka-",
@@ -3078,7 +3271,7 @@
       "notes": ""
     },
     {
-      "id": "139",
+      "id": "143",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "翠嵐 -Suiran-",
@@ -3100,7 +3293,7 @@
       "notes": ""
     },
     {
-      "id": "140",
+      "id": "144",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ココット -Cocotte-",
@@ -3122,7 +3315,7 @@
       "notes": ""
     },
     {
-      "id": "141",
+      "id": "145",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ロックローズ -Rockrose-",
@@ -3144,7 +3337,7 @@
       "notes": ""
     },
     {
-      "id": "142",
+      "id": "146",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Velfta / ヴェルフタ",
@@ -3166,7 +3359,7 @@
       "notes": ""
     },
     {
-      "id": "143",
+      "id": "147",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "TRESHA / トレーシャ",
@@ -3188,7 +3381,7 @@
       "notes": ""
     },
     {
-      "id": "144",
+      "id": "148",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Lizz Sigma / リズ・シグマ",
@@ -3210,7 +3403,7 @@
       "notes": ""
     },
     {
-      "id": "145",
+      "id": "149",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Solaria / ソラリア",
@@ -3232,7 +3425,7 @@
       "notes": ""
     },
     {
-      "id": "146",
+      "id": "150",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Fluctua / フラクチュア ",
@@ -3254,7 +3447,7 @@
       "notes": ""
     },
     {
-      "id": "147",
+      "id": "151",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "心-556",
@@ -3276,7 +3469,7 @@
       "notes": ""
     },
     {
-      "id": "148",
+      "id": "152",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "掛矢 (Kakeya)",
@@ -3298,7 +3491,7 @@
       "notes": ""
     },
     {
-      "id": "149",
+      "id": "153",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "蝋華 (Rouka)",
@@ -3320,7 +3513,7 @@
       "notes": ""
     },
     {
-      "id": "150",
+      "id": "154",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "RadDollV3",
@@ -3342,7 +3535,7 @@
       "notes": ""
     },
     {
-      "id": "151",
+      "id": "155",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Fonmy -フォンミィ-",
@@ -3364,7 +3557,7 @@
       "notes": ""
     },
     {
-      "id": "152",
+      "id": "156",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "みるくらて&しゅがーらて",
@@ -3386,7 +3579,7 @@
       "notes": ""
     },
     {
-      "id": "153",
+      "id": "157",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "溟々のリモジール",
@@ -3408,7 +3601,7 @@
       "notes": ""
     },
     {
-      "id": "154",
+      "id": "158",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "夜天のエリヌス",
@@ -3430,7 +3623,7 @@
       "notes": ""
     },
     {
-      "id": "155",
+      "id": "159",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "弔鐘のミゼリエ",
@@ -3452,7 +3645,7 @@
       "notes": ""
     },
     {
-      "id": "156",
+      "id": "160",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "月虹のエヴレース",
@@ -3474,7 +3667,7 @@
       "notes": ""
     },
     {
-      "id": "157",
+      "id": "161",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "昏",
@@ -3496,7 +3689,7 @@
       "notes": ""
     },
     {
-      "id": "158",
+      "id": "162",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "柑炉",
@@ -3518,7 +3711,7 @@
       "notes": ""
     },
     {
-      "id": "159",
+      "id": "163",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リーファ",
@@ -3540,7 +3733,7 @@
       "notes": ""
     },
     {
-      "id": "160",
+      "id": "164",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ルーナリット",
@@ -3562,7 +3755,7 @@
       "notes": ""
     },
     {
-      "id": "161",
+      "id": "165",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "カリン -Karin-",
@@ -3584,7 +3777,7 @@
       "notes": ""
     },
     {
-      "id": "162",
+      "id": "166",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ダミアン -Damien-",
@@ -3606,7 +3799,7 @@
       "notes": ""
     },
     {
-      "id": "163",
+      "id": "167",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ネフェル",
@@ -3628,7 +3821,7 @@
       "notes": "販売休止"
     },
     {
-      "id": "164",
+      "id": "168",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Luka",
@@ -3650,7 +3843,7 @@
       "notes": ""
     },
     {
-      "id": "165",
+      "id": "169",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "はるき",
@@ -3672,15 +3865,15 @@
       "notes": ""
     },
     {
-      "id": "166",
+      "id": "170",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "宙猫(そらねこ)",
       "avatarNameUrl": "https://atelier-alca.booth.pm/items/3046011",
       "profileVersion": "1.0",
       "avatarAuthor": "Tokunaga_ac",
       "avatarAuthorUrl": "https://atelier-alca.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "AAbody",
       "profileAuthor": "れいぢ",
       "profileAuthorUrl": "https://atelierorca.booth.pm/",
       "official": false,
@@ -3688,21 +3881,26 @@
       "downloadLocation": "https://atelierorca.booth.pm/items/7665857",
       "imageUrl": "https://booth.pximg.net/c/620x620/6ac10b7b-256b-4e3b-b6d6-61437066f561/i/3046011/cb7aa157-245b-4411-89ab-7cfd3944a4ee_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "167",
+      "id": "171",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "つみげ -Tsumige-",
       "avatarNameUrl": "https://atelier-alca.booth.pm/items/4048804",
       "profileVersion": "1.0",
       "avatarAuthor": "Tokunaga_ac",
       "avatarAuthorUrl": "https://atelier-alca.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "AABody",
       "profileAuthor": "れいぢ",
       "profileAuthorUrl": "https://atelierorca.booth.pm/",
       "official": false,
@@ -3710,21 +3908,26 @@
       "downloadLocation": "https://atelierorca.booth.pm/items/7665857",
       "imageUrl": "https://booth.pximg.net/c/620x620/6ac10b7b-256b-4e3b-b6d6-61437066f561/i/4048804/f42ac097-4608-4f2e-998a-e68ca6294f34_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "6500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "168",
+      "id": "172",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "AKASHA -アカシャ-",
       "avatarNameUrl": "https://atelier-alca.booth.pm/items/4362196",
       "profileVersion": "1.0",
       "avatarAuthor": "Tokunaga_ac",
       "avatarAuthorUrl": "https://atelier-alca.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "AAbody",
       "profileAuthor": "れいぢ",
       "profileAuthorUrl": "https://atelierorca.booth.pm/",
       "official": false,
@@ -3732,15 +3935,20 @@
       "downloadLocation": "https://atelierorca.booth.pm/items/7665857",
       "imageUrl": "https://booth.pximg.net/c/620x620/6ac10b7b-256b-4e3b-b6d6-61437066f561/i/4362196/69740296-b0bd-4b16-8883-99c670f1869f_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "7000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "169",
+      "id": "173",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "ヴェール・Velle",
       "avatarNameUrl": "https://misterpink.booth.pm/items/4951792",
       "profileVersion": "1.0",
@@ -3754,13 +3962,18 @@
       "downloadLocation": "https://awedf-3dmodeling.booth.pm/items/7680751",
       "imageUrl": "https://booth.pximg.net/c/620x620/28287c66-2305-4c54-ab7f-9daa4f7bd90a/i/4951792/55864af0-f05d-4142-a945-cf5320b1898e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "170",
+      "id": "174",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "エメ －Eme－",
@@ -3782,7 +3995,7 @@
       "notes": ""
     },
     {
-      "id": "171",
+      "id": "175",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ヴェルミア (VERMIA)",
@@ -3804,7 +4017,7 @@
       "notes": ""
     },
     {
-      "id": "172",
+      "id": "176",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "メフィナ (MEPHINA)",
@@ -3826,7 +4039,7 @@
       "notes": ""
     },
     {
-      "id": "173",
+      "id": "177",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "星凪 ゆらぎ",
@@ -3848,7 +4061,7 @@
       "notes": ""
     },
     {
-      "id": "174",
+      "id": "178",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ファルムナ / Falmna",
@@ -3870,7 +4083,7 @@
       "notes": ""
     },
     {
-      "id": "175",
+      "id": "179",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "キャティーア / Catiea",
@@ -3892,7 +4105,7 @@
       "notes": ""
     },
     {
-      "id": "176",
+      "id": "180",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "アルドナ / Aldona",
@@ -3914,15 +4127,15 @@
       "notes": ""
     },
     {
-      "id": "177",
+      "id": "181",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "夢川有栖(Yumekawa Arisu)",
       "avatarNameUrl": "https://namekuji1337.booth.pm/items/7437158",
       "profileVersion": "1.0",
       "avatarAuthor": "namekuji1337",
       "avatarAuthorUrl": "https://namekuji1337.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "イフ(Ifu) リナ(Liina)",
       "profileAuthor": "ぼっちーにゃ",
       "profileAuthorUrl": "https://chi-nyavrc.booth.pm/",
       "official": false,
@@ -3930,13 +4143,18 @@
       "downloadLocation": "https://chi-nyavrc.booth.pm/items/7670918",
       "imageUrl": "https://booth.pximg.net/c/620x620/fe589ff6-2d21-4938-b5d2-e788dde06cc9/i/7437158/11802746-feb0-455d-8266-6d1b50759237_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "178",
+      "id": "182",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ここあ",
@@ -3958,9 +4176,9 @@
       "notes": ""
     },
     {
-      "id": "179",
+      "id": "183",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "水瀬",
       "avatarNameUrl": "https://mio3works.booth.pm/items/4013951",
       "profileVersion": "1.0",
@@ -3974,13 +4192,18 @@
       "downloadLocation": "https://cityfactory.booth.pm/items/7688458",
       "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/4013951/d4ae19e0-67b5-4ea5-bfba-2775b272fa11_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": false,
       "reverseSupport": true,
-      "notes": "順変換、シェイプキー未対応"
+      "notes": "順変換、シェイプキー未対応",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "180",
+      "id": "184",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Garrett-ガレット-",
@@ -4002,7 +4225,7 @@
       "notes": ""
     },
     {
-      "id": "181",
+      "id": "185",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "すすみ",
@@ -4024,7 +4247,7 @@
       "notes": ""
     },
     {
-      "id": "182",
+      "id": "186",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "幽狐族のお姉様",
@@ -4046,7 +4269,7 @@
       "notes": ""
     },
     {
-      "id": "183",
+      "id": "187",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "猫山苗（ねこやま なえ）",
@@ -4068,7 +4291,7 @@
       "notes": "販売中止"
     },
     {
-      "id": "184",
+      "id": "188",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "萌",
@@ -4090,7 +4313,7 @@
       "notes": ""
     },
     {
-      "id": "185",
+      "id": "189",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "萌",
@@ -4112,7 +4335,7 @@
       "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり"
     },
     {
-      "id": "186",
+      "id": "190",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "そよ / Soyo",
@@ -4134,7 +4357,7 @@
       "notes": ""
     },
     {
-      "id": "187",
+      "id": "191",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "リベラｰRibera",
@@ -4156,7 +4379,7 @@
       "notes": ""
     },
     {
-      "id": "188",
+      "id": "192",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "Lumia ルミア",
@@ -4178,7 +4401,7 @@
       "notes": ""
     },
     {
-      "id": "189",
+      "id": "193",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ヒイロ",
@@ -4200,7 +4423,7 @@
       "notes": ""
     },
     {
-      "id": "190",
+      "id": "194",
       "registeredDate": "2025-11-26",
       "updatedDate": "2025-11-26",
       "avatarName": "ノエル-Noel-",
@@ -4222,7 +4445,7 @@
       "notes": ""
     },
     {
-      "id": "191",
+      "id": "195",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リオ-Lio-",
@@ -4244,7 +4467,7 @@
       "notes": ""
     },
     {
-      "id": "192",
+      "id": "196",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リナ-Lina-",
@@ -4266,7 +4489,7 @@
       "notes": ""
     },
     {
-      "id": "193",
+      "id": "197",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Crea(クレア)",
@@ -4288,7 +4511,7 @@
       "notes": ""
     },
     {
-      "id": "194",
+      "id": "198",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "エテル-Eter-",
@@ -4310,7 +4533,7 @@
       "notes": "順方向変換にはDuCBodyのFBXデータが必要"
     },
     {
-      "id": "195",
+      "id": "199",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "DuCBody / VRChat向け男性素体",
@@ -4332,7 +4555,7 @@
       "notes": ""
     },
     {
-      "id": "196",
+      "id": "200",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "INABA",
@@ -4354,7 +4577,7 @@
       "notes": ""
     },
     {
-      "id": "197",
+      "id": "201",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "椎名",
@@ -4376,7 +4599,7 @@
       "notes": ""
     },
     {
-      "id": "198",
+      "id": "202",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "狐雨",
@@ -4398,7 +4621,7 @@
       "notes": ""
     },
     {
-      "id": "199",
+      "id": "203",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "吉嗣/Yoshitsugu",
@@ -4420,7 +4643,7 @@
       "notes": ""
     },
     {
-      "id": "200",
+      "id": "204",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "志良以/Shirai",
@@ -4442,7 +4665,7 @@
       "notes": ""
     },
     {
-      "id": "201",
+      "id": "205",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ガヴ",
@@ -4464,7 +4687,7 @@
       "notes": ""
     },
     {
-      "id": "202",
+      "id": "206",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ネム",
@@ -4486,7 +4709,7 @@
       "notes": ""
     },
     {
-      "id": "203",
+      "id": "207",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ラウラ",
@@ -4508,7 +4731,7 @@
       "notes": ""
     },
     {
-      "id": "204",
+      "id": "208",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "プティシラ",
@@ -4530,7 +4753,7 @@
       "notes": ""
     },
     {
-      "id": "205",
+      "id": "209",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Runeria -ルネリア-",
@@ -4552,7 +4775,7 @@
       "notes": ""
     },
     {
-      "id": "206",
+      "id": "210",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "霙ちゃん",
@@ -4574,7 +4797,7 @@
       "notes": "公式での対応アナウンスあり"
     },
     {
-      "id": "207",
+      "id": "211",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "36式 敷波ちゃん",
@@ -4596,7 +4819,7 @@
       "notes": ""
     },
     {
-      "id": "208",
+      "id": "212",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ショコラ -Chocolat-",
@@ -4618,7 +4841,7 @@
       "notes": ""
     },
     {
-      "id": "209",
+      "id": "213",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シフォン -Chiffon-",
@@ -4640,7 +4863,7 @@
       "notes": ""
     },
     {
-      "id": "210",
+      "id": "214",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ライム -Lime-",
@@ -4662,7 +4885,7 @@
       "notes": ""
     },
     {
-      "id": "211",
+      "id": "215",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "カリン -Karin-",
@@ -4684,7 +4907,7 @@
       "notes": ""
     },
     {
-      "id": "212",
+      "id": "216",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ラスク -Rusk-",
@@ -4706,7 +4929,7 @@
       "notes": ""
     },
     {
-      "id": "213",
+      "id": "217",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ミルク Re -Milk Re-",
@@ -4728,7 +4951,7 @@
       "notes": ""
     },
     {
-      "id": "214",
+      "id": "218",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ミント -Mint-",
@@ -4750,7 +4973,7 @@
       "notes": ""
     },
     {
-      "id": "215",
+      "id": "219",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ももね -Momone-",
@@ -4772,7 +4995,7 @@
       "notes": ""
     },
     {
-      "id": "216",
+      "id": "220",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-28",
       "avatarName": "ひゅーじょん君",
@@ -4799,7 +5022,7 @@
       "salePrice": ""
     },
     {
-      "id": "217",
+      "id": "221",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "仮称:Musa",
@@ -4821,7 +5044,7 @@
       "notes": ""
     },
     {
-      "id": "218",
+      "id": "222",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "熨斗目:Re（Noshime:Re)",
@@ -4843,7 +5066,7 @@
       "notes": ""
     },
     {
-      "id": "219",
+      "id": "223",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ふたば - Futaba -",
@@ -4865,9 +5088,9 @@
       "notes": ""
     },
     {
-      "id": "220",
+      "id": "224",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "水瀬",
       "avatarNameUrl": "https://mio3works.booth.pm/items/4013951",
       "profileVersion": "1.0",
@@ -4881,13 +5104,18 @@
       "downloadLocation": "https://inuring0.booth.pm/items/7681770",
       "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/4013951/d4ae19e0-67b5-4ea5-bfba-2775b272fa11_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "公式対応予定"
+      "notes": "公式対応予定",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "221",
+      "id": "225",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Kirsch / キルシ",
@@ -4909,7 +5137,7 @@
       "notes": ""
     },
     {
-      "id": "222",
+      "id": "226",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ファジー",
@@ -4931,7 +5159,7 @@
       "notes": ""
     },
     {
-      "id": "223",
+      "id": "227",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "「ユギ」「ミヨ」",
@@ -4953,7 +5181,7 @@
       "notes": ""
     },
     {
-      "id": "224",
+      "id": "228",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "白戌壱号",
@@ -4975,7 +5203,7 @@
       "notes": ""
     },
     {
-      "id": "225",
+      "id": "229",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "エク - Eku",
@@ -4997,7 +5225,7 @@
       "notes": "ミルフィと同素体"
     },
     {
-      "id": "226",
+      "id": "230",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ミルフィ Milfy",
@@ -5019,7 +5247,7 @@
       "notes": "エクと同素体"
     },
     {
-      "id": "227",
+      "id": "231",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Re.珠々羅",
@@ -5041,7 +5269,7 @@
       "notes": ""
     },
     {
-      "id": "228",
+      "id": "232",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "蓮華(Renge)",
@@ -5063,7 +5291,7 @@
       "notes": ""
     },
     {
-      "id": "229",
+      "id": "233",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-28",
       "avatarName": "イリスIris",
@@ -5090,7 +5318,7 @@
       "salePrice": ""
     },
     {
-      "id": "230",
+      "id": "234",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ライカ",
@@ -5112,7 +5340,7 @@
       "notes": ""
     },
     {
-      "id": "231",
+      "id": "235",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ペンタクス",
@@ -5134,7 +5362,7 @@
       "notes": ""
     },
     {
-      "id": "232",
+      "id": "236",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リュージュ・コスモクロエ",
@@ -5156,7 +5384,7 @@
       "notes": ""
     },
     {
-      "id": "233",
+      "id": "237",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ミルティナ",
@@ -5178,7 +5406,7 @@
       "notes": ""
     },
     {
-      "id": "234",
+      "id": "238",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "トラマサ Toramasa",
@@ -5200,7 +5428,7 @@
       "notes": ""
     },
     {
-      "id": "235",
+      "id": "239",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Giselle/ジゼル",
@@ -5222,7 +5450,7 @@
       "notes": ""
     },
     {
-      "id": "236",
+      "id": "240",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "デルタフレア",
@@ -5244,7 +5472,7 @@
       "notes": "公式にてプロファイル作成予定"
     },
     {
-      "id": "237",
+      "id": "241",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "rurune -ルルネ-",
@@ -5266,7 +5494,7 @@
       "notes": "公式にてプロファイル作成予定"
     },
     {
-      "id": "238",
+      "id": "242",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "凪 -Nagi-",
@@ -5288,7 +5516,7 @@
       "notes": ""
     },
     {
-      "id": "239",
+      "id": "243",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "-Ladyna- レディナ",
@@ -5310,7 +5538,7 @@
       "notes": ""
     },
     {
-      "id": "240",
+      "id": "244",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リーベアーテル",
@@ -5332,7 +5560,7 @@
       "notes": ""
     },
     {
-      "id": "241",
+      "id": "245",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リーベマリーネ",
@@ -5354,7 +5582,7 @@
       "notes": ""
     },
     {
-      "id": "242",
+      "id": "246",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リーベルプス",
@@ -5376,7 +5604,7 @@
       "notes": ""
     },
     {
-      "id": "243",
+      "id": "247",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Mallo",
@@ -5398,15 +5626,15 @@
       "notes": ""
     },
     {
-      "id": "244",
+      "id": "248",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "ミルフィ Milfy",
       "avatarNameUrl": "https://mk22.booth.pm/items/6571299",
       "profileVersion": "1.0",
       "avatarAuthor": "有坂みと",
       "avatarAuthorUrl": "https://mk22.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "エク - Eku",
       "profileAuthor": "M-0LT",
       "profileAuthorUrl": "https://mochiprofile.booth.pm/",
       "official": false,
@@ -5417,12 +5645,17 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "エクと同素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "245",
+      "id": "249",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "イチゴ",
       "avatarNameUrl": "https://hamini.booth.pm/items/7328789",
       "profileVersion": "1.0",
@@ -5436,21 +5669,26 @@
       "downloadLocation": "https://mochiprofile.booth.pm/items/7680409",
       "imageUrl": "https://booth.pximg.net/c/620x620/4f15ee05-fb38-455e-81c3-4f1df93edd07/i/7328789/03b9c7b6-e4b5-45bc-ac80-e978ecd99630_base_resized.jpg",
       "pricing": "単体有料",
-      "price": "400",
+      "price": "600",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "11/27まで 400円セール"
+      "notes": "",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "246",
+      "id": "250",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "エク - Eku",
       "avatarNameUrl": "https://septem47.booth.pm/items/7328764",
       "profileVersion": "1.0",
       "avatarAuthor": "septem47",
       "avatarAuthorUrl": "https://septem47.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "ミルフィ Milfy ",
       "profileAuthor": "M-0LT",
       "profileAuthorUrl": "https://mochiprofile.booth.pm/",
       "official": false,
@@ -5461,10 +5699,15 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ミルフィと同素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "247",
+      "id": "251",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Lavendia",
@@ -5486,7 +5729,7 @@
       "notes": ""
     },
     {
-      "id": "248",
+      "id": "252",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Epli(エプリ)",
@@ -5508,7 +5751,7 @@
       "notes": ""
     },
     {
-      "id": "249",
+      "id": "253",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リナシータ -Rinasciita-",
@@ -5530,7 +5773,7 @@
       "notes": ""
     },
     {
-      "id": "250",
+      "id": "254",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ライム -Lime-",
@@ -5552,7 +5795,7 @@
       "notes": ""
     },
     {
-      "id": "251",
+      "id": "255",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ショコラ -Chocolat-",
@@ -5574,7 +5817,7 @@
       "notes": ""
     },
     {
-      "id": "252",
+      "id": "256",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シフォン -Chiffon-",
@@ -5596,7 +5839,7 @@
       "notes": ""
     },
     {
-      "id": "253",
+      "id": "257",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "銀杏",
@@ -5618,7 +5861,7 @@
       "notes": ""
     },
     {
-      "id": "254",
+      "id": "258",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フィオナ(Fiona)",
@@ -5640,7 +5883,7 @@
       "notes": "逆方向対応不明"
     },
     {
-      "id": "255",
+      "id": "259",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Cetty セティ",
@@ -5662,7 +5905,7 @@
       "notes": ""
     },
     {
-      "id": "256",
+      "id": "260",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "跳雪 -Toyuki-",
@@ -5684,7 +5927,7 @@
       "notes": "逆変換対応予定あり"
     },
     {
-      "id": "257",
+      "id": "261",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "藍子さん AIKOSAN",
@@ -5706,7 +5949,7 @@
       "notes": ""
     },
     {
-      "id": "258",
+      "id": "262",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アザミさん AZAMISAN",
@@ -5728,7 +5971,7 @@
       "notes": ""
     },
     {
-      "id": "259",
+      "id": "263",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ユーネ",
@@ -5750,7 +5993,7 @@
       "notes": ""
     },
     {
-      "id": "260",
+      "id": "264",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "匠-TAKUMI-",
@@ -5772,7 +6015,7 @@
       "notes": ""
     },
     {
-      "id": "261",
+      "id": "265",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルヴ -Luve-",
@@ -5794,7 +6037,7 @@
       "notes": ""
     },
     {
-      "id": "262",
+      "id": "266",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ストリア -Stria-",
@@ -5816,7 +6059,7 @@
       "notes": ""
     },
     {
-      "id": "263",
+      "id": "267",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Pochi ポチ",
@@ -5838,7 +6081,7 @@
       "notes": ""
     },
     {
-      "id": "264",
+      "id": "268",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Nayu - ナユ",
@@ -5860,7 +6103,7 @@
       "notes": ""
     },
     {
-      "id": "265",
+      "id": "269",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Platinum - プラチナ",
@@ -5882,7 +6125,7 @@
       "notes": ""
     },
     {
-      "id": "266",
+      "id": "270",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ホノカ - Honoka",
@@ -5904,7 +6147,7 @@
       "notes": ""
     },
     {
-      "id": "267",
+      "id": "271",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Zil S -ジル S-",
@@ -5926,7 +6169,7 @@
       "notes": ""
     },
     {
-      "id": "268",
+      "id": "272",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルミリ -Rumily",
@@ -5948,7 +6191,7 @@
       "notes": ""
     },
     {
-      "id": "269",
+      "id": "273",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "しなの",
@@ -5970,7 +6213,7 @@
       "notes": ""
     },
     {
-      "id": "270",
+      "id": "274",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "バイラン / Bairan",
@@ -5992,7 +6235,7 @@
       "notes": ""
     },
     {
-      "id": "271",
+      "id": "275",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "白雪天使",
@@ -6014,7 +6257,7 @@
       "notes": "11/30日まで7000→4500"
     },
     {
-      "id": "272",
+      "id": "276",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アウルカ -Aulka-",
@@ -6036,7 +6279,7 @@
       "notes": "11月27日くらいまで500円引き"
     },
     {
-      "id": "273",
+      "id": "277",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "灰島-haishima-",
@@ -6058,7 +6301,7 @@
       "notes": ""
     },
     {
-      "id": "274",
+      "id": "278",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "まりえる",
@@ -6080,7 +6323,7 @@
       "notes": ""
     },
     {
-      "id": "275",
+      "id": "279",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ヌァル",
@@ -6102,7 +6345,7 @@
       "notes": ""
     },
     {
-      "id": "276",
+      "id": "280",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Papillon + パピヨン +",
@@ -6124,7 +6367,7 @@
       "notes": ""
     },
     {
-      "id": "277",
+      "id": "281",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "閃花(Senka)",
@@ -6146,7 +6389,7 @@
       "notes": ""
     },
     {
-      "id": "278",
+      "id": "282",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Zange",
@@ -6168,7 +6411,7 @@
       "notes": ""
     },
     {
-      "id": "279",
+      "id": "283",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リンフェイ（女性型）",
@@ -6190,7 +6433,7 @@
       "notes": ""
     },
     {
-      "id": "280",
+      "id": "284",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シノノメ",
@@ -6212,7 +6455,7 @@
       "notes": ""
     },
     {
-      "id": "281",
+      "id": "285",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フェイフォン",
@@ -6234,7 +6477,7 @@
       "notes": ""
     },
     {
-      "id": "282",
+      "id": "286",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "聖剣の化身ユーアルマ",
@@ -6256,7 +6499,7 @@
       "notes": ""
     },
     {
-      "id": "283",
+      "id": "287",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "魔剣士レーヴァリッサ Laevarissa The Swordmistress From Hell",
@@ -6278,7 +6521,7 @@
       "notes": ""
     },
     {
-      "id": "284",
+      "id": "288",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "レンフア -Renfua-",
@@ -6300,7 +6543,7 @@
       "notes": ""
     },
     {
-      "id": "285",
+      "id": "289",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アマロ",
@@ -6322,7 +6565,7 @@
       "notes": ""
     },
     {
-      "id": "286",
+      "id": "290",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フェイナ",
@@ -6344,7 +6587,7 @@
       "notes": ""
     },
     {
-      "id": "287",
+      "id": "291",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ポワン",
@@ -6366,7 +6609,7 @@
       "notes": ""
     },
     {
-      "id": "288",
+      "id": "292",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "エイラ",
@@ -6388,7 +6631,7 @@
       "notes": ""
     },
     {
-      "id": "289",
+      "id": "293",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ココノ (Cocono)",
@@ -6410,7 +6653,7 @@
       "notes": ""
     },
     {
-      "id": "290",
+      "id": "294",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ラチャ(Racha)",
@@ -6432,7 +6675,7 @@
       "notes": ""
     },
     {
-      "id": "291",
+      "id": "295",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アッシュ （ASH）",
@@ -6454,7 +6697,7 @@
       "notes": "セフィラ共通素体"
     },
     {
-      "id": "292",
+      "id": "296",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "セフィラ（Sephira）",
@@ -6476,7 +6719,7 @@
       "notes": "アッシュ共通素体"
     },
     {
-      "id": "293",
+      "id": "297",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "めりあ",
@@ -6498,7 +6741,7 @@
       "notes": ""
     },
     {
-      "id": "294",
+      "id": "298",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フィラム",
@@ -6520,7 +6763,7 @@
       "notes": ""
     },
     {
-      "id": "295",
+      "id": "299",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "トラグルス",
@@ -6542,7 +6785,7 @@
       "notes": ""
     },
     {
-      "id": "296",
+      "id": "300",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シュカ - Choucas -",
@@ -6564,7 +6807,7 @@
       "notes": ""
     },
     {
-      "id": "297",
+      "id": "301",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルナール - Renard -",
@@ -6586,7 +6829,7 @@
       "notes": ""
     },
     {
-      "id": "298",
+      "id": "302",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アズ＆ラピ - Hase&Lapi -",
@@ -6608,7 +6851,7 @@
       "notes": ""
     },
     {
-      "id": "299",
+      "id": "303",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "とらのこ「ちとちゃん」",
@@ -6630,7 +6873,7 @@
       "notes": ""
     },
     {
-      "id": "300",
+      "id": "304",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "椿姫 -Tsubaki-",
@@ -6652,7 +6895,7 @@
       "notes": ""
     },
     {
-      "id": "301",
+      "id": "305",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "パピロ",
@@ -6674,7 +6917,7 @@
       "notes": "対応中?タグのみあり"
     },
     {
-      "id": "302",
+      "id": "306",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "マニア",
@@ -6696,7 +6939,7 @@
       "notes": "対応中?タグのみあり"
     },
     {
-      "id": "303",
+      "id": "307",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ビボ",
@@ -6718,7 +6961,7 @@
       "notes": "対応中?タグのみあり"
     },
     {
-      "id": "304",
+      "id": "308",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ツキカゲくん/TSUKIKAGE",
@@ -6740,7 +6983,7 @@
       "notes": ""
     },
     {
-      "id": "305",
+      "id": "309",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "M@ROON",
@@ -6762,7 +7005,7 @@
       "notes": ""
     },
     {
-      "id": "306",
+      "id": "310",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ノワキ",
@@ -6784,7 +7027,7 @@
       "notes": ""
     },
     {
-      "id": "307",
+      "id": "311",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "華夜 -Kaya-",
@@ -6806,9 +7049,9 @@
       "notes": ""
     },
     {
-      "id": "308",
+      "id": "312",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "こんぺいとうネズミのマウフェくん",
       "avatarNameUrl": "https://uri880.booth.pm/items/6424235",
       "profileVersion": "1.0",
@@ -6819,16 +7062,21 @@
       "profileAuthorUrl": "https://uri880.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://uri880.booth.pm/items/6424235",
       "imageUrl": "https://booth.pximg.net/c/620x620/e0a70696-3586-4c6c-afb0-6d102f81b033/i/6424235/2c5337b0-915f-4e21-b383-0eda6ecab8d0_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "4000",
-      "forwardSupport": false,
-      "reverseSupport": false,
-      "notes": "タグのみ、対応予定？対応済み？"
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "309",
+      "id": "313",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "サニエラ Saniela",
@@ -6850,7 +7098,7 @@
       "notes": ""
     },
     {
-      "id": "310",
+      "id": "314",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "柚希-Yuzuki-",
@@ -6872,7 +7120,7 @@
       "notes": ""
     },
     {
-      "id": "311",
+      "id": "315",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "さしみ",
@@ -6894,7 +7142,7 @@
       "notes": ""
     },
     {
-      "id": "312",
+      "id": "316",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "豺狼",
@@ -6916,7 +7164,7 @@
       "notes": ""
     },
     {
-      "id": "313",
+      "id": "317",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "仙猫",
@@ -6938,7 +7186,7 @@
       "notes": ""
     },
     {
-      "id": "314",
+      "id": "318",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ネビア",
@@ -6960,7 +7208,7 @@
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
     },
     {
-      "id": "315",
+      "id": "319",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルナト",
@@ -6982,7 +7230,7 @@
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
     },
     {
-      "id": "316",
+      "id": "320",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ネージュ",
@@ -7004,7 +7252,7 @@
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
     },
     {
-      "id": "317",
+      "id": "321",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "-ハオラン-HAOLAN",
@@ -7026,7 +7274,7 @@
       "notes": ""
     },
     {
-      "id": "318",
+      "id": "322",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "サタリナ族のメイドさん",
@@ -7048,7 +7296,7 @@
       "notes": ""
     },
     {
-      "id": "319",
+      "id": "323",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Noy",
@@ -7070,7 +7318,7 @@
       "notes": ""
     },
     {
-      "id": "320",
+      "id": "324",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "セレスティア",
@@ -7092,7 +7340,7 @@
       "notes": ""
     },
     {
-      "id": "321",
+      "id": "325",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Lua",
@@ -7114,7 +7362,7 @@
       "notes": ""
     },
     {
-      "id": "322",
+      "id": "326",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "御咲ライネ",
@@ -7136,7 +7384,7 @@
       "notes": "販売中止"
     },
     {
-      "id": "323",
+      "id": "327",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "あまのよどみ",
@@ -7158,7 +7406,7 @@
       "notes": ""
     },
     {
-      "id": "324",
+      "id": "328",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ぺちにあ",
@@ -7180,7 +7428,7 @@
       "notes": ""
     },
     {
-      "id": "325",
+      "id": "329",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "山羊のメア -Goat Mea-",
@@ -7202,7 +7450,7 @@
       "notes": ""
     },
     {
-      "id": "326",
+      "id": "330",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "よちよたちおとーと",
@@ -7229,7 +7477,7 @@
       "salePrice": ""
     },
     {
-      "id": "327",
+      "id": "331",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アデノフォラ",
@@ -7251,7 +7499,7 @@
       "notes": ""
     },
     {
-      "id": "328",
+      "id": "332",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Chalo",
@@ -7273,7 +7521,7 @@
       "notes": "頒布許可あり"
     },
     {
-      "id": "329",
+      "id": "333",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フォシュニア",
@@ -7295,15 +7543,15 @@
       "notes": "頒布許可あり"
     },
     {
-      "id": "330",
+      "id": "334",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-29",
       "avatarName": "+Head アバター制作者向けVRChat用素体",
       "avatarNameUrl": "https://lsw.booth.pm/items/5153266",
       "profileVersion": "1.0",
       "avatarAuthor": "よわい",
       "avatarAuthorUrl": "https://lsw.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "+Head",
       "profileAuthor": "yuufyu",
       "profileAuthorUrl": "https://yuufyu.booth.pm/",
       "official": false,
@@ -7311,13 +7559,18 @@
       "downloadLocation": "https://yuufyu.booth.pm/items/7664000",
       "imageUrl": "https://booth.pximg.net/c/620x620/1c35c496-0283-4684-8543-7149d9a7eb62/i/5153266/5d937614-a74e-4f7e-9368-c7188127f06e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": false,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "-",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
-      "id": "331",
+      "id": "335",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "龍鬼(りゅうき)",
@@ -7339,7 +7592,7 @@
       "notes": ""
     },
     {
-      "id": "332",
+      "id": "336",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "キャロル - Carroll -",
@@ -7361,7 +7614,7 @@
       "notes": ""
     },
     {
-      "id": "333",
+      "id": "337",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "猫山宙（ねこやま そら）",
@@ -7383,7 +7636,7 @@
       "notes": ""
     },
     {
-      "id": "334",
+      "id": "338",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "くろなつ",
@@ -7405,7 +7658,7 @@
       "notes": ""
     },
     {
-      "id": "335",
+      "id": "339",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "単眼娘 Rimel0 (リメロ)",
@@ -7427,7 +7680,7 @@
       "notes": ""
     },
     {
-      "id": "336",
+      "id": "340",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "AnimaAbstractaCobalta",
@@ -7449,7 +7702,7 @@
       "notes": ""
     },
     {
-      "id": "337",
+      "id": "341",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ふぇのると",
@@ -7471,7 +7724,7 @@
       "notes": ""
     },
     {
-      "id": "338",
+      "id": "342",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルギネア(RUGINEA)",
@@ -7493,7 +7746,7 @@
       "notes": ""
     },
     {
-      "id": "339",
+      "id": "343",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "トネール",
@@ -7515,7 +7768,7 @@
       "notes": ""
     },
     {
-      "id": "340",
+      "id": "344",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "GameVketちゃん",
@@ -7537,7 +7790,7 @@
       "notes": ""
     },
     {
-      "id": "341",
+      "id": "345",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Varg-ヴァルグ-",
@@ -7559,7 +7812,7 @@
       "notes": ""
     },
     {
-      "id": "342",
+      "id": "346",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Lasyusha〈ラシューシャ〉",
@@ -7581,51 +7834,61 @@
       "notes": ""
     },
     {
-      "id": "343",
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "avatarName": "翠蓮",
-      "avatarNameUrl": "https://mio3works.booth.pm/items/1812495",
+      "id": "347",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Kizz -キズ-",
+      "avatarNameUrl": "https://00snowflake00.booth.pm/items/6348277",
       "profileVersion": "1.0",
-      "avatarAuthor": "mio",
-      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "avatarAuthor": "スノー",
+      "avatarAuthorUrl": "https://00snowflake00.booth.pm/",
       "bodyBase": "",
-      "profileAuthor": "mio",
-      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "profileAuthor": "スノー",
+      "profileAuthorUrl": "https://00snowflake00.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "https://mio3works.booth.pm/items/1812495",
-      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/1812495/0454624c-bf9e-45b1-8b03-7786d7bdb769_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "5000",
+      "downloadLocation": "https://00snowflake00.booth.pm/items/6348277",
+      "imageUrl": "https://booth.pximg.net/c/620x620/b26bf1cc-d026-40d1-ad84-143d4d9e98c3/i/6348277/bf3d87e2-2ce1-4c53-a4d8-923ee477b090_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": ""
     },
     {
-      "id": "344",
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "avatarName": "一介天使",
-      "avatarNameUrl": "https://mio3works.booth.pm/items/1896193",
+      "id": "348",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Daleka ダリョーカ",
+      "avatarNameUrl": "https://htkn.booth.pm/items/7447273",
       "profileVersion": "1.0",
-      "avatarAuthor": "mio",
-      "avatarAuthorUrl": "https://mio3works.booth.pm/",
+      "avatarAuthor": "ちぇるのやるすく工廠",
+      "avatarAuthorUrl": "https://htkn.booth.pm/",
       "bodyBase": "",
-      "profileAuthor": "mio",
-      "profileAuthorUrl": "https://mio3works.booth.pm/",
+      "profileAuthor": "ちぇるのやるすく工廠",
+      "profileAuthorUrl": "https://htkn.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "https://mio3works.booth.pm/items/1896193",
-      "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/1896193/d68aebaa-f833-48c8-ae5d-fddaae274744_base_resized.jpg",
+      "downloadLocation": "https://htkn.booth.pm/items/7447273",
+      "imageUrl": "https://booth.pximg.net/c/620x620/19495079-553a-4d23-9242-2a25bca7c21b/i/7447273/5f3ef3bc-4245-4a2f-a0c7-3d82fe7262b0_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "5000",
+      "price": "-",
+      "avatarPrice": "2000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": ""
     },
     {
-      "id": "345",
+      "id": "349",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Reflet -ルフレ-",
@@ -7647,7 +7910,7 @@
       "notes": "びきたんさん公認"
     },
     {
-      "id": "346",
+      "id": "350",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "れう LEU",
@@ -7669,7 +7932,7 @@
       "notes": ""
     },
     {
-      "id": "347",
+      "id": "351",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Lumelana (ルメラナ)",
@@ -7691,7 +7954,7 @@
       "notes": ""
     },
     {
-      "id": "348",
+      "id": "352",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ワッテ2 Watte 2",
@@ -7713,7 +7976,7 @@
       "notes": ""
     },
     {
-      "id": "349",
+      "id": "353",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "くろちゃん(分霊)Refine",
@@ -7735,7 +7998,7 @@
       "notes": "Fanbox限定配布アバター"
     },
     {
-      "id": "350",
+      "id": "354",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "狛乃-Komano-",
@@ -7757,7 +8020,7 @@
       "notes": ""
     },
     {
-      "id": "351",
+      "id": "355",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ミーシェ",
@@ -7779,7 +8042,7 @@
       "notes": ""
     },
     {
-      "id": "352",
+      "id": "356",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "壱鬼-ITSUKI-",
@@ -7801,7 +8064,7 @@
       "notes": "セール50%OFFで\\3000"
     },
     {
-      "id": "353",
+      "id": "357",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "へなちこ - Henachiko -",
@@ -7823,7 +8086,7 @@
       "notes": "発売は12/1～"
     },
     {
-      "id": "354",
+      "id": "358",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "小夜 Koyoi",
@@ -7850,7 +8113,7 @@
       "notes": ""
     },
     {
-      "id": "355",
+      "id": "359",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Nysネイス",
@@ -7877,7 +8140,7 @@
       "notes": ""
     },
     {
-      "id": "356",
+      "id": "360",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "連翹Rengyo",
@@ -7904,7 +8167,7 @@
       "notes": ""
     },
     {
-      "id": "357",
+      "id": "361",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "珀葵Tamaki",
@@ -7931,7 +8194,7 @@
       "notes": ""
     },
     {
-      "id": "358",
+      "id": "362",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リディ - Lydie - v2",
@@ -7958,7 +8221,7 @@
       "notes": ""
     },
     {
-      "id": "359",
+      "id": "363",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ビスト Bist",
@@ -7985,7 +8248,7 @@
       "notes": ""
     },
     {
-      "id": "360",
+      "id": "364",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Miroir -ミロワール- Remake",
@@ -8012,7 +8275,7 @@
       "notes": ""
     },
     {
-      "id": "361",
+      "id": "365",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Elmina -エルミーナ-",
@@ -8039,7 +8302,7 @@
       "notes": ""
     },
     {
-      "id": "362",
+      "id": "366",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Izul -イズール- Remake",
@@ -8066,7 +8329,7 @@
       "notes": ""
     },
     {
-      "id": "363",
+      "id": "367",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Seraphina -セラフィナ-",
@@ -8093,7 +8356,7 @@
       "notes": ""
     },
     {
-      "id": "364",
+      "id": "368",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "彼方-Kanata-",
@@ -8120,7 +8383,7 @@
       "notes": "此方-Konata-とセット"
     },
     {
-      "id": "365",
+      "id": "369",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "此方-Konata-",
@@ -8147,7 +8410,7 @@
       "notes": "彼方-Kanata-とセット"
     },
     {
-      "id": "366",
+      "id": "370",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Yegi イェギ",
@@ -8174,7 +8437,7 @@
       "notes": ""
     },
     {
-      "id": "367",
+      "id": "371",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Orurorenchi オルロレンチ",
@@ -8201,7 +8464,7 @@
       "notes": ""
     },
     {
-      "id": "368",
+      "id": "372",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Zain ザイン",
@@ -8228,7 +8491,7 @@
       "notes": ""
     },
     {
-      "id": "369",
+      "id": "373",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Zain ザイン",
@@ -8255,7 +8518,7 @@
       "notes": "1.2倍"
     },
     {
-      "id": "370",
+      "id": "374",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Julius ユリウス",
@@ -8282,7 +8545,7 @@
       "notes": "0.9倍"
     },
     {
-      "id": "371",
+      "id": "375",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Cathari カタリ",
@@ -8309,7 +8572,7 @@
       "notes": ""
     },
     {
-      "id": "372",
+      "id": "376",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Alies/荒洲 アレス",
@@ -8336,7 +8599,7 @@
       "notes": ""
     },
     {
-      "id": "373",
+      "id": "377",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アキト-Akit-",
@@ -8363,7 +8626,7 @@
       "notes": ""
     },
     {
-      "id": "374",
+      "id": "378",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Rion -リオン-",
@@ -8390,7 +8653,7 @@
       "notes": ""
     },
     {
-      "id": "375",
+      "id": "379",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リディコート🎀LiddiCoat",
@@ -8417,7 +8680,7 @@
       "notes": ""
     },
     {
-      "id": "376",
+      "id": "380",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "フォーテ",
@@ -8444,7 +8707,7 @@
       "notes": ""
     },
     {
-      "id": "377",
+      "id": "381",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "きゃろん -Kyalóng- 迦龍",
@@ -8471,7 +8734,7 @@
       "notes": ""
     },
     {
-      "id": "378",
+      "id": "382",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "花々 まる / はなな まる",
@@ -8498,7 +8761,7 @@
       "notes": ""
     },
     {
-      "id": "379",
+      "id": "383",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "すずね -Suzune-",
@@ -8525,7 +8788,7 @@
       "notes": ""
     },
     {
-      "id": "380",
+      "id": "384",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "エルノア -Ernoah-",
@@ -8552,7 +8815,7 @@
       "notes": ""
     },
     {
-      "id": "381",
+      "id": "385",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "凪羽 -Nagiha-",
@@ -8579,7 +8842,7 @@
       "notes": ""
     },
     {
-      "id": "382",
+      "id": "386",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "メフィー -Mephie-",
@@ -8606,7 +8869,7 @@
       "notes": ""
     },
     {
-      "id": "383",
+      "id": "387",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "まべ式チェシャー",
@@ -8633,7 +8896,7 @@
       "notes": "期間限定頒布\n12月末ごろにプロファイルリリース予定"
     },
     {
-      "id": "384",
+      "id": "388",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "３＋１（さん↑ぷらす→うの↑）",
@@ -8660,7 +8923,7 @@
       "notes": "12月末ごろにプロファイルリリース予定"
     },
     {
-      "id": "385",
+      "id": "389",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "不思議のタニア",
@@ -8687,7 +8950,7 @@
       "notes": ""
     },
     {
-      "id": "386",
+      "id": "390",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "吠音",
@@ -8714,9 +8977,9 @@
       "notes": ""
     },
     {
-      "id": "387",
+      "id": "391",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "水瀬",
       "avatarNameUrl": "https://mio3works.booth.pm/items/4013951",
       "profileVersion": "1.0",
@@ -8731,7 +8994,7 @@
       "imageUrl": "https://booth.pximg.net/9dd190c0-6ce8-4b74-9a14-bd48da37473d/i/4013951/d4ae19e0-67b5-4ea5-bfba-2775b272fa11_base_resized.jpg",
       "pricing": "単体有料",
       "price": "300",
-      "avatarPrice": "5000",
+      "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
@@ -8741,9 +9004,9 @@
       "notes": ""
     },
     {
-      "id": "388",
+      "id": "392",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "Remuy:Re -レムイ-",
       "avatarNameUrl": "https://kazehokora.booth.pm/items/5284464",
       "profileVersion": "1.0",
@@ -8764,13 +9027,13 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": ""
     },
     {
-      "id": "389",
+      "id": "393",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "Lufka -ルフカ-",
       "avatarNameUrl": "https://kazehokora.booth.pm/items/4021926",
       "profileVersion": "1.0",
@@ -8791,11 +9054,11 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": ""
     },
     {
-      "id": "390",
+      "id": "394",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ギャルドラ娘Yam -ヤム-",
@@ -8822,7 +9085,7 @@
       "notes": ""
     },
     {
-      "id": "391",
+      "id": "395",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10mk2",
@@ -8849,7 +9112,7 @@
       "notes": ""
     },
     {
-      "id": "392",
+      "id": "396",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10mk3",
@@ -8876,7 +9139,7 @@
       "notes": ""
     },
     {
-      "id": "393",
+      "id": "397",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10//WinterRose",
@@ -8903,7 +9166,7 @@
       "notes": ""
     },
     {
-      "id": "394",
+      "id": "398",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10素体版",
@@ -8930,7 +9193,7 @@
       "notes": ""
     },
     {
-      "id": "395",
+      "id": "399",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10書庫型【迦陵頻伽】量産機",
@@ -8957,7 +9220,7 @@
       "notes": ""
     },
     {
-      "id": "396",
+      "id": "400",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10H7500",
@@ -8984,7 +9247,7 @@
       "notes": ""
     },
     {
-      "id": "397",
+      "id": "401",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Yuto -ユト-",
@@ -9011,7 +9274,7 @@
       "notes": ""
     },
     {
-      "id": "398",
+      "id": "402",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10書庫型二号機 【紙魚】",
@@ -9038,7 +9301,7 @@
       "notes": ""
     },
     {
-      "id": "399",
+      "id": "403",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10mk4 【共命】 R",
@@ -9065,7 +9328,7 @@
       "notes": ""
     },
     {
-      "id": "400",
+      "id": "404",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10mk4 【共命】 L",
@@ -9092,7 +9355,7 @@
       "notes": ""
     },
     {
-      "id": "401",
+      "id": "405",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10C10//神無",
@@ -9119,7 +9382,7 @@
       "notes": ""
     },
     {
-      "id": "402",
+      "id": "406",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10C3//弥生",
@@ -9146,7 +9409,7 @@
       "notes": ""
     },
     {
-      "id": "403",
+      "id": "407",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "U10書庫型三号機 【饕餮】",
@@ -9173,7 +9436,7 @@
       "notes": ""
     },
     {
-      "id": "404",
+      "id": "408",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "烏丸Karasuma",
@@ -9200,7 +9463,7 @@
       "notes": ""
     },
     {
-      "id": "405",
+      "id": "409",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "右近弐式Ukon second type",
@@ -9227,7 +9490,7 @@
       "notes": ""
     },
     {
-      "id": "406",
+      "id": "410",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ちび右近Chibi Ukon",
@@ -9254,7 +9517,7 @@
       "notes": ""
     },
     {
-      "id": "407",
+      "id": "411",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ほんの先輩 HONNO",
@@ -9281,7 +9544,7 @@
       "notes": ""
     },
     {
-      "id": "408",
+      "id": "412",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ライカ",
@@ -9308,7 +9571,7 @@
       "notes": ""
     },
     {
-      "id": "409",
+      "id": "413",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ぺンタクス",
@@ -9335,7 +9598,7 @@
       "notes": ""
     },
     {
-      "id": "410",
+      "id": "414",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Hinata（ひなた）",
@@ -9362,7 +9625,7 @@
       "notes": ""
     },
     {
-      "id": "411",
+      "id": "415",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Tea（ティー）",
@@ -9389,7 +9652,7 @@
       "notes": ""
     },
     {
-      "id": "412",
+      "id": "416",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ポヨミナ",
@@ -9416,7 +9679,7 @@
       "notes": ""
     },
     {
-      "id": "413",
+      "id": "417",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リメイク🧸甘えんぼうのテディ",
@@ -9443,7 +9706,7 @@
       "notes": ""
     },
     {
-      "id": "414",
+      "id": "418",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "キュリアネスCyllianes",
@@ -9470,7 +9733,7 @@
       "notes": ""
     },
     {
-      "id": "415",
+      "id": "419",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "疾雲 - hayakumo -",
@@ -9497,7 +9760,7 @@
       "notes": ""
     },
     {
-      "id": "416",
+      "id": "420",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Quanstella - クアンステーラ",
@@ -9524,7 +9787,7 @@
       "notes": ""
     },
     {
-      "id": "417",
+      "id": "421",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "つきよ-Tukiyo-",
@@ -9551,7 +9814,7 @@
       "notes": ""
     },
     {
-      "id": "418",
+      "id": "422",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "きらり-Kirari-",
@@ -9578,7 +9841,7 @@
       "notes": ""
     },
     {
-      "id": "419",
+      "id": "423",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルゼブル-Lzebul-",
@@ -9605,7 +9868,7 @@
       "notes": ""
     },
     {
-      "id": "420",
+      "id": "424",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ピューマのぷまちゃん & 22対応衣装ぷまちゃんの天使ジャージ",
@@ -9632,7 +9895,7 @@
       "notes": ""
     },
     {
-      "id": "421",
+      "id": "425",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "アルシェ",
@@ -9659,7 +9922,7 @@
       "notes": "12月販売予定"
     },
     {
-      "id": "422",
+      "id": "426",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ルーニャ",
@@ -9686,7 +9949,7 @@
       "notes": ""
     },
     {
-      "id": "423",
+      "id": "427",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "だるビス",
@@ -9713,7 +9976,7 @@
       "notes": ""
     },
     {
-      "id": "424",
+      "id": "428",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シャンテト",
@@ -9740,7 +10003,7 @@
       "notes": ""
     },
     {
-      "id": "425",
+      "id": "429",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Parla/パルラ",
@@ -9767,7 +10030,7 @@
       "notes": ""
     },
     {
-      "id": "426",
+      "id": "430",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Doll/ドル",
@@ -9794,7 +10057,7 @@
       "notes": ""
     },
     {
-      "id": "427",
+      "id": "431",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "かみさまおばけ",
@@ -9821,7 +10084,7 @@
       "notes": ""
     },
     {
-      "id": "428",
+      "id": "432",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "マロン",
@@ -9848,7 +10111,7 @@
       "notes": ""
     },
     {
-      "id": "429",
+      "id": "433",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "輝l Tell",
@@ -9875,7 +10138,7 @@
       "notes": ""
     },
     {
-      "id": "430",
+      "id": "434",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "オルテ-Horte-",
@@ -9902,7 +10165,7 @@
       "notes": ""
     },
     {
-      "id": "431",
+      "id": "435",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "グロック-GLOCC",
@@ -9929,7 +10192,7 @@
       "notes": ""
     },
     {
-      "id": "432",
+      "id": "436",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リリィ-RiLY",
@@ -9956,7 +10219,7 @@
       "notes": ""
     },
     {
-      "id": "433",
+      "id": "437",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "リリシア-Lilithia-",
@@ -9983,7 +10246,7 @@
       "notes": ""
     },
     {
-      "id": "434",
+      "id": "438",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "くじらのくぅ-Kuu-",
@@ -10010,7 +10273,7 @@
       "notes": ""
     },
     {
-      "id": "435",
+      "id": "439",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "るぅ-Ruu-",
@@ -10037,7 +10300,7 @@
       "notes": ""
     },
     {
-      "id": "436",
+      "id": "440",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シィルLO-CielLO-",
@@ -10064,7 +10327,7 @@
       "notes": ""
     },
     {
-      "id": "437",
+      "id": "441",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "シィル-Ciel-",
@@ -10091,7 +10354,7 @@
       "notes": ""
     },
     {
-      "id": "438",
+      "id": "442",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "SHRI/しゅり",
@@ -10118,7 +10381,7 @@
       "notes": ""
     },
     {
-      "id": "439",
+      "id": "443",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "しゅあん/Shuan",
@@ -10145,7 +10408,7 @@
       "notes": ""
     },
     {
-      "id": "440",
+      "id": "444",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "｢恭華｣早期アクセス無料版",
@@ -10172,7 +10435,7 @@
       "notes": "もちふぃった〜対応（予定）"
     },
     {
-      "id": "441",
+      "id": "445",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ノクレンシア-Nocrencia-",
@@ -10199,7 +10462,7 @@
       "notes": "もちふぃった～対応予定"
     },
     {
-      "id": "442",
+      "id": "446",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Filio",
@@ -10226,7 +10489,7 @@
       "notes": ""
     },
     {
-      "id": "443",
+      "id": "447",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Risotto",
@@ -10253,7 +10516,7 @@
       "notes": ""
     },
     {
-      "id": "444",
+      "id": "448",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Pancake",
@@ -10280,7 +10543,7 @@
       "notes": ""
     },
     {
-      "id": "445",
+      "id": "449",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ScentedV2 センティッドV2",
@@ -10307,7 +10570,7 @@
       "notes": ""
     },
     {
-      "id": "446",
+      "id": "450",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "メビカ / Mevica",
@@ -10334,7 +10597,7 @@
       "notes": ""
     },
     {
-      "id": "447",
+      "id": "451",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "あまね",
@@ -10361,7 +10624,7 @@
       "notes": "2025/11/29 19:00 から販売開始\nもちふぃった～対応予定"
     },
     {
-      "id": "448",
+      "id": "452",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "VRChat用男性素体『T-BODY/珍飯亭共通素体』",
@@ -10388,7 +10651,7 @@
       "notes": ""
     },
     {
-      "id": "449",
+      "id": "453",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ラ・ユヌ＝テア LaUne=Thea",
@@ -10415,7 +10678,7 @@
       "notes": "梅雨（TSUYU）と同一素体"
     },
     {
-      "id": "450",
+      "id": "454",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "梅雨（TSUYU）",
@@ -10442,15 +10705,15 @@
       "notes": "ラ・ユヌ＝テアと同一素体"
     },
     {
-      "id": "451",
+      "id": "455",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "恋恋 -Liàn Liàn-",
       "avatarNameUrl": "https://usahogoya.booth.pm/items/7678824",
       "profileVersion": "1.0",
       "avatarAuthor": "うさほ3号",
       "avatarAuthorUrl": "https://usahogoya.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "まるぼでぃ",
       "profileAuthor": "うさほ3号",
       "profileAuthorUrl": "https://usahogoya.booth.pm/",
       "official": true,
@@ -10465,11 +10728,11 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": "2025/12/06 00:00～販売開始\nまるぼでぃアバター"
+      "reverseSupport": true,
+      "notes": "2025/12/06 00:00～販売開始"
     },
     {
-      "id": "452",
+      "id": "456",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "GAME NEKO",
@@ -10496,7 +10759,7 @@
       "notes": ""
     },
     {
-      "id": "453",
+      "id": "457",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Lilith -リリス-",
@@ -10523,7 +10786,7 @@
       "notes": ""
     },
     {
-      "id": "454",
+      "id": "458",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "Danzai",
@@ -10550,7 +10813,7 @@
       "notes": ""
     },
     {
-      "id": "455",
+      "id": "459",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ニヴN.I.V.H",
@@ -10577,7 +10840,7 @@
       "notes": ""
     },
     {
-      "id": "456",
+      "id": "460",
       "registeredDate": "2025-11-27",
       "updatedDate": "2025-11-27",
       "avatarName": "ボッカV2",
@@ -10604,7 +10867,7 @@
       "notes": ""
     },
     {
-      "id": "457",
+      "id": "461",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "Sensei",
@@ -10631,7 +10894,7 @@
       "notes": ""
     },
     {
-      "id": "458",
+      "id": "462",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "ビナコ",
@@ -10658,7 +10921,7 @@
       "notes": ""
     },
     {
-      "id": "459",
+      "id": "463",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "あのめあ",
@@ -10685,7 +10948,7 @@
       "notes": ""
     },
     {
-      "id": "460",
+      "id": "464",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "メープルMaple",
@@ -10712,7 +10975,7 @@
       "notes": ""
     },
     {
-      "id": "461",
+      "id": "465",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "ビィブ ・ VIVH",
@@ -10739,7 +11002,7 @@
       "notes": ""
     },
     {
-      "id": "462",
+      "id": "466",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "Maromage まろまげ",
@@ -10766,7 +11029,7 @@
       "notes": ""
     },
     {
-      "id": "463",
+      "id": "467",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "華夜 -Kaya-",
@@ -10793,7 +11056,7 @@
       "notes": ""
     },
     {
-      "id": "464",
+      "id": "468",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": " ランティーネ LANTINE",
@@ -10820,7 +11083,7 @@
       "notes": ""
     },
     {
-      "id": "465",
+      "id": "469",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "Rushka -ルーシュカ",
@@ -10847,7 +11110,7 @@
       "notes": "近日対応予定"
     },
     {
-      "id": "466",
+      "id": "470",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "人外お兄さん夏水トウ",
@@ -10874,7 +11137,7 @@
       "notes": ""
     },
     {
-      "id": "467",
+      "id": "471",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "なぎねこクン",
@@ -10901,7 +11164,7 @@
       "notes": ""
     },
     {
-      "id": "468",
+      "id": "472",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "イリスIris",
@@ -10928,7 +11191,7 @@
       "notes": ""
     },
     {
-      "id": "469",
+      "id": "473",
       "registeredDate": "2025-11-28",
       "updatedDate": "2025-11-28",
       "avatarName": "虚玖李 こくり kokuri",
@@ -10946,6 +11209,1221 @@
       "pricing": "無料",
       "price": "0",
       "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "474",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "宇佐美さち",
+      "avatarNameUrl": "https://663-chanshop.booth.pm/items/5481389",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ロロミ",
+      "avatarAuthorUrl": "https://663-chanshop.booth.pm/",
+      "bodyBase": "663Mochi_sati",
+      "profileAuthor": "ロロミ",
+      "profileAuthorUrl": "https://663-chanshop.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://663-chanshop.booth.pm/items/7703298",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4607dca7-2c37-4556-910f-fc587d169571/i/5481389/938bc4d6-a380-46fa-b05a-12f698c48903_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "475",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "プレネラ",
+      "avatarNameUrl": "https://663-chanshop.booth.pm/items/5168052",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ロロミ",
+      "avatarAuthorUrl": "https://663-chanshop.booth.pm/",
+      "bodyBase": "663Mochi_sati",
+      "profileAuthor": "ロロミ",
+      "profileAuthorUrl": "https://663-chanshop.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://663-chanshop.booth.pm/items/7703298",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4607dca7-2c37-4556-910f-fc587d169571/i/5168052/308b976b-a824-4859-acf0-48d802f2a804_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "0",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "476",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "佐々斗勇輝",
+      "avatarNameUrl": "https://663-chanshop.booth.pm/items/4351466",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ロロミ",
+      "avatarAuthorUrl": "https://663-chanshop.booth.pm/",
+      "bodyBase": "663Mochi_yuuki",
+      "profileAuthor": "ロロミ",
+      "profileAuthorUrl": "https://663-chanshop.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://663-chanshop.booth.pm/items/7703298",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4607dca7-2c37-4556-910f-fc587d169571/i/4351466/e8ba206f-06d7-4f2f-be05-d9c6a98794dc_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "2000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "477",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "化け狐のフーリ",
+      "avatarNameUrl": "https://663-chanshop.booth.pm/items/5215436",
+      "profileVersion": "1.0",
+      "avatarAuthor": "ロロミ",
+      "avatarAuthorUrl": "https://663-chanshop.booth.pm/",
+      "bodyBase": "663Mochi_yuuki",
+      "profileAuthor": "ロロミ",
+      "profileAuthorUrl": "https://663-chanshop.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://663-chanshop.booth.pm/items/7703298",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4607dca7-2c37-4556-910f-fc587d169571/i/5215436/d71e3abc-02cb-4159-943e-9800c88d5d72_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "0",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "478",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "シセラ",
+      "avatarNameUrl": "https://regs.booth.pm/items/3926293",
+      "profileVersion": "1.0",
+      "avatarAuthor": "れじ",
+      "avatarAuthorUrl": "https://regs.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "れじ",
+      "profileAuthorUrl": "https://regs.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://regs.booth.pm/items/3926293",
+      "imageUrl": "https://booth.pximg.net/c/620x620/38d12e48-b117-4086-a5c7-b02cd8f9c952/i/3926293/f0d9243e-53ab-4d6d-bff9-23944f811524_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "479",
+      "registeredDate": "2025-11-29",
+      "updatedDate": "2025-11-29",
+      "avatarName": "狐薄 -こはく-",
+      "avatarNameUrl": "https://nyahuuu.booth.pm/items/2616595",
+      "profileVersion": "1.0",
+      "avatarAuthor": "香坂もち",
+      "avatarAuthorUrl": "https://nyahuuu.booth.pm/",
+      "bodyBase": "まるぼでぃ",
+      "profileAuthor": "kuromaru9",
+      "profileAuthorUrl": "https://kuromaru9.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://kuromaru9.booth.pm/items/7552195",
+      "imageUrl": "https://booth.pximg.net/c/620x620/a8591f3a-a029-42e5-a769-a738c143f354/i/2616595/c6b7d80c-62db-4dfe-90e8-dd1ec5e70cbf_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "8000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "480",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "にゃもあ -Nyamoa-",
+      "avatarNameUrl": "https://tegral.booth.pm/items/7176666",
+      "profileVersion": "1.0",
+      "avatarAuthor": "てぐらる",
+      "avatarAuthorUrl": "https://tegral.booth.pm/",
+      "bodyBase": "さなしろ、ハティット",
+      "profileAuthor": "てぐらる",
+      "profileAuthorUrl": "https://tegral.booth.pm/",
+      "official": true,
+      "downloadMethod": "Discord",
+      "downloadLocation": "https://x.com/tegral/status/1994050081541038305",
+      "imageUrl": "https://booth.pximg.net/c/620x620/6b961a0f-b628-4c5c-bcb0-27658169e5ae/i/7176666/a269d39e-f63a-4a30-b47f-93c7886f884c_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "481",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "ネメシス-Nemesis-",
+      "avatarNameUrl": "https://komainu-street.booth.pm/items/5986971",
+      "profileVersion": "1.0",
+      "avatarAuthor": "こぬい",
+      "avatarAuthorUrl": "https://komainu-street.booth.pm/",
+      "bodyBase": "エルシオン",
+      "profileAuthor": "こぬい",
+      "profileAuthorUrl": "https://komainu-street.booth.pm/",
+      "official": true,
+      "downloadMethod": "Discord",
+      "downloadLocation": "https://x.com/Konui_vrc/status/1993292778600792543",
+      "imageUrl": "https://booth.pximg.net/c/620x620/361b24ef-b14b-4330-aa22-2725a5727286/i/5986971/d1261463-3709-4d8e-9ec7-60f09ba9b07b_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "482",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "エルシオン-ELusion-",
+      "avatarNameUrl": "https://komainu-street.booth.pm/items/6663666",
+      "profileVersion": "1.0",
+      "avatarAuthor": "こぬい",
+      "avatarAuthorUrl": "https://komainu-street.booth.pm/",
+      "bodyBase": "ネメシス",
+      "profileAuthor": "こぬい",
+      "profileAuthorUrl": "https://komainu-street.booth.pm/",
+      "official": true,
+      "downloadMethod": "Discord",
+      "downloadLocation": "https://x.com/Konui_vrc/status/1993292778600792543",
+      "imageUrl": "https://booth.pximg.net/c/620x620/361b24ef-b14b-4330-aa22-2725a5727286/i/6663666/154161e6-915e-40ef-afc0-cc423759abc0_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "483",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "A-Z:[S]",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/6036556",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women L",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/6036556/408c7d8b-5593-424e-a0c7-7238c658b9b0_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "484",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "NH-01-",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/5314574",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women L",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/5314574/1d564ccf-9a0f-40fa-af25-47df1b895bfd_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "485",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "柘榴 -Zakuro-",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/5837494",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women L",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/5837494/88faa521-65f8-430e-930f-c02da78b6e68_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "42700",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "486",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "NH-02-",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/7087159",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women L",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/7087159/e07c8567-6040-4f8e-b4ea-eeac8664ebf0_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "487",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "TUNER",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/4302538",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women L",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/4302538/94fd349a-1143-4c49-94f5-a1a04e131dd6_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "488",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "KRONOS",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/2032707",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/2032707/fb17edda-73a0-488c-a840-75c18dc2a7f0_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "16000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "489",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Notia",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/2040746",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/2040746/f7d2ed99-8149-4f73-adf3-2592e546e493_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "17500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "490",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "kei",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/2040716",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/2040716/ba0b1986-5e80-469b-b372-f72fdec2fcad_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "25300",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "491",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "霞花",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/3433144",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037\n",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/3433144/bfb45b88-e7f6-4418-afa3-05140d1c4556_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "55000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "492",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "CONTAINER",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/5157084",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/5157084/7f047db2-3f63-4de6-bb95-7acc80df99aa_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "23000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "493",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "ECHOKEEPER",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/4380164",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/4380164/12a24a3b-bae1-4e3c-90e8-77e768e7263a_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "34000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "494",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Noaris",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/6380413",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/6380413/98e0264a-ac59-4b2c-9536-9ccb550f2138_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "495",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "fille ange",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/5643875",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women M",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/5643875/fed8ad23-f754-441c-9492-15b6d0d319b6_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "37500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "496",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "imiut",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/2040691",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women S",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/2040691/08909b9d-6701-45e9-bc09-b463318e3ebb_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "23000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "497",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Undone Kittens",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/3067603",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women S",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/3067603/2eeb25bf-8567-4fe9-a7f5-802dd1584a9b_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "40000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "498",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "DARK CAT WITCH",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/7587259",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women S",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/7587259/33fef046-9faf-447a-b813-23340b0761b4_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "30000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "499",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "DARK CAT UNWELL",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/7587265",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women S",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/7587265/474c93cf-68aa-4dd9-8c58-65575344b103_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "30000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "500",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "茉弥",
+      "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/4589718",
+      "profileVersion": "1.0",
+      "avatarAuthor": "YOYOGI MORI",
+      "avatarAuthorUrl": "https://yoyogi-mori.booth.pm/",
+      "bodyBase": "YM Body Women S",
+      "profileAuthor": "ただのむらびと",
+      "profileAuthorUrl": "https://x.com/Murabito_VRC",
+      "official": false,
+      "downloadMethod": "Twitter",
+      "downloadLocation": "https://x.com/Murabito_VRC/status/1992530143429243037",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0b499177-0b4f-4b12-8165-2a5694e85615/i/4589718/9107d02f-c7eb-4a55-b9a4-e4f8bd3d368a_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "36000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "501",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "AAbody【VRChat向け汎用素体】",
+      "avatarNameUrl": "https://atelier-alca.booth.pm/items/3055732",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Tokunaga_ac",
+      "avatarAuthorUrl": "https://atelier-alca.booth.pm/",
+      "bodyBase": "AAbody",
+      "profileAuthor": "れいぢ",
+      "profileAuthorUrl": "https://atelierorca.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://atelierorca.booth.pm/items/7665857",
+      "imageUrl": "https://booth.pximg.net/c/620x620/6ac10b7b-256b-4e3b-b6d6-61437066f561/i/3055732/2c01eba7-962b-445a-81c6-0e835b3873c5_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "1500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "502",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "イフ(Ifu)",
+      "avatarNameUrl": "https://namekuji1337.booth.pm/items/5953756",
+      "profileVersion": "1.0",
+      "avatarAuthor": "namekuji1337",
+      "avatarAuthorUrl": "https://namekuji1337.booth.pm/",
+      "bodyBase": "夢川有栖(Yumekawa Arisu) リナ(Liina)",
+      "profileAuthor": "ぼっちーにゃ",
+      "profileAuthorUrl": "https://chi-nyavrc.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://chi-nyavrc.booth.pm/items/7670918",
+      "imageUrl": "https://booth.pximg.net/c/620x620/fe589ff6-2d21-4938-b5d2-e788dde06cc9/i/5953756/4df5fe0d-e525-4f3c-9bb7-280418e3d6e6_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "503",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "リナ(Liina)",
+      "avatarNameUrl": "https://namekuji1337.booth.pm/items/4165545",
+      "profileVersion": "1.0",
+      "avatarAuthor": "namekuji1337",
+      "avatarAuthorUrl": "https://namekuji1337.booth.pm/",
+      "bodyBase": "イフ(Ifu) 夢川有栖(Yumekawa Arisu)",
+      "profileAuthor": "ぼっちーにゃ",
+      "profileAuthorUrl": "https://chi-nyavrc.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://chi-nyavrc.booth.pm/items/7670918",
+      "imageUrl": "https://booth.pximg.net/c/620x620/fe589ff6-2d21-4938-b5d2-e788dde06cc9/i/4165545/3c7fadfc-5775-4acb-aaf9-1d73690fdf93_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "4980",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "504",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Beryl-Terrsaベリル・テルサ ExFVRC",
+      "avatarNameUrl": "https://sakusaku-solid.booth.pm/items/4096181",
+      "profileVersion": "1.0",
+      "avatarAuthor": "SakuSaku",
+      "avatarAuthorUrl": "https://sakusaku-solid.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "SakuSaku",
+      "profileAuthorUrl": "https://sakusaku-solid.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://sakusaku-solid.booth.pm/items/4096181",
+      "imageUrl": "https://booth.pximg.net/c/620x620/3e013b9b-cd22-47e1-abbd-a7ad65b8a1e0/i/4096181/ca471f54-9c4d-4503-9d3f-0a15aacb6ffe_base_resized.jpg",
+      "pricing": "単体有料",
+      "price": "100",
+      "avatarPrice": "3000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "505",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "となりの霧崎さん -kirisaki-",
+      "avatarNameUrl": "https://snowvision.booth.pm/items/7429276",
+      "profileVersion": "1.0",
+      "avatarAuthor": "yukilens",
+      "avatarAuthorUrl": "https://snowvision.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "yukilens",
+      "profileAuthorUrl": "https://snowvision.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://snowvision.booth.pm/items/7429276",
+      "imageUrl": "https://booth.pximg.net/c/620x620/81b2fe7a-cedd-48a1-b799-fedc967202d5/i/7429276/5ce684fc-b927-4edc-a19e-dd7bd070c399_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "506",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "斑霞-Hanka-",
+      "avatarNameUrl": "https://studioyono.booth.pm/items/6970249",
+      "profileVersion": "1.0",
+      "avatarAuthor": "よの",
+      "avatarAuthorUrl": "https://studioyono.booth.pm/",
+      "bodyBase": "怜-Rei-",
+      "profileAuthor": "よの",
+      "profileAuthorUrl": "https://studioyono.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://studioyono.booth.pm/items/6970249",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0fc658ef-0f39-4cc2-88c9-86f768b22cf9/i/6970249/c2b84fe3-7a21-454a-aa78-f3a2dcd737bf_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "怜-Rei-と同素体"
+    },
+    {
+      "id": "507",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "怜-Rei-",
+      "avatarNameUrl": "https://studioyono.booth.pm/items/5788427",
+      "profileVersion": "1.0",
+      "avatarAuthor": "よの",
+      "avatarAuthorUrl": "https://studioyono.booth.pm/",
+      "bodyBase": "斑霞-Hanka-",
+      "profileAuthor": "よの",
+      "profileAuthorUrl": "https://studioyono.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://studioyono.booth.pm/items/6970249",
+      "imageUrl": "https://booth.pximg.net/c/620x620/0fc658ef-0f39-4cc2-88c9-86f768b22cf9/i/5788427/f9fab31c-0eee-470c-a170-63ea314169eb_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "斑霞-Hanka-共通素体Prefab同梱。その為、怜は斑霞の衣装を着れるが逆は不可"
+    },
+    {
+      "id": "508",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "アズキ",
+      "avatarNameUrl": "https://emolab.booth.pm/items/6654988",
+      "profileVersion": "1.0",
+      "avatarAuthor": "えも研",
+      "avatarAuthorUrl": "https://emolab.booth.pm/",
+      "bodyBase": "えも研素体",
+      "profileAuthor": "kinokett",
+      "profileAuthorUrl": "https://danekolab.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://danekolab.booth.pm/items/7699421",
+      "imageUrl": "https://booth.pximg.net/c/620x620/c4b947e7-1f94-4f8b-aa56-955692b4769a/i/6654988/5d843702-8771-4106-a4f2-155a771b5652_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "509",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "コロネ",
+      "avatarNameUrl": "https://emolab.booth.pm/items/5776079",
+      "profileVersion": "1.0",
+      "avatarAuthor": "えも研",
+      "avatarAuthorUrl": "https://emolab.booth.pm/",
+      "bodyBase": "えも研素体",
+      "profileAuthor": "kinokett",
+      "profileAuthorUrl": "https://danekolab.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://danekolab.booth.pm/items/7699421",
+      "imageUrl": "https://booth.pximg.net/c/620x620/c4b947e7-1f94-4f8b-aa56-955692b4769a/i/5776079/c2ecd1cb-cd26-4eec-b9ab-d183af77c116_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "510",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "クララ",
+      "avatarNameUrl": "https://emolab.booth.pm/items/5484178",
+      "profileVersion": "1.0",
+      "avatarAuthor": "えも研",
+      "avatarAuthorUrl": "https://emolab.booth.pm/",
+      "bodyBase": "えも研素体",
+      "profileAuthor": "kinokett",
+      "profileAuthorUrl": "https://danekolab.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://danekolab.booth.pm/items/7699421",
+      "imageUrl": "https://booth.pximg.net/c/620x620/c4b947e7-1f94-4f8b-aa56-955692b4769a/i/5484178/813f2ba1-5cef-45e3-96ec-cff2e6e75c48_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "511",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "【販売OK!】シェアできる汎用ドール素体『MDoll Model Series』[S][M] ver3_0【VRChat】",
+      "avatarNameUrl": "https://minuetdoll.booth.pm/items/4508095",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Minuet_Doll",
+      "avatarAuthorUrl": "https://minuetdoll.booth.pm/",
+      "bodyBase": "MDoll Model Series M",
+      "profileAuthor": "Minuet_Doll",
+      "profileAuthorUrl": "https://minuetdoll.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://minuetdoll.booth.pm/items/7690877",
+      "imageUrl": "https://booth.pximg.net/c/620x620/da3e4894-0b83-47ed-b0a9-5526bd9f9722/i/4508095/e330fbbd-0bca-4763-aca8-b51e7f2006c7_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "3000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "[M]サイズのみ"
+    },
+    {
+      "id": "512",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "おすましショコラナ",
+      "avatarNameUrl": "https://minuetdoll.booth.pm/items/4606129",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Minuet_Doll",
+      "avatarAuthorUrl": "https://minuetdoll.booth.pm/",
+      "bodyBase": "MDoll Model Series M",
+      "profileAuthor": "Minuet_Doll",
+      "profileAuthorUrl": "https://minuetdoll.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://minuetdoll.booth.pm/items/7690877",
+      "imageUrl": "https://booth.pximg.net/c/620x620/da3e4894-0b83-47ed-b0a9-5526bd9f9722/i/4606129/e46805d7-6dff-44a3-a266-805d5002d3f4_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "3500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "513",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "ゆめみるキャンディーナ",
+      "avatarNameUrl": "https://minuetdoll.booth.pm/items/5432241",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Minuet_Doll",
+      "avatarAuthorUrl": "https://minuetdoll.booth.pm/",
+      "bodyBase": "MDoll Model Series M",
+      "profileAuthor": "Minuet_Doll",
+      "profileAuthorUrl": "https://minuetdoll.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://minuetdoll.booth.pm/items/7690877",
+      "imageUrl": "https://booth.pximg.net/c/620x620/da3e4894-0b83-47ed-b0a9-5526bd9f9722/i/5432241/04f1443b-85d2-461d-bbb6-171db65aa79e_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "3500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "514",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "スミトくん/SUMITO",
+      "avatarNameUrl": "https://powermohumohu.booth.pm/items/7616517",
+      "profileVersion": "1.0",
+      "avatarAuthor": "みけじん",
+      "avatarAuthorUrl": "https://powermohumohu.booth.pm/",
+      "bodyBase": "MTBody4",
+      "profileAuthor": "おむすび",
+      "profileAuthorUrl": "https://tanabataonsen.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://tanabataonsen.booth.pm/items/7705828",
+      "imageUrl": "https://booth.pximg.net/c/620x620/20109727-bfb4-4893-ac44-cf1ecae7d34f/i/7616517/41aafea6-2297-4441-9323-ed3795532d1f_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "515",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "シャオレイくん/Xiaolei/ Avatar Model",
+      "avatarNameUrl": "https://powermohumohu.booth.pm/items/5480655",
+      "profileVersion": "1.0",
+      "avatarAuthor": "みけじん",
+      "avatarAuthorUrl": "https://powermohumohu.booth.pm/",
+      "bodyBase": "MTBody4",
+      "profileAuthor": "おむすび",
+      "profileAuthorUrl": "https://tanabataonsen.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://tanabataonsen.booth.pm/items/7705828",
+      "imageUrl": "https://booth.pximg.net/c/620x620/20109727-bfb4-4893-ac44-cf1ecae7d34f/i/5480655/423a0b0e-2b36-4819-b171-08c1c9fa8747_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "516",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "リルルRiruru",
+      "avatarNameUrl": "https://chipierupi.booth.pm/items/5260030",
+      "profileVersion": "1.0",
+      "avatarAuthor": "しぴるぴ",
+      "avatarAuthorUrl": "https://chipierupi.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "wifi",
+      "profileAuthorUrl": "https://wifishop.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://wifishop.booth.pm/items/7703521",
+      "imageUrl": "https://booth.pximg.net/c/620x620/3b5fc523-e0c1-4bed-95cc-48e1921165f7/i/5260030/8352c654-5b04-43f0-9864-6f8a701ccd56_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "517",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "Sio / しお /",
+      "avatarNameUrl": "https://chocolaterice.booth.pm/items/5650156",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Chocolate rice",
+      "avatarAuthorUrl": "https://chocolaterice.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "なぎらび",
+      "profileAuthorUrl": "https://nagi-rabi.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://nagi-rabi.booth.pm/items/7707523",
+      "imageUrl": "https://booth.pximg.net/817e9a9a-020c-4fac-8b21-96f80d6e25cb/i/5650156/95fc778d-3254-45ca-8a6e-2590dc30f87c_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5500",
+      "onSale": true,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "3850",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "518",
+      "registeredDate": "2025-11-30",
+      "updatedDate": "2025-11-30",
+      "avatarName": "オセロマカナ/ocelomacana",
+      "avatarNameUrl": "https://kuboderapon.booth.pm/items/7279973",
+      "profileVersion": "1.0",
+      "avatarAuthor": "窪寺ぽん",
+      "avatarAuthorUrl": "https://kuboderapon.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "狐🦊紅狐(きつね🦊ぐれん)",
+      "profileAuthorUrl": "https://yukkurisisugita.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://yukkurisisugita.booth.pm/items/7707350",
+      "imageUrl": "https://booth.pximg.net/c/620x620/521f14f7-caba-46d4-940c-3751aed0c5df/i/7279973/d924131b-2192-4036-bb54-cf68b818cc9e_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "3500",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",

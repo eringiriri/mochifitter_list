@@ -92,6 +92,9 @@ class ProfileEditor:
         self.current_investigation_url = ""
         self.block_urls_path = os.path.join(self.app_dir, "data", "Block_URLs.txt")
 
+        # 検索用
+        self.search_var = None  # setup_uiで作成
+
         self.setup_ui()
         self.load_data()
         # 初期状態ではフィールドを無効化
@@ -113,6 +116,25 @@ class ProfileEditor:
         list_frame = ttk.LabelFrame(main_frame, text="プロファイル一覧", padding="5")
         list_frame.grid(row=0, column=0, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(0, 5))
 
+        # 検索フレーム
+        search_frame = ttk.Frame(list_frame)
+        search_frame.grid(row=0, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(0, 5))
+
+        ttk.Label(search_frame, text="検索:").pack(side=tk.LEFT, padx=(0, 5))
+        self.search_var = tk.StringVar()
+        self.search_var.trace_add("write", lambda *args: self.filter_profiles())
+        search_entry = ttk.Entry(search_frame, textvariable=self.search_var, width=30)
+        search_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
+
+        # クリアボタン
+        ttk.Button(search_frame, text="✕", width=3, command=self.clear_search).pack(side=tk.LEFT, padx=(5, 0))
+
+        # ID振り直しボタン
+        id_reassign_frame = ttk.Frame(list_frame)
+        id_reassign_frame.grid(row=1, column=0, columnspan=2, sticky=(tk.W, tk.E), pady=(0, 5))
+
+        ttk.Button(id_reassign_frame, text="ID振り直し", command=self.reassign_ids).pack(side=tk.LEFT, padx=2)
+
         # ツリービュー
         self.tree = ttk.Treeview(list_frame, columns=("id", "avatar", "author", "profileAuthor"), show="headings", height=20)
         self.tree.heading("id", text="ID", command=lambda: self.sort_tree("id"))
@@ -128,11 +150,11 @@ class ProfileEditor:
         scrollbar = ttk.Scrollbar(list_frame, orient=tk.VERTICAL, command=self.tree.yview)
         self.tree.configure(yscrollcommand=scrollbar.set)
 
-        self.tree.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
-        scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        self.tree.grid(row=2, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        scrollbar.grid(row=2, column=1, sticky=(tk.N, tk.S))
 
         list_frame.columnconfigure(0, weight=1)
-        list_frame.rowconfigure(0, weight=1)
+        list_frame.rowconfigure(2, weight=1)
 
         self.tree.bind("<<TreeviewSelect>>", self.on_select)
 
@@ -179,6 +201,7 @@ class ProfileEditor:
         id_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
         self.fields["id"] = ttk.Entry(id_frame, width=50)
         self.fields["id"].pack(side=tk.LEFT, fill=tk.X, expand=True)
+        self.fields["id"].bind("<FocusOut>", self.check_id_duplicate)
         ttk.Label(id_frame, text="※空欄で自動採番", font=("", 8), foreground="gray").pack(side=tk.LEFT, padx=(5, 0))
         row += 1
 
@@ -537,19 +560,74 @@ class ProfileEditor:
 
     def refresh_tree(self):
         """ツリービューを更新"""
+        if hasattr(self, 'search_var') and self.search_var:
+            # 検索機能が有効な場合はfilter_profilesを使用
+            self.filter_profiles()
+        else:
+            # 初期化中は従来通り
+            for item in self.tree.get_children():
+                self.tree.delete(item)
+
+            if self.data and "profiles" in self.data:
+                # ソート列に応じてソート
+                sorted_profiles = self.get_sorted_profiles()
+                for profile in sorted_profiles:
+                    self.tree.insert("", tk.END, values=(
+                        profile.get("id", ""),
+                        profile.get("avatarName", ""),
+                        profile.get("avatarAuthor", ""),
+                        profile.get("profileAuthor", "")
+                    ))
+
+    def filter_profiles(self):
+        """検索キーワードに基づいてプロファイル一覧をフィルタリング"""
+        search_text = self.search_var.get().lower().strip()
+
+        # ツリービューをクリア
         for item in self.tree.get_children():
             self.tree.delete(item)
 
-        if self.data and "profiles" in self.data:
-            # ソート列に応じてソート
-            sorted_profiles = self.get_sorted_profiles()
-            for profile in sorted_profiles:
+        if not self.data or "profiles" not in self.data:
+            return
+
+        # ソート済みプロファイルを取得
+        sorted_profiles = self.get_sorted_profiles()
+
+        # 検索フィルタ適用
+        for profile in sorted_profiles:
+            # 検索テキストが空なら全て表示
+            if not search_text:
                 self.tree.insert("", tk.END, values=(
                     profile.get("id", ""),
                     profile.get("avatarName", ""),
                     profile.get("avatarAuthor", ""),
                     profile.get("profileAuthor", "")
                 ))
+                continue
+
+            # 各フィールドを検索
+            id_match = search_text in profile.get("id", "").lower()
+            name_match = search_text in profile.get("avatarName", "").lower()
+            author_match = search_text in profile.get("avatarAuthor", "").lower()
+            profile_author_match = search_text in profile.get("profileAuthor", "").lower()
+            note_match = search_text in profile.get("notes", "").lower()
+            body_base_match = search_text in profile.get("bodyBase", "").lower()
+            avatar_url_match = search_text in profile.get("avatarNameUrl", "").lower()
+            download_url_match = search_text in profile.get("downloadLocation", "").lower()
+
+            # いずれかにマッチすれば表示
+            if id_match or name_match or author_match or profile_author_match or note_match or body_base_match or avatar_url_match or download_url_match:
+                self.tree.insert("", tk.END, values=(
+                    profile.get("id", ""),
+                    profile.get("avatarName", ""),
+                    profile.get("avatarAuthor", ""),
+                    profile.get("profileAuthor", "")
+                ))
+
+    def clear_search(self):
+        """検索をクリアして全件表示"""
+        self.search_var.set("")
+        # filter_profiles は trace により自動的に呼ばれる
 
     def get_sorted_profiles(self):
         """ソート列と順序に基づいてプロファイルをソート"""
@@ -600,8 +678,8 @@ class ProfileEditor:
         if self.current_selection and self.current_selection.get("id") == profile_id:
             return
 
-        # 未保存の変更がある場合、確認ダイアログを表示
-        if self.form_modified:
+        # 未保存の変更がある場合、確認
+        if self.form_modified and self.current_selection:
             result = messagebox.askyesno("確認", "未保存の変更があります。破棄しますか?")
             if not result:
                 # キャンセル: イベントを一時的に無効化して元の選択に戻す
@@ -1271,6 +1349,148 @@ class ProfileEditor:
             self.clear_form()
             self.form_modified = False
 
+    def check_id_duplicate(self, event=None):
+        """IDフィールドのフォーカスが外れた時に重複チェック"""
+        if not self.current_selection:
+            return
+
+        new_id = self.fields["id"].get().strip()
+        old_id = self.current_selection.get("id", "")
+
+        # IDが変更されていない場合は何もしない
+        if new_id == old_id or not new_id:
+            return
+
+        # 重複チェック
+        duplicate_found = False
+        for profile in self.data["profiles"]:
+            if profile != self.current_selection and profile.get("id") == new_id:
+                duplicate_found = True
+                break
+
+        if duplicate_found:
+            # 重複が見つかった - 自動調整を提案
+            result = messagebox.askyesnocancel(
+                "ID重複",
+                f"ID {new_id} は既に使用されています。\n\n"
+                f"はい: {new_id} 以降のIDを自動的にずらす\n"
+                f"いいえ: 元のID ({old_id}) に戻す\n"
+                f"キャンセル: そのまま編集を続ける"
+            )
+
+            if result is None:  # キャンセル
+                pass  # そのまま編集を続ける
+            elif result:  # はい - 自動調整
+                self.adjust_ids_from(new_id)
+                self.current_selection["id"] = new_id
+                self.refresh_tree()
+                messagebox.showinfo("完了", f"ID {new_id} 以降のIDをずらしました")
+            else:  # いいえ - 元に戻す
+                self.fields["id"].delete(0, tk.END)
+                self.fields["id"].insert(0, old_id)
+
+    def adjust_ids_from(self, start_id):
+        """指定されたID以降のIDを全て+1する
+
+        Args:
+            start_id: 調整開始ID（例: "002"）
+        """
+        try:
+            start_num = int(start_id)
+        except ValueError:
+            return
+
+        # start_id以降のプロファイルを取得
+        profiles_to_adjust = []
+        for profile in self.data["profiles"]:
+            try:
+                profile_num = int(profile.get("id", "0"))
+                if profile_num >= start_num:
+                    profiles_to_adjust.append(profile)
+            except ValueError:
+                continue
+
+        # IDの大きい順にソート（後ろから処理して重複を避ける）
+        profiles_to_adjust.sort(key=lambda p: int(p.get("id", "0")), reverse=True)
+
+        # IDを+1
+        for profile in profiles_to_adjust:
+            old_id = profile.get("id", "")
+            try:
+                new_id = str(int(old_id) + 1).zfill(3)
+                profile["id"] = new_id
+            except ValueError:
+                continue
+
+    def reassign_ids(self):
+        """現在のツリービュー順序に基づいてIDを001から順に振り直す"""
+        result = messagebox.askyesno(
+            "確認",
+            "現在の表示順序でIDを001から順に振り直します。\n"
+            "この操作は元に戻せません。\n"
+            "実行しますか？"
+        )
+
+        if not result:
+            return
+
+        tree_items = self.tree.get_children()
+
+        if not tree_items:
+            messagebox.showwarning("警告", "振り直すレコードがありません")
+            return
+
+        id_changes = []
+
+        # 新しいIDを001から順に割り当て
+        for index, tree_item in enumerate(tree_items, start=1):
+            new_id = str(index).zfill(3)
+
+            item_values = self.tree.item(tree_item)["values"]
+            old_id = str(item_values[0]).zfill(3) if isinstance(item_values[0], int) else item_values[0]
+
+            # データ内のIDを更新
+            for profile in self.data["profiles"]:
+                if profile.get("id") == old_id:
+                    profile["id"] = new_id
+                    id_changes.append(f"{old_id} -> {new_id}")
+                    break
+
+            # ツリービューを更新
+            self.tree.item(tree_item, values=(
+                new_id,
+                item_values[1],
+                item_values[2],
+                item_values[3]
+            ))
+
+        # データの順序を更新
+        tree_items = self.tree.get_children()
+        new_profiles_order = []
+
+        for tree_item in tree_items:
+            item_values = self.tree.item(tree_item)["values"]
+            profile_id = str(item_values[0]).zfill(3) if isinstance(item_values[0], int) else item_values[0]
+
+            for profile in self.data["profiles"]:
+                if profile.get("id") == profile_id:
+                    new_profiles_order.append(profile)
+                    break
+
+        self.data["profiles"] = new_profiles_order
+
+        # 選択中プロファイルのIDフィールドを更新
+        if self.current_selection:
+            self.fields["id"].delete(0, tk.END)
+            self.fields["id"].insert(0, self.current_selection.get("id", ""))
+
+        messagebox.showinfo(
+            "完了",
+            f"IDの振り直しが完了しました。\n"
+            f"{len(id_changes)}件のレコードを更新しました。\n\n"
+            f"変更を保存するには「保存」ボタンをクリックしてください。"
+        )
+
     def clear_form(self):
         """フォームをクリア"""
         for field_name, widget in self.fields.items():
@@ -1423,11 +1643,18 @@ class ProfileEditor:
         button_frame = ttk.Frame(panel)
         button_frame.pack(fill=tk.X, pady=(0, 10))
 
-        ttk.Button(button_frame, text="次へ", command=self.investigation_next_url).pack(side=tk.LEFT, padx=(0, 5))
-        ttk.Button(button_frame, text="登録", command=self.investigation_register_url).pack(side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="ブロック", command=self.investigation_block_url).pack(side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="アバター保存", command=self.investigation_save_avatar_url).pack(side=tk.LEFT, padx=5)
-        ttk.Button(button_frame, text="アバター読取", command=self.investigation_load_avatar_urls).pack(side=tk.LEFT, padx=5)
+        # 1行目: 次へ、ブロック、アバター保存
+        button_row1 = ttk.Frame(button_frame)
+        button_row1.pack(fill=tk.X, pady=(0, 5))
+        ttk.Button(button_row1, text="次へ", command=self.investigation_next_url).pack(side=tk.LEFT, padx=(0, 5))
+        ttk.Button(button_row1, text="ブロック", command=self.investigation_block_url).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_row1, text="アバター保存", command=self.investigation_save_avatar_url).pack(side=tk.LEFT, padx=5)
+
+        # 2行目: 登録、アバター読取
+        button_row2 = ttk.Frame(button_frame)
+        button_row2.pack(fill=tk.X)
+        ttk.Button(button_row2, text="登録", command=self.investigation_register_url).pack(side=tk.LEFT, padx=(0, 5))
+        ttk.Button(button_row2, text="アバター読取", command=self.investigation_load_avatar_urls).pack(side=tk.LEFT, padx=5)
 
         # URL一覧入力エリア
         ttk.Label(panel, text="URL一覧:").pack(anchor=tk.W, pady=(0, 5))
@@ -1440,13 +1667,26 @@ class ProfileEditor:
         """次のURLへ移動（URL調査パネル）"""
         text_content = self.url_list_text.get("1.0", tk.END).strip()
 
+        # URL一覧が空の場合
         if not text_content:
+            # 現在調査中のURLがあればクリア
+            if self.current_investigation_url:
+                self.current_investigation_url = ""
+                self.current_url_entry.config(state="normal")
+                self.current_url_entry.delete(0, tk.END)
+                self.current_url_entry.config(state="readonly")
             return
 
         # 改行で分割してURL一覧を作成
         urls = [line.strip() for line in text_content.split('\n') if line.strip()]
 
         if not urls:
+            # 現在調査中のURLがあればクリア
+            if self.current_investigation_url:
+                self.current_investigation_url = ""
+                self.current_url_entry.config(state="normal")
+                self.current_url_entry.delete(0, tk.END)
+                self.current_url_entry.config(state="readonly")
             return
 
         # 最初のURLを取得
@@ -1467,12 +1707,7 @@ class ProfileEditor:
         self.url_list_text.delete("1.0", tk.END)
         if remaining_urls:
             self.url_list_text.insert("1.0", '\n'.join(remaining_urls))
-        else:
-            # 次のURLがない場合、現在調査中のURLもクリア
-            self.current_investigation_url = ""
-            self.current_url_entry.config(state="normal")
-            self.current_url_entry.delete(0, tk.END)
-            self.current_url_entry.config(state="readonly")
+        # remaining_urlsが空でも現在調査中のURLは保持される
 
     def investigation_register_url(self):
         """現在のURLで新規レコードを作成（URL調査パネル）"""

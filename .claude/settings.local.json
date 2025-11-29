@@ -43,7 +43,10 @@
       "Bash(del:*)",
       "Bash(python -m http.server:*)",
       "Bash(python profile_editor.py:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(echo:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(timeout 3 python:*)"
     ],
     "deny": [],
     "ask": []

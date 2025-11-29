@@ -15,7 +15,7 @@ class URLInvestigationTool:
         self.root.title("URL調査ツール")
         self.root.geometry("800x600")
 
-        self.block_urls_path = os.path.join(os.path.dirname(__file__), "Block_URLs.txt")
+        self.block_urls_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "Block_URLs.txt")
         self.url_list = []
         self.current_url = ""
 

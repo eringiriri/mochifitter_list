@@ -26,7 +26,8 @@ def get_app_dir():
         return os.path.dirname(sys.executable)
     else:
         # 通常のPythonスクリプトとして実行されている場合
-        return os.path.dirname(os.path.abspath(__file__))
+        # scriptsフォルダから一つ上の階層を返す
+        return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 class PlaceholderEntry(ttk.Entry):
