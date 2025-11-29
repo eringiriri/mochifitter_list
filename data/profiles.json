@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-30 00:44:43 JST",
+  "lastUpdated": "2025-11-30 00:47:04 JST",
   "profiles": [
     {
       "id": "001",
@@ -6828,7 +6828,7 @@
     {
       "id": "308",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "こんぺいとうネズミのマウフェくん",
       "avatarNameUrl": "https://uri880.booth.pm/items/6424235",
       "profileVersion": "1.0",
@@ -6839,13 +6839,18 @@
       "profileAuthorUrl": "https://uri880.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://uri880.booth.pm/items/6424235",
       "imageUrl": "https://booth.pximg.net/c/620x620/e0a70696-3586-4c6c-afb0-6d102f81b033/i/6424235/2c5337b0-915f-4e21-b383-0eda6ecab8d0_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "4000",
-      "forwardSupport": false,
-      "reverseSupport": false,
-      "notes": "タグのみ、対応予定？対応済み？"
+      "price": "-",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "309",
