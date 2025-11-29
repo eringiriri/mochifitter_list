@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-30 01:16:53 JST",
+  "lastUpdated": "2025-11-30 01:20:57 JST",
   "profiles": [
     {
       "id": "001",
@@ -3780,7 +3780,7 @@
     {
       "id": "169",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-11-30",
       "avatarName": "ヴェール・Velle",
       "avatarNameUrl": "https://misterpink.booth.pm/items/4951792",
       "profileVersion": "1.0",
@@ -3794,10 +3794,15 @@
       "downloadLocation": "https://awedf-3dmodeling.booth.pm/items/7680751",
       "imageUrl": "https://booth.pximg.net/c/620x620/28287c66-2305-4c54-ab7f-9daa4f7bd90a/i/4951792/55864af0-f05d-4142-a945-cf5320b1898e_base_resized.jpg",
       "pricing": "無料",
-      "price": "",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "170",
@@ -5445,13 +5450,13 @@
     {
       "id": "244",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "ミルフィ Milfy",
       "avatarNameUrl": "https://mk22.booth.pm/items/6571299",
       "profileVersion": "1.0",
       "avatarAuthor": "有坂みと",
       "avatarAuthorUrl": "https://mk22.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "エク - Eku",
       "profileAuthor": "M-0LT",
       "profileAuthorUrl": "https://mochiprofile.booth.pm/",
       "official": false,
@@ -5462,7 +5467,12 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "エクと同素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "245",
@@ -5494,13 +5504,13 @@
     {
       "id": "246",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-11-30",
       "avatarName": "エク - Eku",
       "avatarNameUrl": "https://septem47.booth.pm/items/7328764",
       "profileVersion": "1.0",
       "avatarAuthor": "septem47",
       "avatarAuthorUrl": "https://septem47.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "ミルフィ Milfy ",
       "profileAuthor": "M-0LT",
       "profileAuthorUrl": "https://mochiprofile.booth.pm/",
       "official": false,
@@ -5511,7 +5521,12 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ミルフィと同素体"
+      "notes": "",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "247",
