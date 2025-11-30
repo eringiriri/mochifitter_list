@@ -46,7 +46,9 @@
       "Bash(python:*)",
       "Bash(echo:*)",
       "Bash(powershell -Command:*)",
-      "Bash(timeout 3 python:*)"
+      "Bash(timeout 3 python:*)",
+      "Bash(git -C \"S:\\pycharm\\project\\mochifitter_list\" status --short)",
+      "Bash(git -C \"S:\\pycharm\\project\\mochifitter_list\" log --oneline -10)"
     ],
     "deny": [],
     "ask": []
