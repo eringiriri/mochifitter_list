@@ -1149,6 +1149,11 @@ class ProfileEditor:
 
                 self.fields["imageUrl"].set_value(data.get("imageUrl", ""))
 
+                # アバター価格を設定（取得できた場合のみ）
+                if data.get("avatarPrice"):
+                    self.fields["avatarPrice"].delete(0, tk.END)
+                    self.fields["avatarPrice"].insert(0, data.get("avatarPrice", ""))
+
                 # 公式トグルがONの場合、プロファイル作者情報を自動設定
                 if self.fields["official"].get():
                     self.fields["profileAuthor"].delete(0, tk.END)
@@ -1274,11 +1279,45 @@ class ProfileEditor:
                 if shop_name_span:
                     avatar_author = shop_name_span.get_text(strip=True)
 
+            # アバター価格を取得
+            # ダウンロード商品が1つだけの場合、その価格を取得
+            avatar_price = ""
+            try:
+                # variation-itemのうち、ダウンロード商品のみを抽出
+                variation_items = soup.find_all('li', class_='variation-item')
+                download_variations = []
+
+                for item in variation_items:
+                    # ダウンロードアイコンがあるかチェック
+                    icon = item.find('i', class_='icon-download')
+                    if icon:
+                        # 価格を取得
+                        price_div = item.find('div', class_='variation-price')
+                        if price_div:
+                            price_text = price_div.get_text(strip=True)
+                            # "¥ 3,000" から数値のみ抽出
+                            import re
+                            price_match = re.search(r'[\d,]+', price_text)
+                            if price_match:
+                                price_num = price_match.group().replace(',', '')
+                                # 0円でない場合のみリストに追加
+                                if int(price_num) > 0:
+                                    download_variations.append(price_num)
+
+                # ダウンロード商品が1つだけの場合、その価格を設定
+                if len(download_variations) == 1:
+                    avatar_price = download_variations[0]
+
+            except Exception:
+                # 価格取得に失敗しても処理は続行
+                pass
+
             return {
                 "avatarName": avatar_name,
                 "avatarAuthor": avatar_author,
                 "avatarAuthorUrl": avatar_author_url,
-                "imageUrl": image_url
+                "imageUrl": image_url,
+                "avatarPrice": avatar_price
             }
 
         except requests.RequestException as e:
