@@ -5490,7 +5490,7 @@
       "pricing": "無料",
       "price": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": "公式にてプロファイル作成予定"
     },
     {
