@@ -236,11 +236,15 @@ function createProfileCard(profile) {
                     <span class="info-value">${escapeHtml(profile.downloadMethod)}</span>
                 </div>
                 <div class="info-row">
-                    <span class="info-label">価格</span>
+                    <span class="info-label">プロファイル価格</span>
                     <span class="info-value">
                         <span class="price-badge ${getPriceBadgeClass(profile.pricing)}">${escapeHtml(profile.pricing)}</span>
-                        ${profile.price ? `<span class="price-amount">${escapeHtml(profile.price)}円</span>` : ''}
+                        ${profile.price && profile.price !== '-' && profile.price !== '0' ? `<span class="price-amount">${escapeHtml(profile.price)}円</span>` : ''}
                     </span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">アバター価格</span>
+                    <span class="info-value">${profile.avatarPrice && profile.avatarPrice.trim() ? escapeHtml(profile.avatarPrice) + '円' : '未登録'}</span>
                 </div>
             </div>
 
