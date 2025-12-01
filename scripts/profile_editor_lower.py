@@ -221,6 +221,7 @@ class ProfileEditor:
             ("プロファイルバージョン", "profileVersion", False),
             ("アバター作者", "avatarAuthor", False),
             ("アバター作者URL", "avatarAuthorUrl", True),
+            ("共通素体", "bodyBase", False),
             ("プロファイル作者", "profileAuthor", False),
             ("プロファイル作者URL", "profileAuthorUrl", True),
         ]
@@ -800,6 +801,7 @@ class ProfileEditor:
             "profileVersion": "1.0",
             "avatarAuthor": "",
             "avatarAuthorUrl": "",
+            "bodyBase": "",
             "profileAuthor": "",
             "profileAuthorUrl": "",
             "official": False,
@@ -917,7 +919,7 @@ class ProfileEditor:
 
                         # 各フィールドを設定
                         for field_name in ["avatarName", "avatarNameUrl", "profileVersion",
-                                          "avatarAuthor", "avatarAuthorUrl", "profileAuthor",
+                                          "avatarAuthor", "avatarAuthorUrl", "bodyBase", "profileAuthor",
                                           "profileAuthorUrl", "downloadMethod", "downloadLocation",
                                           "imageUrl", "pricing", "price", "avatarPrice",
                                           "saleStartDate", "saleEndDate", "salePrice", "notes"]:
@@ -986,7 +988,7 @@ class ProfileEditor:
             fieldnames = [
                 "id", "registeredDate", "updatedDate",
                 "avatarName", "avatarNameUrl", "profileVersion",
-                "avatarAuthor", "avatarAuthorUrl",
+                "avatarAuthor", "avatarAuthorUrl", "bodyBase",
                 "profileAuthor", "profileAuthorUrl",
                 "official", "downloadMethod", "downloadLocation",
                 "imageUrl", "pricing", "price", "avatarPrice",
