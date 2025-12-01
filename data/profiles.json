@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-01 00:23:41 JST",
+  "lastUpdated": "2025-12-01 13:02:57 JST",
   "profiles": [
     {
       "id": "001",
@@ -11003,8 +11003,8 @@
     {
       "id": "462",
       "registeredDate": "2025-11-28",
-      "updatedDate": "2025-11-28",
-      "avatarName": " ランティーネ LANTINE",
+      "updatedDate": "2025-12-01",
+      "avatarName": "ランティーネ LANTINE",
       "avatarNameUrl": "https://spk-strm.booth.pm/items/6026975",
       "profileVersion": "1.0",
       "avatarAuthor": "AX-7YK",
@@ -11012,7 +11012,7 @@
       "bodyBase": "",
       "profileAuthor": "AX-7YK",
       "profileAuthorUrl": "https://spk-strm.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://spk-strm.booth.pm/items/7702172",
       "imageUrl": "https://booth.pximg.net/c/620x620/db4cd5f7-1dc4-4d39-9459-709029e9f287/i/6026975/9ca77ee8-bd88-4f72-a71c-23ad3acb89b2_base_resized.jpg",
@@ -12542,7 +12542,7 @@
     {
       "id": "519",
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-01",
       "avatarName": "TORU",
       "avatarNameUrl": "https://sinakay.booth.pm/items/7264957",
       "profileVersion": "1.0",
@@ -12551,7 +12551,7 @@
       "bodyBase": "DuCBody",
       "profileAuthor": "GMF WORKS",
       "profileAuthorUrl": "https://gmf-works.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://gmf-works.booth.pm/items/7684981",
       "imageUrl": "https://booth.pximg.net/c/620x620/2bf20ef3-00c6-4922-83bf-050271fcb4fa/i/7264957/89fa18c0-3bf4-4a41-a932-c8a44f9bfdc4_base_resized.jpg",
@@ -12562,8 +12562,8 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
-      "reverseSupport": false,
+      "forwardSupport": true,
+      "reverseSupport": true,
       "notes": ""
     },
     {
