@@ -27,7 +27,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" profile_editor_lower.py
+          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" scripts/profile_editor_lower.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
