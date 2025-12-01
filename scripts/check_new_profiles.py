@@ -157,6 +157,7 @@ def send_discord_notification(webhook_url, unregistered_items, artifact_url=None
     }
     
     payload = {
+        "content": "<@403156635301838850>",
         "embeds": [embed]
     }
     
