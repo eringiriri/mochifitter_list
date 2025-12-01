@@ -16,10 +16,41 @@ VRChat用アバターの「もちふぃったー」対応プロファイル情�
 - **booth_url_extractor.py** - Booth URLを抽出
 - **diff_checker.py** - プロファイルの差分チェック
 - **url_investigation.py** - URL調査ツール
+- **check_new_profiles.py** - 新規プロファイル自動チェック（GitHub Actions用）
 
 ### データ
 
 - **data/profiles.json** - プロファイル情報（アバター名、作者、配布場所など）
+- **data/Block_URLs.txt** - 除外するBooth商品URL（オプション）
+- **data/Avatar_URLs.txt** - 除外するアバターURL（オプション）
+
+## 自動チェック機能
+
+GitHub Actionsを使用して、Boothで新しいプロファイルを自動的にチェックします。
+
+### 設定方法
+
+1. **Discord Webhookの設定**
+   - Discordでチャンネルの設定からWebhook URLを取得
+   - GitHubリポジトリの Settings > Secrets and variables > Actions
+   - `DISCORD_WEBHOOK_URL` という名前でシークレットを追加
+
+2. **実行スケジュール**
+   - 2時間ごとに自動実行
+   - 手動実行も可能（Actions タブから「Check New Booth Profiles」を選択）
+
+3. **チェック対象URL**
+   - `https://booth.pm/ja/search/もちふぃった?adult=include`
+   - `https://booth.pm/ja/search/mochifitter?adult=include`
+
+### 動作
+
+1. 上記の検索URLから商品URLを収集
+2. `profiles.json`、`Block_URLs.txt`、`Avatar_URLs.txt` と照合
+3. 未登録の商品があれば：
+   - Discord Webhookで通知
+   - `unregistered_avatars.txt` をArtifactとして保存
+4. 未登録の商品がなければ正常終了
 
 ## 登録作業フロー
 

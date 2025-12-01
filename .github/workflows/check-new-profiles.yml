@@ -1,0 +1,60 @@
+name: Check New Booth Profiles
+
+on:
+  # 2時間ごとに実行
+  schedule:
+    - cron: '0 */2 * * *'
+  
+  # 手動実行も可能にする
+  workflow_dispatch:
+
+jobs:
+  check-profiles:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Check for new profiles
+        id: check
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          cd scripts
+          python check_new_profiles.py
+      
+      - name: Upload unregistered avatars list
+        if: steps.check.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: unregistered-avatars-${{ github.run_number }}
+          path: unregistered_avatars.txt
+          retention-days: 30
+      
+      - name: Summary
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "## 🔔 新しいプロファイルが見つかりました" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "詳細は artifacts を確認してください。" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Discord通知も送信されました。" >> $GITHUB_STEP_SUMMARY
+      
+      - name: Summary (No new profiles)
+        if: steps.check.outcome == 'success'
+        run: |
+          echo "## ✅ 新しいプロファイルはありません" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "すべてのプロファイルが登録済みです。" >> $GITHUB_STEP_SUMMARY
