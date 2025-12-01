@@ -159,8 +159,8 @@ def main():
     
     # 検索URL（環境変数から取得、なければデフォルト）
     search_urls = [
-        "https://booth.pm/ja/search/%E3%82%82%E3%81%A1%E3%81%B5%E3%81%83%E3%81%A3%E3%81%9F?adult=include",
-        "https://booth.pm/ja/search/mochifitter?adult=include"
+        "https://booth.pm/ja/search/もちふぃった",
+        "https://booth.pm/ja/search/mochifitter"
     ]
     
     # ファイルパス（リポジトリルートから実行される想定）
