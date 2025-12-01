@@ -1568,7 +1568,7 @@ class ProfileEditor:
             return None
 
     def auto_git_push_api(self):
-        """GitHub API経由でファイルを更新（Git CLI不要）"""
+        """GitHub API経由でdata以下のすべてのファイルを更新（Git CLI不要）"""
         # 設定を読み込み
         config = self.load_config()
         if not config:
@@ -1577,12 +1577,15 @@ class ProfileEditor:
         # 処理中ウィンドウを作成
         progress_window = tk.Toplevel(self.root)
         progress_window.title("処理中")
-        progress_window.geometry("300x100")
+        progress_window.geometry("300x150")
         progress_window.transient(self.root)
         progress_window.grab_set()
 
         label = tk.Label(progress_window, text="GitHubにプッシュ中...", font=("", 12))
-        label.pack(expand=True)
+        label.pack(expand=True, pady=10)
+
+        status_label = tk.Label(progress_window, text="", font=("", 9))
+        status_label.pack(expand=True)
 
         progress_window.update()
 
@@ -1594,49 +1597,95 @@ class ProfileEditor:
             # "https://github.com/owner/repo.git" から "owner/repo" を抽出
             repo_path = repo_url.replace("https://github.com/", "").replace(".git", "")
 
-            # profiles.jsonの内容を読み込み
-            with open(self.json_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-
-            # GitHub APIのエンドポイント
-            api_url = f"https://api.github.com/repos/{repo_path}/contents/data/profiles.json"
-
             headers = {
                 "Authorization": f"token {github_token}",
                 "Accept": "application/vnd.github.v3+json"
             }
 
-            # 現在のファイル情報を取得（SHAが必要）
-            response = requests.get(api_url, headers=headers)
-            if response.status_code == 200:
-                current_file = response.json()
-                sha = current_file["sha"]
-            else:
+            # dataディレクトリ内のすべてのファイルを取得
+            data_dir = os.path.join(self.app_dir, "data")
+            data_files = []
+            for root, dirs, files in os.walk(data_dir):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    # dataディレクトリからの相対パスを取得
+                    rel_path = os.path.relpath(file_path, self.app_dir)
+                    data_files.append((rel_path, file_path))
+
+            if not data_files:
                 progress_window.destroy()
-                messagebox.showerror("エラー",
-                    f"ファイル情報の取得に失敗しました: {response.status_code}\n{response.text}")
+                messagebox.showwarning("警告", "dataディレクトリにファイルが見つかりません")
                 return False
 
-            # ファイルを更新
-            commit_message = f"Update profiles.json - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-            content_base64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+            # 各ファイルを更新
+            updated_count = 0
+            failed_files = []
 
-            data = {
-                "message": commit_message,
-                "content": content_base64,
-                "sha": sha
-            }
+            for rel_path, file_path in data_files:
+                try:
+                    status_label.config(text=f"処理中: {os.path.basename(file_path)}")
+                    progress_window.update()
 
-            response = requests.put(api_url, headers=headers, json=data)
+                    # ファイルの内容を読み込み
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+
+                    # GitHub APIのエンドポイント
+                    api_url = f"https://api.github.com/repos/{repo_path}/contents/{rel_path.replace(os.sep, '/')}"
+
+                    # 現在のファイル情報を取得（SHAが必要）
+                    response = requests.get(api_url, headers=headers)
+                    if response.status_code == 200:
+                        current_file = response.json()
+                        sha = current_file["sha"]
+                    elif response.status_code == 404:
+                        # ファイルが存在しない場合は新規作成
+                        sha = None
+                    else:
+                        failed_files.append(f"{rel_path}: {response.status_code}")
+                        continue
+
+                    # ファイルを更新
+                    content_base64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+
+                    data = {
+                        "message": f"Update {os.path.basename(rel_path)} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+                        "content": content_base64
+                    }
+
+                    if sha:
+                        data["sha"] = sha
+
+                    response = requests.put(api_url, headers=headers, json=data)
+
+                    if response.status_code in [200, 201]:
+                        updated_count += 1
+                    else:
+                        failed_files.append(f"{rel_path}: {response.status_code} - {response.text[:100]}")
+
+                except Exception as e:
+                    failed_files.append(f"{rel_path}: {str(e)[:100]}")
 
             progress_window.destroy()
 
-            if response.status_code in [200, 201]:
-                messagebox.showinfo("完了", "GitHubへのプッシュが完了しました。\nWebサイトは数分後に更新されます。")
+            # 結果を表示
+            if updated_count == len(data_files):
+                messagebox.showinfo("完了", 
+                    f"GitHubへのプッシュが完了しました。\n{updated_count}個のファイルを更新しました。\nWebサイトは数分後に更新されます。")
+                return True
+            elif updated_count > 0:
+                error_msg = f"{updated_count}個のファイルを更新しましたが、{len(failed_files)}個のファイルでエラーが発生しました:\n\n"
+                error_msg += "\n".join(failed_files[:5])
+                if len(failed_files) > 5:
+                    error_msg += f"\n... 他 {len(failed_files) - 5}件"
+                messagebox.showwarning("一部エラー", error_msg)
                 return True
             else:
-                messagebox.showerror("プッシュエラー",
-                    f"プッシュに失敗しました: {response.status_code}\n{response.text[:200]}")
+                error_msg = "すべてのファイルの更新に失敗しました:\n\n"
+                error_msg += "\n".join(failed_files[:5])
+                if len(failed_files) > 5:
+                    error_msg += f"\n... 他 {len(failed_files) - 5}件"
+                messagebox.showerror("エラー", error_msg)
                 return False
 
         except Exception as e:
