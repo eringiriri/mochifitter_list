@@ -28,7 +28,9 @@ VRChat用アバターの「もちふぃったー」対応プロファイル情�
 
 GitHub Actionsを使用して、Boothで新しいプロファイルを自動的にチェックします。
 
-### 設定方法
+**詳しいセットアップ方法は [SETUP_GUIDE.md](SETUP_GUIDE.md) を参照してください。**
+
+### 設定方法（概要）
 
 1. **Discord Webhookの設定**
    - Discordでチャンネルの設定からWebhook URLを取得
@@ -49,7 +51,7 @@ GitHub Actionsを使用して、Boothで新しいプロファイルを自動的�
 2. `profiles.json`、`Block_URLs.txt`、`Avatar_URLs.txt` と照合
 3. 未登録の商品があれば：
    - Discord Webhookで通知
-   - `unregistered_avatars.txt` をArtifactとして保存
+   - `unregistered_avatars.txt` をArtifactとして保存（30日間）
 4. 未登録の商品がなければ正常終了
 
 ## 登録作業フロー
