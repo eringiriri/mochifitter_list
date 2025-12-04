@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04 23:55:36 JST",
+  "lastUpdated": "2025-12-05 01:24:06 JST",
   "profiles": [
     {
       "id": "001",
@@ -13482,6 +13482,33 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "553",
+      "registeredDate": "2025-12-05",
+      "updatedDate": "2025-12-05",
+      "avatarName": "凪夜 瑠璃 / Nagiya Ruri",
+      "avatarNameUrl": "https://moca-studio.booth.pm/items/5351494",
+      "profileVersion": "1.0",
+      "avatarAuthor": "STUDIO MOCA",
+      "avatarAuthorUrl": "https://moca-studio.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "STUDIO MOCA",
+      "profileAuthorUrl": "https://moca-studio.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://moca-studio.booth.pm/items/5351494",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4a889db8-a94a-4a8f-a4c2-8bb9af570228/i/5351494/bb2deda1-f544-4c7a-88e7-807d306092e6_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
       "notes": ""
     },
     {
