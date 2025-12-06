@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07 01:44:43 JST",
+  "lastUpdated": "2025-12-07 05:44:19 JST",
   "profiles": [
     {
       "id": "001",
@@ -14185,6 +14185,33 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "セットで12000円\nどちらか単体なら6500円"
+    },
+    {
+      "id": "579",
+      "registeredDate": "2025-12-07",
+      "updatedDate": "2025-12-07",
+      "avatarName": "会長っ！",
+      "avatarNameUrl": "https://qesalan.booth.pm/items/6774945",
+      "profileVersion": "1.0",
+      "avatarAuthor": "qesalan",
+      "avatarAuthorUrl": "https://qesalan.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "qesalan",
+      "profileAuthorUrl": "https://qesalan.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://qesalan.booth.pm/items/6774945",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ced681b0-5953-4cdb-adc9-f2fc99e6bdb5/i/6774945/ad1315dd-eca1-44c4-8c79-ea2ac1f77f7a_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
     },
     {
       "id": "9997",
