@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07 17:25:56 JST",
+  "lastUpdated": "2025-12-07 18:11:19 JST",
   "profiles": [
     {
       "id": "001",
@@ -6480,7 +6480,7 @@
     {
       "id": "282",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-07",
       "avatarName": "レンフア -Renfua-",
       "avatarNameUrl": "https://seafoods.booth.pm/items/7544937",
       "profileVersion": "1.0",
@@ -6496,9 +6496,13 @@
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "283",
@@ -14529,6 +14533,33 @@
       "pricing": "アバター同梱",
       "price": "-",
       "avatarPrice": "4500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "592",
+      "registeredDate": "2025-12-07",
+      "updatedDate": "2025-12-07",
+      "avatarName": "キシャ Kisha",
+      "avatarNameUrl": "https://seodea.booth.pm/items/6655159",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Dea",
+      "avatarAuthorUrl": "https://seodea.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "Dea",
+      "profileAuthorUrl": "https://seodea.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://booth.pm/ja/items/6655159",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ed6ca20d-ef44-484f-ac33-ae047b1fc3d1/i/6655159/89c3edcd-ff13-40b3-80f7-4b478f7257cd_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
