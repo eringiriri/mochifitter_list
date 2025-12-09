@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09 13:24:27 JST",
+  "lastUpdated": "2025-12-09 16:06:33 JST",
   "profiles": [
     {
       "id": "001",
@@ -15193,6 +15193,33 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
+    },
+    {
+      "id": "616",
+      "registeredDate": "2025-12-09",
+      "updatedDate": "2025-12-09",
+      "avatarName": "アントーv1.0.3",
+      "avatarNameUrl": "https://sodie-oxige.booth.pm/items/7620978",
+      "profileVersion": "1.0",
+      "avatarAuthor": "袖置",
+      "avatarAuthorUrl": "https://sodie-oxige.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "袖置",
+      "profileAuthorUrl": "https://sodie-oxige.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://sodie-oxige.booth.pm/items/7620978",
+      "imageUrl": "https://booth.pximg.net/c/620x620/b0b2e60c-4ee6-42b0-98a6-91e60c82d0a3/i/7620978/b8ff478e-b8e0-44b8-84f9-01cd1ec645d4_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "1000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": "「某もちもちなふぃった～に対応させたいね」とのこと"
     },
     {
       "id": "9997",
