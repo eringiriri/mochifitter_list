@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2025-12-09 23:25:04 JST",
+  "lastUpdated": "2025-12-10 01:23:53 JST",
   "profiles": [
     {
       "id": "001",
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-10",
       "avatarName": "透羽",
       "avatarNameUrl": "https://mio3works.booth.pm/items/3016885",
       "profileVersion": "1.0",
@@ -21,7 +21,7 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
@@ -31,7 +31,7 @@
     {
       "id": "002",
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-10",
       "avatarName": "杏里",
       "avatarNameUrl": "https://mio3works.booth.pm/items/3203894",
       "profileVersion": "1.0",
@@ -48,7 +48,7 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
@@ -58,7 +58,7 @@
     {
       "id": "003",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-10",
       "avatarName": "一介天使",
       "avatarNameUrl": "https://mio3works.booth.pm/items/1896193",
       "profileVersion": "1.0",
@@ -75,7 +75,7 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "5000",
       "onSale": false,
       "saleStartDate": "",
@@ -85,7 +85,7 @@
     {
       "id": "004",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-10",
       "avatarName": "翠蓮",
       "avatarNameUrl": "https://mio3works.booth.pm/items/1812495",
       "profileVersion": "1.0",
@@ -102,7 +102,7 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "5000",
       "onSale": false,
       "saleStartDate": "",
@@ -112,7 +112,7 @@
     {
       "id": "005",
       "registeredDate": "2025-11-28",
-      "updatedDate": "2025-11-28",
+      "updatedDate": "2025-12-10",
       "avatarName": "森羅",
       "avatarNameUrl": "https://mio3works.booth.pm/items/4707634",
       "profileVersion": "1",
@@ -129,7 +129,7 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "森羅本体は販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "5500",
       "onSale": false,
       "saleStartDate": "",
@@ -3722,8 +3722,8 @@
     {
       "id": "162",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "avatarName": "ネフェル",
+      "updatedDate": "2025-12-10",
+      "avatarName": "ネフェル(Nefer)",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/3069832",
       "profileVersion": "1.0",
       "avatarAuthor": "ツクルノモリ",
@@ -3739,7 +3739,12 @@
       "price": "800",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "販売休止"
+      "notes": "アバター販売休止中",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "163",
@@ -4199,7 +4204,7 @@
     {
       "id": "182",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2025-12-10",
       "avatarName": "猫山苗（ねこやま なえ）",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/2381911",
       "profileVersion": "1.0",
@@ -4216,7 +4221,12 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売中止"
+      "notes": "アバター販売休止中",
+      "avatarPrice": "",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "183",
@@ -7339,7 +7349,7 @@
     {
       "id": "320",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "御咲ライネ",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/4252855",
       "profileVersion": "1.0",
@@ -7356,7 +7366,12 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "販売中止"
+      "notes": "アバター販売休止中",
+      "avatarPrice": "",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "321",
@@ -13982,7 +13997,7 @@
     {
       "id": "571",
       "registeredDate": "2025-12-06",
-      "updatedDate": "2025-12-07",
+      "updatedDate": "2025-12-10",
       "avatarName": "伊奈波かや（いなば かや）",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/5511341",
       "profileVersion": "1.0",
@@ -14004,7 +14019,7 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": "アバター販売休止中"
     },
     {
       "id": "572",
@@ -14576,8 +14591,8 @@
     {
       "id": "593",
       "registeredDate": "2025-12-07",
-      "updatedDate": "2025-12-07",
-      "avatarName": "ペルル",
+      "updatedDate": "2025-12-10",
+      "avatarName": "ペルル(perle)",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/3744970",
       "profileVersion": "1.0",
       "avatarAuthor": "ツクルノモリ",
@@ -14598,7 +14613,7 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": "アバター販売休止中"
     },
     {
       "id": "594",
@@ -14684,7 +14699,7 @@
     {
       "id": "597",
       "registeredDate": "2025-12-08",
-      "updatedDate": "2025-12-08",
+      "updatedDate": "2025-12-10",
       "avatarName": "ティコ（Tycho）",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/3123433",
       "profileVersion": "1.0",
@@ -14706,12 +14721,12 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": "アバター販売休止中"
     },
     {
       "id": "598",
       "registeredDate": "2025-12-08",
-      "updatedDate": "2025-12-08",
+      "updatedDate": "2025-12-10",
       "avatarName": "ネフェル(Nefer)",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/3069832",
       "profileVersion": "1.0",
@@ -14733,7 +14748,7 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中"
+      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中"
     },
     {
       "id": "599",
@@ -15413,7 +15428,7 @@
     {
       "id": "9999",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-30",
+      "updatedDate": "2025-12-10",
       "avatarName": "薄荷",
       "avatarNameUrl": "https://mio3works.booth.pm/items/2215270",
       "profileVersion": "1.0",
@@ -15430,7 +15445,7 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売休止中",
+      "notes": "アバター販売休止中",
       "avatarPrice": "5000",
       "onSale": false,
       "saleStartDate": "",
