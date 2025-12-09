@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09 13:06:07 JST",
+  "lastUpdated": "2025-12-09 13:24:27 JST",
   "profiles": [
     {
       "id": "001",
@@ -15164,6 +15164,33 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "615",
+      "registeredDate": "2025-12-09",
+      "updatedDate": "2025-12-09",
+      "avatarName": "シロネ- Sirone",
+      "avatarNameUrl": "https://hatchplanet.booth.pm/items/7601010",
+      "profileVersion": "1.0",
+      "avatarAuthor": "HATCH Planet",
+      "avatarAuthorUrl": "https://hatchplanet.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "HATCH Planet",
+      "profileAuthorUrl": "https://hatchplanet.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://hatchplanet.booth.pm/items/7743182",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4eda8d4f-a754-4761-a277-35f7e5e0b54a/i/7601010/d75cdb02-c725-4c05-8709-223f5ac4460a_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
     },
