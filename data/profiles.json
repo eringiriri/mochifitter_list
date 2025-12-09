@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09 16:06:33 JST",
+  "lastUpdated": "2025-12-09 16:07:22 JST",
   "profiles": [
     {
       "id": "001",
@@ -15125,7 +15125,7 @@
       "bodyBase": "",
       "profileAuthor": "そばがら",
       "profileAuthorUrl": "https://sobagarashop.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://sobagarashop.booth.pm/items/7741909",
       "imageUrl": "https://booth.pximg.net/c/620x620/6b37cfb4-2d53-4e83-804b-ec5325047d61/i/5129599/dbd7126e-cff0-42a8-afc2-e853715004d2_base_resized.jpg",
@@ -15136,7 +15136,7 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
     },
@@ -15152,7 +15152,7 @@
       "bodyBase": "",
       "profileAuthor": "ZEU_",
       "profileAuthorUrl": "https://zeu.booth.pm/",
-      "official": false,
+      "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://zeu.booth.pm/items/7702340",
       "imageUrl": "https://booth.pximg.net/fae58d22-da5a-4894-a9e1-3fbe3560a4a4/i/3290957/70b58b44-a1a5-48a2-ba67-ace47b64e009_base_resized.jpg",
@@ -15163,7 +15163,7 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
     },
