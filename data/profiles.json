@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10 01:24:30 JST",
+  "lastUpdated": "2025-12-10 21:26:46 JST",
   "profiles": [
     {
       "id": "001",
@@ -15367,6 +15367,35 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "622",
+      "registeredDate": "2025-12-10",
+      "updatedDate": "2025-12-10",
+      "avatarName": "✨SALE✨ましろ",
+      "avatarNameUrl": "https://tanukitsunet.booth.pm/items/5064727",
+      "profileVersion": "1.0",
+      "avatarAuthor": "味噌月あやべ/AyabeMisotsuki",
+      "avatarshopname": "狸狐ねっとしょっぴんぐ",
+      "avatarAuthorUrl": "https://tanukitsunet.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "味噌月あやべ/AyabeMisotsuki",
+      "profileshopname": "狸狐ねっとしょっぴんぐ",
+      "profileAuthorUrl": "https://tanukitsunet.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://tanukitsunet.booth.pm/items/5064727",
+      "imageUrl": "https://booth.pximg.net/c/620x620/7ba59f99-9bed-43f6-aaad-df2797c414e5/i/5064727/7eaa9e07-dadd-47bb-bb09-de140eff387e_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "3980",
+      "onSale": true,
+      "saleStartDate": "",
+      "saleEndDate": "2025-12-14",
+      "salePrice": "3980",
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
