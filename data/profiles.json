@@ -26,7 +26,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "002",
@@ -53,7 +54,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "003",
@@ -80,7 +82,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "004",
@@ -107,7 +110,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "005",
@@ -134,7 +138,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "006",
@@ -156,7 +161,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kujishift"
     },
     {
       "id": "007",
@@ -183,7 +189,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "nyahuuu"
     },
     {
       "id": "008",
@@ -210,7 +217,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "stray-lamb"
     },
     {
       "id": "009",
@@ -237,7 +245,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "regs"
     },
     {
       "id": "010",
@@ -264,7 +273,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "rokota"
     },
     {
       "id": "011",
@@ -291,7 +301,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "nanka-tsukurouyo"
     },
     {
       "id": "012",
@@ -313,7 +324,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kuromaru9"
     },
     {
       "id": "013",
@@ -335,7 +347,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kuromaru9"
     },
     {
       "id": "014",
@@ -357,7 +370,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kuromaru9"
     },
     {
       "id": "015",
@@ -379,7 +393,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "steller"
     },
     {
       "id": "016",
@@ -401,7 +416,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "brn"
     },
     {
       "id": "017",
@@ -423,7 +439,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yueou"
     },
     {
       "id": "018",
@@ -445,7 +462,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yueou"
     },
     {
       "id": "019",
@@ -467,7 +485,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yueou"
     },
     {
       "id": "020",
@@ -489,7 +508,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yueou"
     },
     {
       "id": "021",
@@ -512,7 +532,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "athv"
     },
     {
       "id": "022",
@@ -535,7 +556,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "023",
@@ -558,7 +580,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "024",
@@ -581,7 +604,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "athv"
     },
     {
       "id": "025",
@@ -604,7 +628,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "026",
@@ -627,7 +652,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "027",
@@ -650,7 +676,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "028",
@@ -673,7 +700,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "athv"
     },
     {
       "id": "029",
@@ -696,7 +724,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "sisters"
     },
     {
       "id": "030",
@@ -718,7 +747,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ikshop"
     },
     {
       "id": "031",
@@ -740,7 +770,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ikshop"
     },
     {
       "id": "032",
@@ -762,7 +793,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ikshop"
     },
     {
       "id": "033",
@@ -784,7 +816,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "elychiffon"
     },
     {
       "id": "034",
@@ -806,7 +839,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "elychiffon"
     },
     {
       "id": "035",
@@ -828,7 +862,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "036",
@@ -850,7 +885,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "037",
@@ -872,7 +908,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "038",
@@ -894,7 +931,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "039",
@@ -916,7 +954,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "https://skd-noratama.booth.pm/items/3118209"
+      "notes": "https://skd-noratama.booth.pm/items/3118209",
+      "shopname": "skd-noratama"
     },
     {
       "id": "040",
@@ -938,7 +977,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "041",
@@ -960,7 +1000,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "042",
@@ -982,7 +1023,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "043",
@@ -1004,7 +1046,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "skd-noratama"
     },
     {
       "id": "044",
@@ -1026,7 +1069,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "045",
@@ -1048,7 +1092,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "046",
@@ -1070,7 +1115,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "047",
@@ -1092,7 +1138,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "048",
@@ -1114,7 +1161,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "049",
@@ -1136,7 +1184,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "050",
@@ -1158,7 +1207,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "051",
@@ -1180,7 +1230,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "052",
@@ -1202,7 +1253,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "053",
@@ -1224,7 +1276,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "054",
@@ -1246,7 +1299,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "055",
@@ -1268,7 +1322,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "wakonoatorie"
     },
     {
       "id": "056",
@@ -1291,7 +1346,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "shopname": "easternwind"
     },
     {
       "id": "057",
@@ -1313,7 +1369,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "easternwind"
     },
     {
       "id": "058",
@@ -1335,7 +1392,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "easternwind"
     },
     {
       "id": "059",
@@ -1357,7 +1415,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "easternwind"
     },
     {
       "id": "060",
@@ -1379,7 +1438,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "easternwind"
     },
     {
       "id": "061",
@@ -1401,7 +1461,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "easternwind"
     },
     {
       "id": "062",
@@ -1423,7 +1484,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "063",
@@ -1445,7 +1507,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "064",
@@ -1467,7 +1530,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "065",
@@ -1489,7 +1553,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "066",
@@ -1511,7 +1576,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "067",
@@ -1533,7 +1599,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "068",
@@ -1555,7 +1622,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "avakin"
     },
     {
       "id": "069",
@@ -1582,7 +1650,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "070",
@@ -1609,7 +1678,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "071",
@@ -1636,7 +1706,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "072",
@@ -1663,7 +1734,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "073",
@@ -1690,7 +1762,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "074",
@@ -1717,7 +1790,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "075",
@@ -1744,7 +1818,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "076",
@@ -1771,7 +1846,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "077",
@@ -1798,7 +1874,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "078",
@@ -1825,7 +1902,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "079",
@@ -1852,7 +1930,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "080",
@@ -1879,7 +1958,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "flastore"
     },
     {
       "id": "081",
@@ -1901,7 +1981,8 @@
       "notes": "",
       "official": false,
       "forwardSupport": true,
-      "reverseSupport": false
+      "reverseSupport": false,
+      "shopname": "formerpaper"
     },
     {
       "id": "082",
@@ -1923,7 +2004,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "083",
@@ -1945,7 +2027,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "084",
@@ -1967,7 +2050,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "085",
@@ -1989,7 +2073,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "086",
@@ -2011,7 +2096,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "087",
@@ -2033,7 +2119,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "088",
@@ -2055,7 +2142,8 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "shopname": "tinmeshi"
     },
     {
       "id": "089",
@@ -2082,7 +2170,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "arishia3939"
     },
     {
       "id": "090",
@@ -2104,7 +2193,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "t8dbcau"
     },
     {
       "id": "091",
@@ -2126,7 +2216,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "t8dbcau"
     },
     {
       "id": "092",
@@ -2148,7 +2239,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "t8dbcau"
     },
     {
       "id": "093",
@@ -2170,7 +2262,8 @@
       "price": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "非対応"
+      "notes": "非対応",
+      "shopname": "t8dbcau"
     },
     {
       "id": "094",
@@ -2192,7 +2285,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "t8dbcau"
     },
     {
       "id": "095",
@@ -2214,7 +2308,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "just-ducky"
     },
     {
       "id": "096",
@@ -2241,7 +2336,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hamini"
     },
     {
       "id": "097",
@@ -2263,7 +2359,8 @@
       "price": "400",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "作者から制作許可あり"
+      "notes": "作者から制作許可あり",
+      "shopname": "dolosart"
     },
     {
       "id": "098",
@@ -2285,7 +2382,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kyubihome"
     },
     {
       "id": "099",
@@ -2307,7 +2405,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kyubihome"
     },
     {
       "id": "100",
@@ -2329,7 +2428,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "jingo1016"
     },
     {
       "id": "101",
@@ -2356,7 +2456,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mk22"
     },
     {
       "id": "102",
@@ -2378,7 +2479,8 @@
       "price": "400",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rionesta"
     },
     {
       "id": "103",
@@ -2400,7 +2502,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "104",
@@ -2422,7 +2525,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "105",
@@ -2444,7 +2548,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "106",
@@ -2466,7 +2571,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載"
+      "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載",
+      "shopname": "komado"
     },
     {
       "id": "107",
@@ -2488,7 +2594,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "chocolaterice"
     },
     {
       "id": "108",
@@ -2510,7 +2617,8 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yorshkasencho"
     },
     {
       "id": "109",
@@ -2532,7 +2640,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "qaty"
     },
     {
       "id": "110",
@@ -2554,7 +2663,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "lat-innoce"
     },
     {
       "id": "111",
@@ -2576,7 +2686,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "teicifer9999"
     },
     {
       "id": "112",
@@ -2599,7 +2710,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "fukanja"
     },
     {
       "id": "113",
@@ -2622,7 +2734,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "fukanja"
     },
     {
       "id": "114",
@@ -2644,7 +2757,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "96kuroiwa"
     },
     {
       "id": "115",
@@ -2666,7 +2780,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "96kuroiwa"
     },
     {
       "id": "116",
@@ -2689,7 +2804,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "matsuriba"
     },
     {
       "id": "117",
@@ -2712,7 +2828,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "matsuriba"
     },
     {
       "id": "118",
@@ -2735,7 +2852,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "matsuriba"
     },
     {
       "id": "119",
@@ -2758,7 +2876,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "sephir"
     },
     {
       "id": "120",
@@ -2781,7 +2900,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "sephir"
     },
     {
       "id": "121",
@@ -2804,7 +2924,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "sephir"
     },
     {
       "id": "122",
@@ -2827,7 +2948,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "sephir"
     },
     {
       "id": "123",
@@ -2850,7 +2972,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "sephir"
     },
     {
       "id": "124",
@@ -2873,7 +2996,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "sephir"
     },
     {
       "id": "125",
@@ -2896,7 +3020,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "skymy"
     },
     {
       "id": "126",
@@ -2919,7 +3044,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "skymy"
     },
     {
       "id": "127",
@@ -2942,7 +3068,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "skymy"
     },
     {
       "id": "128",
@@ -2965,7 +3092,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "skymy"
     },
     {
       "id": "129",
@@ -2988,7 +3116,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "skymy"
     },
     {
       "id": "130",
@@ -3011,7 +3140,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "skymy"
     },
     {
       "id": "131",
@@ -3034,7 +3164,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "fukuma"
     },
     {
       "id": "132",
@@ -3061,7 +3192,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "happalog"
     },
     {
       "id": "133",
@@ -3088,7 +3220,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "lsw"
     },
     {
       "id": "134",
@@ -3111,7 +3244,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "ryu-bt"
     },
     {
       "id": "135",
@@ -3133,7 +3267,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "136",
@@ -3155,7 +3290,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "137",
@@ -3177,7 +3313,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "138",
@@ -3199,7 +3336,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "139",
@@ -3221,7 +3359,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "140",
@@ -3243,7 +3382,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teaf"
     },
     {
       "id": "141",
@@ -3266,7 +3406,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "shasuka"
     },
     {
       "id": "142",
@@ -3289,7 +3430,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "shasuka"
     },
     {
       "id": "143",
@@ -3312,7 +3454,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "froginyata"
     },
     {
       "id": "144",
@@ -3335,7 +3478,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "froginyata"
     },
     {
       "id": "145",
@@ -3358,7 +3502,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "froginyata"
     },
     {
       "id": "146",
@@ -3380,7 +3525,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "yueou"
     },
     {
       "id": "147",
@@ -3403,7 +3549,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "ryu-bt"
     },
     {
       "id": "148",
@@ -3426,7 +3573,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "ryu-bt"
     },
     {
       "id": "149",
@@ -3448,7 +3596,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "tonomaoo"
     },
     {
       "id": "150",
@@ -3471,7 +3620,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "kaerimichi"
     },
     {
       "id": "151",
@@ -3493,7 +3643,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kaerimichi"
     },
     {
       "id": "152",
@@ -3516,7 +3667,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "lemegeton"
     },
     {
       "id": "153",
@@ -3539,7 +3691,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "lemegeton"
     },
     {
       "id": "154",
@@ -3562,7 +3715,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "lemegeton"
     },
     {
       "id": "155",
@@ -3584,7 +3738,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "lemegeton"
     },
     {
       "id": "156",
@@ -3606,7 +3761,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tainaka"
     },
     {
       "id": "157",
@@ -3628,7 +3784,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tainaka"
     },
     {
       "id": "158",
@@ -3650,7 +3807,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hyuuganatu"
     },
     {
       "id": "159",
@@ -3672,7 +3830,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hyuuganatu"
     },
     {
       "id": "160",
@@ -3694,7 +3853,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "161",
@@ -3717,7 +3877,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "andromedanemuru"
     },
     {
       "id": "162",
@@ -3744,7 +3905,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": ""
     },
     {
       "id": "163",
@@ -3767,7 +3929,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "anomanice"
     },
     {
       "id": "164",
@@ -3789,7 +3952,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "seunchan"
     },
     {
       "id": "165",
@@ -3816,7 +3980,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "atelier-alca"
     },
     {
       "id": "166",
@@ -3843,7 +4008,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "atelier-alca"
     },
     {
       "id": "167",
@@ -3870,7 +4036,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "atelier-alca"
     },
     {
       "id": "168",
@@ -3897,7 +4064,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "misterpink"
     },
     {
       "id": "169",
@@ -3919,7 +4087,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mememe-s"
     },
     {
       "id": "170",
@@ -3942,7 +4111,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "beep-on"
     },
     {
       "id": "171",
@@ -3965,7 +4135,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "beep-on"
     },
     {
       "id": "172",
@@ -3988,7 +4159,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "beep-on"
     },
     {
       "id": "173",
@@ -4010,7 +4182,8 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "brcl"
     },
     {
       "id": "174",
@@ -4033,7 +4206,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "brcl"
     },
     {
       "id": "175",
@@ -4056,7 +4230,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4900"
+      "avatarPrice": "4900",
+      "shopname": "brcl"
     },
     {
       "id": "176",
@@ -4083,7 +4258,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "177",
@@ -4105,7 +4281,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kyubihome"
     },
     {
       "id": "178",
@@ -4132,7 +4309,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "179",
@@ -4155,7 +4333,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "crowatu"
     },
     {
       "id": "180",
@@ -4177,7 +4356,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mikoshibasan"
     },
     {
       "id": "181",
@@ -4199,7 +4379,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "armadillon"
     },
     {
       "id": "182",
@@ -4226,7 +4407,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "183",
@@ -4248,7 +4430,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kyubihome"
     },
     {
       "id": "184",
@@ -4270,7 +4453,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり"
+      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり",
+      "shopname": "kyubihome"
     },
     {
       "id": "185",
@@ -4292,7 +4476,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "eggmaru"
     },
     {
       "id": "186",
@@ -4315,7 +4500,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "ensuiuni"
     },
     {
       "id": "187",
@@ -4338,7 +4524,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "ensuiuni"
     },
     {
       "id": "188",
@@ -4360,7 +4547,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "eroha"
     },
     {
       "id": "189",
@@ -4383,7 +4571,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "fluffyscafe"
     },
     {
       "id": "190",
@@ -4406,7 +4595,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "fluffyscafe"
     },
     {
       "id": "191",
@@ -4429,7 +4619,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "fluffyscafe"
     },
     {
       "id": "192",
@@ -4451,7 +4642,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "konomipainter"
     },
     {
       "id": "193",
@@ -4478,7 +4670,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "gmf-works"
     },
     {
       "id": "194",
@@ -4505,7 +4698,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "gmf-works"
     },
     {
       "id": "195",
@@ -4527,7 +4721,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "goldentakasan"
     },
     {
       "id": "196",
@@ -4549,7 +4744,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "goldentakasan"
     },
     {
       "id": "197",
@@ -4571,7 +4767,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "goldentakasan"
     },
     {
       "id": "198",
@@ -4593,7 +4790,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "h0shin0s"
     },
     {
       "id": "199",
@@ -4616,7 +4814,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "h0shin0s"
     },
     {
       "id": "200",
@@ -4643,7 +4842,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hatena37"
     },
     {
       "id": "201",
@@ -4670,7 +4870,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hatena37"
     },
     {
       "id": "202",
@@ -4697,7 +4898,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hatena37"
     },
     {
       "id": "203",
@@ -4724,7 +4926,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hatena37"
     },
     {
       "id": "204",
@@ -4747,7 +4950,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "hatoshop"
     },
     {
       "id": "205",
@@ -4769,7 +4973,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "公式での対応アナウンスあり"
+      "notes": "公式での対応アナウンスあり",
+      "shopname": "xxxurichixxx"
     },
     {
       "id": "206",
@@ -4791,7 +4996,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kawawawawawa"
     },
     {
       "id": "207",
@@ -4813,7 +5019,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "208",
@@ -4835,7 +5042,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "209",
@@ -4857,7 +5065,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "210",
@@ -4879,7 +5088,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "211",
@@ -4901,7 +5111,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "212",
@@ -4923,7 +5134,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "213",
@@ -4945,7 +5157,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "214",
@@ -4967,7 +5180,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "himeso"
     },
     {
       "id": "215",
@@ -4994,7 +5208,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "nekokakushi"
     },
     {
       "id": "216",
@@ -5017,7 +5232,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "hotel-galactica"
     },
     {
       "id": "217",
@@ -5040,7 +5256,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "inomotokazura"
     },
     {
       "id": "218",
@@ -5063,7 +5280,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "2000"
+      "avatarPrice": "2000",
+      "shopname": "isotch0130"
     },
     {
       "id": "219",
@@ -5090,7 +5308,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     },
     {
       "id": "220",
@@ -5112,7 +5331,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "s0m0ss0m0"
     },
     {
       "id": "221",
@@ -5134,7 +5354,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nagatorokoyori"
     },
     {
       "id": "222",
@@ -5156,7 +5377,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "as025886"
     },
     {
       "id": "223",
@@ -5179,7 +5401,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "kinetsuki"
     },
     {
       "id": "224",
@@ -5201,7 +5424,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ミルフィと同素体"
+      "notes": "ミルフィと同素体",
+      "shopname": "septem47"
     },
     {
       "id": "225",
@@ -5223,7 +5447,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "エクと同素体"
+      "notes": "エクと同素体",
+      "shopname": "mk22"
     },
     {
       "id": "226",
@@ -5245,7 +5470,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "konomipainter"
     },
     {
       "id": "227",
@@ -5267,7 +5493,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "konomipainter"
     },
     {
       "id": "228",
@@ -5294,7 +5521,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "229",
@@ -5316,7 +5544,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kumakichishoten"
     },
     {
       "id": "230",
@@ -5338,7 +5567,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kumakichishoten"
     },
     {
       "id": "231",
@@ -5360,7 +5590,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "amsn875"
     },
     {
       "id": "232",
@@ -5382,7 +5613,8 @@
       "price": "290",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "dolosart"
     },
     {
       "id": "233",
@@ -5404,7 +5636,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kurotori"
     },
     {
       "id": "234",
@@ -5427,7 +5660,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "500"
+      "avatarPrice": "500",
+      "shopname": "ladenan"
     },
     {
       "id": "235",
@@ -5449,7 +5683,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "公式にてプロファイル作成予定"
+      "notes": "公式にてプロファイル作成予定",
+      "shopname": "kv2"
     },
     {
       "id": "236",
@@ -5471,7 +5706,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "公式にてプロファイル作成予定"
+      "notes": "公式にてプロファイル作成予定",
+      "shopname": "paryi"
     },
     {
       "id": "237",
@@ -5493,7 +5729,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rio3d"
     },
     {
       "id": "238",
@@ -5516,7 +5753,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "mappppppppachi"
     },
     {
       "id": "239",
@@ -5539,7 +5777,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "mkmkdo"
     },
     {
       "id": "240",
@@ -5562,7 +5801,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "mkmkdo"
     },
     {
       "id": "241",
@@ -5585,7 +5825,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "mkmkdo"
     },
     {
       "id": "242",
@@ -5607,7 +5848,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "mochiarmor"
     },
     {
       "id": "243",
@@ -5634,7 +5876,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mk22"
     },
     {
       "id": "244",
@@ -5661,7 +5904,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hamini"
     },
     {
       "id": "245",
@@ -5688,7 +5932,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "septem47"
     },
     {
       "id": "246",
@@ -5710,7 +5955,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "modes-lavande"
     },
     {
       "id": "247",
@@ -5732,7 +5978,8 @@
       "price": "100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "digital001"
     },
     {
       "id": "248",
@@ -5754,7 +6001,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "rionesta"
     },
     {
       "id": "249",
@@ -5776,7 +6024,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "250",
@@ -5798,7 +6047,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "251",
@@ -5820,7 +6070,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "komado"
     },
     {
       "id": "252",
@@ -5842,7 +6093,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mtshop"
     },
     {
       "id": "253",
@@ -5865,7 +6117,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "逆方向対応不明",
-      "avatarPrice": "5180"
+      "avatarPrice": "5180",
+      "shopname": "namekuji1337"
     },
     {
       "id": "254",
@@ -5888,7 +6141,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "namu-grocery"
     },
     {
       "id": "255",
@@ -5911,7 +6165,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "逆変換対応予定あり",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "shopname": "nejinocraft"
     },
     {
       "id": "256",
@@ -5933,7 +6188,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nekokaerya"
     },
     {
       "id": "257",
@@ -5955,7 +6211,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nekokaerya"
     },
     {
       "id": "258",
@@ -5977,7 +6234,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "teicifer9999"
     },
     {
       "id": "259",
@@ -5999,7 +6257,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nolilon"
     },
     {
       "id": "260",
@@ -6021,7 +6280,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "smokydolls"
     },
     {
       "id": "261",
@@ -6043,7 +6303,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "otogisiori"
     },
     {
       "id": "262",
@@ -6065,7 +6326,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "pochibykt"
     },
     {
       "id": "263",
@@ -6087,7 +6349,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mk22"
     },
     {
       "id": "264",
@@ -6109,7 +6372,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mk22"
     },
     {
       "id": "265",
@@ -6131,7 +6395,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "septem47"
     },
     {
       "id": "266",
@@ -6153,7 +6418,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mofumofumotimoti"
     },
     {
       "id": "267",
@@ -6175,7 +6441,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rakuiro"
     },
     {
       "id": "268",
@@ -6197,7 +6464,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rampan"
     },
     {
       "id": "269",
@@ -6220,7 +6488,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "11/30日まで7000→4500",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "hiehieck"
     },
     {
       "id": "270",
@@ -6243,7 +6512,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "11月27日くらいまで500円引き",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "shopname": "ebell"
     },
     {
       "id": "271",
@@ -6265,7 +6535,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mofumofumotimoti"
     },
     {
       "id": "272",
@@ -6287,7 +6558,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hyuuganatu"
     },
     {
       "id": "273",
@@ -6310,7 +6582,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "rgbhanbaiten"
     },
     {
       "id": "274",
@@ -6333,7 +6606,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "rio0405"
     },
     {
       "id": "275",
@@ -6356,7 +6630,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "shopname": "rurarinringo"
     },
     {
       "id": "276",
@@ -6378,7 +6653,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "277",
@@ -6400,7 +6676,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "278",
@@ -6422,7 +6699,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "279",
@@ -6444,7 +6722,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "280",
@@ -6467,7 +6746,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "scramasax"
     },
     {
       "id": "281",
@@ -6490,7 +6770,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "scramasax"
     },
     {
       "id": "282",
@@ -6517,7 +6798,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "seafoods"
     },
     {
       "id": "283",
@@ -6540,7 +6822,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "senna-studio"
     },
     {
       "id": "284",
@@ -6563,7 +6846,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5600"
+      "avatarPrice": "5600",
+      "shopname": "senna-studio"
     },
     {
       "id": "285",
@@ -6586,7 +6870,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5600"
+      "avatarPrice": "5600",
+      "shopname": "senna-studio"
     },
     {
       "id": "286",
@@ -6609,7 +6894,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5200"
+      "avatarPrice": "5200",
+      "shopname": "senna-studio"
     },
     {
       "id": "287",
@@ -6631,7 +6917,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sharono"
     },
     {
       "id": "288",
@@ -6653,7 +6940,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sharono"
     },
     {
       "id": "289",
@@ -6675,7 +6963,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セフィラ共通素体"
+      "notes": "セフィラ共通素体",
+      "shopname": "mk22"
     },
     {
       "id": "290",
@@ -6697,7 +6986,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アッシュ共通素体"
+      "notes": "アッシュ共通素体",
+      "shopname": "mk22"
     },
     {
       "id": "291",
@@ -6719,7 +7009,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "sora777"
     },
     {
       "id": "292",
@@ -6741,7 +7032,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sora777"
     },
     {
       "id": "293",
@@ -6763,7 +7055,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sphere-model"
     },
     {
       "id": "294",
@@ -6785,7 +7078,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "studio7tsuki"
     },
     {
       "id": "295",
@@ -6807,7 +7101,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "studio7tsuki"
     },
     {
       "id": "296",
@@ -6829,7 +7124,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "studio7tsuki"
     },
     {
       "id": "297",
@@ -6851,7 +7147,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "capettiya"
     },
     {
       "id": "298",
@@ -6873,7 +7170,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sasaky-shop"
     },
     {
       "id": "299",
@@ -6895,7 +7193,8 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "shopname": "t8dbcau"
     },
     {
       "id": "300",
@@ -6917,7 +7216,8 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "shopname": "t8dbcau"
     },
     {
       "id": "301",
@@ -6939,7 +7239,8 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "shopname": "t8dbcau"
     },
     {
       "id": "302",
@@ -6961,7 +7262,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "powermohumohu"
     },
     {
       "id": "303",
@@ -6984,7 +7286,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "tarooka"
     },
     {
       "id": "304",
@@ -7007,7 +7310,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "tsugomori-do"
     },
     {
       "id": "305",
@@ -7029,7 +7333,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sasaky-shop"
     },
     {
       "id": "306",
@@ -7056,7 +7361,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "uri880"
     },
     {
       "id": "307",
@@ -7079,7 +7385,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "vinca-major-star"
     },
     {
       "id": "308",
@@ -7102,7 +7409,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "vividplum"
     },
     {
       "id": "309",
@@ -7124,7 +7432,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sahkert"
     },
     {
       "id": "310",
@@ -7146,7 +7455,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sashimaru"
     },
     {
       "id": "311",
@@ -7168,7 +7478,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "sashimaru"
     },
     {
       "id": "312",
@@ -7190,7 +7501,8 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "shopname": "xelevia"
     },
     {
       "id": "313",
@@ -7212,7 +7524,8 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "shopname": "xelevia"
     },
     {
       "id": "314",
@@ -7234,7 +7547,8 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "shopname": "xelevia"
     },
     {
       "id": "315",
@@ -7256,7 +7570,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kanalia"
     },
     {
       "id": "316",
@@ -7278,7 +7593,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "armadillon"
     },
     {
       "id": "317",
@@ -7300,7 +7616,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "ficsnade"
     },
     {
       "id": "318",
@@ -7322,7 +7639,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "jingo1016"
     },
     {
       "id": "319",
@@ -7344,7 +7662,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "ficsnade"
     },
     {
       "id": "320",
@@ -7371,7 +7690,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "321",
@@ -7393,7 +7713,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yaratoyakonko"
     },
     {
       "id": "322",
@@ -7415,7 +7736,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yaratoyakonko"
     },
     {
       "id": "323",
@@ -7437,7 +7759,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ykcg"
     },
     {
       "id": "324",
@@ -7464,7 +7787,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "yochiyotachi"
     },
     {
       "id": "325",
@@ -7487,7 +7811,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "yosohuta"
     },
     {
       "id": "326",
@@ -7509,7 +7834,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "頒布許可あり"
+      "notes": "頒布許可あり",
+      "shopname": "mofumofumotimoti"
     },
     {
       "id": "327",
@@ -7531,7 +7857,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "頒布許可あり"
+      "notes": "頒布許可あり",
+      "shopname": "disshimu"
     },
     {
       "id": "328",
@@ -7558,7 +7885,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "lsw"
     },
     {
       "id": "329",
@@ -7581,7 +7909,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "yuufyu"
     },
     {
       "id": "330",
@@ -7604,7 +7933,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "shopname": "yuufyu"
     },
     {
       "id": "331",
@@ -7626,7 +7956,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "332",
@@ -7648,7 +7979,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nanka-tsukurouyo"
     },
     {
       "id": "333",
@@ -7670,7 +8002,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "firsteye"
     },
     {
       "id": "334",
@@ -7693,7 +8026,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "shopname": "gba"
     },
     {
       "id": "335",
@@ -7715,7 +8049,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kanan-shop"
     },
     {
       "id": "336",
@@ -7737,7 +8072,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "studio-nanodes"
     },
     {
       "id": "337",
@@ -7759,7 +8095,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "xelevia"
     },
     {
       "id": "338",
@@ -7781,7 +8118,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "vket"
     },
     {
       "id": "339",
@@ -7803,7 +8141,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "timal"
     },
     {
       "id": "340",
@@ -7825,7 +8164,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "keenooshop"
     },
     {
       "id": "341",
@@ -7852,7 +8192,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "00snowflake00"
     },
     {
       "id": "342",
@@ -7879,7 +8220,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "htkn"
     },
     {
       "id": "343",
@@ -7901,7 +8243,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "びきたんさん公認"
+      "notes": "びきたんさん公認",
+      "shopname": "bbkktn"
     },
     {
       "id": "344",
@@ -7924,7 +8267,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "shopname": "unyapo"
     },
     {
       "id": "345",
@@ -7946,7 +8290,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "murixir"
     },
     {
       "id": "346",
@@ -7968,7 +8313,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "murixir"
     },
     {
       "id": "347",
@@ -7990,7 +8336,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "Fanbox限定配布アバター"
+      "notes": "Fanbox限定配布アバター",
+      "shopname": ""
     },
     {
       "id": "348",
@@ -8012,7 +8359,8 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "hyuuganatu"
     },
     {
       "id": "349",
@@ -8034,7 +8382,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ponderogen"
     },
     {
       "id": "350",
@@ -8056,7 +8405,8 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セール50%OFFで\\3000"
+      "notes": "セール50%OFFで\\3000",
+      "shopname": "ablab"
     },
     {
       "id": "351",
@@ -8079,7 +8429,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "発売は12/1～",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "shopname": "akamu3"
     },
     {
       "id": "352",
@@ -8106,7 +8457,8 @@
       "salePrice": "2000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "alua7"
     },
     {
       "id": "353",
@@ -8133,7 +8485,8 @@
       "salePrice": "2000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "alua7"
     },
     {
       "id": "354",
@@ -8160,7 +8513,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "anacharis"
     },
     {
       "id": "355",
@@ -8187,7 +8541,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "anacharis"
     },
     {
       "id": "356",
@@ -8214,7 +8569,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "anacharis"
     },
     {
       "id": "357",
@@ -8241,7 +8597,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "anomalo-kh"
     },
     {
       "id": "358",
@@ -8268,7 +8625,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "bbkktn"
     },
     {
       "id": "359",
@@ -8295,7 +8653,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "bbkktn"
     },
     {
       "id": "360",
@@ -8322,7 +8681,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "bbkktn"
     },
     {
       "id": "361",
@@ -8349,7 +8709,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "bbkktn"
     },
     {
       "id": "362",
@@ -8376,7 +8737,8 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "此方-Konata-とセット"
+      "notes": "此方-Konata-とセット",
+      "shopname": "bluestella1127"
     },
     {
       "id": "363",
@@ -8403,7 +8765,8 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "彼方-Kanata-とセット"
+      "notes": "彼方-Kanata-とセット",
+      "shopname": "bluestella1127"
     },
     {
       "id": "364",
@@ -8430,7 +8793,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "brochimanac"
     },
     {
       "id": "365",
@@ -8457,7 +8821,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "brochimanac"
     },
     {
       "id": "366",
@@ -8484,7 +8849,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "brochimanac"
     },
     {
       "id": "367",
@@ -8511,7 +8877,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "1.2倍"
+      "notes": "1.2倍",
+      "shopname": "brochimanac"
     },
     {
       "id": "368",
@@ -8538,7 +8905,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "0.9倍"
+      "notes": "0.9倍",
+      "shopname": "brochimanac"
     },
     {
       "id": "369",
@@ -8565,7 +8933,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "brochimanac"
     },
     {
       "id": "370",
@@ -8592,7 +8961,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "c0untarm"
     },
     {
       "id": "371",
@@ -8619,7 +8989,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chinchilla3333"
     },
     {
       "id": "372",
@@ -8646,7 +9017,8 @@
       "salePrice": "3500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chloroterrace"
     },
     {
       "id": "373",
@@ -8673,7 +9045,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "cloudz"
     },
     {
       "id": "374",
@@ -8700,7 +9073,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "freezerkari"
     },
     {
       "id": "375",
@@ -8727,7 +9101,8 @@
       "salePrice": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "goldentakasan"
     },
     {
       "id": "376",
@@ -8754,7 +9129,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hanahanasena"
     },
     {
       "id": "377",
@@ -8781,7 +9157,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hernes"
     },
     {
       "id": "378",
@@ -8808,7 +9185,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hernes"
     },
     {
       "id": "379",
@@ -8835,7 +9213,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hernes"
     },
     {
       "id": "380",
@@ -8862,7 +9241,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hernes"
     },
     {
       "id": "381",
@@ -8889,7 +9269,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "期間限定頒布\n12月末ごろにプロファイルリリース予定"
+      "notes": "期間限定頒布\n12月末ごろにプロファイルリリース予定",
+      "shopname": "hinasaki"
     },
     {
       "id": "382",
@@ -8916,7 +9297,8 @@
       "salePrice": "6000",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "12月末ごろにプロファイルリリース予定"
+      "notes": "12月末ごろにプロファイルリリース予定",
+      "shopname": "hinasaki"
     },
     {
       "id": "383",
@@ -8943,7 +9325,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ichiemon"
     },
     {
       "id": "384",
@@ -8970,7 +9353,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ikkakuchan"
     },
     {
       "id": "385",
@@ -8997,7 +9381,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "mio3works"
     },
     {
       "id": "386",
@@ -9024,7 +9409,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kazehokora"
     },
     {
       "id": "387",
@@ -9051,7 +9437,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "kazehokora"
     },
     {
       "id": "388",
@@ -9078,7 +9465,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "389",
@@ -9105,7 +9493,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "390",
@@ -9132,7 +9521,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "391",
@@ -9159,7 +9549,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "392",
@@ -9186,7 +9577,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "393",
@@ -9213,7 +9605,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "394",
@@ -9240,7 +9633,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "395",
@@ -9267,7 +9661,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "396",
@@ -9294,7 +9689,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "397",
@@ -9321,7 +9717,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "398",
@@ -9348,7 +9745,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "399",
@@ -9375,7 +9773,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "400",
@@ -9402,7 +9801,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "401",
@@ -9429,7 +9829,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kindergarten21"
     },
     {
       "id": "402",
@@ -9456,7 +9857,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kitsune-tsuki"
     },
     {
       "id": "403",
@@ -9483,7 +9885,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kitsune-tsuki"
     },
     {
       "id": "404",
@@ -9510,7 +9913,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kitsune-tsuki"
     },
     {
       "id": "405",
@@ -9537,7 +9941,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kounosuke"
     },
     {
       "id": "406",
@@ -9564,7 +9969,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kumakichishoten"
     },
     {
       "id": "407",
@@ -9591,7 +9997,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kumakichishoten"
     },
     {
       "id": "408",
@@ -9618,7 +10025,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "lantana-shop"
     },
     {
       "id": "409",
@@ -9645,7 +10053,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "lantana-shop"
     },
     {
       "id": "410",
@@ -9672,7 +10081,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mesukemoshop"
     },
     {
       "id": "411",
@@ -9699,7 +10109,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "minuetdoll"
     },
     {
       "id": "412",
@@ -9726,7 +10137,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mizunomsyoukai"
     },
     {
       "id": "413",
@@ -9753,7 +10165,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "moyashichan"
     },
     {
       "id": "414",
@@ -9780,7 +10193,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "moyashichan"
     },
     {
       "id": "415",
@@ -9807,7 +10221,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mxu"
     },
     {
       "id": "416",
@@ -9834,7 +10249,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mxu"
     },
     {
       "id": "417",
@@ -9861,7 +10277,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "shisyo"
     },
     {
       "id": "418",
@@ -9888,7 +10305,8 @@
       "salePrice": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nem3"
     },
     {
       "id": "419",
@@ -9915,7 +10333,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "12月販売予定"
+      "notes": "12月販売予定",
+      "shopname": "noelnote"
     },
     {
       "id": "420",
@@ -9942,7 +10361,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nyahuuu"
     },
     {
       "id": "421",
@@ -9969,7 +10389,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nyawatesou"
     },
     {
       "id": "422",
@@ -9996,7 +10417,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nyawatesou"
     },
     {
       "id": "423",
@@ -10023,7 +10445,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "obakenororo"
     },
     {
       "id": "424",
@@ -10050,7 +10473,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "obakenororo"
     },
     {
       "id": "425",
@@ -10077,7 +10501,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "obakenororo"
     },
     {
       "id": "426",
@@ -10104,7 +10529,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nagatorokoyori"
     },
     {
       "id": "427",
@@ -10131,7 +10557,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "protagonist"
     },
     {
       "id": "428",
@@ -10158,7 +10585,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "radialweb"
     },
     {
       "id": "429",
@@ -10185,7 +10613,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "430",
@@ -10212,7 +10641,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "431",
@@ -10239,7 +10669,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikyuvrc"
     },
     {
       "id": "432",
@@ -10266,7 +10697,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikyuvrc"
     },
     {
       "id": "433",
@@ -10293,7 +10725,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikyuvrc"
     },
     {
       "id": "434",
@@ -10320,7 +10753,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikyuvrc"
     },
     {
       "id": "435",
@@ -10347,7 +10781,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikyuvrc"
     },
     {
       "id": "436",
@@ -10374,7 +10809,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "s2k-gls"
     },
     {
       "id": "437",
@@ -10401,7 +10837,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "s2k-gls"
     },
     {
       "id": "438",
@@ -10428,7 +10865,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった〜対応（予定）"
+      "notes": "もちふぃった〜対応（予定）",
+      "shopname": "saikoroworks"
     },
     {
       "id": "439",
@@ -10455,7 +10893,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定"
+      "notes": "もちふぃった～対応予定",
+      "shopname": "seafoods"
     },
     {
       "id": "440",
@@ -10482,7 +10921,8 @@
       "salePrice": "2100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "silvercherry"
     },
     {
       "id": "441",
@@ -10509,7 +10949,8 @@
       "salePrice": "2800",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "silvercherry"
     },
     {
       "id": "442",
@@ -10536,7 +10977,8 @@
       "salePrice": "2100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "silvercherry"
     },
     {
       "id": "443",
@@ -10563,7 +11005,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "soil70808"
     },
     {
       "id": "444",
@@ -10590,7 +11033,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "soyl"
     },
     {
       "id": "445",
@@ -10617,7 +11061,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "2025/11/29 19:00 から販売開始\nもちふぃった～対応予定"
+      "notes": "2025/11/29 19:00 から販売開始\nもちふぃった～対応予定",
+      "shopname": "stia"
     },
     {
       "id": "446",
@@ -10644,7 +11089,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tinmeshi"
     },
     {
       "id": "447",
@@ -10671,7 +11117,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "梅雨（TSUYU）と同一素体"
+      "notes": "梅雨（TSUYU）と同一素体",
+      "shopname": "unyapo"
     },
     {
       "id": "448",
@@ -10698,7 +11145,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ラ・ユヌ＝テアと同一素体"
+      "notes": "ラ・ユヌ＝テアと同一素体",
+      "shopname": "unyapo"
     },
     {
       "id": "449",
@@ -10725,7 +11173,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "2025/12/06 00:00～販売開始"
+      "notes": "2025/12/06 00:00～販売開始",
+      "shopname": "usahogoya"
     },
     {
       "id": "450",
@@ -10752,7 +11201,8 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "vision-girls"
     },
     {
       "id": "451",
@@ -10779,7 +11229,8 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "vision-girls"
     },
     {
       "id": "452",
@@ -10806,7 +11257,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "453",
@@ -10833,7 +11285,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "frankfactoryplus"
     },
     {
       "id": "454",
@@ -10860,7 +11313,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "frankfactoryplus"
     },
     {
       "id": "455",
@@ -10887,7 +11341,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "456",
@@ -10914,7 +11369,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "dolosart"
     },
     {
       "id": "457",
@@ -10941,7 +11397,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "narukaruka"
     },
     {
       "id": "458",
@@ -10968,7 +11425,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mk22"
     },
     {
       "id": "459",
@@ -10995,7 +11453,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rimestudio"
     },
     {
       "id": "460",
@@ -11022,7 +11481,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "zuchicorn"
     },
     {
       "id": "461",
@@ -11049,7 +11509,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sasaky-shop"
     },
     {
       "id": "462",
@@ -11076,7 +11537,8 @@
       "salePrice": "2700",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "spk-strm"
     },
     {
       "id": "463",
@@ -11103,7 +11565,8 @@
       "salePrice": "5000",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "近日対応予定"
+      "notes": "近日対応予定",
+      "shopname": "tortamercato"
     },
     {
       "id": "464",
@@ -11130,7 +11593,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mocmomo"
     },
     {
       "id": "465",
@@ -11157,7 +11621,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ytori-3939"
     },
     {
       "id": "466",
@@ -11184,7 +11649,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "467",
@@ -11211,7 +11677,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "utuhodou"
     },
     {
       "id": "468",
@@ -11238,7 +11705,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "663-chanshop"
     },
     {
       "id": "469",
@@ -11265,7 +11733,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "663-chanshop"
     },
     {
       "id": "470",
@@ -11292,7 +11761,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "663-chanshop"
     },
     {
       "id": "471",
@@ -11319,7 +11789,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "663-chanshop"
     },
     {
       "id": "472",
@@ -11346,7 +11817,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "regs"
     },
     {
       "id": "473",
@@ -11373,7 +11845,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "nyahuuu"
     },
     {
       "id": "474",
@@ -11400,7 +11873,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tegral"
     },
     {
       "id": "475",
@@ -11427,7 +11901,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komainu-street"
     },
     {
       "id": "476",
@@ -11454,7 +11929,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "komainu-street"
     },
     {
       "id": "477",
@@ -11481,7 +11957,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "478",
@@ -11508,7 +11985,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "479",
@@ -11535,7 +12013,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "480",
@@ -11562,7 +12041,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "481",
@@ -11589,7 +12069,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "482",
@@ -11616,7 +12097,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "483",
@@ -11643,7 +12125,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "484",
@@ -11670,7 +12153,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "485",
@@ -11697,7 +12181,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "486",
@@ -11724,7 +12209,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "487",
@@ -11751,7 +12237,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "488",
@@ -11778,7 +12265,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "489",
@@ -11805,7 +12293,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "490",
@@ -11832,7 +12321,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "491",
@@ -11859,7 +12349,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "492",
@@ -11886,7 +12377,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "493",
@@ -11913,7 +12405,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "494",
@@ -11940,7 +12433,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "495",
@@ -11967,7 +12461,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "atelier-alca"
     },
     {
       "id": "496",
@@ -11994,7 +12489,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "497",
@@ -12021,7 +12517,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "498",
@@ -12048,7 +12545,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "sakusaku-solid"
     },
     {
       "id": "499",
@@ -12075,7 +12573,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "snowvision"
     },
     {
       "id": "500",
@@ -12102,7 +12601,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "怜-Rei-と同素体"
+      "notes": "怜-Rei-と同素体",
+      "shopname": "studioyono"
     },
     {
       "id": "501",
@@ -12129,7 +12629,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "斑霞-Hanka-共通素体Prefab同梱。その為、怜は斑霞の衣装を着れるが逆は不可"
+      "notes": "斑霞-Hanka-共通素体Prefab同梱。その為、怜は斑霞の衣装を着れるが逆は不可",
+      "shopname": "studioyono"
     },
     {
       "id": "502",
@@ -12156,7 +12657,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "emolab"
     },
     {
       "id": "503",
@@ -12183,7 +12685,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "emolab"
     },
     {
       "id": "504",
@@ -12210,7 +12713,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "emolab"
     },
     {
       "id": "505",
@@ -12237,7 +12741,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "[M]サイズのみ"
+      "notes": "[M]サイズのみ",
+      "shopname": "minuetdoll"
     },
     {
       "id": "506",
@@ -12264,7 +12769,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "minuetdoll"
     },
     {
       "id": "507",
@@ -12291,7 +12797,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "minuetdoll"
     },
     {
       "id": "508",
@@ -12318,7 +12825,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "powermohumohu"
     },
     {
       "id": "509",
@@ -12345,7 +12853,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "powermohumohu"
     },
     {
       "id": "510",
@@ -12372,7 +12881,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chipierupi"
     },
     {
       "id": "511",
@@ -12399,7 +12909,8 @@
       "salePrice": "3850",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chocolaterice"
     },
     {
       "id": "512",
@@ -12426,7 +12937,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kuboderapon"
     },
     {
       "id": "513",
@@ -12453,7 +12965,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2026年1月1日 00時00分から"
+      "notes": "販売期間：2026年1月1日 00時00分から",
+      "shopname": "dockyard"
     },
     {
       "id": "514",
@@ -12480,7 +12993,8 @@
       "salePrice": "3500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kkkkkaiyo"
     },
     {
       "id": "515",
@@ -12507,7 +13021,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mizunomsyoukai"
     },
     {
       "id": "516",
@@ -12534,7 +13049,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "winfield"
     },
     {
       "id": "517",
@@ -12561,7 +13077,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "hyuuganatu"
     },
     {
       "id": "518",
@@ -12588,7 +13105,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "hosikuzunorensei"
     },
     {
       "id": "519",
@@ -12615,7 +13133,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "sinakay"
     },
     {
       "id": "520",
@@ -12642,7 +13161,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "cloudz"
     },
     {
       "id": "521",
@@ -12669,7 +13189,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "ponderogen"
     },
     {
       "id": "522",
@@ -12696,7 +13217,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "jingo1016"
     },
     {
       "id": "523",
@@ -12723,7 +13245,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "ponderogen"
     },
     {
       "id": "524",
@@ -12750,7 +13273,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "cloudz"
     },
     {
       "id": "525",
@@ -12777,7 +13301,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "jingo1016"
     },
     {
       "id": "526",
@@ -12804,7 +13329,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "gmf-works"
     },
     {
       "id": "527",
@@ -12831,7 +13357,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "2026年対応予定"
+      "notes": "2026年対応予定",
+      "shopname": "kanalia"
     },
     {
       "id": "528",
@@ -12858,7 +13385,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "zzzokojyo"
     },
     {
       "id": "529",
@@ -12885,7 +13413,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "Chibi.verへの対応\n+Head.verへは別のプロファイルを使用してください。"
+      "notes": "Chibi.verへの対応\n+Head.verへは別のプロファイルを使用してください。",
+      "shopname": "timal"
     },
     {
       "id": "530",
@@ -12912,7 +13441,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "lukume"
     },
     {
       "id": "531",
@@ -12939,7 +13469,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mizunomsyoukai"
     },
     {
       "id": "532",
@@ -12966,7 +13497,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "12/6～販売"
+      "notes": "12/6～販売",
+      "shopname": "yappari3d"
     },
     {
       "id": "533",
@@ -12993,7 +13525,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "vividplum"
     },
     {
       "id": "534",
@@ -13020,7 +13553,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nolilon"
     },
     {
       "id": "535",
@@ -13047,7 +13581,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "536",
@@ -13074,7 +13609,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "jingo1016"
     },
     {
       "id": "537",
@@ -13101,7 +13637,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kiriha-astra"
     },
     {
       "id": "538",
@@ -13128,7 +13665,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "s0m0ss0m0"
     },
     {
       "id": "539",
@@ -13155,7 +13693,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nirareteru"
     },
     {
       "id": "540",
@@ -13182,7 +13721,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "541",
@@ -13209,7 +13749,8 @@
       "salePrice": "5500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月5日 19時00分から"
+      "notes": "販売期間：2025年12月5日 19時00分から",
+      "shopname": "t-n-a-n"
     },
     {
       "id": "542",
@@ -13236,7 +13777,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kslab"
     },
     {
       "id": "543",
@@ -13263,7 +13805,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kslab"
     },
     {
       "id": "544",
@@ -13290,7 +13833,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "nylonheart"
     },
     {
       "id": "545",
@@ -13317,7 +13861,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月6日 16時00分から"
+      "notes": "販売期間：2025年12月6日 16時00分から",
+      "shopname": "uratori"
     },
     {
       "id": "546",
@@ -13344,7 +13889,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chakapo"
     },
     {
       "id": "547",
@@ -13371,7 +13917,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hellojingai3d500"
     },
     {
       "id": "548",
@@ -13398,7 +13945,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "sakusaku-solid"
     },
     {
       "id": "549",
@@ -13425,7 +13973,8 @@
       "salePrice": "4000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "minecollection"
     },
     {
       "id": "550",
@@ -13452,7 +14001,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "guringurin"
     },
     {
       "id": "551",
@@ -13479,7 +14029,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "namekuji1337"
     },
     {
       "id": "552",
@@ -13506,7 +14057,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "guringurin"
     },
     {
       "id": "553",
@@ -13533,7 +14085,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "moca-studio"
     },
     {
       "id": "554",
@@ -13560,7 +14113,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月17日 18時00分から"
+      "notes": "販売期間：2025年12月17日 18時00分から",
+      "shopname": "inugoyamart"
     },
     {
       "id": "555",
@@ -13587,7 +14141,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kslab"
     },
     {
       "id": "556",
@@ -13614,7 +14169,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kakeudonn"
     },
     {
       "id": "557",
@@ -13641,7 +14197,8 @@
       "salePrice": "2500",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定！"
+      "notes": "もちふぃった～対応予定！",
+      "shopname": "mawarimichi"
     },
     {
       "id": "558",
@@ -13668,7 +14225,8 @@
       "salePrice": "2500",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定！"
+      "notes": "もちふぃった～対応予定！",
+      "shopname": "mawarimichi"
     },
     {
       "id": "559",
@@ -13695,7 +14253,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ateliermiyama"
     },
     {
       "id": "560",
@@ -13722,7 +14281,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "66ao"
     },
     {
       "id": "561",
@@ -13749,7 +14309,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "gorouya"
     },
     {
       "id": "562",
@@ -13776,7 +14337,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kaguya-n"
     },
     {
       "id": "563",
@@ -13803,7 +14365,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kisaragiz"
     },
     {
       "id": "564",
@@ -13830,7 +14393,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "monuments"
     },
     {
       "id": "565",
@@ -13857,7 +14421,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "digital001"
     },
     {
       "id": "566",
@@ -13884,7 +14449,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikose"
     },
     {
       "id": "567",
@@ -13911,7 +14477,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikose"
     },
     {
       "id": "568",
@@ -13938,7 +14505,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "rikose"
     },
     {
       "id": "569",
@@ -13965,7 +14533,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ragetake"
     },
     {
       "id": "570",
@@ -13992,7 +14561,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yamaneko-library"
     },
     {
       "id": "571",
@@ -14019,7 +14589,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "572",
@@ -14046,7 +14617,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "573",
@@ -14073,7 +14645,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "uju"
     },
     {
       "id": "574",
@@ -14100,7 +14673,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "変換にNecoBody(アバター概要欄から)が別途必要です"
+      "notes": "変換にNecoBody(アバター概要欄から)が別途必要です",
+      "shopname": "sonovr"
     },
     {
       "id": "575",
@@ -14127,7 +14701,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "fumi2kick"
     },
     {
       "id": "576",
@@ -14154,7 +14729,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "fumi2kick"
     },
     {
       "id": "577",
@@ -14181,7 +14757,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "kisaragiz"
     },
     {
       "id": "578",
@@ -14208,7 +14785,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セットで12000円\nどちらか単体なら6500円"
+      "notes": "セットで12000円\nどちらか単体なら6500円",
+      "shopname": "marimo-shop"
     },
     {
       "id": "579",
@@ -14235,7 +14813,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "qesalan"
     },
     {
       "id": "580",
@@ -14262,7 +14841,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "581",
@@ -14289,7 +14869,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "582",
@@ -14316,7 +14897,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "583",
@@ -14343,7 +14925,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "584",
@@ -14370,7 +14953,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "585",
@@ -14397,7 +14981,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "586",
@@ -14424,7 +15009,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "reisenu38"
     },
     {
       "id": "587",
@@ -14451,7 +15037,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mochiarmor"
     },
     {
       "id": "588",
@@ -14478,7 +15065,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "uju"
     },
     {
       "id": "589",
@@ -14505,7 +15093,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nyadora"
     },
     {
       "id": "590",
@@ -14532,7 +15121,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "ramuneru0801"
     },
     {
       "id": "591",
@@ -14559,7 +15149,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hittonnsann"
     },
     {
       "id": "592",
@@ -14586,7 +15177,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "seodea"
     },
     {
       "id": "593",
@@ -14613,7 +15205,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "594",
@@ -14640,7 +15233,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "winfield"
     },
     {
       "id": "595",
@@ -14667,7 +15261,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "misterpink"
     },
     {
       "id": "596",
@@ -14694,7 +15289,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "chinchilla3333"
     },
     {
       "id": "597",
@@ -14721,7 +15317,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "598",
@@ -14748,7 +15345,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中"
+      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "599",
@@ -14775,7 +15373,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "siroihakumai"
     },
     {
       "id": "600",
@@ -14802,7 +15401,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "siroihakumai"
     },
     {
       "id": "601",
@@ -14829,7 +15429,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "gba"
     },
     {
       "id": "602",
@@ -14856,7 +15457,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "gba"
     },
     {
       "id": "603",
@@ -14883,7 +15485,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nicomal"
     },
     {
       "id": "604",
@@ -14910,7 +15513,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "septem47"
     },
     {
       "id": "605",
@@ -14937,7 +15541,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "3dengineer"
     },
     {
       "id": "606",
@@ -14964,7 +15569,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "nagatorokoyori"
     },
     {
       "id": "607",
@@ -14991,7 +15597,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "xelevia"
     },
     {
       "id": "608",
@@ -15018,7 +15625,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "nanka-tsukurouyo"
     },
     {
       "id": "609",
@@ -15045,7 +15653,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "cocolopalette"
     },
     {
       "id": "610",
@@ -15072,7 +15681,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sumomiya"
     },
     {
       "id": "611",
@@ -15099,7 +15709,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hatchplanet"
     },
     {
       "id": "612",
@@ -15126,7 +15737,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "1032"
     },
     {
       "id": "613",
@@ -15153,7 +15765,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "sobagarashop"
     },
     {
       "id": "614",
@@ -15180,7 +15793,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "tsukurunomori"
     },
     {
       "id": "615",
@@ -15207,7 +15821,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "hatchplanet"
     },
     {
       "id": "616",
@@ -15234,7 +15849,8 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "「某もちもちなふぃった～に対応させたいね」とのこと"
+      "notes": "「某もちもちなふぃった～に対応させたいね」とのこと",
+      "shopname": "sodie-oxige"
     },
     {
       "id": "617",
@@ -15261,7 +15877,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "atelier-alca"
     },
     {
       "id": "618",
@@ -15288,7 +15905,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "mizunomsyoukai"
     },
     {
       "id": "619",
@@ -15315,7 +15933,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "shopname": "mukumi"
     },
     {
       "id": "620",
@@ -15342,7 +15961,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "yoyogi-mori"
     },
     {
       "id": "621",
@@ -15369,7 +15989,8 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "shopname": "usahogoya"
     },
     {
       "id": "9997",
@@ -15396,7 +16017,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "armoirelepus"
     },
     {
       "id": "9998",
@@ -15423,7 +16045,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "yamirin"
     },
     {
       "id": "9999",
@@ -15450,7 +16073,8 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "shopname": "mio3works"
     }
   ]
 }
