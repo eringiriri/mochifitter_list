@@ -1,0 +1,7 @@
+# robots.txt for mochifitter.eringi.me
+
+User-agent: *
+Allow: /
+
+# サイトマップの場所
+Sitemap: https://mochifitter.eringi.me/sitemap.xml
