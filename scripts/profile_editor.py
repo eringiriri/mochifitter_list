@@ -248,10 +248,11 @@ class ProfileEditor:
             ("アバター名", "avatarName", False),
             ("プロファイルバージョン", "profileVersion", False),
             ("アバター作者", "avatarAuthor", False),
-            ("ショップ名", "shopname", False),
+            ("アバターショップ名", "avatarshopname", False),
             ("アバター作者URL", "avatarAuthorUrl", True),
             ("共通素体", "bodyBase", False),
             ("プロファイル作者", "profileAuthor", False),
+            ("プロファイルショップ名", "profileshopname", False),
             ("プロファイル作者URL", "profileAuthorUrl", True),
         ]
 
@@ -957,10 +958,11 @@ class ProfileEditor:
             "avatarNameUrl": "",
             "profileVersion": "1.0",
             "avatarAuthor": "",
-            "shopname": "",
+            "avatarshopname": "",
             "avatarAuthorUrl": "",
             "bodyBase": "",
             "profileAuthor": "",
+            "profileshopname": "",
             "profileAuthorUrl": "",
             "official": False,
             "downloadMethod": "Booth",
@@ -1147,8 +1149,8 @@ class ProfileEditor:
                 self.fields["avatarAuthor"].delete(0, tk.END)
                 self.fields["avatarAuthor"].insert(0, data.get("avatarAuthor", ""))
 
-                self.fields["shopname"].delete(0, tk.END)
-                self.fields["shopname"].insert(0, data.get("shopname", ""))
+                self.fields["avatarshopname"].delete(0, tk.END)
+                self.fields["avatarshopname"].insert(0, data.get("avatarshopname", ""))
 
                 self.fields["avatarAuthorUrl"].set_value(data.get("avatarAuthorUrl", ""))
 
@@ -1163,6 +1165,9 @@ class ProfileEditor:
                 if self.fields["official"].get():
                     self.fields["profileAuthor"].delete(0, tk.END)
                     self.fields["profileAuthor"].insert(0, data.get("avatarAuthor", ""))
+
+                    self.fields["profileshopname"].delete(0, tk.END)
+                    self.fields["profileshopname"].insert(0, data.get("avatarshopname", ""))
 
                     self.fields["profileAuthorUrl"].set_value(data.get("avatarAuthorUrl", ""))
 
@@ -1200,6 +1205,9 @@ class ProfileEditor:
                 self.fields["profileAuthor"].delete(0, tk.END)
                 self.fields["profileAuthor"].insert(0, data.get("avatarAuthor", ""))
 
+                self.fields["profileshopname"].delete(0, tk.END)
+                self.fields["profileshopname"].insert(0, data.get("avatarshopname", ""))
+
                 self.fields["profileAuthorUrl"].set_value(data.get("avatarAuthorUrl", ""))
 
                 # 入力状況を更新
@@ -1209,6 +1217,40 @@ class ProfileEditor:
 
         except Exception as e:
             messagebox.showerror("エラー", f"取得中にエラーが発生しました:\n{str(e)}")
+
+    def fetch_shopname_from_url(self, url):
+        """
+        Booth URLにアクセスしてtitleタグからショップ名を取得
+
+        Args:
+            url: ショップURL
+
+        Returns:
+            str: ショップ名（取得できない場合は空文字）
+        """
+        if not url or "booth.pm" not in url:
+            return ""
+
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+            title_tag = soup.find('title')
+
+            if title_tag:
+                title_text = title_tag.string
+                # " - BOOTH" を削除
+                shopname = title_text.replace(" - BOOTH", "").strip()
+                return shopname
+        except Exception:
+            pass
+
+        return ""
 
     def scrape_booth(self, url):
         """BoothページからHTMLをパース"""
@@ -1278,15 +1320,14 @@ class ProfileEditor:
                 if link:
                     avatar_author = link.get_text(strip=True)
 
-            # shop-name-labelからショップ名を取得（常に実行）
-            shopname = ""
-            shop_name_span = soup.find('span', class_='shop-name-label')
-            if shop_name_span:
-                shopname = shop_name_span.get_text(strip=True)
+            # 取得できなかった場合はshop-name-labelから取得（後方互換性）
+            if not avatar_author:
+                shop_name_span = soup.find('span', class_='shop-name-label')
+                if shop_name_span:
+                    avatar_author = shop_name_span.get_text(strip=True)
 
-            # 取得できなかった場合はshop-nameで補完（後方互換性）
-            if not avatar_author and shopname:
-                avatar_author = shopname
+            # avatarAuthorUrlにアクセスしてショップ名を取得
+            avatarshopname = self.fetch_shopname_from_url(avatar_author_url)
 
             # アバター価格を取得
             # ダウンロード商品が1つだけの場合、その価格を取得
@@ -1324,7 +1365,7 @@ class ProfileEditor:
             return {
                 "avatarName": avatar_name,
                 "avatarAuthor": avatar_author,
-                "shopname": shopname,
+                "avatarshopname": avatarshopname,
                 "avatarAuthorUrl": avatar_author_url,
                 "imageUrl": image_url,
                 "avatarPrice": avatar_price

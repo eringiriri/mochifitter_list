@@ -1,51 +1,59 @@
 #!/usr/bin/env python3
 """
-既存のprofiles.jsonに shopname フィールドを追加する移行スクリプト
-何度実行しても安全（既にshopnameがある場合はスキップ）
+既存のprofiles.jsonに avatarshopname と profileshopname フィールドを追加する移行スクリプト
+何度実行しても安全（既にフィールドがある場合はスキップ）
 """
 
 import json
 import os
-from urllib.parse import urlparse
+import requests
+from bs4 import BeautifulSoup
 
 
-def extract_shopname_from_url(url):
+def fetch_shopname_from_url(url):
     """
-    Booth URLからショップ名を抽出
+    Booth URLにアクセスしてtitleタグからショップ名を取得
 
     Args:
-        url: アバター作者URL
+        url: ショップURL
 
     Returns:
-        str: ショップ名（抽出できない場合は空文字）
+        str: ショップ名（取得できない場合は空文字）
     """
     if not url or "booth.pm" not in url:
         return ""
 
     try:
-        parsed = urlparse(url)
-        hostname = parsed.netloc
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
 
-        # サブドメインを抽出
-        # 例: mio3works.booth.pm → mio3works
-        parts = hostname.split('.')
-        if len(parts) >= 3 and parts[-2] == 'booth':
-            return parts[0]
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        title_tag = soup.find('title')
+
+        if title_tag:
+            title_text = title_tag.string
+            # " - BOOTH" を削除
+            shopname = title_text.replace(" - BOOTH", "").strip()
+            return shopname
     except Exception:
         pass
 
     return ""
 
 
-def add_shopname_field(json_path):
+def add_shopname_fields(json_path):
     """
-    profiles.jsonに shopname フィールドを追加
+    profiles.jsonに avatarshopname と profileshopname フィールドを追加
 
     Args:
         json_path: profiles.jsonのパス
     """
     print("=" * 80)
-    print("shopname フィールド追加スクリプト")
+    print("avatarshopname / profileshopname フィールド追加スクリプト")
     print("=" * 80)
 
     # JSONファイルを読み込み
@@ -64,25 +72,32 @@ def add_shopname_field(json_path):
         profile_id = profile.get("id", "unknown")
         avatar_name = profile.get("avatarName", "")
 
-        # 既に shopname が存在する場合はスキップ
-        if "shopname" in profile:
+        # 既に両方のフィールドが存在する場合はスキップ
+        if "avatarshopname" in profile and "profileshopname" in profile:
             skipped_count += 1
-            shopname_value = profile.get("shopname", "")
-            print(f"[{profile_id}] {avatar_name}: shopname already exists ('{shopname_value}'), skipped")
+            print(f"[{profile_id}] {avatar_name}: avatarshopname/profileshopname already exist, skipped")
             continue
 
-        # avatarAuthorUrl から shopname を抽出
-        avatar_author_url = profile.get("avatarAuthorUrl", "")
-        shopname = extract_shopname_from_url(avatar_author_url)
+        needs_update = False
 
-        # shopname フィールドを追加
-        profile["shopname"] = shopname
-        updated_count += 1
+        # avatarshopname を追加（存在しない場合のみ）
+        if "avatarshopname" not in profile:
+            avatar_author_url = profile.get("avatarAuthorUrl", "")
+            avatarshopname = fetch_shopname_from_url(avatar_author_url)
+            profile["avatarshopname"] = avatarshopname
+            needs_update = True
+            print(f"[{profile_id}] {avatar_name}: added avatarshopname = '{avatarshopname}'")
 
-        if shopname:
-            print(f"[{profile_id}] {avatar_name}: added shopname = '{shopname}'")
-        else:
-            print(f"[{profile_id}] {avatar_name}: added shopname = '' (empty)")
+        # profileshopname を追加（存在しない場合のみ）
+        if "profileshopname" not in profile:
+            profile_author_url = profile.get("profileAuthorUrl", "")
+            profileshopname = fetch_shopname_from_url(profile_author_url)
+            profile["profileshopname"] = profileshopname
+            needs_update = True
+            print(f"[{profile_id}] {avatar_name}: added profileshopname = '{profileshopname}'")
+
+        if needs_update:
+            updated_count += 1
 
     print("-" * 80)
     print(f"\n更新されたプロファイル数: {updated_count}")
@@ -109,7 +124,7 @@ def main():
         print(f"エラー: {json_path} が見つかりません")
         return 1
 
-    updated = add_shopname_field(json_path)
+    updated = add_shopname_fields(json_path)
     print("=" * 80)
 
     # 更新があった場合は終了コード0、なければ0（どちらも成功扱い）
