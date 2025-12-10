@@ -35,12 +35,15 @@ def fetch_shopname_from_url(url):
         title_tag = soup.find('title')
 
         if title_tag:
-            title_text = title_tag.string
-            # " - BOOTH" を削除
-            shopname = title_text.replace(" - BOOTH", "").strip()
-            return shopname
-    except Exception:
-        pass
+            # get_text()を使って確実にテキストを取得
+            title_text = title_tag.get_text(strip=True)
+            if title_text:
+                # " - BOOTH" を削除
+                shopname = title_text.replace(" - BOOTH", "").strip()
+                return shopname
+    except Exception as e:
+        # エラーをログ出力（デバッグ用）
+        print(f"Error fetching shopname from {url}: {e}")
 
     return ""
 
