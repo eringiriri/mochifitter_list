@@ -42,8 +42,8 @@ GitHub Actionsを使用して、Boothで新しいプロファイルを自動的�
    - 手動実行も可能（Actions タブから「Check New Booth Profiles」を選択）
 
 3. **チェック対象URL**
-   - `https://booth.pm/ja/search/もちふぃった?adult=include`
-   - `https://booth.pm/ja/search/mochifitter?adult=include`
+   - `https://booth.pm/ja/browse/3Dキャラクター?q=もちふぃった`
+   - `https://booth.pm/ja/browse/3Dキャラクター?q=mochifitter`
 
 ### 動作
 
