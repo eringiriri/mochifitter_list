@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10 23:29:23 JST",
+  "lastUpdated": "2025-12-10 23:44:38 JST",
   "profiles": [
     {
       "id": "001",
@@ -168,7 +168,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "久",
-      "profileshopname": "KUROMARU9"
+      "profileshopname": "KUROMARU9",
+      "avatarPrice": "6000"
     },
     {
       "id": "007",
@@ -337,7 +338,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "KUROMARU9",
-      "profileshopname": "KUROMARU9"
+      "profileshopname": "KUROMARU9",
+      "avatarPrice": "8000"
     },
     {
       "id": "013",
@@ -7995,7 +7997,7 @@
     {
       "id": "286",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "エイラ",
       "avatarNameUrl": "https://senna-studio.booth.pm/items/5426070\n",
       "profileVersion": "1.0",
@@ -8013,13 +8015,19 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5200"
+      "avatarPrice": "5200",
+      "avatarshopname": "Senna Studio",
+      "profileshopname": "Senna Studio",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "287",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "avatarName": "ココノ (Cocono)",
+      "updatedDate": "2025-12-10",
+      "avatarName": "ココノ Cocono",
       "avatarNameUrl": "https://sharono.booth.pm/items/6542661\n",
       "profileVersion": "1.0",
       "avatarAuthor": "Sharono",
@@ -8035,12 +8043,19 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "Sharono屋",
+      "profileshopname": "Sharono屋",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "288",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "ラチャ(Racha)",
       "avatarNameUrl": "https://sharono.booth.pm/items/6915207\n",
       "profileVersion": "1.0",
@@ -8057,7 +8072,14 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "Sharono屋",
+      "profileshopname": "Sharono屋",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "289",
@@ -8081,7 +8103,8 @@
       "reverseSupport": false,
       "notes": "セフィラ共通素体",
       "avatarshopname": "ぷらすわん",
-      "profileshopname": "sizimityper"
+      "profileshopname": "sizimityper",
+      "avatarPrice": "5500"
     },
     {
       "id": "290",
@@ -8105,7 +8128,8 @@
       "reverseSupport": false,
       "notes": "アッシュ共通素体",
       "avatarshopname": "ぷらすわん",
-      "profileshopname": "sizimityper"
+      "profileshopname": "sizimityper",
+      "avatarPrice": "5500"
     },
     {
       "id": "291",
@@ -8129,7 +8153,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "しそこんぶバーチャル支店",
-      "profileshopname": "しそこんぶバーチャル支店"
+      "profileshopname": "しそこんぶバーチャル支店",
+      "avatarPrice": "4500"
     },
     {
       "id": "292",
@@ -8153,12 +8178,13 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "しそこんぶバーチャル支店",
-      "profileshopname": "しそこんぶバーチャル支店"
+      "profileshopname": "しそこんぶバーチャル支店",
+      "avatarPrice": "4500"
     },
     {
       "id": "293",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "トラグルス",
       "avatarNameUrl": "https://sphere-model.booth.pm/items/5099202\n",
       "profileVersion": "1.0",
@@ -8175,12 +8201,19 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "スフィア/Sphere モデル置き場",
+      "profileshopname": "スフィア/Sphere モデル置き場",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "294",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "シュカ - Choucas -",
       "avatarNameUrl": "https://studio7tsuki.booth.pm/items/6227036",
       "profileVersion": "1.0",
@@ -8199,12 +8232,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "ナナツキ.Studio",
-      "profileshopname": "ナナツキ.Studio"
+      "profileshopname": "ナナツキ.Studio",
+      "avatarPrice": "4500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "295",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "ルナール - Renard -",
       "avatarNameUrl": "https://studio7tsuki.booth.pm/items/5319407\n",
       "profileVersion": "1.0",
@@ -8222,12 +8260,18 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "profileshopname": "ナナツキ.Studio"
+      "profileshopname": "ナナツキ.Studio",
+      "avatarshopname": "ナナツキ.Studio",
+      "avatarPrice": "3500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "296",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "アズ＆ラピ - Hase&Lapi -",
       "avatarNameUrl": "https://studio7tsuki.booth.pm/items/6294990\n",
       "profileVersion": "1.0",
@@ -8245,13 +8289,19 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "profileshopname": "ナナツキ.Studio"
+      "profileshopname": "ナナツキ.Studio",
+      "avatarshopname": "ナナツキ.Studio",
+      "avatarPrice": "7500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "297",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "avatarName": "とらのこ「ちとちゃん」",
+      "updatedDate": "2025-12-10",
+      "avatarName": "ちとちゃん",
       "avatarNameUrl": "https://capettiya.booth.pm/items/4189354",
       "profileVersion": "1.0",
       "avatarAuthor": "かぷちや",
@@ -8269,12 +8319,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "かぷちやのぶーす",
-      "profileshopname": "syebunの工房"
+      "profileshopname": "syebunの工房",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "298",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "椿姫 -Tsubaki-",
       "avatarNameUrl": "https://sasaky-shop.booth.pm/items/4929177",
       "profileVersion": "1.0",
@@ -8293,7 +8348,12 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "SASA-Cafe",
-      "profileshopname": "ツユカゲ実業"
+      "profileshopname": "ツユカゲ実業",
+      "avatarPrice": "6500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "299",
@@ -8317,7 +8377,8 @@
       "reverseSupport": false,
       "notes": "対応中?タグのみあり",
       "avatarshopname": "アンダル ♦︎ andall",
-      "profileshopname": "アンダル ♦︎ andall"
+      "profileshopname": "アンダル ♦︎ andall",
+      "avatarPrice": "4000"
     },
     {
       "id": "300",
@@ -8341,12 +8402,13 @@
       "reverseSupport": false,
       "notes": "対応中?タグのみあり",
       "avatarshopname": "アンダル ♦︎ andall",
-      "profileshopname": "アンダル ♦︎ andall"
+      "profileshopname": "アンダル ♦︎ andall",
+      "avatarPrice": "5000"
     },
     {
       "id": "301",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "ビボ",
       "avatarNameUrl": "https://t8dbcau.booth.pm/items/5109276\n",
       "profileVersion": "1.0",
@@ -8363,7 +8425,14 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "avatarshopname": "アンダル ♦︎ andall",
+      "profileshopname": "アンダル ♦︎ andall",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "302",
@@ -8387,7 +8456,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "三毛屋",
-      "profileshopname": "奥七夕湖温泉郷共同管理組合"
+      "profileshopname": "奥七夕湖温泉郷共同管理組合",
+      "avatarPrice": "20000"
     },
     {
       "id": "303",
@@ -8442,7 +8512,7 @@
     {
       "id": "305",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "華夜 -Kaya-",
       "avatarNameUrl": "https://sasaky-shop.booth.pm/items/3480756",
       "profileVersion": "1.0",
@@ -8461,7 +8531,12 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "SASA-Cafe",
-      "profileshopname": "雲丹亭"
+      "profileshopname": "雲丹亭",
+      "avatarPrice": "10000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "306",
@@ -8520,7 +8595,7 @@
     {
       "id": "308",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "柚希-Yuzuki-",
       "avatarNameUrl": "https://vividplum.booth.pm/items/7447697\n",
       "profileVersion": "1.0",
@@ -8538,7 +8613,13 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "VIVID PLUM",
+      "profileshopname": "VIVID PLUM",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "309",
@@ -8562,12 +8643,13 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "𝐒𝐚𝐡𝐤𝐞𝐭(さふけっと)",
-      "profileshopname": "被観"
+      "profileshopname": "被観",
+      "avatarPrice": "5500"
     },
     {
       "id": "310",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "豺狼",
       "avatarNameUrl": "https://sashimaru.booth.pm/items/5770771",
       "profileVersion": "1.0",
@@ -8586,12 +8668,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "sashimaru",
-      "profileshopname": "若狭工房"
+      "profileshopname": "若狭工房",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "311",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "仙猫",
       "avatarNameUrl": "https://sashimaru.booth.pm/items/5187788",
       "profileVersion": "1.0",
@@ -8610,7 +8697,12 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "sashimaru",
-      "profileshopname": "若狭工房"
+      "profileshopname": "若狭工房",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "312",
@@ -8634,7 +8726,8 @@
       "reverseSupport": false,
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
       "avatarshopname": "Xelevia_Industry",
-      "profileshopname": "わたのこしょっぷ"
+      "profileshopname": "わたのこしょっぷ",
+      "avatarPrice": "5000"
     },
     {
       "id": "313",
@@ -8658,7 +8751,8 @@
       "reverseSupport": false,
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
       "avatarshopname": "Xelevia_Industry",
-      "profileshopname": "わたのこしょっぷ"
+      "profileshopname": "わたのこしょっぷ",
+      "avatarPrice": "6000"
     },
     {
       "id": "314",
@@ -8682,7 +8776,8 @@
       "reverseSupport": false,
       "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
       "avatarshopname": "Xelevia_Industry",
-      "profileshopname": "わたのこしょっぷ"
+      "profileshopname": "わたのこしょっぷ",
+      "avatarPrice": "4000"
     },
     {
       "id": "315",
@@ -8706,7 +8801,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "かなﾘぁさんち",
-      "profileshopname": "わたのこしょっぷ"
+      "profileshopname": "わたのこしょっぷ",
+      "avatarPrice": "0"
     },
     {
       "id": "316",
@@ -8730,7 +8826,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "FRIENDLY PLANET",
-      "profileshopname": "はくろ倉庫"
+      "profileshopname": "はくろ倉庫",
+      "avatarPrice": "7000"
     },
     {
       "id": "317",
@@ -8754,7 +8851,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "Ficsnade",
-      "profileshopname": "はくろ倉庫"
+      "profileshopname": "はくろ倉庫",
+      "avatarPrice": "5000"
     },
     {
       "id": "318",
@@ -8778,12 +8876,13 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "STUDIO JINGO",
-      "profileshopname": "はくろ倉庫"
+      "profileshopname": "はくろ倉庫",
+      "avatarPrice": "6000"
     },
     {
       "id": "319",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Lua",
       "avatarNameUrl": "https://ficsnade.booth.pm/items/1255054",
       "profileVersion": "1.0",
@@ -8802,7 +8901,12 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "Ficsnade",
-      "profileshopname": "はくろ倉庫"
+      "profileshopname": "はくろ倉庫",
+      "avatarPrice": "3500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "320",
@@ -8825,7 +8929,7 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "アバター販売休止中",
-      "avatarPrice": "",
+      "avatarPrice": "販売休止中",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
@@ -8836,7 +8940,7 @@
     {
       "id": "321",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "あまのよどみ",
       "avatarNameUrl": "https://yaratoyakonko.booth.pm/items/4362233",
       "profileVersion": "1.0",
@@ -8855,12 +8959,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "日良冬屋こんこ",
-      "profileshopname": "日良冬屋こんこ"
+      "profileshopname": "日良冬屋こんこ",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "322",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "ぺちにあ",
       "avatarNameUrl": "https://yaratoyakonko.booth.pm/items/6278885",
       "profileVersion": "1.0",
@@ -8879,12 +8988,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "日良冬屋こんこ",
-      "profileshopname": "日良冬屋こんこ"
+      "profileshopname": "日良冬屋こんこ",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "323",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "山羊のメア -Goat Mea-",
       "avatarNameUrl": "https://ykcg.booth.pm/items/6382745",
       "profileVersion": "1.0",
@@ -8903,12 +9017,17 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "masui",
-      "profileshopname": "masui"
+      "profileshopname": "masui",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "324",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "よちよたちおとーと",
       "avatarNameUrl": "https://yochiyotachi.booth.pm/items/6359693\n",
       "profileVersion": "1.0",
@@ -8930,7 +9049,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "よちよたちんち",
+      "profileshopname": "よちよたちんち"
     },
     {
       "id": "325",
@@ -8979,7 +9100,8 @@
       "reverseSupport": false,
       "notes": "頒布許可あり",
       "avatarshopname": "もふもふ屋",
-      "profileshopname": "月宮's room"
+      "profileshopname": "月宮's room",
+      "avatarPrice": "6000"
     },
     {
       "id": "327",
@@ -9003,7 +9125,8 @@
       "reverseSupport": false,
       "notes": "頒布許可あり",
       "avatarshopname": "Ama ama 15 ㅊ福",
-      "profileshopname": "月宮's room"
+      "profileshopname": "月宮's room",
+      "avatarPrice": "4000"
     },
     {
       "id": "328",
@@ -9087,7 +9210,7 @@
     {
       "id": "331",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "猫山宙（ねこやま そら）",
       "avatarNameUrl": "https://tsukurunomori.booth.pm/items/5353712",
       "profileVersion": "1.0",
@@ -9104,14 +9227,19 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "",
+      "notes": "アバター販売休止中",
       "profileshopname": "ツクルノモリ公式",
-      "avatarshopname": "ツクルノモリ公式"
+      "avatarshopname": "ツクルノモリ公式",
+      "avatarPrice": "販売休止中\n",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "332",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "くろなつ",
       "avatarNameUrl": "https://nanka-tsukurouyo.booth.pm/items/3329958",
       "profileVersion": "1.0",
@@ -9130,13 +9258,18 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "なんか作ろうよ",
-      "profileshopname": "どわあああああああ"
+      "profileshopname": "どわあああああああ",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "333",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "avatarName": "単眼娘 Rimel0 (リメロ)",
+      "updatedDate": "2025-12-10",
+      "avatarName": "Rimel0 (リメロ)",
       "avatarNameUrl": "https://firsteye.booth.pm/items/7151285",
       "profileVersion": "1.0",
       "avatarAuthor": "びーてぃー",
@@ -9154,7 +9287,12 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "FirstEye",
-      "profileshopname": "FirstEye"
+      "profileshopname": "FirstEye",
+      "avatarPrice": "4500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "334",
@@ -9203,7 +9341,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "かなんの倉庫",
-      "profileshopname": "リコリル"
+      "profileshopname": "リコリル",
+      "avatarPrice": "4000"
     },
     {
       "id": "336",
@@ -9227,7 +9366,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "studio nanodes",
-      "profileshopname": "蟻売之梨"
+      "profileshopname": "蟻売之梨",
+      "avatarPrice": "7000"
     },
     {
       "id": "337",
@@ -9251,7 +9391,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "Xelevia_Industry",
-      "profileshopname": "LIII Works 五十三工房"
+      "profileshopname": "LIII Works 五十三工房",
+      "avatarPrice": "5000"
     },
     {
       "id": "338",
@@ -9275,7 +9416,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "バーチャルマーケット公式",
-      "profileshopname": "サルサ・トルティー屋"
+      "profileshopname": "サルサ・トルティー屋",
+      "avatarPrice": "0"
     },
     {
       "id": "339",
@@ -9299,12 +9441,13 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "てぃむ屋",
-      "profileshopname": "たつ屋"
+      "profileshopname": "たつ屋",
+      "avatarPrice": "5000"
     },
     {
       "id": "340",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Lasyusha〈ラシューシャ〉",
       "avatarNameUrl": "https://keenooshop.booth.pm/items/4825073",
       "profileVersion": "1.0",
@@ -9323,7 +9466,12 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "Keenoo",
-      "profileshopname": "Keenoo"
+      "profileshopname": "Keenoo",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "341",
@@ -9405,7 +9553,8 @@
       "reverseSupport": false,
       "notes": "びきたんさん公認",
       "avatarshopname": "bikiTadpole",
-      "profileshopname": "L3iaのアトリエ"
+      "profileshopname": "L3iaのアトリエ",
+      "avatarPrice": "3900"
     },
     {
       "id": "344",
@@ -9454,7 +9603,8 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "Murixir workshop",
-      "profileshopname": "Murixir workshop"
+      "profileshopname": "Murixir workshop",
+      "avatarPrice": "0"
     },
     {
       "id": "346",
@@ -9478,12 +9628,13 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "Murixir workshop",
-      "profileshopname": "Murixir workshop"
+      "profileshopname": "Murixir workshop",
+      "avatarPrice": "0"
     },
     {
       "id": "347",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "くろちゃん(分霊)Refine",
       "avatarNameUrl": "https://allalonekuro.fanbox.cc/posts/1063098",
       "profileVersion": "1.0",
@@ -9501,7 +9652,13 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "Fanbox限定配布アバター",
-      "profileshopname": "kurofura"
+      "profileshopname": "kurofura",
+      "avatarshopname": "くろちゃんのおじさん",
+      "avatarPrice": "Fanbox限定",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "348",
@@ -9525,7 +9682,8 @@
       "reverseSupport": true,
       "notes": "",
       "avatarshopname": "ひゅうがなつみかん",
-      "profileshopname": "+MooN LighT+"
+      "profileshopname": "+MooN LighT+",
+      "avatarPrice": "6000"
     },
     {
       "id": "349",
@@ -9549,12 +9707,13 @@
       "reverseSupport": false,
       "notes": "",
       "avatarshopname": "ポンデロニウム研究所",
-      "profileshopname": "P_Store"
+      "profileshopname": "P_Store",
+      "avatarPrice": "3000"
     },
     {
       "id": "350",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "壱鬼-ITSUKI-",
       "avatarNameUrl": "https://ablab.booth.pm/items/4267802",
       "profileVersion": "1.0",
@@ -9573,12 +9732,17 @@
       "reverseSupport": false,
       "notes": "セール50%OFFで\\3000",
       "avatarshopname": "A.B.Lab",
-      "profileshopname": "A.B.Lab"
+      "profileshopname": "A.B.Lab",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "351",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "へなちこ - Henachiko -",
       "avatarNameUrl": "https://akamu3.booth.pm/items/7636824\n",
       "profileVersion": "1.0",
@@ -9595,8 +9759,14 @@
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "発売は12/1～",
-      "avatarPrice": "4500"
+      "notes": "",
+      "avatarPrice": "4500",
+      "avatarshopname": "ひつまぶし以外のなにものでもない",
+      "profileshopname": "ひつまぶし以外のなにものでもない",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "352",
@@ -9630,7 +9800,7 @@
     {
       "id": "353",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Nysネイス",
       "avatarNameUrl": "https://alua7.booth.pm/items/3978893\n",
       "profileVersion": "1.0",
@@ -9652,12 +9822,14 @@
       "salePrice": "2000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "alua7 Shop",
+      "profileshopname": "alua7 Shop"
     },
     {
       "id": "354",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "連翹Rengyo",
       "avatarNameUrl": "https://anacharis.booth.pm/items/4056628\n",
       "profileVersion": "1.0",
@@ -9679,12 +9851,14 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "藻類観察会",
+      "profileshopname": "藻類観察会"
     },
     {
       "id": "355",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "珀葵Tamaki",
       "avatarNameUrl": "https://anacharis.booth.pm/items/5799072\n",
       "profileVersion": "1.0",
@@ -9698,7 +9872,7 @@
       "downloadLocation": "https://anacharis.booth.pm/items/5799072\n",
       "imageUrl": "https://booth.pximg.net/c/620x620/674fc427-6fbb-4335-8520-23bc1069d4f5/i/5799072/4d3e7a74-a4d0-4def-863d-a72e5b816022_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "5000",
       "onSale": false,
       "saleStartDate": "",
@@ -9706,12 +9880,14 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "藻類観察会",
+      "profileshopname": "藻類観察会"
     },
     {
       "id": "356",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "リディ - Lydie - v2",
       "avatarNameUrl": "https://anacharis.booth.pm/items/5245279\n",
       "profileVersion": "1.0",
@@ -9722,10 +9898,10 @@
       "profileAuthorUrl": "https://anacharis.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://anacharis.booth.pm/items/5245279\n",
       "imageUrl": "https://booth.pximg.net/c/620x620/674fc427-6fbb-4335-8520-23bc1069d4f5/i/5245279/6de6d654-9454-46b8-ad68-ef64e58d4267_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "4500",
       "onSale": false,
       "saleStartDate": "",
@@ -9733,12 +9909,14 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "藻類観察会",
+      "profileshopname": "藻類観察会"
     },
     {
       "id": "357",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "ビスト Bist",
       "avatarNameUrl": "https://anomalo-kh.booth.pm/items/4865960\n",
       "profileVersion": "1.0",
@@ -9752,7 +9930,7 @@
       "downloadLocation": "https://anomalo-kh.booth.pm/items/4865960\n",
       "imageUrl": "https://booth.pximg.net/c/620x620/65a2d599-f58e-4692-8fa6-577ce9ea6b76/i/4865960/2c28a87c-b064-41c0-8005-c4f0abdf57dd_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "3500",
       "onSale": false,
       "saleStartDate": "",
@@ -9760,12 +9938,14 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "The Library at Bottom of Water",
+      "profileshopname": "The Library at Bottom of Water"
     },
     {
       "id": "358",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Miroir -ミロワール- Remake",
       "avatarNameUrl": "https://bbkktn.booth.pm/items/6507420\n",
       "profileVersion": "1.0",
@@ -9776,10 +9956,10 @@
       "profileAuthorUrl": "https://bbkktn.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://bbkktn.booth.pm/items/6507420\n",
       "imageUrl": "https://booth.pximg.net/c/620x620/e4a23b04-95ae-4e1b-a746-072a48f8a8b1/i/6507420/218cd0ee-8a27-4936-8cc9-27b3bbf01406_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "4900",
       "onSale": false,
       "saleStartDate": "",
@@ -9787,12 +9967,14 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "bikiTadpole",
+      "profileshopname": "bikiTadpole"
     },
     {
       "id": "359",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Elmina -エルミーナ-",
       "avatarNameUrl": "https://bbkktn.booth.pm/items/5110674",
       "profileVersion": "1.0",
@@ -9806,7 +9988,7 @@
       "downloadLocation": "https://bbkktn.booth.pm/items/5110674",
       "imageUrl": "https://booth.pximg.net/c/620x620/e4a23b04-95ae-4e1b-a746-072a48f8a8b1/i/5110674/14ebe07b-9631-490c-8e5f-de936c27b7d3_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "4900",
       "onSale": false,
       "saleStartDate": "",
@@ -9821,7 +10003,7 @@
     {
       "id": "360",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Izul -イズール- Remake",
       "avatarNameUrl": "https://bbkktn.booth.pm/items/4718359",
       "profileVersion": "1.0",
@@ -9835,7 +10017,7 @@
       "downloadLocation": "https://bbkktn.booth.pm/items/4718359",
       "imageUrl": "https://booth.pximg.net/c/620x620/e4a23b04-95ae-4e1b-a746-072a48f8a8b1/i/4718359/b2b88db7-6b4c-406c-b20c-e0c2f60a0501_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "4900",
       "onSale": false,
       "saleStartDate": "",
@@ -9850,7 +10032,7 @@
     {
       "id": "361",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "Seraphina -セラフィナ-",
       "avatarNameUrl": "https://bbkktn.booth.pm/items/5597214",
       "profileVersion": "1.0",
@@ -9864,7 +10046,7 @@
       "downloadLocation": "https://bbkktn.booth.pm/items/5597214",
       "imageUrl": "https://booth.pximg.net/c/620x620/e4a23b04-95ae-4e1b-a746-072a48f8a8b1/i/5597214/d08ed059-6301-4a41-8456-67cb0317a93e_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "4900",
       "onSale": false,
       "saleStartDate": "",
@@ -9879,7 +10061,7 @@
     {
       "id": "362",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "彼方-Kanata-",
       "avatarNameUrl": "https://bluestella1127.booth.pm/items/6813995",
       "profileVersion": "1.0",
@@ -9893,7 +10075,7 @@
       "downloadLocation": "https://bluestella1127.booth.pm/items/6813995",
       "imageUrl": "https://booth.pximg.net/c5f07bf0-8b84-476c-8482-585249aba6c1/i/6813995/19d70a5c-734b-437b-b415-89f181cdb374_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "6000",
       "onSale": true,
       "saleStartDate": "",
@@ -9908,7 +10090,7 @@
     {
       "id": "363",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-10",
       "avatarName": "此方-Konata-",
       "avatarNameUrl": "https://bluestella1127.booth.pm/items/6813995",
       "profileVersion": "1.0",
@@ -9922,7 +10104,7 @@
       "downloadLocation": "https://bluestella1127.booth.pm/items/6813995",
       "imageUrl": "https://booth.pximg.net/c5f07bf0-8b84-476c-8482-585249aba6c1/i/6813995/faf91ef6-65d4-43a9-ba1f-2a965b4a84e3_base_resized.jpg",
       "pricing": "アバター同梱",
-      "price": "",
+      "price": "-",
       "avatarPrice": "6000",
       "onSale": true,
       "saleStartDate": "",
@@ -14490,7 +14672,7 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "",
+      "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
