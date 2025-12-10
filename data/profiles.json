@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10 23:44:38 JST",
+  "lastUpdated": "2025-12-10 23:48:52 JST",
   "profiles": [
     {
       "id": "001",
@@ -2632,6 +2632,35 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": ""
+    },
+    {
+      "id": "093",
+      "registeredDate": "2025-12-10",
+      "updatedDate": "2025-12-10",
+      "avatarName": "",
+      "avatarNameUrl": "",
+      "profileVersion": "1.0",
+      "avatarAuthor": "",
+      "avatarshopname": "",
+      "avatarAuthorUrl": "",
+      "bodyBase": "",
+      "profileAuthor": "",
+      "profileshopname": "",
+      "profileAuthorUrl": "",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "",
+      "imageUrl": "",
+      "pricing": "",
+      "price": "",
+      "avatarPrice": "",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "notes": ""
     },
     {
       "id": "094",
