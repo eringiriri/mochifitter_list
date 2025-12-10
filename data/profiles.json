@@ -26,7 +26,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "002",
@@ -53,7 +55,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "003",
@@ -80,7 +84,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "004",
@@ -107,7 +113,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "005",
@@ -134,7 +142,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "006",
@@ -156,7 +166,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "007",
@@ -183,7 +195,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "008",
@@ -210,7 +224,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "009",
@@ -237,7 +253,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "010",
@@ -264,7 +282,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "011",
@@ -291,7 +311,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "012",
@@ -313,7 +335,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "013",
@@ -335,7 +359,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "014",
@@ -357,7 +383,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "015",
@@ -379,7 +407,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "016",
@@ -401,7 +431,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "017",
@@ -423,7 +455,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "018",
@@ -445,7 +479,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "019",
@@ -467,7 +503,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "020",
@@ -489,7 +527,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "021",
@@ -512,7 +552,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "022",
@@ -535,7 +577,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "023",
@@ -558,7 +602,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "024",
@@ -581,7 +627,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "025",
@@ -604,7 +652,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "026",
@@ -627,7 +677,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "027",
@@ -650,7 +702,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "028",
@@ -673,7 +727,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "029",
@@ -696,7 +752,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "030",
@@ -718,7 +776,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "031",
@@ -740,7 +800,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "032",
@@ -762,7 +824,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "033",
@@ -784,7 +848,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "034",
@@ -806,7 +872,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "035",
@@ -828,7 +896,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "036",
@@ -850,7 +920,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "037",
@@ -872,7 +944,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "038",
@@ -894,7 +968,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "039",
@@ -916,7 +992,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "https://skd-noratama.booth.pm/items/3118209"
+      "notes": "https://skd-noratama.booth.pm/items/3118209",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "040",
@@ -938,7 +1016,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "041",
@@ -960,7 +1040,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "042",
@@ -982,7 +1064,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "043",
@@ -1004,7 +1088,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "044",
@@ -1026,7 +1112,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "045",
@@ -1048,7 +1136,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "046",
@@ -1070,7 +1160,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "047",
@@ -1092,7 +1184,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "048",
@@ -1114,7 +1208,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "049",
@@ -1136,7 +1232,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "050",
@@ -1158,7 +1256,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "051",
@@ -1180,7 +1280,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "052",
@@ -1202,7 +1304,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "053",
@@ -1224,7 +1328,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "054",
@@ -1246,7 +1352,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "055",
@@ -1268,7 +1376,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "056",
@@ -1291,7 +1401,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "057",
@@ -1313,7 +1425,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "058",
@@ -1335,7 +1449,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "059",
@@ -1357,7 +1473,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "060",
@@ -1379,7 +1497,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "061",
@@ -1401,7 +1521,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "062",
@@ -1423,7 +1545,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "063",
@@ -1445,7 +1569,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "064",
@@ -1467,7 +1593,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "065",
@@ -1489,7 +1617,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "066",
@@ -1511,7 +1641,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "067",
@@ -1533,7 +1665,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "068",
@@ -1555,7 +1689,9 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "069",
@@ -1582,7 +1718,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "070",
@@ -1609,7 +1747,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "071",
@@ -1636,7 +1776,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "072",
@@ -1663,7 +1805,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "073",
@@ -1690,7 +1834,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "074",
@@ -1717,7 +1863,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "075",
@@ -1744,7 +1892,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "076",
@@ -1771,7 +1921,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "077",
@@ -1798,7 +1950,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "078",
@@ -1825,7 +1979,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "079",
@@ -1852,7 +2008,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "080",
@@ -1879,7 +2037,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "081",
@@ -1901,7 +2061,9 @@
       "notes": "",
       "official": false,
       "forwardSupport": true,
-      "reverseSupport": false
+      "reverseSupport": false,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "082",
@@ -1923,7 +2085,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "083",
@@ -1945,7 +2109,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "084",
@@ -1967,7 +2133,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "085",
@@ -1989,7 +2157,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "086",
@@ -2011,7 +2181,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "087",
@@ -2033,7 +2205,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "088",
@@ -2055,7 +2229,9 @@
       "notes": "順変換対応だが、順変換用fbxはアバター同梱",
       "official": true,
       "forwardSupport": true,
-      "reverseSupport": true
+      "reverseSupport": true,
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "089",
@@ -2082,7 +2258,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "090",
@@ -2104,7 +2282,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "091",
@@ -2126,7 +2306,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "092",
@@ -2148,7 +2330,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "093",
@@ -2170,7 +2354,9 @@
       "price": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "非対応"
+      "notes": "非対応",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "094",
@@ -2192,7 +2378,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "095",
@@ -2214,7 +2402,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "096",
@@ -2241,7 +2431,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "097",
@@ -2263,7 +2455,9 @@
       "price": "400",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "作者から制作許可あり"
+      "notes": "作者から制作許可あり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "098",
@@ -2285,7 +2479,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "099",
@@ -2307,7 +2503,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "100",
@@ -2329,7 +2527,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "101",
@@ -2356,7 +2556,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "102",
@@ -2378,7 +2580,9 @@
       "price": "400",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "103",
@@ -2400,7 +2604,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "104",
@@ -2422,7 +2628,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "105",
@@ -2444,7 +2652,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "106",
@@ -2466,7 +2676,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載"
+      "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "107",
@@ -2488,7 +2700,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "108",
@@ -2510,7 +2724,9 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "109",
@@ -2532,7 +2748,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "110",
@@ -2554,7 +2772,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "111",
@@ -2576,7 +2796,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "112",
@@ -2599,7 +2821,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "113",
@@ -2622,7 +2846,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "114",
@@ -2644,7 +2870,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "115",
@@ -2666,7 +2894,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "116",
@@ -2689,7 +2919,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "117",
@@ -2712,7 +2944,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "118",
@@ -2735,7 +2969,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "119",
@@ -2758,7 +2994,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "120",
@@ -2781,7 +3019,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "121",
@@ -2804,7 +3044,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "122",
@@ -2827,7 +3069,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "123",
@@ -2850,7 +3094,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "124",
@@ -2873,7 +3119,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "共通素体EFBody",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "125",
@@ -2896,7 +3144,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "126",
@@ -2919,7 +3169,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "127",
@@ -2942,7 +3194,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "128",
@@ -2965,7 +3219,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "129",
@@ -2988,7 +3244,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "130",
@@ -3011,7 +3269,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "131",
@@ -3034,7 +3294,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "132",
@@ -3061,7 +3323,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "133",
@@ -3088,7 +3352,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "134",
@@ -3111,7 +3377,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "135",
@@ -3133,7 +3401,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "136",
@@ -3155,7 +3425,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "137",
@@ -3177,7 +3449,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "138",
@@ -3199,7 +3473,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "139",
@@ -3221,7 +3497,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "140",
@@ -3243,7 +3521,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "141",
@@ -3266,7 +3546,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "142",
@@ -3289,7 +3571,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "143",
@@ -3312,7 +3596,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "144",
@@ -3335,7 +3621,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "145",
@@ -3358,7 +3646,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "146",
@@ -3380,7 +3670,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "147",
@@ -3403,7 +3695,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "148",
@@ -3426,7 +3720,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "149",
@@ -3448,7 +3744,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "150",
@@ -3471,7 +3769,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "151",
@@ -3493,7 +3793,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "152",
@@ -3516,7 +3818,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "153",
@@ -3539,7 +3843,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "154",
@@ -3562,7 +3868,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "155",
@@ -3584,7 +3892,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "156",
@@ -3606,7 +3916,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "157",
@@ -3628,7 +3940,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "158",
@@ -3650,7 +3964,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "159",
@@ -3672,7 +3988,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "160",
@@ -3694,7 +4012,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "161",
@@ -3717,7 +4037,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "162",
@@ -3744,7 +4066,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "163",
@@ -3767,7 +4091,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "164",
@@ -3789,7 +4115,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "165",
@@ -3816,7 +4144,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "166",
@@ -3843,7 +4173,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "167",
@@ -3870,7 +4202,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "168",
@@ -3897,7 +4231,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "169",
@@ -3919,7 +4255,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "170",
@@ -3942,7 +4280,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "171",
@@ -3965,7 +4305,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "172",
@@ -3988,7 +4330,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "173",
@@ -4010,7 +4354,9 @@
       "price": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "174",
@@ -4033,7 +4379,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "175",
@@ -4056,7 +4404,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "4900"
+      "avatarPrice": "4900",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "176",
@@ -4083,7 +4433,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "177",
@@ -4105,7 +4457,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "178",
@@ -4132,7 +4486,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "179",
@@ -4155,7 +4511,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "180",
@@ -4177,7 +4535,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "181",
@@ -4199,7 +4559,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "182",
@@ -4226,7 +4588,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "183",
@@ -4248,7 +4612,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "184",
@@ -4270,7 +4636,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり"
+      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "185",
@@ -4292,7 +4660,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "186",
@@ -4315,7 +4685,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "187",
@@ -4338,7 +4710,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "188",
@@ -4360,7 +4734,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "189",
@@ -4383,7 +4759,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "190",
@@ -4406,7 +4784,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "191",
@@ -4429,7 +4809,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "192",
@@ -4451,7 +4833,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "193",
@@ -4478,7 +4862,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "194",
@@ -4505,7 +4891,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "195",
@@ -4527,7 +4915,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "196",
@@ -4549,7 +4939,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "197",
@@ -4571,7 +4963,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "198",
@@ -4593,7 +4987,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "199",
@@ -4616,7 +5012,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "200",
@@ -4643,7 +5041,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "201",
@@ -4670,7 +5070,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "202",
@@ -4697,7 +5099,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "203",
@@ -4724,7 +5128,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "204",
@@ -4747,7 +5153,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "205",
@@ -4769,7 +5177,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "公式での対応アナウンスあり"
+      "notes": "公式での対応アナウンスあり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "206",
@@ -4791,7 +5201,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "207",
@@ -4813,7 +5225,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "208",
@@ -4835,7 +5249,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "209",
@@ -4857,7 +5273,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "210",
@@ -4879,7 +5297,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "211",
@@ -4901,7 +5321,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "212",
@@ -4923,7 +5345,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "213",
@@ -4945,7 +5369,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "214",
@@ -4967,7 +5393,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "215",
@@ -4994,7 +5422,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "216",
@@ -5017,7 +5447,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "217",
@@ -5040,7 +5472,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "218",
@@ -5063,7 +5497,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "2000"
+      "avatarPrice": "2000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "219",
@@ -5090,7 +5526,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "220",
@@ -5112,7 +5550,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "221",
@@ -5134,7 +5574,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "222",
@@ -5156,7 +5598,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "223",
@@ -5179,7 +5623,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "224",
@@ -5201,7 +5647,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ミルフィと同素体"
+      "notes": "ミルフィと同素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "225",
@@ -5223,7 +5671,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "エクと同素体"
+      "notes": "エクと同素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "226",
@@ -5245,7 +5695,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "227",
@@ -5267,7 +5719,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "228",
@@ -5294,7 +5748,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "229",
@@ -5316,7 +5772,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "230",
@@ -5338,7 +5796,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "231",
@@ -5360,7 +5820,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "232",
@@ -5382,7 +5844,9 @@
       "price": "290",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "233",
@@ -5404,7 +5868,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "234",
@@ -5427,7 +5893,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "500"
+      "avatarPrice": "500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "235",
@@ -5449,7 +5917,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "公式にてプロファイル作成予定"
+      "notes": "公式にてプロファイル作成予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "236",
@@ -5471,7 +5941,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "公式にてプロファイル作成予定"
+      "notes": "公式にてプロファイル作成予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "237",
@@ -5493,7 +5965,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "238",
@@ -5516,7 +5990,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "239",
@@ -5539,7 +6015,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "240",
@@ -5562,7 +6040,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "241",
@@ -5585,7 +6065,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "242",
@@ -5607,7 +6089,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "243",
@@ -5634,7 +6118,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "244",
@@ -5661,7 +6147,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "245",
@@ -5688,7 +6176,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "246",
@@ -5710,7 +6200,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "247",
@@ -5732,7 +6224,9 @@
       "price": "100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "248",
@@ -5754,7 +6248,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "249",
@@ -5776,7 +6272,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "250",
@@ -5798,7 +6296,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "251",
@@ -5820,7 +6320,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "252",
@@ -5842,7 +6344,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "253",
@@ -5865,7 +6369,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "逆方向対応不明",
-      "avatarPrice": "5180"
+      "avatarPrice": "5180",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "254",
@@ -5888,7 +6394,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "255",
@@ -5911,7 +6419,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "逆変換対応予定あり",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "256",
@@ -5933,7 +6443,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "257",
@@ -5955,7 +6467,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "258",
@@ -5977,7 +6491,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "259",
@@ -5999,7 +6515,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "260",
@@ -6021,7 +6539,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "261",
@@ -6043,7 +6563,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "262",
@@ -6065,7 +6587,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "263",
@@ -6087,7 +6611,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "264",
@@ -6109,7 +6635,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "265",
@@ -6131,7 +6659,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "266",
@@ -6153,7 +6683,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "267",
@@ -6175,7 +6707,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "268",
@@ -6197,7 +6731,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "269",
@@ -6220,7 +6756,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "11/30日まで7000→4500",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "270",
@@ -6243,7 +6781,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "11月27日くらいまで500円引き",
-      "avatarPrice": "4000"
+      "avatarPrice": "4000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "271",
@@ -6265,7 +6805,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "272",
@@ -6287,7 +6829,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "273",
@@ -6310,7 +6854,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "274",
@@ -6333,7 +6879,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "275",
@@ -6356,7 +6904,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5500"
+      "avatarPrice": "5500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "276",
@@ -6378,7 +6928,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "277",
@@ -6400,7 +6952,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "278",
@@ -6422,7 +6976,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "279",
@@ -6444,7 +7000,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "280",
@@ -6467,7 +7025,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "281",
@@ -6490,7 +7050,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "282",
@@ -6517,7 +7079,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "283",
@@ -6540,7 +7104,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "284",
@@ -6563,7 +7129,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5600"
+      "avatarPrice": "5600",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "285",
@@ -6586,7 +7154,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5600"
+      "avatarPrice": "5600",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "286",
@@ -6609,7 +7179,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5200"
+      "avatarPrice": "5200",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "287",
@@ -6631,7 +7203,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "288",
@@ -6653,7 +7227,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "289",
@@ -6675,7 +7251,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セフィラ共通素体"
+      "notes": "セフィラ共通素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "290",
@@ -6697,7 +7275,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アッシュ共通素体"
+      "notes": "アッシュ共通素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "291",
@@ -6719,7 +7299,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "292",
@@ -6741,7 +7323,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "293",
@@ -6763,7 +7347,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "294",
@@ -6785,7 +7371,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "295",
@@ -6807,7 +7395,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "296",
@@ -6829,7 +7419,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "297",
@@ -6851,7 +7443,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "298",
@@ -6873,7 +7467,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "299",
@@ -6895,7 +7491,9 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "300",
@@ -6917,7 +7515,9 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "301",
@@ -6939,7 +7539,9 @@
       "price": "0",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "対応中?タグのみあり"
+      "notes": "対応中?タグのみあり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "302",
@@ -6961,7 +7563,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "303",
@@ -6984,7 +7588,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "304",
@@ -7007,7 +7613,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "305",
@@ -7029,7 +7637,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "306",
@@ -7056,7 +7666,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "307",
@@ -7079,7 +7691,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "308",
@@ -7102,7 +7716,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "309",
@@ -7124,7 +7740,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "310",
@@ -7146,7 +7764,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "311",
@@ -7168,7 +7788,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "312",
@@ -7190,7 +7812,9 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "313",
@@ -7212,7 +7836,9 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "314",
@@ -7234,7 +7860,9 @@
       "price": "300",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen"
+      "notes": "2025/11/25 ⇨ 2025/11/27\n300 yen ⇨ 500 yen",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "315",
@@ -7256,7 +7884,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "316",
@@ -7278,7 +7908,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "317",
@@ -7300,7 +7932,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "318",
@@ -7322,7 +7956,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "319",
@@ -7344,7 +7980,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "320",
@@ -7371,7 +8009,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "321",
@@ -7393,7 +8033,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "322",
@@ -7415,7 +8057,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "323",
@@ -7437,7 +8081,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "324",
@@ -7464,7 +8110,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "325",
@@ -7487,7 +8135,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "326",
@@ -7509,7 +8159,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "頒布許可あり"
+      "notes": "頒布許可あり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "327",
@@ -7531,7 +8183,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "頒布許可あり"
+      "notes": "頒布許可あり",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "328",
@@ -7558,7 +8212,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "329",
@@ -7581,7 +8237,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "330",
@@ -7604,7 +8262,9 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "notes": "",
-      "avatarPrice": "5000"
+      "avatarPrice": "5000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "331",
@@ -7626,7 +8286,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "332",
@@ -7648,7 +8310,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "333",
@@ -7670,7 +8334,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "334",
@@ -7693,7 +8359,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "7000"
+      "avatarPrice": "7000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "335",
@@ -7715,7 +8383,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "336",
@@ -7737,7 +8407,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "337",
@@ -7759,7 +8431,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "338",
@@ -7781,7 +8455,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "339",
@@ -7803,7 +8479,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "340",
@@ -7825,7 +8503,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "341",
@@ -7852,7 +8532,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "342",
@@ -7879,7 +8561,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "343",
@@ -7901,7 +8585,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "びきたんさん公認"
+      "notes": "びきたんさん公認",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "344",
@@ -7924,7 +8610,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
-      "avatarPrice": "6000"
+      "avatarPrice": "6000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "345",
@@ -7946,7 +8634,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "346",
@@ -7968,7 +8658,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "347",
@@ -7990,7 +8682,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "Fanbox限定配布アバター"
+      "notes": "Fanbox限定配布アバター",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "348",
@@ -8012,7 +8706,9 @@
       "price": "500",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "349",
@@ -8034,7 +8730,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "350",
@@ -8056,7 +8754,9 @@
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セール50%OFFで\\3000"
+      "notes": "セール50%OFFで\\3000",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "351",
@@ -8079,7 +8779,9 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "発売は12/1～",
-      "avatarPrice": "4500"
+      "avatarPrice": "4500",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "352",
@@ -8106,7 +8808,9 @@
       "salePrice": "2000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "353",
@@ -8133,7 +8837,9 @@
       "salePrice": "2000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "354",
@@ -8160,7 +8866,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "355",
@@ -8187,7 +8895,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "356",
@@ -8214,7 +8924,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "357",
@@ -8241,7 +8953,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "358",
@@ -8268,7 +8982,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "359",
@@ -8295,7 +9011,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "360",
@@ -8322,7 +9040,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "361",
@@ -8349,7 +9069,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "362",
@@ -8376,7 +9098,9 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "此方-Konata-とセット"
+      "notes": "此方-Konata-とセット",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "363",
@@ -8403,7 +9127,9 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "彼方-Kanata-とセット"
+      "notes": "彼方-Kanata-とセット",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "364",
@@ -8430,7 +9156,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "365",
@@ -8457,7 +9185,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "366",
@@ -8484,7 +9214,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "367",
@@ -8511,7 +9243,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "1.2倍"
+      "notes": "1.2倍",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "368",
@@ -8538,7 +9272,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "0.9倍"
+      "notes": "0.9倍",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "369",
@@ -8565,7 +9301,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "370",
@@ -8592,7 +9330,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "371",
@@ -8619,7 +9359,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "372",
@@ -8646,7 +9388,9 @@
       "salePrice": "3500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "373",
@@ -8673,7 +9417,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "374",
@@ -8700,7 +9446,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "375",
@@ -8727,7 +9475,9 @@
       "salePrice": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "376",
@@ -8754,7 +9504,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "377",
@@ -8781,7 +9533,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "378",
@@ -8808,7 +9562,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "379",
@@ -8835,7 +9591,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "380",
@@ -8862,7 +9620,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "381",
@@ -8889,7 +9649,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "期間限定頒布\n12月末ごろにプロファイルリリース予定"
+      "notes": "期間限定頒布\n12月末ごろにプロファイルリリース予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "382",
@@ -8916,7 +9678,9 @@
       "salePrice": "6000",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "12月末ごろにプロファイルリリース予定"
+      "notes": "12月末ごろにプロファイルリリース予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "383",
@@ -8943,7 +9707,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "384",
@@ -8970,7 +9736,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "385",
@@ -8997,7 +9765,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "386",
@@ -9024,7 +9794,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "387",
@@ -9051,7 +9823,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "388",
@@ -9078,7 +9852,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "389",
@@ -9105,7 +9881,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "390",
@@ -9132,7 +9910,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "391",
@@ -9159,7 +9939,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "392",
@@ -9186,7 +9968,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "393",
@@ -9213,7 +9997,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "394",
@@ -9240,7 +10026,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "395",
@@ -9267,7 +10055,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "396",
@@ -9294,7 +10084,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "397",
@@ -9321,7 +10113,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "398",
@@ -9348,7 +10142,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "399",
@@ -9375,7 +10171,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "400",
@@ -9402,7 +10200,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "401",
@@ -9429,7 +10229,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "402",
@@ -9456,7 +10258,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "403",
@@ -9483,7 +10287,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "404",
@@ -9510,7 +10316,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "405",
@@ -9537,7 +10345,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "406",
@@ -9564,7 +10374,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "407",
@@ -9591,7 +10403,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "408",
@@ -9618,7 +10432,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "409",
@@ -9645,7 +10461,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "410",
@@ -9672,7 +10490,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "411",
@@ -9699,7 +10519,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "412",
@@ -9726,7 +10548,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "413",
@@ -9753,7 +10577,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "414",
@@ -9780,7 +10606,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "415",
@@ -9807,7 +10635,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "416",
@@ -9834,7 +10664,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "417",
@@ -9861,7 +10693,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "418",
@@ -9888,7 +10722,9 @@
       "salePrice": "5000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "419",
@@ -9915,7 +10751,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "12月販売予定"
+      "notes": "12月販売予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "420",
@@ -9942,7 +10780,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "421",
@@ -9969,7 +10809,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "422",
@@ -9996,7 +10838,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "423",
@@ -10023,7 +10867,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "424",
@@ -10050,7 +10896,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "425",
@@ -10077,7 +10925,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "426",
@@ -10104,7 +10954,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "427",
@@ -10131,7 +10983,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "428",
@@ -10158,7 +11012,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "429",
@@ -10185,7 +11041,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "430",
@@ -10212,7 +11070,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "431",
@@ -10239,7 +11099,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "432",
@@ -10266,7 +11128,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "433",
@@ -10293,7 +11157,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "434",
@@ -10320,7 +11186,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "435",
@@ -10347,7 +11215,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "436",
@@ -10374,7 +11244,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "437",
@@ -10401,7 +11273,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "438",
@@ -10428,7 +11302,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった〜対応（予定）"
+      "notes": "もちふぃった〜対応（予定）",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "439",
@@ -10455,7 +11331,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定"
+      "notes": "もちふぃった～対応予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "440",
@@ -10482,7 +11360,9 @@
       "salePrice": "2100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "441",
@@ -10509,7 +11389,9 @@
       "salePrice": "2800",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "442",
@@ -10536,7 +11418,9 @@
       "salePrice": "2100",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "443",
@@ -10563,7 +11447,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "444",
@@ -10590,7 +11476,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "445",
@@ -10617,7 +11505,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "2025/11/29 19:00 から販売開始\nもちふぃった～対応予定"
+      "notes": "2025/11/29 19:00 から販売開始\nもちふぃった～対応予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "446",
@@ -10644,7 +11534,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "447",
@@ -10671,7 +11563,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "梅雨（TSUYU）と同一素体"
+      "notes": "梅雨（TSUYU）と同一素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "448",
@@ -10698,7 +11592,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "ラ・ユヌ＝テアと同一素体"
+      "notes": "ラ・ユヌ＝テアと同一素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "449",
@@ -10725,7 +11621,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "2025/12/06 00:00～販売開始"
+      "notes": "2025/12/06 00:00～販売開始",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "450",
@@ -10752,7 +11650,9 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "451",
@@ -10779,7 +11679,9 @@
       "salePrice": "3000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "452",
@@ -10806,7 +11708,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "453",
@@ -10833,7 +11737,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "454",
@@ -10860,7 +11766,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "455",
@@ -10887,7 +11795,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "456",
@@ -10914,7 +11824,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "457",
@@ -10941,7 +11853,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "458",
@@ -10968,7 +11882,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "459",
@@ -10995,7 +11911,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "460",
@@ -11022,7 +11940,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "461",
@@ -11049,7 +11969,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "462",
@@ -11076,7 +11998,9 @@
       "salePrice": "2700",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "463",
@@ -11103,7 +12027,9 @@
       "salePrice": "5000",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "近日対応予定"
+      "notes": "近日対応予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "464",
@@ -11130,7 +12056,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "465",
@@ -11157,7 +12085,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "466",
@@ -11184,7 +12114,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "467",
@@ -11211,7 +12143,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "468",
@@ -11238,7 +12172,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "469",
@@ -11265,7 +12201,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "470",
@@ -11292,7 +12230,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "471",
@@ -11319,7 +12259,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "472",
@@ -11346,7 +12288,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "473",
@@ -11373,7 +12317,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "474",
@@ -11400,7 +12346,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "475",
@@ -11427,7 +12375,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "476",
@@ -11454,7 +12404,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "477",
@@ -11481,7 +12433,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "478",
@@ -11508,7 +12462,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "479",
@@ -11535,7 +12491,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "480",
@@ -11562,7 +12520,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "481",
@@ -11589,7 +12549,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "482",
@@ -11616,7 +12578,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "483",
@@ -11643,7 +12607,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "484",
@@ -11670,7 +12636,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "485",
@@ -11697,7 +12665,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "486",
@@ -11724,7 +12694,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "487",
@@ -11751,7 +12723,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "488",
@@ -11778,7 +12752,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "489",
@@ -11805,7 +12781,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "490",
@@ -11832,7 +12810,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "491",
@@ -11859,7 +12839,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "492",
@@ -11886,7 +12868,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "493",
@@ -11913,7 +12897,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "494",
@@ -11940,7 +12926,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "495",
@@ -11967,7 +12955,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "496",
@@ -11994,7 +12984,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "497",
@@ -12021,7 +13013,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "498",
@@ -12048,7 +13042,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "499",
@@ -12075,7 +13071,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "500",
@@ -12102,7 +13100,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "怜-Rei-と同素体"
+      "notes": "怜-Rei-と同素体",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "501",
@@ -12129,7 +13129,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "斑霞-Hanka-共通素体Prefab同梱。その為、怜は斑霞の衣装を着れるが逆は不可"
+      "notes": "斑霞-Hanka-共通素体Prefab同梱。その為、怜は斑霞の衣装を着れるが逆は不可",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "502",
@@ -12156,7 +13158,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "503",
@@ -12183,7 +13187,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "504",
@@ -12210,7 +13216,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "505",
@@ -12237,7 +13245,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "[M]サイズのみ"
+      "notes": "[M]サイズのみ",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "506",
@@ -12264,7 +13274,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "507",
@@ -12291,7 +13303,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "508",
@@ -12318,7 +13332,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "509",
@@ -12345,7 +13361,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "510",
@@ -12372,7 +13390,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "511",
@@ -12399,7 +13419,9 @@
       "salePrice": "3850",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "512",
@@ -12426,7 +13448,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "513",
@@ -12453,7 +13477,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2026年1月1日 00時00分から"
+      "notes": "販売期間：2026年1月1日 00時00分から",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "514",
@@ -12480,7 +13506,9 @@
       "salePrice": "3500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "515",
@@ -12507,7 +13535,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "516",
@@ -12534,7 +13564,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "517",
@@ -12561,7 +13593,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "518",
@@ -12588,7 +13622,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "519",
@@ -12615,7 +13651,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "520",
@@ -12642,7 +13680,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "521",
@@ -12669,7 +13709,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "522",
@@ -12696,7 +13738,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "523",
@@ -12723,7 +13767,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "524",
@@ -12750,7 +13796,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "525",
@@ -12777,7 +13825,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "526",
@@ -12804,7 +13854,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "527",
@@ -12831,7 +13883,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "2026年対応予定"
+      "notes": "2026年対応予定",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "528",
@@ -12858,7 +13912,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "529",
@@ -12885,7 +13941,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "Chibi.verへの対応\n+Head.verへは別のプロファイルを使用してください。"
+      "notes": "Chibi.verへの対応\n+Head.verへは別のプロファイルを使用してください。",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "530",
@@ -12912,7 +13970,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "531",
@@ -12939,7 +13999,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "532",
@@ -12966,7 +14028,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "12/6～販売"
+      "notes": "12/6～販売",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "533",
@@ -12993,7 +14057,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "534",
@@ -13020,7 +14086,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "535",
@@ -13047,7 +14115,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "536",
@@ -13074,7 +14144,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "537",
@@ -13101,7 +14173,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "538",
@@ -13128,7 +14202,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "539",
@@ -13155,7 +14231,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "540",
@@ -13182,7 +14260,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "541",
@@ -13209,7 +14289,9 @@
       "salePrice": "5500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月5日 19時00分から"
+      "notes": "販売期間：2025年12月5日 19時00分から",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "542",
@@ -13236,7 +14318,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "543",
@@ -13263,7 +14347,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "544",
@@ -13290,7 +14376,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "545",
@@ -13317,7 +14405,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月6日 16時00分から"
+      "notes": "販売期間：2025年12月6日 16時00分から",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "546",
@@ -13344,7 +14434,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "547",
@@ -13371,7 +14463,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "548",
@@ -13398,7 +14492,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "549",
@@ -13425,7 +14521,9 @@
       "salePrice": "4000",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "550",
@@ -13452,7 +14550,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "551",
@@ -13479,7 +14579,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "552",
@@ -13506,7 +14608,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "553",
@@ -13533,7 +14637,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "554",
@@ -13560,7 +14666,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：2025年12月17日 18時00分から"
+      "notes": "販売期間：2025年12月17日 18時00分から",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "555",
@@ -13587,7 +14695,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "556",
@@ -13614,7 +14724,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "557",
@@ -13641,7 +14753,9 @@
       "salePrice": "2500",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定！"
+      "notes": "もちふぃった～対応予定！",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "558",
@@ -13668,7 +14782,9 @@
       "salePrice": "2500",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定！"
+      "notes": "もちふぃった～対応予定！",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "559",
@@ -13695,7 +14811,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "560",
@@ -13722,7 +14840,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "561",
@@ -13749,7 +14869,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "562",
@@ -13776,7 +14898,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "563",
@@ -13803,7 +14927,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "564",
@@ -13830,7 +14956,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "565",
@@ -13857,7 +14985,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "566",
@@ -13884,7 +15014,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "567",
@@ -13911,7 +15043,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "568",
@@ -13938,7 +15072,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "569",
@@ -13965,7 +15101,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "570",
@@ -13992,7 +15130,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "571",
@@ -14019,7 +15159,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "572",
@@ -14046,7 +15188,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "573",
@@ -14073,7 +15217,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "574",
@@ -14100,7 +15246,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "変換にNecoBody(アバター概要欄から)が別途必要です"
+      "notes": "変換にNecoBody(アバター概要欄から)が別途必要です",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "575",
@@ -14127,7 +15275,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "576",
@@ -14154,7 +15304,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "577",
@@ -14181,7 +15333,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "578",
@@ -14208,7 +15362,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "セットで12000円\nどちらか単体なら6500円"
+      "notes": "セットで12000円\nどちらか単体なら6500円",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "579",
@@ -14235,7 +15391,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "580",
@@ -14262,7 +15420,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "581",
@@ -14289,7 +15449,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "582",
@@ -14316,7 +15478,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "583",
@@ -14343,7 +15507,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "584",
@@ -14370,7 +15536,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "585",
@@ -14397,7 +15565,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "586",
@@ -14424,7 +15594,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "587",
@@ -14451,7 +15623,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "588",
@@ -14478,7 +15652,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "589",
@@ -14505,7 +15681,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "590",
@@ -14532,7 +15710,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "591",
@@ -14559,7 +15739,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "592",
@@ -14586,7 +15768,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "593",
@@ -14613,7 +15797,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "594",
@@ -14640,7 +15826,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "595",
@@ -14667,7 +15855,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "596",
@@ -14694,7 +15884,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "597",
@@ -14721,7 +15913,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "アバター販売休止中"
+      "notes": "アバター販売休止中",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "598",
@@ -14748,7 +15942,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中"
+      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "599",
@@ -14775,7 +15971,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "600",
@@ -14802,7 +16000,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "601",
@@ -14829,7 +16029,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "602",
@@ -14856,7 +16058,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "603",
@@ -14883,7 +16087,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "604",
@@ -14910,7 +16116,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "605",
@@ -14937,7 +16145,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "606",
@@ -14964,7 +16174,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "607",
@@ -14991,7 +16203,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "608",
@@ -15018,7 +16232,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "609",
@@ -15045,7 +16261,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "610",
@@ -15072,7 +16290,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "611",
@@ -15099,7 +16319,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "612",
@@ -15126,7 +16348,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "613",
@@ -15153,7 +16377,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "614",
@@ -15180,7 +16406,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "615",
@@ -15207,7 +16435,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "616",
@@ -15234,7 +16464,9 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "「某もちもちなふぃった～に対応させたいね」とのこと"
+      "notes": "「某もちもちなふぃった～に対応させたいね」とのこと",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "617",
@@ -15261,7 +16493,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "618",
@@ -15288,7 +16522,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "619",
@@ -15315,7 +16551,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "620",
@@ -15342,7 +16580,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "621",
@@ -15369,7 +16609,9 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "9997",
@@ -15396,7 +16638,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "9998",
@@ -15423,7 +16667,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     },
     {
       "id": "9999",
@@ -15450,7 +16696,9 @@
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
-      "salePrice": ""
+      "salePrice": "",
+      "avatarshopname": "",
+      "profileshopname": ""
     }
   ]
 }
