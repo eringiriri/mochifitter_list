@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-12 19:59:30 JST",
+  "lastUpdated": "2025-12-12 20:00:56 JST",
   "profiles": [
     {
       "id": "001",
@@ -15466,7 +15466,7 @@
     {
       "id": "548",
       "registeredDate": "2025-12-03",
-      "updatedDate": "2025-12-06",
+      "updatedDate": "2025-12-12",
       "avatarName": "Misty-Myyrylainen",
       "avatarNameUrl": "https://sakusaku-solid.booth.pm/items/2932997",
       "profileVersion": "1.0",
@@ -15480,8 +15480,8 @@
       "downloadLocation": "https://sakusaku-solid.booth.pm/items/2932997",
       "imageUrl": "https://booth.pximg.net/c/620x620/3e013b9b-cd22-47e1-abbd-a7ad65b8a1e0/i/2932997/859a4f99-1015-4a3c-996d-c105d81d3262_base_resized.jpg",
       "pricing": "単体有料",
-      "price": "6000",
-      "avatarPrice": "100",
+      "price": "100",
+      "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
