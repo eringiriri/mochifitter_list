@@ -158,26 +158,28 @@ function applyFilters() {
             return matchesSearch;
         }
 
-        // ORフィルター：いずれかのフィルターに合致すれば表示
-        const matchesOfficial = showOfficial && profile.official;
-        const matchesUnofficial = showUnofficial && !profile.official;
-        const matchesForward = showForward && profile.forwardSupport;
-        const matchesReverse = showReverse && profile.reverseSupport;
-        const matchesBidirectional = showBidirectional && profile.forwardSupport && profile.reverseSupport;
-        const matchesFree = showFree && profile.pricing === '無料';
-        const matchesPaid = showPaid && profile.pricing === '単体有料';
-        const matchesBundled = showBundled && profile.pricing === 'アバター同梱';
+        // グループ1: 公式/非公式（OR）
+        const officialGroupSelected = showOfficial || showUnofficial;
+        const matchesOfficialGroup = !officialGroupSelected ||
+            (showOfficial && profile.official) ||
+            (showUnofficial && !profile.official);
 
-        const matchesAnyFilter = matchesOfficial || matchesUnofficial ||
-                                 matchesForward || matchesReverse || matchesBidirectional ||
-                                 matchesFree || matchesPaid || matchesBundled;
+        // グループ2: 方向対応（OR）
+        const directionGroupSelected = showForward || showReverse || showBidirectional;
+        const matchesDirectionGroup = !directionGroupSelected ||
+            (showForward && profile.forwardSupport) ||
+            (showReverse && profile.reverseSupport) ||
+            (showBidirectional && profile.forwardSupport && profile.reverseSupport);
 
-        // フィルターが何も選択されていない場合は全て表示
-        const noFiltersSelected = !showOfficial && !showUnofficial &&
-                                  !showForward && !showReverse && !showBidirectional &&
-                                  !showFree && !showPaid && !showBundled;
+        // グループ3: 価格（OR）
+        const priceGroupSelected = showFree || showPaid || showBundled;
+        const matchesPriceGroup = !priceGroupSelected ||
+            (showFree && profile.pricing === '無料') ||
+            (showPaid && profile.pricing === '単体有料') ||
+            (showBundled && profile.pricing === 'アバター同梱');
 
-        return matchesSearch && (matchesAnyFilter || noFiltersSelected);
+        // グループ間はAND
+        return matchesSearch && matchesOfficialGroup && matchesDirectionGroup && matchesPriceGroup;
     });
 
     renderProfiles();
