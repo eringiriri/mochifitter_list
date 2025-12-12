@@ -56,13 +56,32 @@ function setupEventListeners() {
         'filterOfficial',
         'filterUnofficial',
         'filterForward',
-        'filterReverse'
+        'filterReverse',
+        'filterBidirectional',
+        'filterFree',
+        'filterPaid',
+        'filterBundled'
     ];
 
+    // 「全て」チェックボックス
+    const filterAll = document.getElementById('filterAll');
+    if (filterAll) {
+        filterAll.addEventListener('change', () => {
+            applyFilters();
+        });
+    }
+
+    // 各フィルターチェックボックス
     filterCheckboxes.forEach(id => {
         const checkbox = document.getElementById(id);
         if (checkbox) {
-            checkbox.addEventListener('change', applyFilters);
+            checkbox.addEventListener('change', () => {
+                // 「全て」以外がONになったら「全て」をOFFにする
+                if (checkbox.checked && filterAll) {
+                    filterAll.checked = false;
+                }
+                applyFilters();
+            });
         }
     });
 
@@ -117,10 +136,15 @@ function hideNotesTooltip() {
 // フィルタリング処理
 function applyFilters() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const showAll = document.getElementById('filterAll').checked;
     const showOfficial = document.getElementById('filterOfficial').checked;
     const showUnofficial = document.getElementById('filterUnofficial').checked;
     const showForward = document.getElementById('filterForward').checked;
     const showReverse = document.getElementById('filterReverse').checked;
+    const showBidirectional = document.getElementById('filterBidirectional').checked;
+    const showFree = document.getElementById('filterFree').checked;
+    const showPaid = document.getElementById('filterPaid').checked;
+    const showBundled = document.getElementById('filterBundled').checked;
 
     filteredProfiles = allProfiles.filter(profile => {
         // テキスト検索
@@ -129,16 +153,31 @@ function applyFilters() {
             profile.avatarAuthor.toLowerCase().includes(searchTerm) ||
             profile.profileAuthor.toLowerCase().includes(searchTerm);
 
-        // 公式/非公式フィルター
-        const matchesOfficial = (profile.official && showOfficial) ||
-                                (!profile.official && showUnofficial);
+        // 「全て」がONの場合は全て表示
+        if (showAll) {
+            return matchesSearch;
+        }
 
-        // 順方向/逆方向フィルター
-        const matchesDirection = (!showForward && !showReverse) ||
-                                 (showForward && profile.forwardSupport) ||
-                                 (showReverse && profile.reverseSupport);
+        // ORフィルター：いずれかのフィルターに合致すれば表示
+        const matchesOfficial = showOfficial && profile.official;
+        const matchesUnofficial = showUnofficial && !profile.official;
+        const matchesForward = showForward && profile.forwardSupport;
+        const matchesReverse = showReverse && profile.reverseSupport;
+        const matchesBidirectional = showBidirectional && profile.forwardSupport && profile.reverseSupport;
+        const matchesFree = showFree && profile.pricing === '無料';
+        const matchesPaid = showPaid && profile.pricing === '単体有料';
+        const matchesBundled = showBundled && profile.pricing === 'アバター同梱';
 
-        return matchesSearch && matchesOfficial && matchesDirection;
+        const matchesAnyFilter = matchesOfficial || matchesUnofficial ||
+                                 matchesForward || matchesReverse || matchesBidirectional ||
+                                 matchesFree || matchesPaid || matchesBundled;
+
+        // フィルターが何も選択されていない場合は全て表示
+        const noFiltersSelected = !showOfficial && !showUnofficial &&
+                                  !showForward && !showReverse && !showBidirectional &&
+                                  !showFree && !showPaid && !showBundled;
+
+        return matchesSearch && (matchesAnyFilter || noFiltersSelected);
     });
 
     renderProfiles();
