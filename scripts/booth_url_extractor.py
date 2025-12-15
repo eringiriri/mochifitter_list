@@ -55,12 +55,50 @@ def extract_booth_urls_from_page(page_url, headers):
                 # brandがない場合は通常形式
                 urls.add(f"https://booth.pm/ja/items/{item_id}")
 
-        # 次のページが存在するか確認
-        next_page = soup.find('a', {'rel': 'next'}) or soup.find('a', text=re.compile(r'次へ|Next'))
-        has_next = next_page is not None
+        # 商品が0件の場合は次のページなし
+        if len(urls) == 0:
+            return urls, False
+
+        # 次のページが存在するか確認（複数の方法を試す）
+        has_next = False
+        
+        # 方法1: .pagerクラス内でrel="next"を探す（最も確実）
+        pager = soup.find('div', class_='pager')
+        if pager:
+            next_page = pager.find('a', {'rel': 'next'})
+            if next_page:
+                has_next = True
+        
+        # 方法2: ページネーション要素全体でrel="next"を探す
+        if not has_next:
+            next_page = soup.find('a', {'rel': 'next'})
+            if next_page:
+                has_next = True
+        
+        # 方法3: ページ番号のリンクから現在のページより大きいページがあるか確認
+        if not has_next and pager:
+            # 現在のページ番号を取得（URLから）
+            page_match = re.search(r'[?&]page=(\d+)', page_url)
+            current_page = int(page_match.group(1)) if page_match else 1
+            
+            # ページ番号のリンクを探す
+            page_links = pager.find_all('a', class_='nav-item', href=True)
+            for link in page_links:
+                href = link.get('href', '')
+                page_match = re.search(r'[?&]page=(\d+)', href)
+                if page_match:
+                    link_page = int(page_match.group(1))
+                    if link_page > current_page:
+                        has_next = True
+                        break
 
         return urls, has_next
 
+    except requests.exceptions.HTTPError as e:
+        # 404エラーなどでページが存在しない場合は次のページなし
+        if e.response.status_code == 404:
+            return set(), False
+        raise
     except Exception as e:
         print(f"エラー: {e}")
         return set(), False
@@ -151,7 +189,11 @@ def extract_booth_urls(search_url):
 
         print(f"  -> {len(urls)} 件の商品を発見 (累計: {len(all_urls)} 件)")
 
-        if has_next:
+        # 商品が0件の場合は次のページなし（追加の安全策）
+        if len(urls) == 0:
+            print("  商品が0件のため、ページ取得を終了します")
+            has_next = False
+        elif has_next:
             page += 1
             time.sleep(1)  # サーバーに負荷をかけないよう待機
 
