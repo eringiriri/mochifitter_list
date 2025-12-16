@@ -23,11 +23,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyinstaller pillow tkcalendar requests
+          pip install pyinstaller pillow tkcalendar requests beautifulsoup4
 
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" scripts/profile_editor_lower.py
+          pyinstaller --onefile --windowed --name="MochiFitterProfileEditor" scripts/profile_editor.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4

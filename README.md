@@ -11,8 +11,7 @@ VRChat用アバターの「もちふぃったー」対応プロファイル情�
 
 ### 管理ツール
 
-- **profile_editor.py** - プロファイル編集GUI（フル機能版、BeautifulSoup4依存）
-- **profile_editor_lower.py** - プロファイル編集GUI（軽量版、依存少）
+- **profile_editor.py** - プロファイル編集GUI
 - **booth_url_extractor.py** - Booth URLを抽出
 - **diff_checker.py** - プロファイルの差分チェック
 - **url_investigation.py** - URL調査ツール

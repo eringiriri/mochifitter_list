@@ -11,7 +11,7 @@ VRChat用アバター向けの「もちふぃった～」プロファイル情�
 
 ### 構成
 - **Webサイト**: プロファイル情報の検索・閲覧（index.html, lite.html）
-- **管理ツール**: プロファイル情報の登録・編集（profile_editor.py, profile_editor_lower.py など）
+- **管理ツール**: プロファイル情報の登録・編集（profile_editor.py など）
 - **データベース**: profiles.json（プロファイル情報のメタデータを格納）
 
 ---
@@ -197,10 +197,9 @@ VRChat用の衣装を非対応アバター間で変換するツール。
 ### 管理ツール
 
 #### profile_editor.py
-プロファイル情報を編集するGUIツール（フル機能版）。
+プロファイル情報を編集するGUIツール。
 
 **特徴:**
-- BeautifulSoup4に依存
 - Boothページからの自動情報取得機能
 - URL調査パネル
 - ID振り直し機能
@@ -208,16 +207,6 @@ VRChat用の衣装を非対応アバター間で変換するツール。
 
 **依存ライブラリ:**
 - tkinter, tkcalendar, Pillow, requests, beautifulsoup4
-
-#### profile_editor_lower.py
-プロファイル情報を編集するGUIツール（軽量版）。
-
-**特徴:**
-- 依存ライブラリが少ない
-- 基本的な編集機能のみ
-
-**依存ライブラリ:**
-- tkinter, tkcalendar, Pillow, requests
 
 #### その他のツール
 - **booth_url_extractor.py**: Booth URLを抽出
