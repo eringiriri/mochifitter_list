@@ -170,6 +170,7 @@ class ProfileEditor:
         ttk.Button(toolbar, text="CSVエクスポート", command=self.export_csv).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="保存", command=self.save_data).pack(side=tk.LEFT, padx=2)
         ttk.Button(toolbar, text="再読み込み", command=self.load_data).pack(side=tk.LEFT, padx=2)
+        ttk.Button(toolbar, text="GitHubからPull", command=self.pull_from_github).pack(side=tk.LEFT, padx=2)
 
         # 中央下部: 編集フォーム
         form_frame = ttk.LabelFrame(main_frame, text="プロファイル編集", padding="10")
@@ -1818,6 +1819,110 @@ class ProfileEditor:
             messagebox.showerror("エラー", f"プッシュ処理でエラーが発生しました:\n{str(e)}")
             return False
 
+    def pull_from_github(self):
+        """GitHub APIからdata以下のファイルを取得（Git CLI不要）"""
+        # 確認ダイアログ
+        result = messagebox.askyesno("確認",
+            "GitHubから最新データを取得します。\n"
+            "ローカルの未保存の変更は上書きされます。\n\n"
+            "続行しますか？")
+        if not result:
+            return
+
+        # 設定を読み込み
+        config = self.load_config()
+        if not config:
+            return
+
+        # 処理中ウィンドウを作成
+        progress_window = tk.Toplevel(self.root)
+        progress_window.title("処理中")
+        progress_window.geometry("300x150")
+        progress_window.transient(self.root)
+        progress_window.grab_set()
+
+        label = tk.Label(progress_window, text="GitHubからPull中...", font=("", 12))
+        label.pack(expand=True, pady=10)
+
+        status_label = tk.Label(progress_window, text="", font=("", 9))
+        status_label.pack(expand=True)
+
+        progress_window.update()
+
+        try:
+            github_token = config["github_token"]
+
+            # リポジトリ情報を取得
+            repo_url = config.get("github_repo_url", "https://github.com/eringiriri/mochifitter_list.git")
+            repo_path = repo_url.replace("https://github.com/", "").replace(".git", "")
+
+            headers = {
+                "Authorization": f"token {github_token}",
+                "Accept": "application/vnd.github.v3+json"
+            }
+
+            # 取得対象ファイル
+            target_files = [
+                "data/profiles.json",
+                "data/Block_URLs.txt",
+                "data/Avatar_URLs.txt"
+            ]
+
+            updated_count = 0
+            failed_files = []
+
+            for rel_path in target_files:
+                try:
+                    status_label.config(text=f"取得中: {os.path.basename(rel_path)}")
+                    progress_window.update()
+
+                    # GitHub APIでファイル内容を取得
+                    api_url = f"https://api.github.com/repos/{repo_path}/contents/{rel_path}"
+                    response = requests.get(api_url, headers=headers)
+
+                    if response.status_code == 200:
+                        file_data = response.json()
+                        # base64デコード
+                        content = base64.b64decode(file_data["content"]).decode('utf-8')
+
+                        # ローカルファイルに保存
+                        local_path = os.path.join(self.app_dir, rel_path.replace("/", os.sep))
+
+                        # ディレクトリが存在しない場合は作成
+                        os.makedirs(os.path.dirname(local_path), exist_ok=True)
+
+                        with open(local_path, 'w', encoding='utf-8') as f:
+                            f.write(content)
+
+                        updated_count += 1
+                    elif response.status_code == 404:
+                        # ファイルが存在しない場合はスキップ
+                        pass
+                    else:
+                        failed_files.append(f"{rel_path}: {response.status_code}")
+
+                except Exception as e:
+                    failed_files.append(f"{rel_path}: {str(e)[:50]}")
+
+            progress_window.destroy()
+
+            # 結果を表示
+            if updated_count > 0:
+                # データを再読み込み
+                self.load_data()
+                messagebox.showinfo("完了",
+                    f"GitHubから{updated_count}個のファイルを取得しました。")
+            else:
+                messagebox.showwarning("警告", "取得できたファイルがありませんでした。")
+
+            if failed_files:
+                error_msg = "一部のファイルの取得に失敗しました:\n\n"
+                error_msg += "\n".join(failed_files)
+                messagebox.showwarning("警告", error_msg)
+
+        except Exception as e:
+            progress_window.destroy()
+            messagebox.showerror("エラー", f"Pull処理でエラーが発生しました:\n{str(e)}")
 
     def save_data(self):
         """データをJSONファイルに保存"""
