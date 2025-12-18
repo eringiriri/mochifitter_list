@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18 23:16:34 JST",
+  "lastUpdated": "2025-12-18 23:22:42 JST",
   "profiles": [
     {
       "id": "001",
@@ -20017,6 +20017,35 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "705",
+      "registeredDate": "2025-12-18",
+      "updatedDate": "2025-12-18",
+      "avatarName": "ぱたにゃこ patanyako",
+      "avatarNameUrl": "https://sisters.booth.pm/items/5129661",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Hamuketsu/はむけつ",
+      "avatarshopname": "Sisters!",
+      "avatarAuthorUrl": "https://sisters.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "しえにゃん",
+      "profileshopname": "ぱたにゃこあいす",
+      "profileAuthorUrl": "https://patanyako.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://patanyako.booth.pm/items/7768289",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ef40f496-b7db-4dc9-9e06-1127a645a568/i/5129661/89bc625b-56d5-4c68-829a-c6e6cdbe8ab9_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": false,
       "reverseSupport": false,
       "notes": ""
     },
