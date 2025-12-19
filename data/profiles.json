@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19 17:24:17 JST",
+  "lastUpdated": "2025-12-19 22:32:03 JST",
   "profiles": [
     {
       "id": "001",
@@ -20192,6 +20192,35 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "711",
+      "registeredDate": "2025-12-19",
+      "updatedDate": "2025-12-19",
+      "avatarName": "ポポちゃん - フワリポポネッタ fuwaripopondetta",
+      "avatarNameUrl": "https://pochibykt.booth.pm/items/7720981",
+      "profileVersion": "1.0",
+      "avatarAuthor": "Pochi by KT",
+      "avatarshopname": "Pochi by KT",
+      "avatarAuthorUrl": "https://pochibykt.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "Pochi by KT",
+      "profileshopname": "Pochi by KT",
+      "profileAuthorUrl": "https://pochibykt.booth.pm/",
+      "official": true,
+      "downloadMethod": "GoogleDrive",
+      "downloadLocation": "https://docs.google.com/spreadsheets/d/1Wx3V_tU3-BWn0vmAygeNJcpDB8jMNJyuRXP_CulvYVs/edit?usp=sharing",
+      "imageUrl": "https://booth.pximg.net/c/620x620/bbcf8d8d-e1eb-4154-bac8-0657193e753c/i/7720981/c6b9e8f8-ab00-4214-9327-6cbaaa2e8ae8_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
       "notes": ""
     },
     {
