@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-30 12:36:31 JST",
+  "lastUpdated": "2025-12-30 15:23:21 JST",
   "profiles": [
     {
       "id": "001",
@@ -12678,7 +12678,7 @@
     {
       "id": "451",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2025-12-30",
       "avatarName": "Lilith -リリス-",
       "avatarNameUrl": "https://vision-girls.booth.pm/items/5100113",
       "profileVersion": "1.0",
@@ -12699,7 +12699,7 @@
       "saleEndDate": "",
       "salePrice": "3000",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": "",
       "avatarshopname": "Vision-GirLs",
       "profileshopname": "Vision-GirLs"
