@@ -379,12 +379,17 @@ function createProfileCard(profile) {
             </div>
 
             <div class="profile-footer">
-                <a href="${escapeHtml(profile.downloadLocation)}"
-                   class="download-link"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    ダウンロード
-                </a>
+                ${profile.downloadLocation && profile.downloadLocation.trim() !== '' 
+                    ? `<a href="${escapeHtml(profile.downloadLocation)}"
+                         class="download-link"
+                         target="_blank"
+                         rel="noopener noreferrer">
+                        ダウンロード
+                      </a>`
+                    : `<span class="download-link disabled" title="ダウンロードリンクは登録されていません">
+                        ダウンロード
+                      </span>`
+                }
                 <div class="profile-dates">
                     <span>登録: ${formatDate(profile.registeredDate)}</span>
                     <span>更新: ${formatDate(profile.updatedDate)}</span>

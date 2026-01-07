@@ -67,7 +67,6 @@ function renderTable() {
         if (!profile.official && !showUnofficial) return false;
 
         // 順方向/逆方向フィルター
-        if (!profile.forwardSupport && !profile.reverseSupport) return true;
         if (profile.forwardSupport && !showForward && (!profile.reverseSupport || !showReverse)) return false;
         if (profile.reverseSupport && !showReverse && (!profile.forwardSupport || !showForward)) return false;
 
@@ -139,10 +138,22 @@ function renderTable() {
                     escapeHtml(profile.avatarName)
                 }
             </td>
+            <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                ${profile.avatarNameUrl ?
+                    `<a href="${escapeHtml(profile.avatarNameUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(profile.avatarNameUrl)}">${escapeHtml(profile.avatarNameUrl)}</a>` :
+                    '-'
+                }
+            </td>
             <td>
                 ${profile.avatarAuthorUrl ?
                     `<a href="${escapeHtml(profile.avatarAuthorUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(profile.avatarAuthor)}</a>` :
                     escapeHtml(profile.avatarAuthor)
+                }
+            </td>
+            <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                ${profile.avatarAuthorUrl ?
+                    `<a href="${escapeHtml(profile.avatarAuthorUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(profile.avatarAuthorUrl)}">${escapeHtml(profile.avatarAuthorUrl)}</a>` :
+                    '-'
                 }
             </td>
             <td>
@@ -151,18 +162,26 @@ function renderTable() {
                     escapeHtml(profile.profileAuthor)
                 }
             </td>
+            <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                ${profile.profileAuthorUrl ?
+                    `<a href="${escapeHtml(profile.profileAuthorUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(profile.profileAuthorUrl)}">${escapeHtml(profile.profileAuthorUrl)}</a>` :
+                    '-'
+                }
+            </td>
             <td>
                 <span class="badge ${profile.official ? 'badge-official' : 'badge-unofficial'}">
                     ${profile.official ? '公式' : '非公式'}
                 </span>
             </td>
             <td>${escapeHtml(profile.downloadMethod)}</td>
-            <td>
+            <td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
                 ${profile.downloadLocation ?
-                    `<a href="${escapeHtml(profile.downloadLocation)}" target="_blank" rel="noopener noreferrer">DL</a>` :
+                    `<a href="${escapeHtml(profile.downloadLocation)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(profile.downloadLocation)}">${escapeHtml(profile.downloadLocation)}</a>` :
                     '-'
                 }
             </td>
+            <td>${escapeHtml(profile.pricing)}</td>
+            <td>${profile.price && profile.price !== '-' ? `¥${escapeHtml(profile.price)}` : escapeHtml(profile.price)}</td>
             <td>
                 <span class="badge ${profile.forwardSupport ? 'badge-yes' : 'badge-no'}">
                     ${profile.forwardSupport ? '○' : '×'}
@@ -178,7 +197,7 @@ function renderTable() {
     `).join('');
 
     // 件数表示の更新
-    document.getElementById('profileCount').textContent = filtered.length;
+    document.getElementById('profileCount').textContent = `${filtered.length}/${allProfiles.length}`;
 }
 
 // HTMLエスケープ
