@@ -97,14 +97,13 @@ def find_unregistered_items(booth_mapping, profiles_file, block_file, avatar_fil
     return url_list
 
 
-def send_discord_notification(webhook_url, unregistered_items, artifact_url=None):
+def send_discord_notification(webhook_url, unregistered_items):
     """
     Discord Webhookで通知を送信
     
     Args:
         webhook_url: Discord WebhookのURL
         unregistered_items: 未登録アイテムの (shop_name, url) のタプルリスト
-        artifact_url: ArtifactのダウンロードページURL（オプション）
         
     Returns:
         bool: 送信が成功したかどうか
@@ -128,23 +127,18 @@ def send_discord_notification(webhook_url, unregistered_items, artifact_url=None
     items_to_show = unregistered_items[:max_display]
     items_text = "\n".join([f"- {url}" for _, url in items_to_show])
     
-    # Artifactリンクを含める
+    # 通知メッセージを作成
     description_parts = [
-        f"Boothで新しい「もちふぃった～」プロファイルが **{count}件** 見つかりました。"
+        f"Boothで新しい「もちふぃった～」プロファイルが **{count}件** 見つかりました。",
+        "サイトを開くにはこちら: https://mochifitter.eringi.me"
     ]
     
     if count > max_display:
         description_parts.append(f"\n**最初の{max_display}件（サンプル）:**")
         description_parts.append(f"\n{items_text}")
         description_parts.append(f"\n\n**...他 {count - max_display} 件**")
-        if artifact_url:
-            description_parts.append(f"\n\n📦 **全{count}件のリストはArtifactからダウンロードできます:**")
-            description_parts.append(f"[Artifactをダウンロード]({artifact_url})")
     else:
         description_parts.append(f"\n{items_text}")
-        if artifact_url:
-            description_parts.append(f"\n\n📦 **Artifactからもダウンロード可能:**")
-            description_parts.append(f"[Artifactをダウンロード]({artifact_url})")
     
     embed = {
         "title": f"🔔 新しいプロファイルが {count} 件見つかりました",
@@ -203,9 +197,6 @@ def main():
     # Discord Webhook URL（環境変数から取得）
     discord_webhook = os.environ.get("DISCORD_WEBHOOK_URL", "")
     
-    # Artifact URL（環境変数から取得）
-    artifact_url = os.environ.get("ARTIFACT_URL", "")
-    
     # 商品URLを収集
     print("\n商品URL収集中...")
     booth_mapping = collect_urls_from_searches(search_urls)
@@ -236,7 +227,7 @@ def main():
         
         # Discord通知
         if discord_webhook:
-            send_discord_notification(discord_webhook, unregistered_items, artifact_url)
+            send_discord_notification(discord_webhook, unregistered_items)
         else:
             print("\n注意: DISCORD_WEBHOOK_URL 環境変数が設定されていないため、通知はスキップされました")
         

@@ -31,27 +31,18 @@ jobs:
         continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          ARTIFACT_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           cd scripts
           python check_new_profiles.py
-      
-      - name: Upload unregistered avatars list
-        if: steps.check.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: unregistered-avatars-${{ github.run_number }}
-          path: unregistered_avatars.txt
-          retention-days: 30
       
       - name: Summary
         if: steps.check.outcome == 'failure'
         run: |
           echo "## 🔔 新しいプロファイルが見つかりました" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "詳細は artifacts を確認してください。" >> $GITHUB_STEP_SUMMARY
+          echo "Discord通知を送信しました。" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Discord通知も送信されました。" >> $GITHUB_STEP_SUMMARY
+          echo "サイト: https://mochifitter.eringi.me" >> $GITHUB_STEP_SUMMARY
       
       - name: Summary (No new profiles)
         if: steps.check.outcome == 'success'
