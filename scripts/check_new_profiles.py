@@ -97,14 +97,15 @@ def find_unregistered_items(booth_mapping, profiles_file, block_file, avatar_fil
     return url_list
 
 
-def send_discord_notification(webhook_url, unregistered_items):
+def send_discord_notification(webhook_url, unregistered_items, total_searched):
     """
     Discord Webhookで通知を送信
-    
+
     Args:
         webhook_url: Discord WebhookのURL
         unregistered_items: 未登録アイテムの (shop_name, url) のタプルリスト
-        
+        total_searched: 検索した商品の総数
+
     Returns:
         bool: 送信が成功したかどうか
     """
@@ -145,6 +146,18 @@ def send_discord_notification(webhook_url, unregistered_items):
         "description": "\n".join(description_parts),
         "color": 3447003,  # 青色
         "timestamp": datetime.utcnow().isoformat(),
+        "fields": [
+            {
+                "name": "📊 検索総件数",
+                "value": f"{total_searched}件",
+                "inline": True
+            },
+            {
+                "name": "🆕 新規検出",
+                "value": f"{count}件",
+                "inline": True
+            }
+        ],
         "footer": {
             "text": "MochiFitter Profile Checker"
         }
@@ -227,7 +240,7 @@ def main():
         
         # Discord通知
         if discord_webhook:
-            send_discord_notification(discord_webhook, unregistered_items)
+            send_discord_notification(discord_webhook, unregistered_items, len(booth_mapping))
         else:
             print("\n注意: DISCORD_WEBHOOK_URL 環境変数が設定されていないため、通知はスキップされました")
         
