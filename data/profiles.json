@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-11 17:21:19 JST",
+  "lastUpdated": "2026-01-11 20:23:45 JST",
   "profiles": [
     {
       "id": "001",
@@ -24472,7 +24472,7 @@
     {
       "id": "857",
       "registeredDate": "2026-01-10 22:19:53",
-      "updatedDate": "2026-01-10 22:20:05",
+      "updatedDate": "2026-01-11 20:23:42",
       "avatarName": "ラムネ - Ramune",
       "avatarNameUrl": "https://emolab.booth.pm/items/7699667",
       "profileVersion": "1.0",
@@ -24495,7 +24495,7 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": ""
     },
     {
