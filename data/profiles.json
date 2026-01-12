@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-12 12:42:39 JST",
+  "lastUpdated": "2026-01-12 17:53:46 JST",
   "profiles": [
     {
       "id": "001",
@@ -24820,7 +24820,7 @@
     {
       "id": "869",
       "registeredDate": "2026-01-12 12:39:04",
-      "updatedDate": "2026-01-12 12:39:10",
+      "updatedDate": "2026-01-12 17:53:15",
       "avatarName": "ポタマ/POTAMA",
       "avatarNameUrl": "https://puchos-shop.booth.pm/items/7841713",
       "profileVersion": "1.0",
@@ -24843,7 +24843,7 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": ""
     },
     {
@@ -24874,6 +24874,35 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "エレィア3周年を記念して期間限定割引を行わせて頂きます。\nセール期間は2026/01/12～2026/1/31 23:59(JST) まで"
+    },
+    {
+      "id": "871",
+      "registeredDate": "2026-01-12 17:53:30",
+      "updatedDate": "2026-01-12 17:53:42",
+      "avatarName": "リセリエ-Liserie-",
+      "avatarNameUrl": "https://vividplum.booth.pm/items/4906263",
+      "profileVersion": "1.0",
+      "avatarAuthor": "よず",
+      "avatarshopname": "VIVID PLUM",
+      "avatarAuthorUrl": "https://vividplum.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "よず",
+      "profileshopname": "VIVID PLUM",
+      "profileAuthorUrl": "https://vividplum.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://vividplum.booth.pm/items/4906263",
+      "imageUrl": "https://booth.pximg.net/c/620x620/f84cb78e-a4d4-411f-bc71-1944c64613d7/i/4906263/9a0f8426-6b5a-473f-ad42-408dd4a720be_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
     },
     {
       "id": "9998",
