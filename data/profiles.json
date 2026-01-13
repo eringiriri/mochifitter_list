@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-13 10:17:54 JST",
+  "lastUpdated": "2026-01-13 17:42:59 JST",
   "profiles": [
     {
       "id": "001",
@@ -15047,7 +15047,7 @@
     {
       "id": "532",
       "registeredDate": "2025-12-01",
-      "updatedDate": "2025-12-01",
+      "updatedDate": "2026-01-13 17:41:27",
       "avatarName": "コードたん -Codetan-",
       "avatarNameUrl": "https://yappari3d.booth.pm/items/7654788",
       "profileVersion": "1.0",
@@ -15069,7 +15069,7 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "12/6～販売",
+      "notes": "",
       "avatarshopname": "yappari",
       "profileshopname": "yappari"
     },
@@ -23341,7 +23341,7 @@
     {
       "id": "818",
       "registeredDate": "2026-01-04",
-      "updatedDate": "2026-01-04",
+      "updatedDate": "2026-01-13 17:41:00",
       "avatarName": "ネロミア Neromia",
       "avatarNameUrl": "https://hayakunetai.booth.pm/items/7771868",
       "profileVersion": "1.0",
@@ -23358,14 +23358,14 @@
       "imageUrl": "https://booth.pximg.net/c/620x620/766ed211-2750-4055-958e-1d614220ce30/i/7771868/b498e5c2-5e1c-4902-83e3-a68fef931aa9_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
-      "avatarPrice": "5500",
-      "onSale": false,
+      "avatarPrice": "6000",
+      "onSale": true,
       "saleStartDate": "",
-      "saleEndDate": "",
-      "salePrice": "",
+      "saleEndDate": "2026-01-16 17:40:46",
+      "salePrice": "5500",
       "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：\n2026/01/09 17:00 から"
+      "notes": ""
     },
     {
       "id": "819",
@@ -24990,6 +24990,35 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
+    },
+    {
+      "id": "875",
+      "registeredDate": "2026-01-13 17:38:58",
+      "updatedDate": "2026-01-13 17:39:26",
+      "avatarName": "とらお -Torao-",
+      "avatarNameUrl": "https://athv.booth.pm/items/7767291",
+      "profileVersion": "1.0",
+      "avatarAuthor": "athv",
+      "avatarshopname": "寺井カントリー|Terai Country",
+      "avatarAuthorUrl": "https://athv.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "athv",
+      "profileshopname": "寺井カントリー|Terai Country",
+      "profileAuthorUrl": "https://athv.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://athv.booth.pm/items/7767291",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ca2a06f5-5579-4ad5-a95c-580a09fd8250/i/7767291/2657306b-6477-40ee-9a2e-bb1b8e1d3476_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "4000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": "販売期間：\n2026/01/16 18:00 から"
     },
     {
       "id": "9998",
