@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-15 22:16:52 JST",
+  "lastUpdated": "2026-01-15 22:17:04 JST",
   "profiles": [
     {
       "id": "001",
@@ -25400,7 +25400,7 @@
     {
       "id": "889",
       "registeredDate": "2026-01-15 21:30:41",
-      "updatedDate": "2026-01-15 21:31:33",
+      "updatedDate": "2026-01-15 22:17:03",
       "avatarName": "狸晴 -Riharu-",
       "avatarNameUrl": "https://avakin.booth.pm/items/7880924",
       "profileVersion": "1.0",
@@ -25423,7 +25423,7 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": "販売期間：\n2026/01/25 21:00 から"
     },
     {
