@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19 09:07:40 JST",
+  "lastUpdated": "2026-01-19 09:09:20 JST",
   "profiles": [
     {
       "id": "001",
@@ -25719,7 +25719,7 @@
     {
       "id": "900",
       "registeredDate": "2026-01-18 21:03:45",
-      "updatedDate": "2026-01-18 21:05:17",
+      "updatedDate": "2026-01-19 09:09:18",
       "avatarName": "imiut",
       "avatarNameUrl": "https://yoyogi-mori.booth.pm/items/3675998",
       "profileVersion": "1.0",
@@ -25741,7 +25741,7 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
     },
