@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19 09:09:20 JST",
+  "lastUpdated": "2026-01-19 09:19:10 JST",
   "profiles": [
     {
       "id": "001",
@@ -8398,7 +8398,7 @@
     {
       "id": "299",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 07:04:37",
+      "updatedDate": "2026-01-19 09:11:59",
       "avatarName": "パピロ",
       "avatarNameUrl": "https://t8dbcau.booth.pm/items/5583871",
       "profileVersion": "1.0",
@@ -8411,8 +8411,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "",
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5583871/8ee75350-3abd-445b-acc8-2656727fcb7a_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
+      "pricing": "不明",
+      "price": "-",
       "forwardSupport": false,
       "reverseSupport": false,
       "notes": "対応中?タグのみあり",
@@ -8427,7 +8427,7 @@
     {
       "id": "300",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 07:04:42",
+      "updatedDate": "2026-01-19 09:12:19",
       "avatarName": "マニア",
       "avatarNameUrl": "https://t8dbcau.booth.pm/items/5917368",
       "profileVersion": "1.0",
@@ -8440,8 +8440,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "",
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5917368/4ddced7e-6af0-44df-8ebf-840508282f03_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
+      "pricing": "不明",
+      "price": "-",
       "forwardSupport": false,
       "reverseSupport": false,
       "notes": "対応中?タグのみあり",
@@ -8456,7 +8456,7 @@
     {
       "id": "301",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 07:04:33",
+      "updatedDate": "2026-01-19 09:12:34",
       "avatarName": "ビボ",
       "avatarNameUrl": "https://t8dbcau.booth.pm/items/5109276\n",
       "profileVersion": "1.0",
@@ -8469,8 +8469,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "",
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5109276/e392161a-c38e-4558-90d1-7b3efbec8624_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
+      "pricing": "不明",
+      "price": "-",
       "forwardSupport": false,
       "reverseSupport": false,
       "notes": "対応中?タグのみあり",
@@ -10668,7 +10668,7 @@
     {
       "id": "381",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 07:01:47",
+      "updatedDate": "2026-01-19 09:13:54",
       "avatarName": "まべ式チェシャー",
       "avatarNameUrl": "https://hinasaki.booth.pm/items/5311117",
       "profileVersion": "1.0",
@@ -12350,7 +12350,7 @@
     {
       "id": "439",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 07:04:21",
+      "updatedDate": "2026-01-19 09:14:48",
       "avatarName": "ノクレンシア-Nocrencia-",
       "avatarNameUrl": "https://seafoods.booth.pm/items/7000110",
       "profileVersion": "1.0",
@@ -12372,7 +12372,7 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定",
+      "notes": "2025/10/31　追記\n近々もちふぃった～に対応を予定しております。\nもうちょっと待ってね",
       "avatarshopname": "seafoods",
       "profileshopname": "seafoods"
     },
@@ -13046,7 +13046,7 @@
     {
       "id": "463",
       "registeredDate": "2025-11-28",
-      "updatedDate": "2026-01-08 07:04:47",
+      "updatedDate": "2026-01-19 09:15:02",
       "avatarName": "Rushka -ルーシュカ",
       "avatarNameUrl": "https://tortamercato.booth.pm/items/4296675",
       "profileVersion": "1.0",
@@ -13068,7 +13068,7 @@
       "salePrice": "5000",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "近日対応予定",
+      "notes": "※もちふぃった～には近日対応予定です。",
       "avatarshopname": "とるた めるか～と -Torta Mercato-",
       "profileshopname": "とるた めるか～と -Torta Mercato-"
     },
@@ -14902,7 +14902,7 @@
     {
       "id": "527",
       "registeredDate": "2025-12-01",
-      "updatedDate": "2026-01-08 07:02:01",
+      "updatedDate": "2026-01-19 09:15:21",
       "avatarName": "ネハイル- Nehail",
       "avatarNameUrl": "https://kanalia.booth.pm/items/7425658",
       "profileVersion": "1.0",
@@ -14924,7 +14924,7 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "2026年対応予定",
+      "notes": "現在順方向変換を外部委託中で2026年以降に追加する予定です！もうしばらくお待ちください…！",
       "avatarshopname": "かなﾘぁさんち",
       "profileshopname": "かなﾘぁさんち"
     },
@@ -15830,7 +15830,7 @@
     {
       "id": "559",
       "registeredDate": "2025-12-05",
-      "updatedDate": "2026-01-08 07:02:19",
+      "updatedDate": "2026-01-19 09:15:41",
       "avatarName": "きつねっこな妹 木乃花",
       "avatarNameUrl": "https://mawarimichi.booth.pm/items/6202609",
       "profileVersion": "1.0",
@@ -15852,7 +15852,7 @@
       "salePrice": "2500",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": "もちふぃった～対応予定！",
+      "notes": "もちふぃった～対応予定！\nねこみみセーラーのミユから順番に作業しています！",
       "avatarshopname": "まわり道",
       "profileshopname": "まわり道"
     },
@@ -18237,7 +18237,7 @@
     {
       "id": "642",
       "registeredDate": "2025-12-16",
-      "updatedDate": "2025-12-16",
+      "updatedDate": "2026-01-19 09:16:20",
       "avatarName": "ミナベルリゼット",
       "avatarNameUrl": "https://arsmgn3dcg.booth.pm/items/4956738",
       "profileVersion": "1.0",
@@ -18250,18 +18250,18 @@
       "profileAuthorUrl": "https://arsmgn3dcg.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://arsmgn3dcg.booth.pm/items/4956738",
       "imageUrl": "https://booth.pximg.net/c/620x620/9b818ce0-79cd-4a86-ab9b-78d1c005543a/i/4956738/a3b12fd8-1679-4a71-8126-8353cd022292_base_resized.jpg",
-      "pricing": "未対応",
-      "price": "0",
+      "pricing": "アバター同梱",
+      "price": "-",
       "avatarPrice": "5000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "【現在もちふぃったー未対応です。搭載予定】"
+      "notes": ""
     },
     {
       "id": "643",
@@ -19339,7 +19339,7 @@
     {
       "id": "680",
       "registeredDate": "2025-12-18",
-      "updatedDate": "2026-01-08 07:01:58",
+      "updatedDate": "2026-01-19 09:16:45",
       "avatarName": "璃々 -Lili-",
       "avatarNameUrl": "https://ino-nukonuko.booth.pm/items/7501600",
       "profileVersion": "1.0",
@@ -19352,18 +19352,18 @@
       "profileAuthorUrl": "https://ino-nukonuko.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://ino-nukonuko.booth.pm/items/7501600",
       "imageUrl": "https://booth.pximg.net/c/620x620/3b83b1c2-a85a-42fd-9689-299086d0d3d6/i/7501600/16a813cc-192b-434f-af51-de1dea503590_base_resized.jpg",
-      "pricing": "不明",
+      "pricing": "アバター同梱",
       "price": "-",
       "avatarPrice": "6000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
-      "notes": "販売期間：\n2026/01/18 00:01 から\nタグのみあり、対応予定？"
+      "notes": ""
     },
     {
       "id": "681",
@@ -20789,7 +20789,7 @@
     {
       "id": "730",
       "registeredDate": "2025-12-22",
-      "updatedDate": "2026-01-08 07:04:56",
+      "updatedDate": "2026-01-19 09:17:14",
       "avatarName": "CiTRo-Remake〈シトロ〉",
       "avatarNameUrl": "https://yudono.booth.pm/items/7344751",
       "profileVersion": "1.0",
@@ -20818,7 +20818,7 @@
     {
       "id": "731",
       "registeredDate": "2025-12-22",
-      "updatedDate": "2026-01-08 07:04:51",
+      "updatedDate": "2026-01-19 09:17:26",
       "avatarName": "NiKo-Remake〈ニコ〉",
       "avatarNameUrl": "https://yudono.booth.pm/items/4520668",
       "profileVersion": "1.0",
@@ -25342,7 +25342,7 @@
     {
       "id": "887",
       "registeredDate": "2026-01-15 17:23:56",
-      "updatedDate": "2026-01-15 17:24:30",
+      "updatedDate": "2026-01-19 09:10:02",
       "avatarName": "松梨子(Maturiko/まつりこ)",
       "avatarNameUrl": "https://siroikumazadan.booth.pm/items/2574244",
       "profileVersion": "1.0",
@@ -25366,7 +25366,7 @@
       "salePrice": "",
       "forwardSupport": false,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "もちふぃったープロファイル準備中！"
     },
     {
       "id": "888",
