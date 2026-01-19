@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-18 21:06:59 JST",
+  "lastUpdated": "2026-01-19 09:07:40 JST",
   "profiles": [
     {
       "id": "001",
@@ -25371,7 +25371,7 @@
     {
       "id": "888",
       "registeredDate": "2026-01-15 19:25:34",
-      "updatedDate": "2026-01-15 19:26:54",
+      "updatedDate": "2026-01-19 09:07:36",
       "avatarName": "さばみ",
       "avatarNameUrl": "https://nekono-naguriai.booth.pm/items/7737255",
       "profileVersion": "1.0",
@@ -25384,18 +25384,18 @@
       "profileAuthorUrl": "https://nekono-naguriai.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://nekono-naguriai.booth.pm/items/7890694",
       "imageUrl": "https://booth.pximg.net/c/620x620/75a4bc36-35e4-4acf-90af-7a7d00c1a1d4/i/7737255/29f5ed96-135c-4650-a6e4-4ac8884004c7_base_resized.jpg",
-      "pricing": "未対応",
-      "price": "-",
+      "pricing": "無料",
+      "price": "0",
       "avatarPrice": "4500",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": false,
+      "forwardSupport": true,
       "reverseSupport": false,
-      "notes": ""
+      "notes": "※逆変換プロファイルは準備中です。"
     },
     {
       "id": "889",
