@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19 09:22:52 JST",
+  "lastUpdated": "2026-01-19 17:47:24 JST",
   "profiles": [
     {
       "id": "001",
@@ -16385,13 +16385,13 @@
     {
       "id": "578",
       "registeredDate": "2025-12-07",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-01-19 17:44:26",
       "avatarName": "MMDVRM LO1136 雨猫",
       "avatarNameUrl": "https://kisaragiz.booth.pm/items/7733764",
       "profileVersion": "1.0",
       "avatarAuthor": "kisaragiz",
       "avatarAuthorUrl": "https://kisaragiz.booth.pm/",
-      "bodyBase": "",
+      "bodyBase": "LO1136",
       "profileAuthor": "kisaragiz",
       "profileAuthorUrl": "https://kisaragiz.booth.pm/",
       "official": true,
@@ -24128,7 +24128,7 @@
     {
       "id": "845",
       "registeredDate": "2026-01-08 05:23:20",
-      "updatedDate": "2026-01-08 05:33:48",
+      "updatedDate": "2026-01-19 17:47:19",
       "avatarName": "雫峰 -Shizune-",
       "avatarNameUrl": "https://metacreatorstyo.booth.pm/items/7684873",
       "profileVersion": "1.0",
@@ -24151,8 +24151,8 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
-      "notes": "逆方向は後日追加予定です。"
+      "reverseSupport": true,
+      "notes": ""
     },
     {
       "id": "846",
@@ -25796,6 +25796,35 @@
       "downloadMethod": "Booth",
       "downloadLocation": "https://sotue.booth.pm/items/7103118",
       "imageUrl": "https://booth.pximg.net/c/620x620/5e4b923d-8d1f-401b-b8bb-42e17fa27bde/i/7103118/51c18ee5-c1a8-4e81-8d39-d3a90539cb1d_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "1800",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "903",
+      "registeredDate": "2026-01-19 17:43:40",
+      "updatedDate": "2026-01-19 17:44:30",
+      "avatarName": "MMDVRM LO1136 あんこもん",
+      "avatarNameUrl": "https://kisaragiz.booth.pm/items/7893657",
+      "profileVersion": "1.0",
+      "avatarAuthor": "kisaragiz",
+      "avatarshopname": "ふーふむ",
+      "avatarAuthorUrl": "https://kisaragiz.booth.pm/",
+      "bodyBase": "LO1136",
+      "profileAuthor": "kisaragiz",
+      "profileshopname": "ふーふむ",
+      "profileAuthorUrl": "https://kisaragiz.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://kisaragiz.booth.pm/items/7893657",
+      "imageUrl": "https://booth.pximg.net/c/620x620/1f596065-0a7f-4db3-a357-9ddcef395015/i/7893657/cbe298fd-f551-4db9-a34c-1b0b5de19024_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "avatarPrice": "1800",
