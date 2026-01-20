@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20 03:24:17 JST",
+  "lastUpdated": "2026-01-21 01:32:08 JST",
   "profiles": [
     {
       "id": "001",
@@ -25922,6 +25922,35 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": ""
+    },
+    {
+      "id": "907",
+      "registeredDate": "2026-01-21 01:30:46",
+      "updatedDate": "2026-01-21 01:32:06",
+      "avatarName": "ReplicantKissMa",
+      "avatarNameUrl": "https://keiichiisozaki.booth.pm/items/7036674",
+      "profileVersion": "1.0",
+      "avatarAuthor": "keiichiisozaki",
+      "avatarshopname": "a keiichiisozaki BOOTH store",
+      "avatarAuthorUrl": "https://keiichiisozaki.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "keiichiisozaki",
+      "profileshopname": "a keiichiisozaki BOOTH store",
+      "profileAuthorUrl": "https://keiichiisozaki.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://keiichiisozaki.booth.pm/items/7898139",
+      "imageUrl": "https://booth.pximg.net/c/620x620/2c107679-bd18-493f-84fd-2cb1013e3b27/i/7036674/e6fb84d2-0a2b-4eec-9a48-3bbf7da7adfb_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "390",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": "使い方:https://note.com/keiichiisozaki/n/n6c96f1016039"
     },
     {
       "id": "9991",
