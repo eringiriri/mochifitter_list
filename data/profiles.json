@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21 01:32:08 JST",
+  "lastUpdated": "2026-01-21 01:34:44 JST",
   "profiles": [
     {
       "id": "001",
@@ -8514,7 +8514,7 @@
     {
       "id": "303",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
+      "updatedDate": "2026-01-21 01:33:44",
       "avatarName": "M@ROON",
       "avatarNameUrl": "https://tarooka.booth.pm/items/5678660",
       "profileVersion": "1.0",
@@ -8527,14 +8527,18 @@
       "downloadMethod": "Booth",
       "downloadLocation": "https://tarooka.booth.pm/items/5678660",
       "imageUrl": "https://booth.pximg.net/c/620x620/97ecd71e-7cac-4c68-af06-589056b9b010/i/5678660/d0cbfda7-605a-4f44-8f44-9067cfe09084_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
+      "pricing": "無料",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
       "notes": "",
       "avatarPrice": "5000",
       "avatarshopname": "Tarooka",
-      "profileshopname": "Tarooka"
+      "profileshopname": "Tarooka",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "304",
@@ -23316,7 +23320,7 @@
     {
       "id": "817",
       "registeredDate": "2026-01-02",
-      "updatedDate": "2026-01-02",
+      "updatedDate": "2026-01-21 01:34:34",
       "avatarName": "プラム -Plum-",
       "avatarNameUrl": "https://komado.booth.pm/items/7770415",
       "profileVersion": "1.0",
@@ -23327,7 +23331,7 @@
       "profileAuthor": "エカケイソ",
       "profileshopname": "エカシリコン",
       "profileAuthorUrl": "https://ekasilicon.booth.pm/",
-      "official": true,
+      "official": false,
       "downloadMethod": "Booth",
       "downloadLocation": "https://ekasilicon.booth.pm/items/7655695",
       "imageUrl": "https://booth.pximg.net/c/620x620/61a3b2d7-b4b1-4f97-9e48-ffe959b26ae9/i/7770415/db40e1a5-5d93-4045-a8a1-104f32323362_base_resized.jpg",
@@ -23339,7 +23343,7 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": ""
     },
     {
