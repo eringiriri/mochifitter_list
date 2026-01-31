@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-01 01:56:26 JST",
+  "lastUpdated": "2026-02-01 02:00:37 JST",
   "profiles": [
     {
       "id": "001",
@@ -2897,7 +2897,7 @@
     {
       "id": "102",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-02-01 01:57:04",
       "avatarName": "リナシータ -Rinasciita-",
       "avatarNameUrl": "https://rionesta.booth.pm/items/7475899",
       "profileVersion": "1.0",
@@ -2913,7 +2913,7 @@
       "pricing": "単体有料",
       "price": "400",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "notes": "",
       "avatarshopname": "RIONESTA",
       "profileshopname": "エカシリコン",
