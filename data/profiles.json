@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-01 02:00:37 JST",
+  "lastUpdated": "2026-02-01 06:23:06 JST",
   "profiles": [
     {
       "id": "001",
@@ -24828,7 +24828,7 @@
     {
       "id": "869",
       "registeredDate": "2026-01-12 12:39:04",
-      "updatedDate": "2026-01-12 17:53:15",
+      "updatedDate": "2026-02-01 06:23:05",
       "avatarName": "ポタマ/POTAMA",
       "avatarNameUrl": "https://puchos-shop.booth.pm/items/7841713",
       "profileVersion": "1.0",
@@ -24851,7 +24851,7 @@
       "saleEndDate": "",
       "salePrice": "",
       "forwardSupport": true,
-      "reverseSupport": true,
+      "reverseSupport": false,
       "notes": ""
     },
     {
