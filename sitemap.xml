@@ -3,7 +3,7 @@
   <!-- メインページ -->
   <url>
     <loc>https://mochifitter.eringi.me/</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,8 +11,16 @@
   <!-- 軽量版ページ -->
   <url>
     <loc>https://mochifitter.eringi.me/lite.html</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- 利用規約ページ -->
+  <url>
+    <loc>https://mochifitter.eringi.me/terms.html</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>
