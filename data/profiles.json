@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03 01:57:31 JST",
+  "lastUpdated": "2026-02-03 08:40:43 JST",
   "profiles": [
     {
       "id": "001",
@@ -27520,6 +27520,35 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "962",
+      "registeredDate": "2026-02-03 08:39:45",
+      "updatedDate": "2026-02-03 08:40:39",
+      "avatarName": "FantasticKissMa",
+      "avatarNameUrl": "https://keiichiisozaki.booth.pm/items/5731129",
+      "profileVersion": "1.0",
+      "avatarAuthor": "keiichiisozaki",
+      "avatarshopname": "a keiichiisozaki BOOTH store",
+      "avatarAuthorUrl": "https://keiichiisozaki.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "keiichiisozaki",
+      "profileshopname": "a keiichiisozaki BOOTH store",
+      "profileAuthorUrl": "https://keiichiisozaki.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://keiichiisozaki.booth.pm/items/5731129",
+      "imageUrl": "https://booth.pximg.net/c/620x620/2c107679-bd18-493f-84fd-2cb1013e3b27/i/5731129/38f5d7d3-cf21-4e68-bcc2-c0f03c8acb6f_base_resized.jpg",
+      "pricing": "アバター同梱",
+      "price": "-",
+      "avatarPrice": "690",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": false,
       "notes": ""
     },
     {
