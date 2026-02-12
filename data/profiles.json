@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12 18:34:51 JST",
+  "lastUpdated": "2026-02-12 18:35:41 JST",
   "profiles": [
     {
       "id": "001",
@@ -28022,7 +28022,7 @@
     {
       "id": "979",
       "registeredDate": "2026-02-11 01:58:19",
-      "updatedDate": "2026-02-11 01:58:42",
+      "updatedDate": "2026-02-12 18:35:35",
       "avatarName": "Marycia マリシア -",
       "avatarNameUrl": "https://brn.booth.pm/items/6305948",
       "profileVersion": "1.0",
@@ -28033,7 +28033,7 @@
       "profileAuthor": "エカケイソ",
       "profileshopname": "エカシリコン",
       "profileAuthorUrl": "https://ekasilicon.booth.pm/",
-      "official": true,
+      "official": false,
       "downloadMethod": "Booth",
       "downloadLocation": "https://ekasilicon.booth.pm/items/7970236",
       "imageUrl": "https://booth.pximg.net/c/620x620/f6d23951-d61e-4e47-908b-521afbb47fbf/i/6305948/40e8f0b2-82a8-49c2-a332-eebe2441968f_base_resized.jpg",
@@ -28044,7 +28044,7 @@
       "saleStartDate": "",
       "saleEndDate": "",
       "salePrice": "",
-      "forwardSupport": true,
+      "forwardSupport": false,
       "reverseSupport": true,
       "notes": ""
     },
