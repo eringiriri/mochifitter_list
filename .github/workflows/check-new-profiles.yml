@@ -1,11 +1,7 @@
 name: Check New Booth Profiles
 
 on:
-  # 2時間ごとに実行
-  schedule:
-    - cron: '0 */2 * * *'
-  
-  # 手動実行も可能にする
+  # 手動実行のみ
   workflow_dispatch:
 
 jobs:
