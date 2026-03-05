@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05 12:43:19 JST",
+  "lastUpdated": "2026-03-05 12:48:23 JST",
   "profiles": [
     {
       "id": "001",
@@ -31269,6 +31269,35 @@
     },
     {
       "id": "1091",
+      "registeredDate": "2026-03-05 12:46:45",
+      "updatedDate": "2026-03-05 12:48:16",
+      "avatarName": "セフィラ（Sephira）",
+      "avatarNameUrl": "https://mk22.booth.pm/items/2953001",
+      "profileVersion": "1.0",
+      "avatarAuthor": "有坂みと",
+      "avatarshopname": "ぷらすわん",
+      "avatarAuthorUrl": "https://mk22.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "エカケイソ",
+      "profileshopname": "エカシリコン",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8053302",
+      "imageUrl": "https://booth.pximg.net/c/620x620/1ae5d9f5-29a4-4574-ab86-a316c22db92a/i/2953001/9022344a-ed3c-4ab4-9cd8-8187848e88ff_base_resized.jpg",
+      "pricing": "有料",
+      "price": "600",
+      "avatarPrice": "5500",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "notes": ""
+    },
+    {
+      "id": "1092",
       "registeredDate": "2026-03-05 12:39:25",
       "updatedDate": "2026-03-05 12:40:21",
       "avatarName": "チセ -chise-",
@@ -31297,7 +31326,7 @@
       "notes": ""
     },
     {
-      "id": "1092",
+      "id": "1093",
       "registeredDate": "2026-03-05 12:40:35",
       "updatedDate": "2026-03-05 12:40:57",
       "avatarName": "ティラノのたーくん",
@@ -31326,7 +31355,7 @@
       "notes": ""
     },
     {
-      "id": "1093",
+      "id": "1095",
       "registeredDate": "2026-03-05 12:41:18",
       "updatedDate": "2026-03-05 12:42:04",
       "avatarName": "まほ / MAHO",
@@ -31355,7 +31384,7 @@
       "notes": ""
     },
     {
-      "id": "1094",
+      "id": "1096",
       "registeredDate": "2026-03-05 12:42:20",
       "updatedDate": "2026-03-05 12:42:59",
       "avatarName": "玲 Rei",
@@ -31384,7 +31413,7 @@
       "notes": ""
     },
     {
-      "id": "9887",
+      "id": "9889",
       "registeredDate": "2025-11-28",
       "updatedDate": "2026-02-10 08:56:28",
       "avatarName": "ベリル",
@@ -31413,7 +31442,7 @@
       "profileshopname": "Nine Gates"
     },
     {
-      "id": "9888",
+      "id": "9890",
       "registeredDate": "2025-11-26",
       "updatedDate": "2026-02-10 08:56:18",
       "avatarName": "薄荷",
