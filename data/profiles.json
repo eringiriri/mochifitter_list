@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26 22:37:47 JST",
+  "lastUpdated": "2026-03-28 00:28:19 JST",
   "profiles": [
     {
       "id": "001",
@@ -33121,6 +33121,35 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "1155",
+      "registeredDate": "2026-03-28 00:26:11",
+      "updatedDate": "2026-03-28 00:28:09",
+      "avatarName": "ほんの先輩リバ -Rebirth-",
+      "avatarNameUrl": "https://kounosuke.booth.pm/items/7567402",
+      "profileVersion": "1.0",
+      "avatarAuthor": "コウノスケ",
+      "avatarshopname": "Shop KOUNO",
+      "avatarAuthorUrl": "https://kounosuke.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "コウノスケ",
+      "profileshopname": "Shop KOUNO",
+      "profileAuthorUrl": "https://kounosuke.booth.pm/",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://kounosuke.booth.pm/items/7567402",
+      "imageUrl": "https://booth.pximg.net/c/620x620/50524818-9deb-4c23-9a2b-20d6eb199f14/i/7567402/b9d6085d-88a2-471b-9351-3cdedebe427b_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "avatarPrice": "6000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
       "notes": ""
     },
     {
