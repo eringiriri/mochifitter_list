@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07 18:54:25 JST",
+  "lastUpdated": "2026-04-08 17:05:28 JST",
   "profiles": [
     {
       "id": "001",
@@ -33788,6 +33788,35 @@
       "salePrice": "",
       "forwardSupport": true,
       "reverseSupport": false,
+      "notes": ""
+    },
+    {
+      "id": "1178",
+      "registeredDate": "2026-04-08 17:04:27",
+      "updatedDate": "2026-04-08 17:05:25",
+      "avatarName": "TubeRose",
+      "avatarNameUrl": "https://minamotosyun.booth.pm/items/4193460",
+      "profileVersion": "1.0",
+      "avatarAuthor": "みなもとしゅん",
+      "avatarshopname": "Three Dots and a Dash",
+      "avatarAuthorUrl": "https://minamotosyun.booth.pm/",
+      "bodyBase": "",
+      "profileAuthor": "エカケイソ",
+      "profileshopname": "エカシリコン",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "official": false,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8166464",
+      "imageUrl": "https://booth.pximg.net/c/620x620/67b0db83-68ae-4219-b034-b76df0ce5f1f/i/4193460/2f93bf53-90d9-4ad0-b54f-7a93010d2235_base_resized.jpg",
+      "pricing": "有料",
+      "price": "600",
+      "avatarPrice": "5000",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": "",
+      "forwardSupport": true,
+      "reverseSupport": true,
       "notes": ""
     },
     {
