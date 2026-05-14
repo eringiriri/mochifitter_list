@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13 05:34:48 JST",
+  "lastUpdated": "2026-05-14 15:57:42 JST",
   "profiles": [
     {
       "id": "001",
@@ -3013,7 +3013,7 @@
     {
       "id": "106",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-05-14 15:56:55",
       "avatarName": "ライム -Lime-",
       "avatarNameUrl": "https://komado.booth.pm/items/4876459",
       "profileVersion": "1.0",
@@ -3030,7 +3030,7 @@
       "price": "600",
       "forwardSupport": true,
       "reverseSupport": true,
-      "notes": "動作未確認だが、シフォン、ショコラと同素体のため掲載",
+      "notes": "",
       "avatarshopname": "あまとうさぎ",
       "profileshopname": "エカシリコン",
       "avatarPrice": "6000",
@@ -34315,7 +34315,7 @@
     {
       "id": "1196",
       "registeredDate": "2026-04-19 14:28:40",
-      "updatedDate": "2026-04-19 14:28:58",
+      "updatedDate": "2026-05-14 15:55:44",
       "avatarName": "蘭麗 - Ranrei -",
       "avatarNameUrl": "https://sebastian-yunagi.booth.pm/items/7428495",
       "profileVersion": "1.0",
@@ -34323,9 +34323,9 @@
       "avatarshopname": "Studio･悠那木",
       "avatarAuthorUrl": "https://sebastian-yunagi.booth.pm/",
       "bodyBase": "",
-      "profileAuthor": "セバスチャン•悠那木",
-      "profileshopname": "Studio･悠那木",
-      "profileAuthorUrl": "https://sebastian-yunagi.booth.pm/",
+      "profileAuthor": "エカケイソ",
+      "profileshopname": "エカシリコン",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://sebastian-yunagi.booth.pm/items/7428495",
@@ -35823,7 +35823,7 @@
     {
       "id": "1248",
       "registeredDate": "2026-05-07 05:20:42",
-      "updatedDate": "2026-05-07 05:20:54",
+      "updatedDate": "2026-05-14 15:54:06",
       "avatarName": "carre（キャレ）",
       "avatarNameUrl": "https://neko-ririn.booth.pm/items/8273146",
       "profileVersion": "1.0",
@@ -35831,9 +35831,9 @@
       "avatarshopname": "neko-ririn",
       "avatarAuthorUrl": "https://neko-ririn.booth.pm/",
       "bodyBase": "",
-      "profileAuthor": "neko_ririn",
-      "profileshopname": "neko-ririn",
-      "profileAuthorUrl": "https://neko-ririn.booth.pm/",
+      "profileAuthor": "エカケイソ",
+      "profileshopname": "エカシリコン",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
       "downloadLocation": "https://neko-ririn.booth.pm/items/8273146",
