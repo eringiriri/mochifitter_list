@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21 13:44:30 JST",
+  "lastUpdated": "2026-05-21 15:08:55 JST",
   "profiles": [
     {
       "id": "001",
@@ -4118,7 +4118,7 @@
     {
       "id": "147",
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
+      "updatedDate": "2026-05-21 14:18:36",
       "avatarName": "掛矢 (Kakeya)",
       "avatarNameUrl": "https://ryu-bt.booth.pm/items/3375120",
       "profileVersion": "1.0",
@@ -4129,7 +4129,7 @@
       "profileAuthorUrl": "https://ryu-bt.booth.pm/",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://ryu-bt.booth.pm/items/3375120",
       "imageUrl": "https://booth.pximg.net/c/620x620/497a17f3-8b49-4d3f-b0de-666716ecfcf8/i/3375120/a584bb69-352c-40ad-ae98-898a2e6ba051_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
@@ -4138,7 +4138,11 @@
       "notes": "",
       "avatarPrice": "5000",
       "avatarshopname": "三叉屋",
-      "profileshopname": ""
+      "profileshopname": "",
+      "onSale": false,
+      "saleStartDate": "",
+      "saleEndDate": "",
+      "salePrice": ""
     },
     {
       "id": "148",
@@ -12333,7 +12337,7 @@
     {
       "id": "438",
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 05:31:14",
+      "updatedDate": "2026-05-21 15:08:51",
       "avatarName": "恭華",
       "avatarNameUrl": "https://saikoroworks.booth.pm/items/7424016",
       "profileVersion": "1.0",
@@ -12348,7 +12352,7 @@
       "imageUrl": "https://booth.pximg.net/c/620x620/e3aa1533-3929-4fbe-8b1e-2c4d704e70b1/i/7424016/9987410a-17ba-4480-b29c-96556823cb4a_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
-      "avatarPrice": "0",
+      "avatarPrice": "3000",
       "onSale": false,
       "saleStartDate": "",
       "saleEndDate": "",
