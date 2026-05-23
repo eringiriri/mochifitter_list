@@ -181,7 +181,6 @@ function renderTable() {
                 }
             </td>
             <td>${escapeHtml(profile.pricing)}</td>
-            <td>${profile.price && profile.price !== '-' ? `¥${escapeHtml(profile.price)}` : escapeHtml(profile.price)}</td>
             <td>
                 <span class="badge ${profile.forwardSupport ? 'badge-yes' : 'badge-no'}">
                     ${profile.forwardSupport ? '○' : '×'}
