@@ -13,6 +13,7 @@ import sys
 from PIL import Image, ImageTk
 import io
 import urllib.request
+import threading
 import subprocess
 import base64
 import requests
@@ -94,8 +95,8 @@ class ProfileEditor:
         self.current_investigation_id = ""
         self.block_urls_path = os.path.join(self.app_dir, "data", "Block_URLs.txt")
 
-        # 検索用
         self.search_var = None  # setup_uiで作成
+        self._current_preview_url = ""  # 現在プレビュー中のURL
 
         self.setup_ui()
         self.load_data()
@@ -879,37 +880,62 @@ class ProfileEditor:
                 widget.config(state="disabled")
 
     def preview_image(self):
-        """画像URLからプレビューを表示"""
-        image_url = self.fields["imageUrl"].get().strip()
+        """画像URLからプレビューを表示 (非同期)"""
+        if isinstance(self.fields["imageUrl"], PlaceholderEntry):
+            image_url = self.fields["imageUrl"].get_value().strip()
+        else:
+            image_url = self.fields["imageUrl"].get().strip()
 
         if not image_url:
             # 空欄の場合はプレビューをクリア
             self.image_preview_label.configure(image="", text="画像URLを入力すると\n自動でプレビュー表示")
             return
 
-        try:
-            # URLから画像をダウンロード
-            with urllib.request.urlopen(image_url) as response:
-                image_data = response.read()
+        # ローディング表示
+        self.image_preview_label.configure(image="", text="読み込み中...")
+        self._current_preview_url = image_url
 
-            # 画像を読み込み
-            image = Image.open(io.BytesIO(image_data))
+        def load_thread():
+            try:
+                # URLから画像をダウンロード
+                headers = {'User-Agent': 'Mozilla/5.0'}
+                req = urllib.request.Request(image_url, headers=headers)
+                with urllib.request.urlopen(req, timeout=10) as response:
+                    image_data = response.read()
 
-            # アスペクト比を保ちながらリサイズ（最大250x250）
-            max_size = (250, 250)
-            image.thumbnail(max_size, Image.Resampling.LANCZOS)
+                # このスレッドが開始された時のURLと現在のURLが一致するか確認
+                if self._current_preview_url != image_url:
+                    return
 
-            # Tkinter用の画像に変換
-            photo = ImageTk.PhotoImage(image)
+                # 画像を読み込み
+                image = Image.open(io.BytesIO(image_data))
 
-            # ラベルに画像を設定
+                # アスペクト比を保ちながらリサイズ（最大250x250）
+                max_size = (250, 250)
+                image.thumbnail(max_size, Image.Resampling.LANCZOS)
+
+                # Tkinter用の画像に変換
+                photo = ImageTk.PhotoImage(image)
+
+                # メインスレッドでUI更新
+                self.root.after(0, lambda: self._update_image_preview(image_url, photo))
+
+            except Exception as e:
+                # エラー時もメインスレッドでUI更新
+                self.root.after(0, lambda: self._handle_preview_error(image_url, e))
+
+        threading.Thread(target=load_thread, daemon=True).start()
+
+    def _update_image_preview(self, url, photo):
+        """プレビュー画像を更新 (メインスレッドで実行)"""
+        if self._current_preview_url == url:
             self.image_preview_label.configure(image=photo, text="")
-            self.image_preview_label.image = photo  # 参照を保持
+            self.image_preview_label.image = photo
 
-        except urllib.error.URLError as e:
+    def _handle_preview_error(self, url, e):
+        """画像取得エラーを処理 (メインスレッドで実行)"""
+        if self._current_preview_url == url:
             self.image_preview_label.configure(image="", text=f"画像の取得に失敗:\n{str(e)[:50]}")
-        except Exception as e:
-            self.image_preview_label.configure(image="", text=f"画像の表示に失敗:\n{str(e)[:50]}")
 
     def open_calendar(self, field_name):
         """カレンダーダイアログを開く"""
