@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23 22:21:19 JST",
+  "lastUpdated": "2026-05-23 22:22:47 JST",
   "profiles": [
     {
       "id": "001",
@@ -38060,7 +38060,7 @@
     {
       "id": "1325",
       "registeredDate": "2026-05-23 22:19:30",
-      "updatedDate": "2026-05-23 22:19:56",
+      "updatedDate": "2026-05-23 22:22:37",
       "avatarName": "イブサン",
       "avatarNameUrl": "https://teicifer9999.booth.pm/items/8139707",
       "profileVersion": "1.0",
@@ -38075,8 +38075,8 @@
       "downloadMethod": "Booth",
       "downloadLocation": "https://teicifer9999.booth.pm/items/8395298",
       "imageUrl": "https://booth.pximg.net/c/620x620/4fef6d30-5a9e-4a4c-a16d-a5bd6897fee1/i/8139707/e58d9e71-f940-4bbd-82e6-0a9bda74d104_base_resized.jpg",
-      "pricing": "",
-      "price": "",
+      "pricing": "無料",
+      "price": "0",
       "avatarPrice": "1500",
       "onSale": false,
       "saleStartDate": "",
