@@ -379,10 +379,10 @@ function createProfileCard(profile) {
                          class="download-link"
                          target="_blank"
                          rel="noopener noreferrer">
-                        ダウンロード
+                        ページを開く
                       </a>`
-                    : `<span class="download-link disabled" title="ダウンロードリンクは登録されていません">
-                        ダウンロード
+                    : `<span class="download-link disabled" title="リンクは登録されていません">
+                        ページを開く
                       </span>`
                 }
                 <div class="profile-dates">
