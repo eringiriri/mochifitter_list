@@ -264,8 +264,8 @@ class ProfileEditor:
         self.fields["imageUrl"].grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
         row += 1
 
-        # 価格区分（ボタン付き）
-        ttk.Label(scrollable_frame, text="価格区分").grid(row=row, column=0, sticky=tk.W, pady=2)
+        # 提供方法（ボタン付き）
+        ttk.Label(scrollable_frame, text="提供方法").grid(row=row, column=0, sticky=tk.W, pady=2)
         pricing_frame = ttk.Frame(scrollable_frame)
         pricing_frame.grid(row=row, column=1, sticky=(tk.W, tk.E), pady=2, padx=(5, 0))
 
@@ -414,7 +414,7 @@ class ProfileEditor:
             "downloadMethod": "配布方法",
             "downloadLocation": "配布場所URL",
             "imageUrl": "画像URL",
-            "pricing": "価格区分",
+            "pricing": "提供方法",
             "price": "プロファイル価格",
             "avatarPrice": "アバター価格",
         }
@@ -616,7 +616,7 @@ class ProfileEditor:
         self.set_download_method(method)
 
     def set_pricing(self, pricing):
-        """価格区分を設定"""
+        """提供方法を設定"""
         self.fields["pricing"].delete(0, tk.END)
         self.fields["pricing"].insert(0, pricing)
 

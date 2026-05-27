@@ -361,7 +361,7 @@ function createProfileCard(profile) {
                     <span class="info-value">${escapeHtml(profile.downloadMethod)}</span>
                 </div>
                 <div class="info-row">
-                    <span class="info-label">価格区分</span>
+                    <span class="info-label">提供方法</span>
                     <span class="info-value">
                         <span class="price-badge ${getPriceBadgeClass(profile.pricing)}">${escapeHtml(profile.pricing)}</span>
                     </span>
