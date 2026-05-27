@@ -301,7 +301,7 @@ function getPriceBadgeClass(pricing) {
         case 'アバター同梱':
             return 'price-bundled';
         default:
-            return '';
+            return 'price-other';
     }
 }
 

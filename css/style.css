@@ -537,6 +537,11 @@ h2 {
     color: #c2185b;
 }
 
+.price-badge.price-other {
+    background-color: #e4f7fc;
+    color: #200e88;
+}
+
 .price-amount {
     font-size: 0.85rem;
     color: var(--text-secondary);
