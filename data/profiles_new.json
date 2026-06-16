@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16 18:27:09 JST",
+  "lastUpdated": "2026-06-16 20:14:12 JST",
   "profiles": [
     {
       "id": 1,
@@ -15,12 +15,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 20:08:11",
+      "notes": "",
       "avatarIds": [
         "A0001"
       ],
-      "profileName": "mio のプロファイル"
+      "profileName": "透羽"
     },
     {
       "id": 2,
@@ -36,12 +36,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 20:08:37",
+      "notes": "",
       "avatarIds": [
         "A0002"
       ],
-      "profileName": "mio のプロファイル"
+      "profileName": "杏里"
     },
     {
       "id": 3,
@@ -57,12 +57,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 20:08:50",
+      "notes": "",
       "avatarIds": [
         "A0003"
       ],
-      "profileName": "mio のプロファイル"
+      "profileName": "一介天使"
     },
     {
       "id": 4,
@@ -78,12 +78,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 20:09:01",
+      "notes": "",
       "avatarIds": [
         "A0004"
       ],
-      "profileName": "mio のプロファイル"
+      "profileName": "翠蓮"
     },
     {
       "id": 5,
@@ -99,8 +99,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-28",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:45:09",
+      "notes": "",
       "avatarIds": [
         "A0005",
         "A0006"
@@ -1445,19 +1445,19 @@
       "profileshopname": "ふかんじ屋",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "https://fukanja.booth.pm/",
+      "downloadLocation": "https://fukanja.booth.pm/items/4300022",
       "imageUrl": "https://booth.pximg.net/c/620x620/0e31f476-c519-4d2f-aa06-a8755b3188f6/i/4300022/eb4efb64-dfe2-42ce-b79d-f443a91bc91a_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-06-16 20:10:38",
       "notes": "",
       "avatarIds": [
         "A0112"
       ],
-      "profileName": "ふかんじゃりら のプロファイル"
+      "profileName": "レグニア-Legnia-"
     },
     {
       "id": 68,
@@ -1584,132 +1584,6 @@
         "A0118"
       ],
       "profileName": "フレーナ / Freina"
-    },
-    {
-      "id": 74,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/5694887",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/5694887/701db6bd-e2f5-4830-bc0e-49b10cdde46d_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0119"
-      ],
-      "profileName": "【オリジナル3Dモデル】ビナア〈Binah〉 ver1.0.75"
-    },
-    {
-      "id": 75,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/3929383",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/3929383/1e28ce0d-b962-4473-aed7-24889deb5e67_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0120"
-      ],
-      "profileName": "【オリジナル3Dモデル】ホド 〈Hod〉 ver1.1.72"
-    },
-    {
-      "id": 76,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/2735913",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/2735913/79cb87cb-e42f-4ed2-b04e-5105d2c11fd3_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0121"
-      ],
-      "profileName": "【オリジナル3Dモデル】ネツァク 〈Netzach〉　ver1.2.31"
-    },
-    {
-      "id": 77,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/1021858",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/1021858/c94a79e0-93a0-4bc4-a15c-7b4040c2e049_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0122"
-      ],
-      "profileName": "【オリジナル3Dモデル】マルクト 〈Malkuth〉ver1.3.231"
-    },
-    {
-      "id": 78,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/1812518",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/1812518/a0a6bbca-9001-4902-9566-890ddbc5193a_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2026-01-19 09:22:40",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0123"
-      ],
-      "profileName": "【VRC想定3Dモデル】ケセド 〈Chesed〉 ver1.3.21"
-    },
-    {
-      "id": 79,
-      "profileAuthor": "セフィ",
-      "profileAuthorUrl": "https://sephir.booth.pm/",
-      "profileshopname": "エルフの森静岡支部",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://sephir.booth.pm/items/1145899",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0d2468c0-1ae0-44e4-9281-c6f1646d3f41/i/1145899/a61e8321-8a12-4e74-ab6a-cd36efde1051_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-26",
-      "updatedDate": "2025-11-26",
-      "notes": "共通素体EFBody",
-      "avatarIds": [
-        "A0124"
-      ],
-      "profileName": "【オリジナル3Dモデル】セフィ 〈Sephir〉.ver3.7.22"
     },
     {
       "id": 80,
@@ -2383,8 +2257,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:47:27",
+      "notes": "",
       "avatarIds": [
         "A0161"
       ],
@@ -2768,8 +2642,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:44:44",
+      "notes": "",
       "avatarIds": [
         "A0181"
       ],
@@ -2810,8 +2684,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
-      "notes": "ベリルに萌→ベリルが含まれる\n投げ銭(200円)に萌→Templateあり",
+      "updatedDate": "2026-06-16 19:44:29",
+      "notes": "",
       "avatarIds": [
         "A0182"
       ],
@@ -3131,8 +3005,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "公式での対応アナウンスあり",
+      "updatedDate": "2026-06-16 19:44:15",
+      "notes": "",
       "avatarIds": [
         "A0201"
       ],
@@ -3305,8 +3179,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-30",
-      "notes": "公式対応予定",
+      "updatedDate": "2026-06-16 19:47:52",
+      "notes": "",
       "avatarIds": [
         "A0177"
       ],
@@ -3462,27 +3336,6 @@
       "profileName": "VRC向けオリジナル3Dモデル「蓮華(Renge)」"
     },
     {
-      "id": 162,
-      "profileAuthor": "koxian",
-      "profileAuthorUrl": "https://koxian.booth.pm/",
-      "profileshopname": "koxian工房",
-      "official": false,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://koxian.booth.pm/items/7661107",
-      "imageUrl": "https://booth.pximg.net/c/620x620/fe589ff6-2d21-4938-b5d2-e788dde06cc9/i/5209634/27626d8a-e96e-4958-bc0a-e0d95fd18eb6_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-28",
-      "notes": "",
-      "avatarIds": [
-        "A0219"
-      ],
-      "profileName": "koxian のプロファイル"
-    },
-    {
       "id": 163,
       "profileAuthor": "くまきち商店ワークス",
       "profileAuthorUrl": "https://kumakichishoten.booth.pm/",
@@ -3603,8 +3456,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-08 05:20:06",
-      "notes": "公式にてプロファイル作成予定\nhttps://x.com/HAR1PON/status/1991238316063162658?s=20",
+      "updatedDate": "2026-06-16 19:43:37",
+      "notes": "",
       "avatarIds": [
         "A0225"
       ],
@@ -3722,19 +3575,19 @@
       "profileshopname": "まきまき堂",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://mkmkdo.booth.pm/items/6785512",
       "imageUrl": "https://booth.pximg.net/c/620x620/c576046b-73fa-4cd2-824e-5ba009e499b7/i/6785512/d9a26d9c-564a-45dc-b0f9-5f91ccf4bcb3_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-06-16 20:11:48",
       "notes": "",
       "avatarIds": [
         "A0231"
       ],
-      "profileName": "Maki のプロファイル"
+      "profileName": "「リーベルプス」"
     },
     {
       "id": 175,
@@ -4157,8 +4010,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "notes": "11/30日まで7000→4500",
+      "updatedDate": "2026-06-16 19:43:28",
+      "notes": "",
       "avatarIds": [
         "A0252"
       ],
@@ -4178,8 +4031,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-11-27",
-      "notes": "11月27日くらいまで500円引き",
+      "updatedDate": "2026-06-16 19:43:23",
+      "notes": "",
       "avatarIds": [
         "A0253"
       ],
@@ -4694,69 +4547,6 @@
       "profileName": "[無料]椿姫ちゃん用もちふぃった～変換プロファイル"
     },
     {
-      "id": 220,
-      "profileAuthor": "アンダル ♦︎ andall",
-      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
-      "profileshopname": "アンダル ♦︎ andall",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5583871/8ee75350-3abd-445b-acc8-2656727fcb7a_base_resized.jpg",
-      "pricing": "不明",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-19 09:11:59",
-      "notes": "対応中?タグのみあり",
-      "avatarIds": [
-        "A0282"
-      ],
-      "profileName": "アンダル ♦︎ andall のプロファイル"
-    },
-    {
-      "id": 221,
-      "profileAuthor": "アンダル ♦︎ andall",
-      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
-      "profileshopname": "アンダル ♦︎ andall",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5917368/4ddced7e-6af0-44df-8ebf-840508282f03_base_resized.jpg",
-      "pricing": "不明",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-19 09:12:19",
-      "notes": "対応中?タグのみあり",
-      "avatarIds": [
-        "A0283"
-      ],
-      "profileName": "アンダル ♦︎ andall のプロファイル"
-    },
-    {
-      "id": 222,
-      "profileAuthor": "アンダル ♦︎ andall",
-      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
-      "profileshopname": "アンダル ♦︎ andall",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5109276/e392161a-c38e-4558-90d1-7b3efbec8624_base_resized.jpg",
-      "pricing": "不明",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-19 09:12:34",
-      "notes": "対応中?タグのみあり",
-      "avatarIds": [
-        "A0284"
-      ],
-      "profileName": "アンダル ♦︎ andall のプロファイル"
-    },
-    {
       "id": 223,
       "profileAuthor": "おむすび",
       "profileAuthorUrl": "https://tanabataonsen.booth.pm/",
@@ -5088,8 +4878,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:50:28",
+      "notes": "",
       "avatarIds": [
         "A0302"
       ],
@@ -5319,8 +5109,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:50:46",
+      "notes": "",
       "avatarIds": [
         "A0312"
       ],
@@ -7128,27 +6918,6 @@
       "profileName": "オリジナル3Dモデル｢恭華｣ -Kyoka-"
     },
     {
-      "id": 337,
-      "profileAuthor": "ikurasan",
-      "profileAuthorUrl": "https://seafoods.booth.pm/",
-      "profileshopname": "seafoods",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/46092d08-a17b-4f8f-b926-525ed00db4aa/i/7000110/477181af-a6ec-4a18-abda-572dd8e74611_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2026-01-19 09:14:48",
-      "notes": "2025/10/31　追記\n近々もちふぃった～に対応を予定しております。\nもうちょっと待ってね",
-      "avatarIds": [
-        "A0416"
-      ],
-      "profileName": "ikurasan のプロファイル"
-    },
-    {
       "id": 338,
       "profileAuthor": "Silver",
       "profileAuthorUrl": "https://silvercherry.booth.pm/",
@@ -7617,19 +7386,19 @@
       "profileshopname": "とるた めるか～と -Torta Mercato-",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/cf947e44-7ed4-4a7e-8b70-5b65b58edb1f/i/4296675/fbb99c23-eb81-4dbd-8989-c8352a75f592_base_resized.jpg",
+      "downloadLocation": "https://tortamercato.booth.pm/items/4296675",
+      "imageUrl": "https://booth.pximg.net/c/620x620/cf947e44-7ed4-4a7e-8b70-5b65b58edb1f/i/4296675/3ffe3c6b-8f20-430d-9450-8075e9d62b30_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-28",
-      "updatedDate": "2026-01-19 09:15:02",
-      "notes": "※もちふぃった～には近日対応予定です。",
+      "updatedDate": "2026-06-16 19:54:21",
+      "notes": "",
       "avatarIds": [
         "A0439"
       ],
-      "profileName": "宮本 健 のプロファイル"
+      "profileName": "Rushka -ルーシュカ-"
     },
     {
       "id": 361,
@@ -8268,19 +8037,19 @@
       "profileshopname": "かなﾘぁさんち",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://kanalia.booth.pm/items/7425658",
       "imageUrl": "https://booth.pximg.net/c/620x620/1a3d7c54-a290-40a4-b267-0f2e041fef9a/i/7425658/06065def-2fd3-4bbb-bdd0-5f979a992f4d_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-01",
-      "updatedDate": "2026-01-19 09:15:21",
-      "notes": "現在順方向変換を外部委託中で2026年以降に追加する予定です！もうしばらくお待ちください…！",
+      "updatedDate": "2026-06-16 19:55:18",
+      "notes": "",
       "avatarIds": [
         "A0501"
       ],
-      "profileName": "かなﾘぁ のプロファイル"
+      "profileName": "-ネハイル- Nehail"
     },
     {
       "id": 391,
@@ -8926,12 +8695,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-05",
-      "updatedDate": "2026-01-08 05:14:38",
+      "updatedDate": "2026-06-16 19:56:44",
       "notes": "",
       "avatarIds": [
         "A0530"
       ],
-      "profileName": "【オリジナル3Dモデル】ねこみみセーラーのミユVer2.0【半額セール】"
+      "profileName": "ねこみみセーラーのミユVer2.0"
     },
     {
       "id": 422,
@@ -8940,19 +8709,19 @@
       "profileshopname": "まわり道",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://mawarimichi.booth.pm/items/6202609",
       "imageUrl": "https://booth.pximg.net/c/620x620/6d25c339-b51a-47b5-8e63-8735e5161229/i/6202609/8128b14f-e24f-441e-a59a-9376e8ec9fd4_base_resized.jpg",
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-05",
-      "updatedDate": "2026-01-19 09:15:41",
-      "notes": "もちふぃった～対応予定！\nねこみみセーラーのミユから順番に作業しています！",
+      "updatedDate": "2026-06-16 19:56:38",
+      "notes": "",
       "avatarIds": [
         "A0531"
       ],
-      "profileName": "まわり道 のプロファイル"
+      "profileName": "きつねっこな妹　木乃花"
     },
     {
       "id": 423,
@@ -9182,8 +8951,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-06",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:57:06",
+      "notes": "",
       "avatarIds": [
         "A0544"
       ],
@@ -9686,8 +9455,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-08",
-      "updatedDate": "2025-12-10",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 19:57:21",
+      "notes": "",
       "avatarIds": [
         "A0569"
       ],
@@ -9707,8 +9476,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-08",
-      "updatedDate": "2025-12-10",
-      "notes": "プロファイルショップにシェイプキーセットあり\nアバター販売休止中",
+      "updatedDate": "2026-06-16 19:57:16",
+      "notes": "プロファイルショップにシェイプキーセットあり",
       "avatarIds": [
         "A0161"
       ],
@@ -9917,12 +9686,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-09",
-      "updatedDate": "2025-12-09",
+      "updatedDate": "2026-06-16 20:09:23",
       "notes": "",
       "avatarIds": [
         "A0579"
       ],
-      "profileName": "decojima のプロファイル"
+      "profileName": "かのん"
     },
     {
       "id": 469,
@@ -10493,27 +10262,6 @@
         "A0607"
       ],
       "profileName": "インターネットのぽまえ（＋ぺんぺんパーカー付）【オリジナル3Dモデル】"
-    },
-    {
-      "id": 495,
-      "profileAuthor": "有栖眼鏡",
-      "profileAuthorUrl": "https://arsmgn3dcg.booth.pm/",
-      "profileshopname": "よろず屋あるす",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://arsmgn3dcg.booth.pm/items/4956738",
-      "imageUrl": "https://booth.pximg.net/c/620x620/9b818ce0-79cd-4a86-ab9b-78d1c005543a/i/4956738/a3b12fd8-1679-4a71-8126-8353cd022292_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-12-16",
-      "updatedDate": "2026-01-19 09:16:20",
-      "notes": "",
-      "avatarIds": [
-        "A0608"
-      ],
-      "profileName": "有栖眼鏡 のプロファイル"
     },
     {
       "id": 496,
@@ -11315,27 +11063,6 @@
       "profileName": "オリジナル３Dモデル『Noa-ノア-』"
     },
     {
-      "id": 535,
-      "profileAuthor": "非公開",
-      "profileAuthorUrl": "",
-      "profileshopname": "非公開",
-      "official": false,
-      "downloadMethod": "Discord限定公開",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/a238249a-3754-4828-9be4-c031f8e3662d/i/3190100/94d47ae0-e4ec-4147-b417-0ac636778a98_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-12-18",
-      "updatedDate": "2025-12-18",
-      "notes": "",
-      "avatarIds": [
-        "A0650"
-      ],
-      "profileName": "非公開 のプロファイル"
-    },
-    {
       "id": 536,
       "profileAuthor": "のすく🦊@趣味垢",
       "profileAuthorUrl": "https://x.com/nosuky2",
@@ -11462,48 +11189,6 @@
         "A0658"
       ],
       "profileName": "sirocoffee のプロファイル"
-    },
-    {
-      "id": 542,
-      "profileAuthor": "非公開",
-      "profileAuthorUrl": "",
-      "profileshopname": "非公開",
-      "official": false,
-      "downloadMethod": "Discordファンサーバー限定公開",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/8914bfbc-da91-4969-988b-cd754afbb6ab/i/5389703/602b592e-9fc1-4a8e-927a-26fe11feb5a7_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-12-18",
-      "updatedDate": "2025-12-18",
-      "notes": "",
-      "avatarIds": [
-        "A0659"
-      ],
-      "profileName": "非公開 のプロファイル"
-    },
-    {
-      "id": 543,
-      "profileAuthor": "非公開",
-      "profileAuthorUrl": "",
-      "profileshopname": "非公開",
-      "official": false,
-      "downloadMethod": "Discordファンサーバー限定公開",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/8914bfbc-da91-4969-988b-cd754afbb6ab/i/7312356/d348f9ee-2506-4bf6-99c2-a55a14ee5068_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2025-12-18",
-      "updatedDate": "2025-12-18",
-      "notes": "",
-      "avatarIds": [
-        "A0660"
-      ],
-      "profileName": "非公開 のプロファイル"
     },
     {
       "id": 544,
@@ -12149,19 +11834,19 @@
       "profileshopname": "ゆどのん工房",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://yudono.booth.pm/items/7344751",
       "imageUrl": "https://booth.pximg.net/c/620x620/a5a208c6-bf51-4e00-b329-85b58f98dab8/i/7344751/a53c282d-1739-4b69-a826-1219c9c40262_base_resized.jpg",
       "pricing": "未対応",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-22",
-      "updatedDate": "2026-01-19 09:17:14",
-      "notes": "今後もちふぃった～の対応を予定しています。",
+      "updatedDate": "2026-06-16 19:58:56",
+      "notes": "",
       "avatarIds": [
         "A0693"
       ],
-      "profileName": "ユドノ のプロファイル"
+      "profileName": "「CiTRo-Remake〈シトロ〉」"
     },
     {
       "id": 575,
@@ -12170,19 +11855,19 @@
       "profileshopname": "ゆどのん工房",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
+      "downloadLocation": "https://yudono.booth.pm/items/4520668",
       "imageUrl": "https://booth.pximg.net/c/620x620/a5a208c6-bf51-4e00-b329-85b58f98dab8/i/4520668/eab48da8-80be-4810-85fc-9170cfb0f1fd_base_resized.jpg",
       "pricing": "未対応",
       "price": "-",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-22",
-      "updatedDate": "2026-01-19 09:17:26",
-      "notes": "今後もちふぃった～の対応を予定しています。",
+      "updatedDate": "2026-06-16 19:58:10",
+      "notes": "",
       "avatarIds": [
         "A0694"
       ],
-      "profileName": "ユドノ のプロファイル"
+      "profileName": "「NiKo-Remake〈ニコ〉」"
     },
     {
       "id": 576,
@@ -12873,12 +12558,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2026-06-07 13:43:20",
-      "notes": "アバター販売休止中",
+      "updatedDate": "2026-06-16 20:13:17",
+      "notes": "",
       "avatarIds": [
         "A0724"
       ],
-      "profileName": "mio のプロファイル"
+      "profileName": "薄荷"
     },
     {
       "id": 609,
@@ -14465,8 +14150,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-01-13 17:38:58",
-      "updatedDate": "2026-01-13 17:39:26",
-      "notes": "販売期間：\n2026/01/16 18:00 から",
+      "updatedDate": "2026-06-16 19:59:21",
+      "notes": "",
       "avatarIds": [
         "A0825"
       ],
@@ -14588,19 +14273,19 @@
       "profileshopname": "ＳＨＯＰいもぱんちゅう",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/4e775002-1af6-4cfa-8f00-9ebae9648cda/i/7877073/374d6d5b-0b9c-4009-b5f4-016829cf4808_base_resized.jpg",
-      "pricing": "未対応",
-      "price": "-",
+      "downloadLocation": "https://imopanchu.booth.pm/items/7877073",
+      "imageUrl": "https://booth.pximg.net/c/620x620/4e775002-1af6-4cfa-8f00-9ebae9648cda/i/7877073/d6ef5c6c-200a-4c2a-bc8b-04219f2cf932_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-01-14 21:47:54",
-      "updatedDate": "2026-01-15 09:06:45",
-      "notes": "今後の実装予定項目（時期未定）\n・もちふぃったー対応",
+      "updatedDate": "2026-06-16 20:00:28",
+      "notes": "",
       "avatarIds": [
         "A0835"
       ],
-      "profileName": "いもぱんちゅう のプロファイル"
+      "profileName": "『絳乃』~あかの~"
     },
     {
       "id": 690,
@@ -14609,19 +14294,19 @@
       "profileshopname": "しろいくま座団",
       "official": true,
       "downloadMethod": "Booth",
-      "downloadLocation": "",
-      "imageUrl": "https://booth.pximg.net/c/620x620/ddd5317e-ec19-44c0-a761-8f11dfdc2913/i/2574244/4ec3a5de-248c-454d-9c75-90432dfe93ab_base_resized.jpg",
-      "pricing": "未対応",
-      "price": "-",
+      "downloadLocation": "https://siroikumazadan.booth.pm/items/2574244",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ddd5317e-ec19-44c0-a761-8f11dfdc2913/i/2574244/2d5d30dd-fcc1-44b5-9522-833b6b05f705_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-01-15 17:23:56",
-      "updatedDate": "2026-01-19 09:10:02",
-      "notes": "もちふぃったープロファイル準備中！",
+      "updatedDate": "2026-06-16 20:01:19",
+      "notes": "",
       "avatarIds": [
         "A0836"
       ],
-      "profileName": "まなこ のプロファイル"
+      "profileName": "松梨子(Maturiko/まつりこ)"
     },
     {
       "id": 691,
@@ -14658,8 +14343,8 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-01-15 21:30:41",
-      "updatedDate": "2026-01-15 22:17:03",
-      "notes": "販売期間：\n2026/01/25 21:00 から",
+      "updatedDate": "2026-06-16 20:01:27",
+      "notes": "",
       "avatarIds": [
         "A0838"
       ],
@@ -15521,8 +15206,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-01-28 19:22:39",
-      "updatedDate": "2026-02-09 10:49:33",
-      "notes": "逆方向後日対応予定",
+      "updatedDate": "2026-06-16 20:01:47",
+      "notes": "",
       "avatarIds": [
         "A0882"
       ],
@@ -15605,13 +15290,13 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-01-29 03:30:52",
-      "updatedDate": "2026-01-29 03:31:13",
+      "updatedDate": "2026-06-16 20:01:56",
       "notes": "",
       "avatarIds": [
         "A0684",
         "A0667"
       ],
-      "profileName": "【両変換対応】真央（男性体型対応）&りりか用もちふぃった～対応データ"
+      "profileName": "真央（男性体型対応）&りりか用もちふぃった～対応データ"
     },
     {
       "id": 738,
@@ -15817,8 +15502,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-01 01:48:37",
-      "updatedDate": "2026-02-01 01:50:38",
-      "notes": "WIPのため1月31日のみ限定公開\n来月完成予定",
+      "updatedDate": "2026-06-16 20:02:11",
+      "notes": "",
       "avatarIds": [
         "A0896"
       ],
@@ -15902,8 +15587,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-02 23:30:14",
-      "updatedDate": "2026-02-02 23:30:53",
-      "notes": "販売期間：\n2026/02/07 15:00 から",
+      "updatedDate": "2026-06-16 20:02:07",
+      "notes": "",
       "avatarIds": [
         "A0900"
       ],
@@ -16049,8 +15734,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-05 10:50:55",
-      "updatedDate": "2026-02-05 10:51:21",
-      "notes": "販売期間：\n2026/02/15 00:00 から",
+      "updatedDate": "2026-06-16 20:02:41",
+      "notes": "",
       "avatarIds": [
         "A0907"
       ],
@@ -16091,8 +15776,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-06 19:34:31",
-      "updatedDate": "2026-02-06 19:35:33",
-      "notes": "販売期間：\n2026/02/27 18:00 から",
+      "updatedDate": "2026-06-16 20:02:37",
+      "notes": "",
       "avatarIds": [
         "A0909"
       ],
@@ -16346,8 +16031,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-12 00:05:30",
-      "updatedDate": "2026-02-12 00:05:47",
-      "notes": "2/14 発売予定",
+      "updatedDate": "2026-06-16 20:02:49",
+      "notes": "",
       "avatarIds": [
         "A0917"
       ],
@@ -17114,8 +16799,8 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-02-23 08:07:46",
-      "updatedDate": "2026-02-23 08:10:49",
-      "notes": "方向記載なし",
+      "updatedDate": "2026-06-16 20:03:01",
+      "notes": "",
       "avatarIds": [
         "A0318"
       ],
@@ -17927,27 +17612,6 @@
         "A1000"
       ],
       "profileName": "【素体無料】やせぎすくん素体【VRChat用素体】"
-    },
-    {
-      "id": 847,
-      "profileAuthor": "永霊の夢",
-      "profileAuthorUrl": "https://eireimu.booth.pm/",
-      "profileshopname": "永霊の夢",
-      "official": false,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://eireimu.booth.pm/items/8046568",
-      "imageUrl": "https://booth.pximg.net/c/620x620/f1182160-0f08-4dc6-aaa9-a5f6ccc1b78e/i/7841391/62b3573c-5edb-41b2-a198-7a7768c60e29_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2026-03-03 13:54:48",
-      "updatedDate": "2026-03-03 13:55:58",
-      "notes": "",
-      "avatarIds": [
-        "A1001"
-      ],
-      "profileName": "永霊の夢 のプロファイル"
     },
     {
       "id": 848,
@@ -18834,27 +18498,6 @@
         "A1039"
       ],
       "profileName": "オリジナル3Dモデル「シラハ」"
-    },
-    {
-      "id": 890,
-      "profileAuthor": "Mark X",
-      "profileAuthorUrl": "https://saiyamadou.booth.pm/",
-      "profileshopname": "サイヤマ堂",
-      "official": false,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://saiyamadou.booth.pm/items/8089525",
-      "imageUrl": "https://booth.pximg.net/c/620x620/a847726c-889a-4f32-ba08-85c8b4d1292e/i/8089525/6b8ca913-8a24-4c56-891b-229fcd98c30c_base_resized.jpg",
-      "pricing": "アバター同梱",
-      "price": "-",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2026-03-20 01:24:03",
-      "updatedDate": "2026-03-20 01:24:24",
-      "notes": "",
-      "avatarIds": [
-        "A1040"
-      ],
-      "profileName": "Mark X のプロファイル"
     },
     {
       "id": 891,
@@ -24049,7 +23692,7 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-06-15 01:03:29",
-      "updatedDate": "2026-06-16 15:01:23",
+      "updatedDate": "2026-06-16 20:06:37",
       "notes": "",
       "avatarIds": [
         "A1289",
@@ -24058,7 +23701,8 @@
         "A0120",
         "A0119",
         "A0121",
-        "A1294"
+        "A1294",
+        "A1296"
       ],
       "profileName": "EFbody用もちふぃったー対応プロファイル"
     },

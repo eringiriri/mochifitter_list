@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16 18:27:09 JST",
+  "lastUpdated": "2026-06-16 20:14:29 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -1595,19 +1595,6 @@
       "authorUrl": "https://sephir.booth.pm/",
       "shopname": "エルフの森静岡支部",
       "price": "4000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
-      "id": "A0124",
-      "name": "セフィ 〈Sephir〉",
-      "nameUrl": "https://sephir.booth.pm/items/1145899",
-      "author": "セフィ",
-      "authorUrl": "https://sephir.booth.pm/",
-      "shopname": "エルフの森静岡支部",
-      "price": "4500",
       "bodyBase": "",
       "name_en": "",
       "name_ko": "",
@@ -3655,45 +3642,6 @@
       "name_cn": ""
     },
     {
-      "id": "A0282",
-      "name": "パピロ",
-      "nameUrl": "https://t8dbcau.booth.pm/items/5583871",
-      "author": "アンダル ♦︎ andall",
-      "authorUrl": "https://t8dbcau.booth.pm/",
-      "shopname": "アンダル ♦︎ andall",
-      "price": "4000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
-      "id": "A0283",
-      "name": "マニア",
-      "nameUrl": "https://t8dbcau.booth.pm/items/5917368",
-      "author": "アンダル ♦︎ andall",
-      "authorUrl": "https://t8dbcau.booth.pm/",
-      "shopname": "アンダル ♦︎ andall",
-      "price": "5000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
-      "id": "A0284",
-      "name": "ビボ",
-      "nameUrl": "https://t8dbcau.booth.pm/items/5109276\n",
-      "author": "アンダル ♦︎ andall",
-      "authorUrl": "https://t8dbcau.booth.pm/",
-      "shopname": "アンダル ♦︎ andall",
-      "price": "5000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
       "id": "A0285",
       "name": "ツキカゲくん/TSUKIKAGE",
       "nameUrl": "https://powermohumohu.booth.pm/items/6899847",
@@ -4669,19 +4617,6 @@
       "name_cn": ""
     },
     {
-      "id": "A0360",
-      "name": "まべ式チェシャー",
-      "nameUrl": "https://hinasaki.booth.pm/items/5311117",
-      "author": "まべ",
-      "authorUrl": "https://hinasaki.booth.pm/",
-      "shopname": "HINASAKI",
-      "price": "10000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
       "id": "A0361",
       "name": "３＋１（さん↑ぷらす→うの↑）",
       "nameUrl": "https://hinasaki.booth.pm/items/6727787",
@@ -5391,19 +5326,6 @@
       "authorUrl": "https://saikoroworks.booth.pm/",
       "shopname": "さいころワークス",
       "price": "3000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
-      "id": "A0416",
-      "name": "ノクレンシア-Nocrencia-",
-      "nameUrl": "https://seafoods.booth.pm/items/7000110",
-      "author": "ikurasan",
-      "authorUrl": "https://seafoods.booth.pm/",
-      "shopname": "seafoods",
-      "price": "5500",
       "bodyBase": "",
       "name_en": "",
       "name_ko": "",
@@ -7886,19 +7808,6 @@
       "author": "NYANMAN",
       "authorUrl": "https://neko28.booth.pm/",
       "shopname": "NYANMAN",
-      "price": "5000",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
-      "id": "A0608",
-      "name": "ミナベルリゼット",
-      "nameUrl": "https://arsmgn3dcg.booth.pm/items/4956738",
-      "author": "有栖眼鏡",
-      "authorUrl": "https://arsmgn3dcg.booth.pm/",
-      "shopname": "よろず屋あるす",
       "price": "5000",
       "bodyBase": "",
       "name_en": "",
@@ -13509,19 +13418,6 @@
       "name_cn": ""
     },
     {
-      "id": "A1040",
-      "name": "フィルス - Fillss -",
-      "nameUrl": "https://saiyamadou.booth.pm/items/8089525",
-      "author": "Mark X",
-      "authorUrl": "https://saiyamadou.booth.pm/",
-      "shopname": "サイヤマ堂",
-      "price": "5500",
-      "bodyBase": "",
-      "name_en": "",
-      "name_ko": "",
-      "name_cn": ""
-    },
-    {
       "id": "A1041",
       "name": "タルトタタン",
       "nameUrl": "https://inugoyamart.booth.pm/items/2939958",
@@ -16804,6 +16700,19 @@
       "nameUrl": "https://jnush1.booth.pm/items/8490162",
       "authorUrl": "https://jnush1.booth.pm/",
       "shopname": "じぬしの土地、じぬ地",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1296",
+      "name": "セフィ 〈Sephir〉",
+      "author": "セフィ",
+      "nameUrl": "https://sephir.booth.pm/items/1145899",
+      "authorUrl": "https://sephir.booth.pm/",
+      "shopname": "エルフの森静岡支部",
       "price": "",
       "bodyBase": "",
       "name_en": "",
