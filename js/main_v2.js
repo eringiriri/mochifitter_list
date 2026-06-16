@@ -391,7 +391,7 @@ function createProfileCard(profile) {
                                 <span>${escapeHtml(domainLabel)}</span>
                             </div>
                             <div class="shop-info">
-                                ${escapeHtml(t('by'))} ${escapeHtml(profile.profileshopname || profile.profileAuthor)}
+                                ${escapeHtml(t('by'))} ${escapeHtml(profile.profileAuthor || profile.profileshopname)}
                             </div>
                         </${footerTag}>
                         <div style="flex-shrink: 0;">${escapeHtml(t('updated'))}: ${formatDate(profile.updatedDate)}</div>
