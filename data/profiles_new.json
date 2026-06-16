@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16 20:14:12 JST",
+  "lastUpdated": "2026-06-17 02:45:18 JST",
   "profiles": [
     {
       "id": 1,
@@ -7723,14 +7723,16 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-30",
-      "updatedDate": "2025-11-30",
-      "notes": "[M]サイズのみ",
+      "updatedDate": "2026-06-17 02:37:48",
+      "notes": "",
       "avatarIds": [
         "A0480",
         "A0481",
-        "A0482"
+        "A0482",
+        "A0388",
+        "A1305"
       ],
-      "profileName": "【もちふぃった～】Minuet_Dollアバター用プロファイル ver1_2"
+      "profileName": "【もちふぃった～】Minuet_Dollアバター用プロファイル"
     },
     {
       "id": 375,
@@ -18322,10 +18324,15 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-03-16 18:39:28",
-      "updatedDate": "2026-03-16 18:43:46",
+      "updatedDate": "2026-06-16 20:41:00",
       "notes": "",
       "avatarIds": [
-        "A1033"
+        "A1033",
+        "A1297",
+        "A1298",
+        "A1299",
+        "A1300",
+        "A1301"
       ],
       "profileName": "【SBOシリーズ共通】もちふぃった～用プロファイル - SakuSaku-Solid"
     },
@@ -23743,6 +23750,106 @@
       "profileAuthorUrl": "https://sinakay.booth.pm/",
       "profileshopname": "MITUBAのクローバー",
       "notes": "狛乃→しまざき\n斑霞→しまざき\n直変換セットを別売りで販売しています。"
+    },
+    {
+      "id": 1143,
+      "profileName": "ノルデくん用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-17 02:23:46",
+      "updatedDate": "2026-06-17 02:24:35",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8515702",
+      "avatarIds": [
+        "A1302"
+      ],
+      "imageUrl": "https://asset.booth.pm/assets/og_image-0c48d775edd33430ac54dd64cfc63ac699ca30e50873bfde4d77a971ee66ffa0.png",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1144,
+      "profileName": "BALLOON Dog(バルーンドッグ)用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-17 02:25:03",
+      "updatedDate": "2026-06-17 02:28:26",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8515890",
+      "avatarIds": [
+        "A1303"
+      ],
+      "imageUrl": "https://asset.booth.pm/assets/og_image-0c48d775edd33430ac54dd64cfc63ac699ca30e50873bfde4d77a971ee66ffa0.png",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1145,
+      "profileName": "なにか",
+      "registeredDate": "2026-06-17 02:31:19",
+      "updatedDate": "2026-06-17 02:31:51",
+      "profileAuthor": "おにいざん",
+      "downloadLocation": "https://eroha.booth.pm/items/8516318",
+      "avatarIds": [
+        "A1304"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/28147cb3-57dc-4649-a55c-6e586a9bb5bb/i/8516318/75e2814d-fded-4b18-8ac9-d2f51a0edf27_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://eroha.booth.pm/",
+      "profileshopname": "おにいざん本舗",
+      "notes": ""
+    },
+    {
+      "id": 1146,
+      "profileName": "ぐるすけ-Gurusuke-",
+      "registeredDate": "2026-06-17 02:40:13",
+      "updatedDate": "2026-06-17 02:40:54",
+      "profileAuthor": "YVT",
+      "downloadLocation": "https://take2mbh.booth.pm/items/7979580",
+      "avatarIds": [
+        "A1306"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/8552f898-05c2-4cba-be10-bf57e0f4c3c8/i/7979580/3e0a8411-b0e8-4c6e-8538-78b4218ba6ee_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://take2mbh.booth.pm/",
+      "profileshopname": "YVT-STORE",
+      "notes": ""
+    },
+    {
+      "id": 1147,
+      "profileName": "もなっち-monatti-",
+      "registeredDate": "2026-06-17 02:41:37",
+      "updatedDate": "2026-06-17 02:45:16",
+      "profileAuthor": "nyannko toufu",
+      "downloadLocation": "https://toufu2525.booth.pm/items/8345607",
+      "avatarIds": [
+        "A1307"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/966a2457-7cb0-4e50-860e-547a7782ad4e/i/8345607/04197b2a-45ef-4faf-a03a-9a1d1e652d3f_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://toufu2525.booth.pm/",
+      "profileshopname": "toufu2525",
+      "notes": ""
     }
   ]
 }
