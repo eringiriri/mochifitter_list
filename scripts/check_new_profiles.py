@@ -16,7 +16,6 @@ from booth_url_extractor import extract_booth_urls
 from diff_checker import (
     extract_item_id_from_url,
     extract_shop_name_from_url,
-    load_profiles_urls,
     load_block_urls
 )
 
@@ -49,34 +48,74 @@ def collect_urls_from_searches(search_urls):
     return all_urls
 
 
-def find_unregistered_items(booth_mapping, profiles_file, block_file, avatar_file):
+def load_item_ids_from_json(file_path, collection_key, url_fields):
+    """
+    JSONデータからBooth商品IDを取得
+
+    Args:
+        file_path: JSONファイルのパス
+        collection_key: ルート配列のキー
+        url_fields: 商品URLが入っているフィールド名のリスト
+
+    Returns:
+        set: 商品IDのセット
+    """
+    item_ids = set()
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        for item in data.get(collection_key, []):
+            for field in url_fields:
+                url = str(item.get(field) or '').strip()
+                item_id = extract_item_id_from_url(url)
+                if item_id:
+                    item_ids.add(item_id)
+
+    except FileNotFoundError:
+        print(f"エラー: {file_path} が見つかりません")
+    except json.JSONDecodeError:
+        print(f"エラー: {file_path} のJSON解析に失敗しました")
+
+    return item_ids
+
+
+def find_unregistered_items(booth_mapping, profiles_file, block_file, avatars_file):
     """
     未登録のアイテムを検出
     
     Args:
         booth_mapping: item_id -> url のマッピング
-        profiles_file: profiles.jsonのパス
+        profiles_file: profiles_new.jsonのパス
         block_file: Block_URLs.txtのパス
-        avatar_file: Avatar_URLs.txtのパス
+        avatars_file: avatars_new.jsonのパス
         
     Returns:
         list: 未登録アイテムの (shop_name, url) のタプルリスト
     """
     booth_ids = set(booth_mapping.keys())
     
-    # profiles.jsonから登録済みIDを取得
-    profile_ids = load_profiles_urls(profiles_file)
+    # profiles_new.jsonから登録済みプロファイルURLの商品IDを取得
+    profile_ids = load_item_ids_from_json(
+        profiles_file,
+        "profiles",
+        ["downloadLocation"]
+    )
     
     # Block_URLs.txtから除外IDを取得
     block_ids = load_block_urls(block_file)
     
-    # Avatar_URLs.txtから除外IDを取得
-    avatar_ids = load_block_urls(avatar_file)
+    # avatars_new.jsonからアバター商品IDを取得し、プロファイル候補から除外
+    avatar_ids = load_item_ids_from_json(
+        avatars_file,
+        "avatars",
+        ["nameUrl"]
+    )
     
     print(f"\nbooth検索の商品数: {len(booth_ids)}")
-    print(f"profiles.json の登録済み商品数: {len(profile_ids)}")
+    print(f"profiles_new.json の登録済みプロファイル商品数: {len(profile_ids)}")
     print(f"Block_URLs.txt のブロック数: {len(block_ids)}")
-    print(f"Avatar_URLs.txt のブロック数: {len(avatar_ids)}")
+    print(f"avatars_new.json の登録済みアバター商品数: {len(avatar_ids)}")
     
     # 差分を計算
     diff_ids = booth_ids - profile_ids - block_ids - avatar_ids
@@ -188,16 +227,16 @@ def main():
         "https://booth.pm/ja/browse/3Dツール・システム?q=mochifitter",
         "https://booth.pm/ja/browse/3Dツール・システム?q=Mochi Fitter",
         "https://booth.pm/ja/browse/VRoid?q=もちふぃった",
-        "https://booth.pm/ja/browse/VRoid?q=mochifitter"
+        "https://booth.pm/ja/browse/VRoid?q=mochifitter",
         "https://booth.pm/ja/browse/VRoid?q=Mochi Fitter",
     ]
     
     # ファイルパス（リポジトリルートから実行される想定）
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    profiles_file = os.path.join(base_dir, "data", "profiles.json")
+    profiles_file = os.path.join(base_dir, "data", "profiles_new.json")
     block_file = os.path.join(base_dir, "data", "Block_URLs.txt")
-    avatar_file = os.path.join(base_dir, "data", "Avatar_URLs.txt")
-    output_file = os.path.join(base_dir, "unregistered_avatars.txt")
+    avatars_file = os.path.join(base_dir, "data", "avatars_new.json")
+    output_file = os.path.join(base_dir, "unregistered_profiles.txt")
     
     # Discord Webhook URL（環境変数から取得）
     discord_webhook = os.environ.get("DISCORD_WEBHOOK_URL", "")
@@ -211,12 +250,12 @@ def main():
     print("\n差分チェック中...")
     print("=" * 80)
     unregistered_items = find_unregistered_items(
-        booth_mapping, profiles_file, block_file, avatar_file
+        booth_mapping, profiles_file, block_file, avatars_file
     )
     
     if unregistered_items:
-        print(f"\n未登録のアバター数: {len(unregistered_items)}")
-        print("\n未登録アバターURL一覧:")
+        print(f"\n未登録のプロファイル数: {len(unregistered_items)}")
+        print("\n未登録プロファイルURL一覧:")
         print("-" * 80)
         
         for shop_name, url in unregistered_items:
@@ -239,7 +278,7 @@ def main():
         # 新規アイテムがある場合は終了コード1を返す（GitHub Actionsで検出可能）
         sys.exit(1)
     else:
-        print("\n全てのアバターが登録済みです")
+        print("\n全てのプロファイルが登録済みです")
         sys.exit(0)
 
 

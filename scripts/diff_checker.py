@@ -48,14 +48,14 @@ def load_profiles_urls(file_path):
             data = json.load(f)
 
         for profile in data.get('profiles', []):
-            is_official = profile.get('official', False)
+            # is_official = profile.get('official', False)
 
             # 公式の場合のみ avatarNameUrl をチェック
-            if is_official:
-                avatar_url = profile.get('avatarNameUrl', '')
-                item_id = extract_item_id_from_url(avatar_url)
-                if item_id:
-                    item_ids.add(item_id)
+            # if is_official:
+            #     avatar_url = profile.get('avatarNameUrl', '')
+            #     item_id = extract_item_id_from_url(avatar_url)
+            #     if item_id:
+            #         item_ids.add(item_id)
 
             # downloadLocation は常にチェック
             download_url = profile.get('downloadLocation', '')

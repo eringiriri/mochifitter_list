@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>もちふぃった～プロファイル一覧 V2 (Prototype)</title>
+    <link rel="icon" type="image/x-icon" href="icon/icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* ブログカード（リンクカード）形式のベーススタイル */
+        .profiles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); /* 広めのカラム */
+            gap: 24px;
+        }
+
+        .profile-card {
+            display: flex; /* 水平レイアウト */
+            flex-direction: row;
+            background: #ffffff;
+            border: 1px solid #e1e8ed;
+            border-radius: 12px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s ease-in-out;
+            min-height: 180px;
+            /* max-height を削除して内容に応じて伸びるようにする */
+        }
+
+        .profile-card:hover {
+            border-color: #ff9acf;
+            box-shadow: 0 4px 12px rgba(255, 154, 207, 0.15);
+            background: #fffafa;
+        }
+
+        /* 左側：コンテンツエリア */
+        .profile-content {
+            flex: 1;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-width: 0; /* テキスト省略用 */
+        }
+
+        .profile-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #4a2640;
+            margin-bottom: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* 対応アバターリスト（カード内） */
+        .avatar-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 12px;
+            /* max-height と overflow を削除して全て表示する */
+        }
+
+        .avatar-tag {
+            background: #fdf2f8;
+            color: #5e3104;
+            border: 1px solid #ffe4f1;
+            padding: 1px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+        }
+
+        .profile-notes {
+            color: #8b4f6f;
+            background: #fff7fb;
+            border-left: 3px solid #ff9acf;
+            padding: 6px 8px;
+            margin: 0;
+            font-size: 0.78rem;
+            line-height: 1.45;
+            white-space: normal;
+            overflow-wrap: anywhere;
+        }
+
+        /* カード下部：メタ情報とドメイン */
+        .profile-card-footer {
+            font-size: 0.75rem;
+            color: #8b6b84;
+            border-top: 1px solid #f5f8fa;
+            padding-top: 8px;
+        }
+
+        .profile-card-footer-main {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .footer-info-main {
+            flex: 1;
+            min-width: 0; /* 省略表示を機能させるために必要 */
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .footer-info-main > div {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .domain-info {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 600;
+            color: #4a2640;
+        }
+
+        .shop-info {
+            opacity: 0.7;
+            font-size: 0.7rem;
+        }
+
+        .domain-icon {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+        }
+
+        /* 右側：サムネイルエリア */
+        .profile-thumbnail {
+            flex: 0 0 160px; /* 固定幅 */
+            width: 160px;
+            height: 100%;
+            background: #fdf2f8;
+            border-left: 1px solid #f5f8fa;
+            position: relative;
+        }
+
+        .profile-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .price-overlay {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: rgba(74, 38, 64, 0.8);
+            color: #fff;
+            padding: 2px 8px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .official-badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #ffc0e3;
+            color: #c2185b;
+            padding: 2px 6px;
+            font-size: 0.65rem;
+            font-weight: bold;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 600px) {
+            .profiles-grid {
+                grid-template-columns: 1fr;
+            }
+            .profile-card {
+                min-height: 140px;
+                max-height: 160px;
+            }
+            .profile-thumbnail {
+                flex: 0 0 120px;
+                width: 120px;
+            }
+        }
+
+        .prototype-banner {
+            background: #ffc0e3;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="prototype-banner" data-i18n="prototypeBanner">
+        プロファイル中心の表示スタイルに調整中
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="header-main">
+                    <a href="index_v2.html" style="text-decoration: none; color: inherit; cursor: pointer;">
+                        <h1 data-i18n="siteTitle">もちふぃった～プロファイル一覧 V2</h1>
+                        <p class="subtitle" data-i18n="siteSubtitle">プロファイル単位で表示する新仕様のプロトタイプ</p>
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="lang-selector" style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                        <small style="font-size: 0.65rem; opacity: 0.8; letter-spacing: 0.05em; font-weight: bold; color: #fff;" data-i18n="experimental">Experimental</small>
+                        <select id="langSelect" class="sort-select" style="min-width: 140px; padding: 4px 8px; font-size: 0.8rem;">
+                            <option value="ja">🇯🇵 Japanese</option>
+                            <option value="en">🇺🇸 English</option>
+                            <option value="ko">🇰🇷 Korean</option>
+                            <option value="zh">🇨🇳 Chinese</option>
+                        </select>
+                    </div>
+                    <div class="last-updated" id="lastUpdated" style="margin-left: 10px;">
+                        <small data-i18n="lastUpdated">最終更新</small>
+                        <time id="updateTime" data-i18n="loading">読み込み中...</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 検索・フィルターセクション -->
+        <section class="search-section">
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="プロファイル作者、アバター名、Booth末尾番号で検索..." data-i18n-placeholder="searchPlaceholder">
+
+                <div class="filter-controls">
+                    <label><input type="checkbox" id="filterAll" checked> <span data-i18n="filterAll">全て</span></label>
+                    <span class="filter-separator">|</span>
+                    <label><input type="checkbox" id="filterOfficial"> <span data-i18n="filterOfficial">公式</span></label>
+                    <label><input type="checkbox" id="filterUnofficial"> <span data-i18n="filterUnofficial">非公式</span></label>
+                    <span class="filter-separator">|</span>
+                    <label><input type="checkbox" id="filterForward"> <span data-i18n="filterForward">順方向</span></label>
+                    <label><input type="checkbox" id="filterReverse"> <span data-i18n="filterReverse">逆方向</span></label>
+                    <span class="filter-separator">|</span>
+                    <label><input type="checkbox" id="filterFree"> <span data-i18n="filterFree">無料</span></label>
+                    <label><input type="checkbox" id="filterPaid"> <span data-i18n="filterPaid">有料</span></label>
+                    <label><input type="checkbox" id="filterIncluded"> <span data-i18n="filterIncluded">アバター同梱</span></label>
+                </div>
+            </div>
+        </section>
+
+        <!-- プロファイル一覧 -->
+        <section class="profiles-section">
+            <div class="profiles-header">
+                <h2 data-i18n="profileList">プロファイル一覧</h2>
+                <div class="header-controls">
+                    <div id="profileCount" class="count" data-i18n="loading">読み込み中...</div>
+                </div>
+            </div>
+
+            <div id="profilesContainer" class="profiles-grid">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main_v2.js"></script>
+</body>
+</html>
