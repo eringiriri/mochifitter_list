@@ -8,9 +8,7 @@ let lastUpdatedText = '';
 const TRANSLATIONS = {
     ja: {
         pageTitle: 'もちふぃった～プロファイル一覧 V2',
-        prototypeBanner: 'プロファイル中心の表示スタイルに調整中',
         siteTitle: 'もちふぃった～プロファイル一覧',
-        siteSubtitle: 'プロファイル単位で表示する新仕様のプロトタイプ',
         experimental: 'Experimental',
         lastUpdated: '最終更新',
         loading: '読み込み中...',
@@ -39,7 +37,6 @@ const TRANSLATIONS = {
     en: {
         pageTitle: 'MochiFitter Profile List V2',
         siteTitle: 'MochiFitter Profile List',
-        siteSubtitle: 'Prototype of the new profile-based listing',
         experimental: 'Experimental',
         lastUpdated: 'Last updated',
         loading: 'Loading...',
@@ -68,7 +65,6 @@ const TRANSLATIONS = {
     ko: {
         pageTitle: '모치피터 프로필 목록 V2',
         siteTitle: '모치피터 프로필 목록',
-        siteSubtitle: '프로필 단위로 표시하는 새 사양의 프로토타입',
         experimental: 'Experimental',
         lastUpdated: '마지막 업데이트',
         loading: '불러오는 중...',
@@ -97,7 +93,6 @@ const TRANSLATIONS = {
     zh: {
         pageTitle: 'MochiFitter 资料列表 V2',
         siteTitle: 'MochiFitter 资料列表',
-        siteSubtitle: '按资料显示的新规格原型',
         experimental: 'Experimental',
         lastUpdated: '最后更新',
         loading: '正在加载...',
