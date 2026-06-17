@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17 13:13:19 JST",
+  "lastUpdated": "2026-06-17 13:22:20 JST",
   "profiles": [
     {
       "id": 1,
@@ -23890,10 +23890,12 @@
       "id": 1149,
       "profileName": "マニア",
       "registeredDate": "2026-06-17 13:03:02",
-      "updatedDate": "2026-06-17 13:04:53",
+      "updatedDate": "2026-06-17 13:21:15",
       "profileAuthor": "アンダル ♦︎ andall",
       "downloadLocation": "https://t8dbcau.booth.pm/items/5917368",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1328"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5917368/4ddced7e-6af0-44df-8ebf-840508282f03_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
@@ -23908,10 +23910,12 @@
       "id": 1150,
       "profileName": "ビボ",
       "registeredDate": "2026-06-17 13:05:57",
-      "updatedDate": "2026-06-17 13:06:08",
+      "updatedDate": "2026-06-17 13:21:08",
       "profileAuthor": "アンダル ♦︎ andall",
       "downloadLocation": "https://t8dbcau.booth.pm/items/5109276",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1329"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5109276/e392161a-c38e-4558-90d1-7b3efbec8624_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
@@ -23926,10 +23930,12 @@
       "id": 1151,
       "profileName": "パピロ",
       "registeredDate": "2026-06-17 13:06:15",
-      "updatedDate": "2026-06-17 13:06:32",
+      "updatedDate": "2026-06-17 13:21:03",
       "profileAuthor": "アンダル ♦︎ andall",
       "downloadLocation": "https://t8dbcau.booth.pm/items/5583871",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1330"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5583871/8ee75350-3abd-445b-acc8-2656727fcb7a_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
