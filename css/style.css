@@ -254,11 +254,13 @@ h2 {
 .filter-controls {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 15px;
+    align-items: center;
 }
 
 .filter-controls label {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
@@ -268,6 +270,8 @@ h2 {
     background: var(--bg-color);
     border-radius: 6px;
     transition: background-color 0.2s;
+    flex: 0 0 auto;
+    white-space: nowrap;
 }
 
 .filter-controls label:hover {
@@ -782,12 +786,17 @@ footer a:hover {
     }
 
     .filter-controls {
-        flex-direction: column;
-        align-items: stretch;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
     }
 
     .filter-controls label {
-        width: 100%;
+        width: auto;
+        padding: 6px 10px;
+        font-size: 0.85rem;
+        flex: 0 0 auto;
     }
 }
 

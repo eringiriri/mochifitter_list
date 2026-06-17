@@ -62,7 +62,8 @@
             flex-wrap: wrap;
             gap: 4px;
             margin-bottom: 12px;
-            /* max-height と overflow を削除して全て表示する */
+            max-height: 6rem;
+            overflow-y: auto;
         }
 
         .avatar-tag {
@@ -139,16 +140,19 @@
         .profile-thumbnail {
             flex: 0 0 160px; /* 固定幅 */
             width: 160px;
-            height: 100%;
             background: #fdf2f8;
             border-left: 1px solid #f5f8fa;
             position: relative;
+            display: flex;
+            align-items: stretch; /* 縦いっぱいに広げる */
+            justify-content: center;
+            overflow: hidden;
         }
 
         .profile-thumbnail img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: cover; /* 枠を埋めるように表示（はみ出しを許容） */
         }
 
         .price-overlay {
@@ -180,7 +184,8 @@
             }
             .profile-card {
                 min-height: 140px;
-                max-height: 160px;
+                max-height: none;
+                align-items: flex-start;
             }
             .profile-thumbnail {
                 flex: 0 0 120px;
@@ -203,10 +208,8 @@
         <div class="container">
             <div class="header-content">
                 <div class="header-main">
-                    <a href="index.html" style="text-decoration: none; color: inherit; cursor: pointer;">
-                        <h1 data-i18n="siteTitle">もちふぃった～プロファイル一覧 V2</h1>
-                        <p class="subtitle">もちふぃった～のプロファイルを載せています</p>
-                    </a>
+                    <h1 data-i18n="siteTitle">もちふぃった～プロファイル一覧 V2</h1>
+                    <p class="subtitle" data-i18n="subtitle">もちふぃった～のプロファイルを載せています。情報登録/更新/修正要望は<a href="https://forms.gle/J2X4kkVDoMQaVjKNA">こちら</a></p>
                 </div>
                 <div class="header-right">
                     <div class="lang-selector" style="display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">

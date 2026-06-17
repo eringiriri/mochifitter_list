@@ -7,8 +7,9 @@ let lastUpdatedText = '';
 
 const TRANSLATIONS = {
     ja: {
-        pageTitle: 'もちふぃった～プロファイル一覧 V2',
+        pageTitle: 'もちふぃった～プロファイル一覧',
         siteTitle: 'もちふぃった～プロファイル一覧',
+        subtitle: 'もちふぃった～のプロファイルを載せています。情報登録/更新/修正要望は<a href="https://forms.gle/J2X4kkVDoMQaVjKNA">こちら</a>',
         experimental: 'Experimental',
         lastUpdated: '最終更新',
         loading: '読み込み中...',
@@ -35,8 +36,9 @@ const TRANSLATIONS = {
         pricingIncluded: 'アバター同梱'
     },
     en: {
-        pageTitle: 'MochiFitter Profile List V2',
+        pageTitle: 'MochiFitter Profile List',
         siteTitle: 'MochiFitter Profile List',
+        subtitle: 'Mochifitter profiles are listed here. For information addition, updates, or correction requests, please <a href="https://forms.gle/J2X4kkVDoMQaVjKNA">click here</a>.',
         experimental: 'Experimental',
         lastUpdated: 'Last updated',
         loading: 'Loading...',
@@ -63,8 +65,9 @@ const TRANSLATIONS = {
         pricingIncluded: 'Avatar included'
     },
     ko: {
-        pageTitle: '모치피터 프로필 목록 V2',
+        pageTitle: '모치피터 프로필 목록',
         siteTitle: '모치피터 프로필 목록',
+        subtitle: '모치피터 프로필이 여기에 나열되어 있습니다. 정보 등록/업데이트/수정 요청은 <a href="https://forms.gle/J2X4kkVDoMQaVjKNA">여기</a>를 클릭하세요.',
         experimental: 'Experimental',
         lastUpdated: '마지막 업데이트',
         loading: '불러오는 중...',
@@ -91,8 +94,9 @@ const TRANSLATIONS = {
         pricingIncluded: '아바타 포함'
     },
     zh: {
-        pageTitle: 'MochiFitter 资料列表 V2',
+        pageTitle: 'MochiFitter 资料列表',
         siteTitle: 'MochiFitter 资料列表',
+        subtitle: '这里列出了 Mochifitter 资料。如需添加信息、更新或提出修正请求，请点击<a href="https://forms.gle/J2X4kkVDoMQaVjKNA">此处</a>。',
         experimental: 'Experimental',
         lastUpdated: '最后更新',
         loading: '正在加载...',
@@ -141,7 +145,12 @@ function applyTranslations() {
     document.title = t('pageTitle');
 
     document.querySelectorAll('[data-i18n]').forEach(element => {
-        element.textContent = t(element.dataset.i18n);
+        const key = element.dataset.i18n;
+        if (key === 'subtitle') {
+            element.innerHTML = t(key);
+        } else {
+            element.textContent = t(key);
+        }
     });
 
     document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
@@ -317,6 +326,27 @@ function renderProfiles() {
     container.innerHTML = filteredProfiles.map(profile => createProfileCard(profile)).join('');
 }
 
+// favicon取得の最適化
+function getFaviconUrl(domain) {
+    const faviconMap = {
+        'booth.pm': 'https://booth.pm/favicon.ico',
+        'google.com': 'https://www.google.com/favicon.ico',
+        'docs.google.com': 'https://docs.google.com/favicon.ico',
+        'drive.google.com': 'https://drive.google.com/favicon.ico',
+        'vrc.group': 'https://vrc.group/favicon.ico',
+        'vrchat.com': 'https://vrchat.com/favicon.ico',
+        'gumroad.com': 'https://gumroad.com/favicon.ico',
+        'github.com': 'https://github.com/favicon.ico'
+    };
+
+    // 主要ドメイン（サブドメイン含む）の判定
+    for (const [key, url] of Object.entries(faviconMap)) {
+        if (domain === key || domain.endsWith('.' + key)) {
+            return url;
+        }
+    }
+}
+
 // プロファイルカードの生成
 function createProfileCard(profile) {
     const linkedAvatars = (profile.avatarIds || []).map(id => allAvatars[id]).filter(Boolean);
@@ -331,6 +361,9 @@ function createProfileCard(profile) {
     } catch (e) {
         domainLabel = 'Link';
     }
+
+    // favicon URL の取得
+    const faviconUrl = domain ? getFaviconUrl(domain) : 'https://www.google.com/s2/favicons?domain=example.com&sz=32';
 
     // アバターをタグ形式で表示
     const avatarTagsHtml = linkedAvatars.length > 0 ? `
@@ -382,7 +415,7 @@ function createProfileCard(profile) {
                     <div class="profile-card-footer-main">
                         <${footerTag} class="footer-info-main"${footerAttr}>
                             <div class="domain-info">
-                                <img src="https://www.google.com/s2/favicons?domain=${domain}&sz=32" class="domain-icon" alt="icon">
+                                <img src="${escapeHtml(faviconUrl)}" class="domain-icon" alt="icon">
                                 <span>${escapeHtml(domainLabel)}</span>
                             </div>
                             <div class="shop-info">
