@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17 02:45:18 JST",
+  "lastUpdated": "2026-06-17 13:13:19 JST",
   "profiles": [
     {
       "id": 1,
@@ -7499,7 +7499,7 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-29",
-      "updatedDate": "2025-11-29",
+      "updatedDate": "2026-06-17 12:18:56",
       "notes": "",
       "avatarIds": [
         "A0443",
@@ -9880,7 +9880,7 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-12-09",
-      "updatedDate": "2026-06-16 15:02:50",
+      "updatedDate": "2026-06-17 12:49:41",
       "notes": "",
       "avatarIds": [
         "A0587",
@@ -9898,7 +9898,8 @@
         "A0736",
         "A0737",
         "A0738",
-        "A1290"
+        "A1290",
+        "A1323"
       ],
       "profileName": "もちふぃった～変換プロファイル / まめふれんず・うささき・みなほし対応"
     },
@@ -12918,7 +12919,7 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-12-31",
-      "updatedDate": "2025-12-31",
+      "updatedDate": "2026-06-17 12:49:07",
       "notes": "",
       "avatarIds": [
         "A0756",
@@ -12934,7 +12935,21 @@
         "A0766",
         "A1062",
         "A1063",
-        "A1143"
+        "A1143",
+        "A1310",
+        "A1311",
+        "A1312",
+        "A1313",
+        "A1314",
+        "A1315",
+        "A1316",
+        "A1317",
+        "A1318",
+        "A1319",
+        "A1320",
+        "A1321",
+        "A1322",
+        "A1324"
       ],
       "profileName": "缶詰茶房オリジナル素体「もちふぃった～」プロファイル"
     },
@@ -22640,12 +22655,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-05-30 15:20:54",
-      "updatedDate": "2026-05-30 15:21:10",
+      "updatedDate": "2026-06-17 13:12:41",
       "notes": "",
       "avatarIds": [
         "A1234"
       ],
-      "profileName": "オリジナル3Dモデル　【Lunalia -ルナリア-】"
+      "profileName": "Lunalia -ルナリア-"
     },
     {
       "id": 1089,
@@ -22833,12 +22848,12 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-06-02 11:21:54",
-      "updatedDate": "2026-06-16 18:25:54",
+      "updatedDate": "2026-06-17 13:12:32",
       "notes": "",
       "avatarIds": [
         "A1246"
       ],
-      "profileName": "「ロゼッタ」V2"
+      "profileName": "ロゼッタ V2"
     },
     {
       "id": 1098,
@@ -22854,12 +22869,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-02 11:22:35",
-      "updatedDate": "2026-06-16 18:25:51",
+      "updatedDate": "2026-06-17 13:12:22",
       "notes": "",
       "avatarIds": [
         "A1247"
       ],
-      "profileName": "「ぽわり」#Powari3D"
+      "profileName": "ぽわり"
     },
     {
       "id": 1099,
@@ -22896,12 +22911,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-02 11:24:25",
-      "updatedDate": "2026-06-02 11:24:46",
+      "updatedDate": "2026-06-17 13:12:04",
       "notes": "",
       "avatarIds": [
         "A1249"
       ],
-      "profileName": "『クルワ』3Dモデル"
+      "profileName": "クルワ"
     },
     {
       "id": 1101,
@@ -22917,12 +22932,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-02 11:24:58",
-      "updatedDate": "2026-06-16 18:25:42",
+      "updatedDate": "2026-06-17 13:11:58",
       "notes": "",
       "avatarIds": [
         "A1150"
       ],
-      "profileName": "「桜狐」"
+      "profileName": "桜狐"
     },
     {
       "id": 1102,
@@ -23274,12 +23289,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-07 13:36:40",
-      "updatedDate": "2026-06-16 18:24:31",
+      "updatedDate": "2026-06-17 13:11:51",
       "notes": "",
       "avatarIds": [
         "A1270"
       ],
-      "profileName": "「PM-03 マリオン」"
+      "profileName": "PM-03 マリオン"
     },
     {
       "id": 1121,
@@ -23316,12 +23331,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-10 04:20:13",
-      "updatedDate": "2026-06-16 18:24:24",
+      "updatedDate": "2026-06-17 13:11:44",
       "notes": "",
       "avatarIds": [
         "A1272"
       ],
-      "profileName": "「隣ネップ」"
+      "profileName": "隣ネップ"
     },
     {
       "id": 1123,
@@ -23337,12 +23352,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-10 04:20:33",
-      "updatedDate": "2026-06-16 18:24:20",
+      "updatedDate": "2026-06-17 13:11:41",
       "notes": "",
       "avatarIds": [
         "A1273"
       ],
-      "profileName": "『つる子 -Tsuruko-』"
+      "profileName": "つる子 -Tsuruko-"
     },
     {
       "id": 1124,
@@ -23484,12 +23499,12 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2026-06-12 08:47:42",
-      "updatedDate": "2026-06-16 18:23:34",
+      "updatedDate": "2026-06-17 13:11:36",
       "notes": "",
       "avatarIds": [
         "A1279"
       ],
-      "profileName": "『めい-May-』"
+      "profileName": "めい-May-"
     },
     {
       "id": 1131,
@@ -23835,7 +23850,7 @@
       "id": 1147,
       "profileName": "もなっち-monatti-",
       "registeredDate": "2026-06-17 02:41:37",
-      "updatedDate": "2026-06-17 02:45:16",
+      "updatedDate": "2026-06-17 13:05:11",
       "profileAuthor": "nyannko toufu",
       "downloadLocation": "https://toufu2525.booth.pm/items/8345607",
       "avatarIds": [
@@ -23845,10 +23860,84 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "pricing": "無料",
-      "price": "0",
+      "pricing": "アバター同梱",
+      "price": "-",
       "profileAuthorUrl": "https://toufu2525.booth.pm/",
       "profileshopname": "toufu2525",
+      "notes": ""
+    },
+    {
+      "id": 1148,
+      "profileName": "Mochifitter Profile - Wickerbeast",
+      "registeredDate": "2026-06-17 12:54:15",
+      "updatedDate": "2026-06-17 13:11:24",
+      "profileAuthor": "Hawke",
+      "downloadLocation": "https://redhawkone.booth.pm/items/8516654",
+      "avatarIds": [
+        "A1326"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/ad86411e-1023-4a8f-b443-6040996aaa84/i/8516654/0e2052d7-ad8f-4ed8-a3df-646339f65acf_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://redhawkone.booth.pm/",
+      "profileshopname": "redhawkone",
+      "notes": ""
+    },
+    {
+      "id": 1149,
+      "profileName": "マニア",
+      "registeredDate": "2026-06-17 13:03:02",
+      "updatedDate": "2026-06-17 13:04:53",
+      "profileAuthor": "アンダル ♦︎ andall",
+      "downloadLocation": "https://t8dbcau.booth.pm/items/5917368",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5917368/4ddced7e-6af0-44df-8ebf-840508282f03_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
+      "profileshopname": "アンダル ♦︎ andall",
+      "notes": ""
+    },
+    {
+      "id": 1150,
+      "profileName": "ビボ",
+      "registeredDate": "2026-06-17 13:05:57",
+      "updatedDate": "2026-06-17 13:06:08",
+      "profileAuthor": "アンダル ♦︎ andall",
+      "downloadLocation": "https://t8dbcau.booth.pm/items/5109276",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5109276/e392161a-c38e-4558-90d1-7b3efbec8624_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
+      "profileshopname": "アンダル ♦︎ andall",
+      "notes": ""
+    },
+    {
+      "id": 1151,
+      "profileName": "パピロ",
+      "registeredDate": "2026-06-17 13:06:15",
+      "updatedDate": "2026-06-17 13:06:32",
+      "profileAuthor": "アンダル ♦︎ andall",
+      "downloadLocation": "https://t8dbcau.booth.pm/items/5583871",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/991dc833-2773-4465-8804-43025c56c16b/i/5583871/8ee75350-3abd-445b-acc8-2656727fcb7a_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://t8dbcau.booth.pm/",
+      "profileshopname": "アンダル ♦︎ andall",
       "notes": ""
     }
   ]
