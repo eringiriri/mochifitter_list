@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17 13:22:20 JST",
+  "lastUpdated": "2026-06-18 15:13:01 JST",
   "profiles": [
     {
       "id": 1,
@@ -23810,7 +23810,7 @@
       "id": 1145,
       "profileName": "なにか",
       "registeredDate": "2026-06-17 02:31:19",
-      "updatedDate": "2026-06-17 02:31:51",
+      "updatedDate": "2026-06-18 15:12:06",
       "profileAuthor": "おにいざん",
       "downloadLocation": "https://eroha.booth.pm/items/8516318",
       "avatarIds": [
@@ -23820,8 +23820,8 @@
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "pricing": "無料",
-      "price": "0",
+      "pricing": "アバター同梱",
+      "price": "-",
       "profileAuthorUrl": "https://eroha.booth.pm/",
       "profileshopname": "おにいざん本舗",
       "notes": ""
@@ -23944,6 +23944,206 @@
       "price": "-",
       "profileAuthorUrl": "https://t8dbcau.booth.pm/",
       "profileshopname": "アンダル ♦︎ andall",
+      "notes": ""
+    },
+    {
+      "id": 1152,
+      "profileName": "スノーハヴォック",
+      "registeredDate": "2026-06-18 15:00:56",
+      "updatedDate": "2026-06-18 15:02:33",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/7540889",
+      "avatarIds": [
+        "A1332"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/7540889/413d68c7-1b6f-425c-a6a8-1fc650d3d5b6_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1153,
+      "profileName": "デルタフレア",
+      "registeredDate": "2026-06-18 15:01:54",
+      "updatedDate": "2026-06-18 15:02:35",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/4906631",
+      "avatarIds": [
+        "A1333"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/4906631/e7c933f7-c3f2-438c-958c-1c1cdc1c0757_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1154,
+      "profileName": "リーサルフリート",
+      "registeredDate": "2026-06-18 15:02:14",
+      "updatedDate": "2026-06-18 15:02:37",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/5832850",
+      "avatarIds": [
+        "A1334"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/5832850/d33880de-a996-4a2c-8c69-1a99d2cc64fb_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1155,
+      "profileName": "リリモカ",
+      "registeredDate": "2026-06-18 15:02:47",
+      "updatedDate": "2026-06-18 15:03:21",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/5506125",
+      "avatarIds": [
+        "A1335"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/5506125/7b688e8d-7b4d-4537-a78e-ad7aac651bba_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1156,
+      "profileName": "ラムダ",
+      "registeredDate": "2026-06-18 15:03:25",
+      "updatedDate": "2026-06-18 15:03:38",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/4655445",
+      "avatarIds": [
+        "A1336"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/4655445/50d5cc2d-a6ad-4950-9123-ab989d5b8143_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1157,
+      "profileName": "シィ&ファイ",
+      "registeredDate": "2026-06-18 15:03:46",
+      "updatedDate": "2026-06-18 15:04:01",
+      "profileAuthor": "VERMILION.Studio",
+      "downloadLocation": "https://kv2.booth.pm/items/3642210",
+      "avatarIds": [
+        "A1337"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e6deeb51-72a5-4562-9425-0bdd110b534d/i/3642210/0de9704b-ee8d-423c-a82b-ba88a4aa60b2_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kv2.booth.pm/",
+      "profileshopname": "VERMILION .Studio",
+      "notes": ""
+    },
+    {
+      "id": 1158,
+      "profileName": "澄玻-すみは-Sumiha",
+      "registeredDate": "2026-06-18 15:04:16",
+      "updatedDate": "2026-06-18 15:04:58",
+      "profileAuthor": "しぴるぴ",
+      "downloadLocation": "https://chipierupi.booth.pm/items/8494578",
+      "avatarIds": [
+        "A1338"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/3b5fc523-e0c1-4bed-95cc-48e1921165f7/i/8494578/773428bf-46a8-4b35-9119-db41809325d9_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://chipierupi.booth.pm/",
+      "profileshopname": "ChipieRupi",
+      "notes": ""
+    },
+    {
+      "id": 1159,
+      "profileName": "もっちりシャーク用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-18 15:05:06",
+      "updatedDate": "2026-06-18 15:07:06",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8518207",
+      "avatarIds": [
+        "A1339"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8518207/ddf9b745-f53d-4a5c-ab56-cfdcf0b9d3f8_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1160,
+      "profileName": "Gravarios[グラヴァリオス]用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-18 15:05:58",
+      "updatedDate": "2026-06-18 15:07:04",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8518371",
+      "avatarIds": [
+        "A1340"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8518371/8f173511-914a-4b1e-8ed0-6789c4298aec_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1161,
+      "profileName": "シャルベ用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-18 15:07:09",
+      "updatedDate": "2026-06-18 15:10:57",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8518528",
+      "avatarIds": [
+        "A1341"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8518528/a5eb3c16-6027-4e8c-a131-c8360e0a17ea_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
       "notes": ""
     }
   ]
