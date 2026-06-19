@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18 15:13:01 JST",
+  "lastUpdated": "2026-06-20 04:54:08 JST",
   "profiles": [
     {
       "id": 1,
@@ -24144,6 +24144,84 @@
       "price": "0",
       "profileAuthorUrl": "https://daikonryu.booth.pm/",
       "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1162,
+      "profileName": "ハンドルネームあやな",
+      "registeredDate": "2026-06-20 04:41:46",
+      "updatedDate": "2026-06-20 04:44:07",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/6634478",
+      "avatarIds": [
+        "A1342"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/6634478/754fcd93-c305-46e8-b6cd-96917f6e350e_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1163,
+      "profileName": "ハルモネ -Halmone-",
+      "registeredDate": "2026-06-20 04:45:05",
+      "updatedDate": "2026-06-20 04:45:54",
+      "profileAuthor": "aonoid",
+      "downloadLocation": "https://aonoid.booth.pm/items/5098731",
+      "avatarIds": [
+        "A1343"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/b78fdd20-b640-4c54-b8ac-49a54b61717f/i/5098731/93a6973c-515f-4ce3-b625-1ce6b3cf196d_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://aonoid.booth.pm/",
+      "profileshopname": "aonoid",
+      "notes": ""
+    },
+    {
+      "id": 1164,
+      "profileName": "るみさん用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-20 04:50:12",
+      "updatedDate": "2026-06-20 04:53:50",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8522870",
+      "avatarIds": [
+        "A1344"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8522870/0da2e4ee-1dea-4627-91fa-e9356dd0c6d0_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1165,
+      "profileName": "【非公式】「アルバイ子のヌタチさん」もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-20 04:51:58",
+      "updatedDate": "2026-06-20 04:53:04",
+      "profileAuthor": "はるなワークス",
+      "downloadLocation": "https://haruna-works.booth.pm/items/8525372",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/240e9234-7ed9-4e00-baee-3d8a8f028e19/i/8525372/47d2e55b-1bf7-4718-af37-6827599b8bc5_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://haruna-works.booth.pm/",
+      "profileshopname": "はるなワークス",
       "notes": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18 15:13:01 JST",
+  "lastUpdated": "2026-06-20 04:54:58 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -17298,6 +17298,58 @@
       "nameUrl": "https://khaki-leaf.booth.pm/items/3284766",
       "authorUrl": "https://khaki-leaf.booth.pm/",
       "shopname": "キグルミマーモット出張所",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1342",
+      "name": "ハンドルネームあやな",
+      "author": "アノマロかりんとう",
+      "nameUrl": "https://anomarokoubou.booth.pm/items/6634478",
+      "authorUrl": "https://anomarokoubou.booth.pm/",
+      "shopname": "アノマロ工房",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1343",
+      "name": "ハルモネ -Halmone-",
+      "author": "aonoid",
+      "nameUrl": "https://aonoid.booth.pm/items/5098731",
+      "authorUrl": "https://aonoid.booth.pm/",
+      "shopname": "aonoid",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1344",
+      "name": "るみ",
+      "author": "sano",
+      "nameUrl": "https://sano-market.booth.pm/items/1572704",
+      "authorUrl": "https://sano-market.booth.pm/",
+      "shopname": "ケモノ屋さの(KemonoyaSano)",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1345",
+      "name": "アルバイ子のヌタチさん",
+      "author": "inunoketu",
+      "nameUrl": "https://inunoketu.booth.pm/items/3262452",
+      "authorUrl": "https://inunoketu.booth.pm/",
+      "shopname": "inotushop",
       "price": "",
       "bodyBase": "",
       "name_en": "",
