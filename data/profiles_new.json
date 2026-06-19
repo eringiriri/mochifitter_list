@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20 04:54:08 JST",
+  "lastUpdated": "2026-06-20 04:57:59 JST",
   "profiles": [
     {
       "id": 1,
@@ -24210,10 +24210,12 @@
       "id": 1165,
       "profileName": "【非公式】「アルバイ子のヌタチさん」もちふぃった～変換プロファイル",
       "registeredDate": "2026-06-20 04:51:58",
-      "updatedDate": "2026-06-20 04:53:04",
+      "updatedDate": "2026-06-20 04:55:05",
       "profileAuthor": "はるなワークス",
       "downloadLocation": "https://haruna-works.booth.pm/items/8525372",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1345"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/240e9234-7ed9-4e00-baee-3d8a8f028e19/i/8525372/47d2e55b-1bf7-4718-af37-6827599b8bc5_base_resized.jpg",
       "official": false,
       "forwardSupport": true,
