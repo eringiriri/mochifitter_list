@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20 04:57:59 JST",
+  "lastUpdated": "2026-06-21 09:48:12 JST",
   "profiles": [
     {
       "id": 1,
@@ -24224,6 +24224,126 @@
       "price": "0",
       "profileAuthorUrl": "https://haruna-works.booth.pm/",
       "profileshopname": "はるなワークス",
+      "notes": ""
+    },
+    {
+      "id": 1166,
+      "profileName": "ラファイト Raphite",
+      "registeredDate": "2026-06-21 09:40:23",
+      "updatedDate": "2026-06-21 09:41:18",
+      "profileAuthor": "illumion",
+      "downloadLocation": "https://illumion.booth.pm/items/6355363",
+      "avatarIds": [
+        "A1346"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/89be3424-5c7a-4bcc-a285-a931c755d293/i/6355363/6cbcbb4b-88b6-4239-a1c4-45054bac8d1a_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://illumion.booth.pm/",
+      "profileshopname": "illumion",
+      "notes": ""
+    },
+    {
+      "id": 1167,
+      "profileName": "（無料）もちふぃった～用 変換プロファイル for 猫又ゆう　※非公式",
+      "registeredDate": "2026-06-21 09:41:37",
+      "updatedDate": "2026-06-21 09:42:59",
+      "profileAuthor": "かわせのどか",
+      "downloadLocation": "https://kanomayo.booth.pm/items/8529081",
+      "avatarIds": [
+        "A1347"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/d5ec91ca-b773-4e99-ada5-3636128209e4/i/8529081/e61b0a46-1e6d-4c2e-afb9-afc1bedf7330_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://kanomayo.booth.pm/",
+      "profileshopname": "のどかの副産物置き場",
+      "notes": ""
+    },
+    {
+      "id": 1168,
+      "profileName": "もちふぃった～用 順変換 for ベリウル(Beriul)",
+      "registeredDate": "2026-06-21 09:43:13",
+      "updatedDate": "2026-06-21 09:43:28",
+      "profileAuthor": "Limern",
+      "downloadLocation": "https://limern.booth.pm/items/8528707",
+      "avatarIds": [
+        "A1233"
+      ],
+      "imageUrl": "https://asset.booth.pm/assets/og_image-0c48d775edd33430ac54dd64cfc63ac699ca30e50873bfde4d77a971ee66ffa0.png",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://limern.booth.pm/",
+      "profileshopname": "Limernの真空工作室",
+      "notes": ""
+    },
+    {
+      "id": 1169,
+      "profileName": "もちふぃった～用 順変換 for エライト(Elat)",
+      "registeredDate": "2026-06-21 09:43:47",
+      "updatedDate": "2026-06-21 09:45:41",
+      "profileAuthor": "Limern",
+      "downloadLocation": "https://limern.booth.pm/items/8510049",
+      "avatarIds": [
+        "A1348"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/87c22b00-af38-4fb4-a27a-26e23d9ec03b/i/8510049/a3cb486b-e7f3-481a-a270-32f51ae4bb27_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://limern.booth.pm/",
+      "profileshopname": "Limernの真空工作室",
+      "notes": ""
+    },
+    {
+      "id": 1170,
+      "profileName": "セリュネア-Selyunea-",
+      "registeredDate": "2026-06-21 09:46:00",
+      "updatedDate": "2026-06-21 09:47:09",
+      "profileAuthor": "むあむこここ",
+      "downloadLocation": "https://muamkokoko.booth.pm/items/8477262",
+      "avatarIds": [
+        "A1349"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/713353aa-3578-4fc5-9cdc-c75edbccd4a9/i/8477262/16f63703-8db3-4ecf-b9dc-fbec8cea0472_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://muamkokoko.booth.pm/",
+      "profileshopname": "むあむ・こここ",
+      "notes": ""
+    },
+    {
+      "id": 1171,
+      "profileName": "シベリアメイドのサミーチカ",
+      "registeredDate": "2026-06-21 09:47:22",
+      "updatedDate": "2026-06-21 09:48:07",
+      "profileAuthor": "琥珀堂",
+      "downloadLocation": "https://togatoalice.booth.pm/items/8421381",
+      "avatarIds": [
+        "A1350"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/93a2b4af-bd8d-4ab0-94cc-fa018cc9c5e7/i/8421381/91a5dd1d-4614-44f4-8032-76426ad955d3_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://togatoalice.booth.pm/",
+      "profileshopname": "琥珀堂",
       "notes": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20 04:54:58 JST",
+  "lastUpdated": "2026-06-21 09:49:54 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -17350,6 +17350,71 @@
       "nameUrl": "https://inunoketu.booth.pm/items/3262452",
       "authorUrl": "https://inunoketu.booth.pm/",
       "shopname": "inotushop",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1346",
+      "name": "ラファイト Raphite",
+      "author": "",
+      "nameUrl": "https://illumion.booth.pm/items/6355363",
+      "authorUrl": "https://illumion.booth.pm/",
+      "shopname": "illumion",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1347",
+      "name": "猫又ゆう",
+      "author": "無月/MxU Studio",
+      "nameUrl": "https://mxu.booth.pm/items/5271406",
+      "authorUrl": "https://mxu.booth.pm/",
+      "shopname": "MxU工房-ミュースタジオ-",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1348",
+      "name": "エライト/Elat/依莱特",
+      "author": "Yang_A",
+      "nameUrl": "https://yanga.booth.pm/items/4845073",
+      "authorUrl": "https://yanga.booth.pm/",
+      "shopname": "Yang_Aの雑貨屋",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "Elat",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1349",
+      "name": "セリュネア-Selyunea-",
+      "author": "むあむこここ",
+      "nameUrl": "https://muamkokoko.booth.pm/items/8477262",
+      "authorUrl": "https://muamkokoko.booth.pm/",
+      "shopname": "むあむ・こここ",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1350",
+      "name": "シベリアメイドのサミーチカ",
+      "author": "琥珀堂",
+      "nameUrl": "https://togatoalice.booth.pm/items/8421381",
+      "authorUrl": "https://togatoalice.booth.pm/",
+      "shopname": "琥珀堂",
       "price": "",
       "bodyBase": "",
       "name_en": "",
