@@ -33,7 +33,9 @@ const TRANSLATIONS = {
         official: 'OFFICIAL',
         pricingFree: '無料',
         pricingPaid: '有料',
-        pricingIncluded: 'アバター同梱'
+        pricingIncluded: 'アバター同梱',
+        directionForwardShort: '順',
+        directionReverseShort: '逆'
     },
     en: {
         pageTitle: 'MochiFitter Profile List',
@@ -62,7 +64,9 @@ const TRANSLATIONS = {
         official: 'OFFICIAL',
         pricingFree: 'Free',
         pricingPaid: 'Paid',
-        pricingIncluded: 'Avatar included'
+        pricingIncluded: 'Avatar included',
+        directionForwardShort: 'F',
+        directionReverseShort: 'R'
     },
     ko: {
         pageTitle: '모치피터 프로필 목록',
@@ -91,7 +95,9 @@ const TRANSLATIONS = {
         official: '공식',
         pricingFree: '무료',
         pricingPaid: '유료',
-        pricingIncluded: '아바타 포함'
+        pricingIncluded: '아바타 포함',
+        directionForwardShort: '정',
+        directionReverseShort: '역'
     },
     zh: {
         pageTitle: 'MochiFitter 资料列表',
@@ -120,7 +126,9 @@ const TRANSLATIONS = {
         official: '官方',
         pricingFree: '免费',
         pricingPaid: '付费',
-        pricingIncluded: '包含头像'
+        pricingIncluded: '包含头像',
+        directionForwardShort: '正',
+        directionReverseShort: '逆'
     }
 };
 
@@ -383,6 +391,15 @@ function createProfileCard(profile) {
 
     const officialHtml = profile.official ? `<span class="official-badge">${escapeHtml(t('official'))}</span>` : '';
     const pricingBadgeHtml = profile.pricing ? `<span class="price-overlay">${escapeHtml(translatePricing(profile.pricing))}</span>` : '';
+    // direction badges (forward/reverse) — multilingual
+    const directionBadges = [];
+    if (profile.forwardSupport) {
+        directionBadges.push(`<span class="direction-badge direction-forward">${escapeHtml(t('directionForwardShort'))}</span>`);
+    }
+    if (profile.reverseSupport) {
+        directionBadges.push(`<span class="direction-badge direction-reverse">${escapeHtml(t('directionReverseShort'))}</span>`);
+    }
+    const directionHtml = directionBadges.length ? `<div class="direction-container">${directionBadges.join('')}</div>` : '';
     const notes = (profile.notes || '').replace(/\s*\r?\n\s*/g, ' ').trim();
     const notesHtml = notes ? `<div class="profile-notes">${escapeHtml(t('notesLabel'))}: ${escapeHtml(notes)}</div>` : '';
 
@@ -429,6 +446,7 @@ function createProfileCard(profile) {
             
             <${thumbTag} class="profile-thumbnail"${thumbAttr}>
                 <img src="${escapeHtml(profile.imageUrl || 'icon/icon.ico')}" alt="thumbnail" loading="lazy">
+                ${directionHtml}
                 ${officialHtml}
                 ${pricingBadgeHtml}
             </${thumbTag}>

@@ -29,9 +29,9 @@
         }
 
         .profile-card:hover {
-            border-color: #ff9acf;
-            box-shadow: 0 4px 12px rgba(255, 154, 207, 0.15);
-            background: #fffafa;
+            border-color: #d6336c;
+            box-shadow: 0 4px 12px rgba(214, 51, 108, 0.12);
+            background: #fff8fa;
         }
 
         /* 左側：コンテンツエリア */
@@ -48,7 +48,7 @@
             font-size: 1.1rem;
             font-weight: 700;
             line-height: 1.4;
-            color: #4a2640;
+            color: #3b2430; /* 元の紫に近く、コントラスト強め */
             margin-bottom: 8px;
             display: -webkit-box;
             -webkit-line-clamp: 2;
@@ -67,9 +67,9 @@
         }
 
         .avatar-tag {
-            background: #fdf2f8;
-            color: #5e3104;
-            border: 1px solid #ffe4f1;
+            background: #f9f5f7;
+            color: #3b2a18;
+            border: 1px solid #f3dce6;
             padding: 1px 8px;
             border-radius: 4px;
             font-size: 0.75rem;
@@ -77,9 +77,9 @@
         }
 
         .profile-notes {
-            color: #8b4f6f;
+            color: #612d48;
             background: #fff7fb;
-            border-left: 3px solid #ff9acf;
+            border-left: 3px solid #d6336c;
             padding: 6px 8px;
             margin: 0;
             font-size: 0.78rem;
@@ -91,7 +91,7 @@
         /* カード下部：メタ情報とドメイン */
         .profile-card-footer {
             font-size: 0.75rem;
-            color: #8b6b84;
+            color: #5f465a;
             border-top: 1px solid #f5f8fa;
             padding-top: 8px;
         }
@@ -122,7 +122,7 @@
             align-items: center;
             gap: 4px;
             font-weight: 600;
-            color: #4a2640;
+            color: #3b2430;
         }
 
         .shop-info {
@@ -158,7 +158,7 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            background: rgba(74, 38, 64, 0.8);
+            background: rgba(74, 38, 64, 0.9);
             color: #fff;
             padding: 2px 8px;
             font-size: 0.75rem;
@@ -170,11 +170,31 @@
             top: 0;
             right: 0;
             background: #ffc0e3;
-            color: #c2185b;
+            color: #5f3b00;
             padding: 2px 6px;
             font-size: 0.65rem;
             font-weight: bold;
         }
+        
+        .direction-container {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            display: flex;
+        }
+
+        .direction-badge {
+            background: rgba(0,0,0,0.7);
+            color: #f5eded;
+            padding: 6px 6px;
+            font-size: 0.75rem;
+            font-weight: 700; 
+            line-height: 1;
+        }
+
+        .direction-badge.direction-forward { background: rgb(42, 68, 52); /* 緑から濃い青へ変更（色弱でも区別しやすい） */ }
+        .direction-badge.direction-reverse { background: rgb(73, 42, 60); }
+
 
         /* レスポンシブ対応 */
         @media (max-width: 600px) {
