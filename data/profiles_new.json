@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21 09:48:12 JST",
+  "lastUpdated": "2026-06-22 15:29:03 JST",
   "profiles": [
     {
       "id": 1,
@@ -22930,9 +22930,9 @@
       "pricing": "アバター同梱",
       "price": "-",
       "forwardSupport": true,
-      "reverseSupport": false,
+      "reverseSupport": true,
       "registeredDate": "2026-06-02 11:24:58",
-      "updatedDate": "2026-06-17 13:11:58",
+      "updatedDate": "2026-06-22 15:28:26",
       "notes": "",
       "avatarIds": [
         "A1150"
@@ -23526,32 +23526,6 @@
         "A1280"
       ],
       "profileName": "少年素体『ANM=BODY』"
-    },
-    {
-      "id": 1132,
-      "profileAuthor": "きゃったま",
-      "profileAuthorUrl": "https://cat-tama.booth.pm/",
-      "profileshopname": "きゃったまのみせ",
-      "official": true,
-      "downloadMethod": "Booth",
-      "downloadLocation": "https://cat-tama.booth.pm/items/8504415",
-      "imageUrl": "https://booth.pximg.net/c/620x620/ca337540-8bf4-46a3-a4a7-8aab1c3d317b/i/8504415/d37cbdf2-6924-423c-8150-62b894bca9aa_base_resized.jpg",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": false,
-      "registeredDate": "2026-06-15 00:51:31",
-      "updatedDate": "2026-06-16 14:58:02",
-      "notes": "",
-      "avatarIds": [
-        "A1204",
-        "A1292",
-        "A1293",
-        "A1255",
-        "A0642",
-        "A1254"
-      ],
-      "profileName": "もちふぃった～変換プロファイル（きゃったまアバター）"
     },
     {
       "id": 1133,
@@ -24344,6 +24318,126 @@
       "price": "-",
       "profileAuthorUrl": "https://togatoalice.booth.pm/",
       "profileshopname": "琥珀堂",
+      "notes": ""
+    },
+    {
+      "id": 1172,
+      "profileName": "ソワレさん用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-22 15:18:12",
+      "updatedDate": "2026-06-22 15:18:23",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8532434",
+      "avatarIds": [
+        "A1353"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8532434/31e08bd7-0c6c-425d-9584-c4bcf6181300_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1173,
+      "profileName": "フレジェくん用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-22 15:18:30",
+      "updatedDate": "2026-06-22 15:18:39",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8532781",
+      "avatarIds": [
+        "A1354"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8532781/58f8ca81-b095-427c-be94-44935ab6767e_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1174,
+      "profileName": "ラナヤ -RANAYA-",
+      "registeredDate": "2026-06-22 15:19:44",
+      "updatedDate": "2026-06-22 15:20:39",
+      "profileAuthor": "ガリホソ・ザ・ケツケツ",
+      "downloadLocation": "https://garihoso-q.booth.pm/items/8377513",
+      "avatarIds": [
+        "A1355"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/1ba93e7c-52d4-42fe-9ef5-b38ecafea27d/i/8377513/3b03b9f2-b512-4fce-8ba9-1fd2bc2ad173_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://garihoso-q.booth.pm/",
+      "profileshopname": "がりほそ",
+      "notes": ""
+    },
+    {
+      "id": 1175,
+      "profileName": "戸場カケル",
+      "registeredDate": "2026-06-22 15:21:04",
+      "updatedDate": "2026-06-22 15:23:04",
+      "profileAuthor": "虹田まじる",
+      "downloadLocation": "https://kyom-20cent.booth.pm/items/8360738",
+      "avatarIds": [
+        "A1356"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/cb0a2afb-e490-49ce-8028-2045d017d45f/i/8360738/4851f122-211e-435d-b745-095b8e311bc7_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://kyom-20cent.booth.pm/",
+      "profileshopname": "虚無と20銭",
+      "notes": ""
+    },
+    {
+      "id": 1176,
+      "profileName": "汐留くらげ",
+      "registeredDate": "2026-06-22 15:24:36",
+      "updatedDate": "2026-06-22 15:25:18",
+      "profileAuthor": "すずななお店",
+      "downloadLocation": "https://suzu7na03se.booth.pm/items/7445593",
+      "avatarIds": [
+        "A1357"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/72040e08-efed-4ad8-a42b-dda4021f55fa/i/7445593/e7640630-f0f6-4e35-b792-693e1286a668_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://suzu7na03se.booth.pm/",
+      "profileshopname": "うみう深海局",
+      "notes": ""
+    },
+    {
+      "id": 1177,
+      "profileName": "【無料】零・霊(Rei/Ryo)対応 もちふぃった～プロファイル（順変換のみ）",
+      "registeredDate": "2026-06-22 15:25:42",
+      "updatedDate": "2026-06-22 15:26:01",
+      "profileAuthor": "アズリト",
+      "downloadLocation": "https://twilitlit.booth.pm/items/8425513",
+      "avatarIds": [
+        "A1185"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/6a62fb2b-e26b-4a4f-9f10-5178e2c297a1/i/8425513/35bbbad7-b33e-41b5-bae4-4660943b49c2_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://twilitlit.booth.pm/",
+      "profileshopname": "無冥の店",
       "notes": ""
     }
   ]
