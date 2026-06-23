@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22 15:29:03 JST",
+  "lastUpdated": "2026-06-23 13:15:16 JST",
   "profiles": [
     {
       "id": 1,
@@ -23528,6 +23528,34 @@
       "profileName": "少年素体『ANM=BODY』"
     },
     {
+      "id": 1132,
+      "profileAuthor": "きゃったま",
+      "profileAuthorUrl": "https://cat-tama.booth.pm/",
+      "profileshopname": "きゃったまのみせ",
+      "official": true,
+      "downloadMethod": "Booth",
+      "downloadLocation": "https://cat-tama.booth.pm/items/8504415",
+      "imageUrl": "https://booth.pximg.net/c/620x620/ca337540-8bf4-46a3-a4a7-8aab1c3d317b/i/8504415/d37cbdf2-6924-423c-8150-62b894bca9aa_base_resized.jpg",
+      "pricing": "無料",
+      "price": "0",
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "registeredDate": "2026-06-15 00:51:31",
+      "updatedDate": "2026-06-23 13:10:48",
+      "notes": "",
+      "avatarIds": [
+        "A1204",
+        "A1292",
+        "A1293",
+        "A1255",
+        "A0642",
+        "A1254",
+        "A1351",
+        "A1352"
+      ],
+      "profileName": "もちふぃった～変換プロファイル（きゃったまアバター）"
+    },
+    {
       "id": 1133,
       "profileAuthor": "だいこん",
       "profileAuthorUrl": "https://daikonryu.booth.pm/",
@@ -24438,6 +24466,66 @@
       "price": "0",
       "profileAuthorUrl": "https://twilitlit.booth.pm/",
       "profileshopname": "無冥の店",
+      "notes": ""
+    },
+    {
+      "id": 1178,
+      "profileName": "遊九雲-YUKUMO-",
+      "registeredDate": "2026-06-23 13:10:57",
+      "updatedDate": "2026-06-23 13:14:19",
+      "profileAuthor": "黒姫ロエル",
+      "downloadLocation": "https://eldostreet.booth.pm/items/8496261",
+      "avatarIds": [
+        "A1358"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/7b53b945-5c57-4d91-8e20-124d07c3d455/i/8496261/965dbcb9-fcb9-4757-ab28-51334910de6f_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://eldostreet.booth.pm/",
+      "profileshopname": "ELDOSTREET",
+      "notes": ""
+    },
+    {
+      "id": 1179,
+      "profileName": "チャコ(chaco)",
+      "registeredDate": "2026-06-23 13:12:07",
+      "updatedDate": "2026-06-23 13:12:37",
+      "profileAuthor": "ぼんちゃん",
+      "downloadLocation": "https://okashikudasai.booth.pm/items/5518727",
+      "avatarIds": [
+        "A1359"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/f4891c25-f4c9-4aff-b0ac-54074b29651f/i/5518727/9dd0073d-bfd4-4488-bdae-c719209ccc4b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://okashikudasai.booth.pm/",
+      "profileshopname": "アトリエ＊ぼなぺてぃ",
+      "notes": ""
+    },
+    {
+      "id": 1180,
+      "profileName": "柚月 理花 - yuzuki rika-",
+      "registeredDate": "2026-06-23 13:14:22",
+      "updatedDate": "2026-06-23 13:14:55",
+      "profileAuthor": "Yuti",
+      "downloadLocation": "https://yuti.booth.pm/items/8519337",
+      "avatarIds": [
+        "A1360"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/0c9dd7f2-6120-42b0-a12b-24ec11797de3/i/8519337/9f65425c-cf7b-472f-b62e-ba5ac22f898e_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://yuti.booth.pm/",
+      "profileshopname": "yuti",
       "notes": ""
     }
   ]

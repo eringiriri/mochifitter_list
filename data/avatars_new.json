@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22 15:29:03 JST",
+  "lastUpdated": "2026-06-23 13:15:16 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -17506,6 +17506,45 @@
       "nameUrl": "https://suzu7na03se.booth.pm/items/7445593",
       "authorUrl": "https://suzu7na03se.booth.pm/",
       "shopname": "うみう深海局",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1358",
+      "name": "遊九雲-YUKUMO-",
+      "author": "黒姫ロエル",
+      "nameUrl": "https://eldostreet.booth.pm/items/8496261",
+      "authorUrl": "https://eldostreet.booth.pm/",
+      "shopname": "ELDOSTREET",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1359",
+      "name": "チャコ(chaco)",
+      "author": "ぼんちゃん",
+      "nameUrl": "https://okashikudasai.booth.pm/items/5518727",
+      "authorUrl": "https://okashikudasai.booth.pm/",
+      "shopname": "アトリエ＊ぼなぺてぃ",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1360",
+      "name": "柚月 理花 - yuzuki rika-",
+      "author": "Yuti",
+      "nameUrl": "https://yuti.booth.pm/items/8519337",
+      "authorUrl": "https://yuti.booth.pm/",
+      "shopname": "yuti",
       "price": "",
       "bodyBase": "",
       "name_en": "",
