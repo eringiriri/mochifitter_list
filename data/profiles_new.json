@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25 09:17:32 JST",
+  "lastUpdated": "2026-06-25 09:22:04 JST",
   "profiles": [
     {
       "id": 1,
@@ -24593,16 +24593,18 @@
       "id": 1184,
       "profileName": "３＋１（さん↑ぷらす→うの↑）",
       "registeredDate": "2026-06-25 09:08:03",
-      "updatedDate": "2026-06-25 09:09:42",
+      "updatedDate": "2026-06-25 09:21:55",
       "profileAuthor": "エカケイソ",
       "downloadLocation": "https://hinasaki.booth.pm/items/6727787",
-      "avatarIds": [],
+      "avatarIds": [
+        "A0361"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/5bd885aa-dc99-4b4a-ae94-0b87f6b17531/i/6727787/a0c9e895-f3eb-4cf6-b82c-8bd59313a893_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
       "reverseSupport": false,
-      "pricing": "アバター同梱",
-      "price": "-",
+      "pricing": "無料",
+      "price": "0",
       "profileAuthorUrl": "https://ekasilicon.booth.pm/",
       "profileshopname": "エカシリコン",
       "notes": ""
