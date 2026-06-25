@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23 13:15:16 JST",
+  "lastUpdated": "2026-06-25 09:17:32 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -17545,6 +17545,58 @@
       "nameUrl": "https://yuti.booth.pm/items/8519337",
       "authorUrl": "https://yuti.booth.pm/",
       "shopname": "yuti",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1361",
+      "name": "内臓（女性）Ver2",
+      "author": "アノマロかりんとう",
+      "nameUrl": "https://anomarokoubou.booth.pm/items/5420219",
+      "authorUrl": "https://anomarokoubou.booth.pm/",
+      "shopname": "アノマロ工房",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1362",
+      "name": "トランシィEX -Torang-shi EX-",
+      "author": "鳥総帥",
+      "nameUrl": "https://bird-w-cooking.booth.pm/items/8410762",
+      "authorUrl": "https://bird-w-cooking.booth.pm/",
+      "shopname": "AD_bird's Nest",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1363",
+      "name": "タビ-tabi-",
+      "author": "dokkoi",
+      "nameUrl": "https://dyokkoi.booth.pm/items/3241242",
+      "authorUrl": "https://dyokkoi.booth.pm/",
+      "shopname": "こたつ本舗-コタツホンポ-",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1364",
+      "name": "ニューちゃん (パンクスーツ）| NEW-Chan (PunkSuit)",
+      "author": "Kare",
+      "nameUrl": "https://nekokaerya.booth.pm/items/8494174",
+      "authorUrl": "https://nekokaerya.booth.pm/",
+      "shopname": "NEKOKAREYA",
       "price": "",
       "bodyBase": "",
       "name_en": "",

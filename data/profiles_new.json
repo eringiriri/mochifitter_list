@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23 13:15:16 JST",
+  "lastUpdated": "2026-06-25 09:17:32 JST",
   "profiles": [
     {
       "id": 1,
@@ -3817,12 +3817,13 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-06-25 09:15:48",
       "notes": "",
       "avatarIds": [
         "A0239",
         "A0240",
-        "A0241"
+        "A0241",
+        "A1364"
       ],
       "profileName": "もちふぃった～用プロファイル for KUMINBODY"
     },
@@ -24526,6 +24527,84 @@
       "price": "0",
       "profileAuthorUrl": "https://yuti.booth.pm/",
       "profileshopname": "yuti",
+      "notes": ""
+    },
+    {
+      "id": 1181,
+      "profileName": "内臓（女性）Ver2",
+      "registeredDate": "2026-06-25 08:57:56",
+      "updatedDate": "2026-06-25 09:03:08",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/5420219",
+      "avatarIds": [
+        "A1361"
+      ],
+      "imageUrl": "https://asset.booth.pm/assets/og_image-0c48d775edd33430ac54dd64cfc63ac699ca30e50873bfde4d77a971ee66ffa0.png",
+      "official": true,
+      "forwardSupport": false,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1182,
+      "profileName": "トランシィEX -Torang-shi EX-",
+      "registeredDate": "2026-06-25 09:01:59",
+      "updatedDate": "2026-06-25 09:03:02",
+      "profileAuthor": "鳥総帥",
+      "downloadLocation": "https://bird-w-cooking.booth.pm/items/8410762",
+      "avatarIds": [
+        "A1362"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/315f5d6b-7e0e-4a86-b5dd-a3971458f255/i/8410762/099723a3-9b8a-48c5-883d-a0a6b64044af_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://bird-w-cooking.booth.pm/",
+      "profileshopname": "AD_bird's Nest",
+      "notes": ""
+    },
+    {
+      "id": 1183,
+      "profileName": "タビ-tabi-",
+      "registeredDate": "2026-06-25 09:03:25",
+      "updatedDate": "2026-06-25 09:04:23",
+      "profileAuthor": "dokkoi",
+      "downloadLocation": "https://dyokkoi.booth.pm/items/3241242",
+      "avatarIds": [
+        "A1363"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/664c5515-1e5d-4d1a-905f-280f8494b51d/i/3241242/8f059639-35eb-413d-a83a-e814e37dde9a_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://dyokkoi.booth.pm/",
+      "profileshopname": "こたつ本舗-コタツホンポ-",
+      "notes": ""
+    },
+    {
+      "id": 1184,
+      "profileName": "３＋１（さん↑ぷらす→うの↑）",
+      "registeredDate": "2026-06-25 09:08:03",
+      "updatedDate": "2026-06-25 09:09:42",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://hinasaki.booth.pm/items/6727787",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/5bd885aa-dc99-4b4a-ae94-0b87f6b17531/i/6727787/a0c9e895-f3eb-4cf6-b82c-8bd59313a893_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
       "notes": ""
     }
   ]
