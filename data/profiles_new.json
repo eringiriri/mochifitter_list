@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28 20:34:18 JST",
+  "lastUpdated": "2026-06-28 20:43:11 JST",
   "profiles": [
     {
       "id": 1,
@@ -24713,10 +24713,12 @@
       "id": 1190,
       "profileName": "SIUSIU用もちふぃった～対応データ",
       "registeredDate": "2026-06-28 20:26:57",
-      "updatedDate": "2026-06-28 20:28:33",
+      "updatedDate": "2026-06-28 20:42:29",
       "profileAuthor": "エカケイソ",
       "downloadLocation": "https://ekasilicon.booth.pm/items/8549174",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1370"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/8549174/b9033094-fe4b-4a8d-b90a-64c125941545_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
@@ -24771,10 +24773,12 @@
       "id": 1193,
       "profileName": "ブランミミィ（Branmimi）",
       "registeredDate": "2026-06-28 20:33:27",
-      "updatedDate": "2026-06-28 20:33:41",
+      "updatedDate": "2026-06-28 20:43:02",
       "profileAuthor": "ラマスヅャン",
       "downloadLocation": "https://ramasudzyan.booth.pm/items/8544887",
-      "avatarIds": [],
+      "avatarIds": [
+        "A1373"
+      ],
       "imageUrl": "https://booth.pximg.net/c/620x620/a6997d3a-c58f-4b45-acc8-e38a53188202/i/8544887/e652bda1-f7f3-4701-8518-022e6f862267_base_resized.jpg",
       "official": true,
       "forwardSupport": true,
