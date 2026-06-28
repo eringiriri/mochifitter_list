@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25 09:22:04 JST",
+  "lastUpdated": "2026-06-28 20:34:18 JST",
   "profiles": [
     {
       "id": 1,
@@ -24607,6 +24607,182 @@
       "price": "0",
       "profileAuthorUrl": "https://ekasilicon.booth.pm/",
       "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1185,
+      "profileName": "Anzu / あんず",
+      "registeredDate": "2026-06-28 20:20:57",
+      "updatedDate": "2026-06-28 20:23:07",
+      "profileAuthor": "5incerism",
+      "downloadLocation": "https://5incerism.booth.pm/items/8549499",
+      "avatarIds": [
+        "A1365"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/431e4811-bc05-4004-a7d6-0ff616928b13/i/8549499/2aaa8203-5683-4f18-a6e4-31510d70fea6_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://5incerism.booth.pm/",
+      "profileshopname": "5incerism",
+      "notes": ""
+    },
+    {
+      "id": 1186,
+      "profileName": "ルリエール",
+      "registeredDate": "2026-06-28 20:23:19",
+      "updatedDate": "2026-06-28 20:24:01",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/4864704",
+      "avatarIds": [
+        "A1366"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/4864704/1ac2a0e1-d4e6-48b8-84f0-209fa6951abd_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1187,
+      "profileName": "エンゼリーナ",
+      "registeredDate": "2026-06-28 20:24:12",
+      "updatedDate": "2026-06-28 20:25:32",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/5790681",
+      "avatarIds": [
+        "A1367"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/5790681/8f305e6d-ff98-4e21-9a39-5ea14cb9808b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1188,
+      "profileName": "エスティナ",
+      "registeredDate": "2026-06-28 20:24:56",
+      "updatedDate": "2026-06-28 20:25:23",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/4321250",
+      "avatarIds": [
+        "A1368"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/4321250/049a48a5-13d9-4ff5-97aa-1cec6426c888_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1189,
+      "profileName": "『Elgha/エルガ』用 もちふぃった～ 変換プロファイル 【順方向】 #BELLFLOWER2015",
+      "registeredDate": "2026-06-28 20:25:51",
+      "updatedDate": "2026-06-28 20:26:51",
+      "profileAuthor": "桔梗（キキョウ）",
+      "downloadLocation": "https://bellflower2015.booth.pm/items/8547795",
+      "avatarIds": [
+        "A1369"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e18a11a3-126a-4c0c-8da5-be62057414c3/i/8547795/47ff92d3-c25e-4855-8643-682e6e99c293_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://bellflower2015.booth.pm/",
+      "profileshopname": "BELLFLOWER",
+      "notes": ""
+    },
+    {
+      "id": 1190,
+      "profileName": "SIUSIU用もちふぃった～対応データ",
+      "registeredDate": "2026-06-28 20:26:57",
+      "updatedDate": "2026-06-28 20:28:33",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8549174",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/8549174/b9033094-fe4b-4a8d-b90a-64c125941545_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1191,
+      "profileName": "【パレッタ用】もちふぃった～変換プロファイル【順変換】",
+      "registeredDate": "2026-06-28 20:30:30",
+      "updatedDate": "2026-06-28 20:31:50",
+      "profileAuthor": "possi_vr",
+      "downloadLocation": "https://possi.booth.pm/items/8549697",
+      "avatarIds": [
+        "A1371"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/ee70a93d-060a-4400-aa86-ce2f4a263196/i/8549697/6dbee33c-726c-4ad8-9eb0-be1e6243168d_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://possi.booth.pm/",
+      "profileshopname": "possi",
+      "notes": ""
+    },
+    {
+      "id": 1192,
+      "profileName": "メロパン -Meropan-",
+      "registeredDate": "2026-06-28 20:32:01",
+      "updatedDate": "2026-06-28 20:32:48",
+      "profileAuthor": "夢見枕",
+      "downloadLocation": "https://rakuiro.booth.pm/items/8522927",
+      "avatarIds": [
+        "A1372"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/492029a7-8f19-465e-9ec4-87b368d19b80/i/8522927/e9e680cf-6057-4b7d-ae49-0ef805f6844c_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://rakuiro.booth.pm/",
+      "profileshopname": "RAKUIRO",
+      "notes": ""
+    },
+    {
+      "id": 1193,
+      "profileName": "ブランミミィ（Branmimi）",
+      "registeredDate": "2026-06-28 20:33:27",
+      "updatedDate": "2026-06-28 20:33:41",
+      "profileAuthor": "ラマスヅャン",
+      "downloadLocation": "https://ramasudzyan.booth.pm/items/8544887",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a6997d3a-c58f-4b45-acc8-e38a53188202/i/8544887/e652bda1-f7f3-4701-8518-022e6f862267_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://ramasudzyan.booth.pm/",
+      "profileshopname": "ramasudzyan",
       "notes": ""
     }
   ]
