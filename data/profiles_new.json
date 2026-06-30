@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28 20:43:11 JST",
+  "lastUpdated": "2026-06-30 13:29:36 JST",
   "profiles": [
     {
       "id": 1,
@@ -24787,6 +24787,146 @@
       "price": "0",
       "profileAuthorUrl": "https://ramasudzyan.booth.pm/",
       "profileshopname": "ramasudzyan",
+      "notes": ""
+    },
+    {
+      "id": 1194,
+      "profileName": "サイボーグ少女 フユノVer2",
+      "registeredDate": "2026-06-30 13:21:04",
+      "updatedDate": "2026-06-30 13:24:27",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/2888810",
+      "avatarIds": [
+        "A1374"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/2888810/ca5b2d7f-7aaa-4279-bf7b-3a01617cffab_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1195,
+      "profileName": "じゃばら",
+      "registeredDate": "2026-06-30 13:23:17",
+      "updatedDate": "2026-06-30 13:24:20",
+      "profileAuthor": "AVAKIN_3D",
+      "downloadLocation": "https://avakin.booth.pm/items/8552799",
+      "avatarIds": [
+        "A1375"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a4301a27-df49-4716-ad56-06de1593e9bd/i/8552799/0342dfae-1619-42e6-8466-feff8df0ee46_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://avakin.booth.pm/",
+      "profileshopname": "AVAKIN'",
+      "notes": ""
+    },
+    {
+      "id": 1196,
+      "profileName": "シルヴァディーナ用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-30 13:24:36",
+      "updatedDate": "2026-06-30 13:25:25",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8560761",
+      "avatarIds": [
+        "A1376"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8560761/7515a402-443a-417a-8c7e-e89f38441725_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1197,
+      "profileName": "クァルトゥ用もちふぃった～変換プロファイル",
+      "registeredDate": "2026-06-30 13:25:53",
+      "updatedDate": "2026-06-30 13:26:15",
+      "profileAuthor": "だいこん",
+      "downloadLocation": "https://daikonryu.booth.pm/items/8560824",
+      "avatarIds": [
+        "A1377"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a20b66c3-541b-46fa-9d09-799f4526303c/i/8560824/64003f84-4ec6-4d72-b3eb-4c222d53bbe4_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://daikonryu.booth.pm/",
+      "profileshopname": "かいわれもんすたーず",
+      "notes": ""
+    },
+    {
+      "id": 1198,
+      "profileName": "スピネルフィア -Spinelphia-",
+      "registeredDate": "2026-06-30 13:26:31",
+      "updatedDate": "2026-06-30 13:27:10",
+      "profileAuthor": "ansys",
+      "downloadLocation": "https://iceplant.booth.pm/items/8357760",
+      "avatarIds": [
+        "A1378"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/b8bf4c81-b254-4ed2-9dc9-aef29a4d2567/i/8357760/6200d1fe-0034-41fe-a0f7-15fd91087890_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://iceplant.booth.pm/",
+      "profileshopname": "あいすぷらんと",
+      "notes": ""
+    },
+    {
+      "id": 1199,
+      "profileName": "クローネ/Khrone",
+      "registeredDate": "2026-06-30 13:27:24",
+      "updatedDate": "2026-06-30 13:28:02",
+      "profileAuthor": "御桜",
+      "downloadLocation": "https://misakurayasan.booth.pm/items/2613397",
+      "avatarIds": [
+        "A1379"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e4469ac5-f585-4eb4-b6e6-90939e0e5a26/i/2613397/364d9925-9e5f-45af-837f-3f52533e158b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://misakurayasan.booth.pm/",
+      "profileshopname": "みさくらやさん",
+      "notes": ""
+    },
+    {
+      "id": 1200,
+      "profileName": "アルセア/Althaea",
+      "registeredDate": "2026-06-30 13:28:21",
+      "updatedDate": "2026-06-30 13:28:51",
+      "profileAuthor": "御桜",
+      "downloadLocation": "https://misakurayasan.booth.pm/items/3212759",
+      "avatarIds": [
+        "A1380"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e4469ac5-f585-4eb4-b6e6-90939e0e5a26/i/3212759/0203d3c3-2aaa-4499-b7ce-4c2f7c79091a_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://misakurayasan.booth.pm/",
+      "profileshopname": "みさくらやさん",
       "notes": ""
     }
   ]
