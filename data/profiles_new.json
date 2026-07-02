@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30 13:29:36 JST",
+  "lastUpdated": "2026-07-03 02:09:25 JST",
   "profiles": [
     {
       "id": 1,
@@ -3891,27 +3891,6 @@
       "profileName": "ストリア -Stria-【オリジナル3Dモデル】"
     },
     {
-      "id": 189,
-      "profileAuthor": "Pochi by KT",
-      "profileAuthorUrl": "https://pochibykt.booth.pm/",
-      "profileshopname": "Pochi by KT",
-      "official": true,
-      "downloadMethod": "GoogleDrive",
-      "downloadLocation": "https://docs.google.com/spreadsheets/d/1Wx3V_tU3-BWn0vmAygeNJcpDB8jMNJyuRXP_CulvYVs/edit?gid=0#gid=0",
-      "imageUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyL-jjbEZwd500pE2MJuIg07opBCWumWfrkVhLp9f_dw9_PzsfrC8uIHyweM6xeUy_OHubiDEyvPOGC6TnrGB29m20hGUNhV_RrSGG6N4uT_JnCDllrt=w1200-h630-p",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": true,
-      "registeredDate": "2025-11-27",
-      "updatedDate": "2025-12-10",
-      "notes": "",
-      "avatarIds": [
-        "A0245"
-      ],
-      "profileName": "Pochi by KTもちふぃった～対応一覧"
-    },
-    {
       "id": 190,
       "profileAuthor": "POPPO",
       "profileAuthorUrl": "https://poppo-shop.booth.pm/",
@@ -7500,7 +7479,7 @@
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-29",
-      "updatedDate": "2026-06-17 12:18:56",
+      "updatedDate": "2026-07-03 01:31:35",
       "notes": "",
       "avatarIds": [
         "A0443",
@@ -7517,7 +7496,8 @@
         "A0986",
         "A0987",
         "A0988",
-        "A1072"
+        "A1072",
+        "A1381"
       ],
       "profileName": "【もちふぃった～】ロロミちゃんアバター向け変換プロファイル - 663-chan Shop"
     },
@@ -11384,28 +11364,6 @@
         "A0669"
       ],
       "profileName": "ジト目エルフのモニカ VRChat向けオリジナル3Dアバター #e62f8b"
-    },
-    {
-      "id": 553,
-      "profileAuthor": "Pochi by KT",
-      "profileAuthorUrl": "https://pochibykt.booth.pm/",
-      "profileshopname": "Pochi by KT",
-      "official": true,
-      "downloadMethod": "GoogleDrive",
-      "downloadLocation": "https://docs.google.com/spreadsheets/d/1Wx3V_tU3-BWn0vmAygeNJcpDB8jMNJyuRXP_CulvYVs/edit?usp=sharing",
-      "imageUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyL-jjbEZwd500pE2MJuIg07opBCWumWfrkVhLp9f_dw9_PzsfrC8uIHyweM6xeUy_OHubiDEyvPOGC6TnrGB29m20hGUNhV_RrSGG6N4uT_JnCDllrt=w1200-h630-p",
-      "pricing": "無料",
-      "price": "0",
-      "forwardSupport": true,
-      "reverseSupport": true,
-      "registeredDate": "2025-12-19",
-      "updatedDate": "2025-12-19",
-      "notes": "",
-      "avatarIds": [
-        "A0670",
-        "A0671"
-      ],
-      "profileName": "Pochi by KTもちふぃった～対応一覧"
     },
     {
       "id": 554,
@@ -16028,10 +15986,14 @@
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-02-11 19:55:33",
-      "updatedDate": "2026-02-11 19:56:25",
+      "updatedDate": "2026-07-03 01:59:01",
       "notes": "",
       "avatarIds": [
-        "A0916"
+        "A0916",
+        "A1393",
+        "A0671",
+        "A0670",
+        "A0245"
       ],
       "profileName": "Pochi by KTもちふぃった～対応一覧"
     },
@@ -24927,6 +24889,286 @@
       "price": "-",
       "profileAuthorUrl": "https://misakurayasan.booth.pm/",
       "profileshopname": "みさくらやさん",
+      "notes": ""
+    },
+    {
+      "id": 1201,
+      "profileName": "Eos -エオス-",
+      "registeredDate": "2026-07-03 01:31:54",
+      "updatedDate": "2026-07-03 01:32:23",
+      "profileAuthor": "ipheion712",
+      "downloadLocation": "https://albusmachinery.booth.pm/items/8216135",
+      "avatarIds": [
+        "A1382"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/4cc95f0f-814a-4679-93f6-0349174c77f8/i/8216135/d2fcb0ec-2665-4572-bae1-4c98b5c9cf94_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://albusmachinery.booth.pm/",
+      "profileshopname": "ALBUS MACHINERY",
+      "notes": ""
+    },
+    {
+      "id": 1202,
+      "profileName": "アルテミス",
+      "registeredDate": "2026-07-03 01:34:44",
+      "updatedDate": "2026-07-03 01:35:38",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/1341729",
+      "avatarIds": [
+        "A1383"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/1341729/be694e3f-0106-4f20-90de-b7ee69e58f71_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1203,
+      "profileName": "魔法剣士　紅乃瀬アキノ",
+      "registeredDate": "2026-07-03 01:37:37",
+      "updatedDate": "2026-07-03 01:39:43",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/1149621",
+      "avatarIds": [
+        "A1384"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/1149621/0133a778-ca8f-495d-b333-bc47cccc14fd_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1204,
+      "profileName": "ハルノ",
+      "registeredDate": "2026-07-03 01:39:49",
+      "updatedDate": "2026-07-03 01:40:27",
+      "profileAuthor": "アノマロかりんとう",
+      "downloadLocation": "https://anomarokoubou.booth.pm/items/1566557",
+      "avatarIds": [
+        "A1385"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/364e0ee1-5df5-4f4e-8b1b-4da26b79ab35/i/1566557/5bdf1c58-3e7e-4f29-8e1c-8a7698e817c3_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://anomarokoubou.booth.pm/",
+      "profileshopname": "アノマロ工房",
+      "notes": ""
+    },
+    {
+      "id": 1205,
+      "profileName": "旅枕ヨカ",
+      "registeredDate": "2026-07-03 01:41:07",
+      "updatedDate": "2026-07-03 01:41:46",
+      "profileAuthor": "コトブキヤ",
+      "downloadLocation": "https://avatarchan.booth.pm/items/8217336",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a8f038b5-9060-4c7f-8f07-1abf51e05d09/i/8217336/a68fb615-7dc5-4c2c-8970-60f0a4fd11bb_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://avatarchan.booth.pm/",
+      "profileshopname": "アバターショップ コトブキヤ",
+      "notes": ""
+    },
+    {
+      "id": 1206,
+      "profileName": "MI☆CA / ミカ",
+      "registeredDate": "2026-07-03 01:42:04",
+      "updatedDate": "2026-07-03 01:42:33",
+      "profileAuthor": "chocomint",
+      "downloadLocation": "https://chocomintou-shop.booth.pm/items/8361609",
+      "avatarIds": [
+        "A1387"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/fc2b351c-da09-42a6-8054-69bdac987d07/i/8361609/a5bf14df-003c-4625-bcf7-1653298756e9_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://chocomintou-shop.booth.pm/",
+      "profileshopname": "chocomintou-shop",
+      "notes": ""
+    },
+    {
+      "id": 1207,
+      "profileName": "ラビ先輩用もちふぃった～対応データ",
+      "registeredDate": "2026-07-03 01:44:07",
+      "updatedDate": "2026-07-03 01:45:28",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8568854",
+      "avatarIds": [
+        "A1388"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/8568854/6294eaa4-1d26-4896-b1c7-77c22ffdf5ed_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1208,
+      "profileName": "コマネ - Komane -",
+      "registeredDate": "2026-07-03 01:45:52",
+      "updatedDate": "2026-07-03 01:46:43",
+      "profileAuthor": "VRC合法チート研究会",
+      "downloadLocation": "https://goho-cheat-vrc.booth.pm/items/8503652",
+      "avatarIds": [
+        "A1389"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a8057578-1c7a-4a40-a854-194c23188696/i/8503652/6ddd1dc2-5b77-44e5-97e0-46abb69ae8e4_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://goho-cheat-vrc.booth.pm/",
+      "profileshopname": "VRC合法チート研究会",
+      "notes": ""
+    },
+    {
+      "id": 1209,
+      "profileName": "まべ式チェシャー",
+      "registeredDate": "2026-07-03 01:48:42",
+      "updatedDate": "2026-07-03 01:50:21",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://hinasaki.booth.pm/items/5311117",
+      "avatarIds": [
+        "A1390"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/5bd885aa-dc99-4b4a-ae94-0b87f6b17531/i/5311117/97f403f3-d851-411f-916a-6b6a585c2a9b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1210,
+      "profileName": "【Waft】ワフト",
+      "registeredDate": "2026-07-03 01:52:57",
+      "updatedDate": "2026-07-03 01:53:49",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://kotonoha-potore.booth.pm/items/8567901",
+      "avatarIds": [
+        "A1391"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/593d7629-5799-4c07-b8c1-ae82cd0a117f/i/8567901/2286993f-1339-41e9-a731-0cdcbe16bf99_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1211,
+      "profileName": "天使 ホロヨエル",
+      "registeredDate": "2026-07-03 01:54:20",
+      "updatedDate": "2026-07-03 01:55:26",
+      "profileAuthor": "takaniso",
+      "downloadLocation": "https://mesukemoshop.booth.pm/items/8288192",
+      "avatarIds": [
+        "A1392"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/33c0da46-0487-4bbf-8d3c-05c458e11078/i/8288192/c2dee705-ca12-4760-bcda-a3c86028e8d9_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://mesukemoshop.booth.pm/",
+      "profileshopname": "メスケモ無人販売所",
+      "notes": ""
+    },
+    {
+      "id": 1212,
+      "profileName": "Mochifitter Profile - Onyx V2",
+      "registeredDate": "2026-07-03 02:00:27",
+      "updatedDate": "2026-07-03 02:02:33",
+      "profileAuthor": "Hawke",
+      "downloadLocation": "https://redhawkone.booth.pm/items/8566970",
+      "avatarIds": [
+        "A1394"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/ad86411e-1023-4a8f-b443-6040996aaa84/i/8566970/5b1ec7e2-adbb-4796-b9c6-4440ceb02e0e_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://redhawkone.booth.pm/",
+      "profileshopname": "redhawkone",
+      "notes": ""
+    },
+    {
+      "id": 1213,
+      "profileName": "「RINNE素体S」もちふぃった～対応プロファイル",
+      "registeredDate": "2026-07-03 02:04:39",
+      "updatedDate": "2026-07-03 02:08:24",
+      "profileAuthor": "otゆき",
+      "downloadLocation": "https://yukinomayoiga.booth.pm/items/8565092",
+      "avatarIds": [
+        "A1395",
+        "A1396",
+        "A1397"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a9dbc445-5ad0-482d-b023-f9e088333852/i/8565092/75af74cf-9f14-423e-b9a6-1215c89be653_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://yukinomayoiga.booth.pm/",
+      "profileshopname": "ゆきのマヨイガ",
+      "notes": ""
+    },
+    {
+      "id": 1214,
+      "profileName": "カエデ",
+      "registeredDate": "2026-07-03 02:08:33",
+      "updatedDate": "2026-07-03 02:09:13",
+      "profileAuthor": "ゆに工房",
+      "downloadLocation": "https://yunikoubou.booth.pm/items/8457656",
+      "avatarIds": [
+        "A1398"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/77119941-2a21-475b-a521-086be395d157/i/8457656/6d8faaa0-8681-4c3f-b36b-bb4d34ba4687_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://yunikoubou.booth.pm/",
+      "profileshopname": "ゆに工房",
       "notes": ""
     }
   ]
