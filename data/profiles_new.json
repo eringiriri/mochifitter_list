@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03 02:09:25 JST",
+  "lastUpdated": "2026-07-06 18:52:38 JST",
   "profiles": [
     {
       "id": 1,
@@ -25169,6 +25169,127 @@
       "price": "0",
       "profileAuthorUrl": "https://yunikoubou.booth.pm/",
       "profileshopname": "ゆに工房",
+      "notes": ""
+    },
+    {
+      "id": 1215,
+      "profileName": "銀髪スーツの悪魔 メイネーラ",
+      "registeredDate": "2026-07-06 18:40:23",
+      "updatedDate": "2026-07-06 18:46:11",
+      "profileAuthor": "ブーゲンビリア",
+      "downloadLocation": "https://avatar.booth.pm/items/8547624",
+      "avatarIds": [
+        "A1399"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/6d0e593b-faac-4c74-acb1-78b75614d85f/i/8547624/88360845-1bd8-49ed-81f1-27906e347b82_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://avatar.booth.pm/",
+      "profileshopname": "Boo Boo Bougainvillea",
+      "notes": ""
+    },
+    {
+      "id": 1216,
+      "profileName": "ミケマルくん用もちふぃった～順方向非公式プロファイル",
+      "registeredDate": "2026-07-06 18:46:38",
+      "updatedDate": "2026-07-06 18:48:46",
+      "profileAuthor": "まわるうさぎ",
+      "downloadLocation": "https://gmgmpo.booth.pm/items/8573095",
+      "avatarIds": [
+        "A1400"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/84d1f65c-1eba-473f-86a2-fcbe4b7ab4c6/i/8573095/079bb531-ce65-47d7-a118-7945f2422834_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://gmgmpo.booth.pm/",
+      "profileshopname": "ガムの佃煮",
+      "notes": ""
+    },
+    {
+      "id": 1217,
+      "profileName": "Nelmelia/オリジナル3Dモデル",
+      "registeredDate": "2026-07-06 18:48:15",
+      "updatedDate": "2026-07-06 18:48:39",
+      "profileAuthor": "Mayday",
+      "downloadLocation": "https://maydaykm.booth.pm/items/7614568",
+      "avatarIds": [
+        "A1401"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/b42c8412-d33c-4afd-bd20-295dc7c8d23d/i/7614568/12831993-6b3a-4db0-8ab5-22e8c75fbf95_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://maydaykm.booth.pm/",
+      "profileshopname": "Mayday",
+      "notes": ""
+    },
+    {
+      "id": 1218,
+      "profileName": "セレナ -Selena-",
+      "registeredDate": "2026-07-06 18:49:04",
+      "updatedDate": "2026-07-06 18:49:36",
+      "profileAuthor": "みそスープ",
+      "downloadLocation": "https://misosoupkobo.booth.pm/items/8545785",
+      "avatarIds": [
+        "A1402"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/7f7af8eb-41b2-4bcc-aed8-759b509f3e7e/i/8545785/4eed9118-e73c-4041-85e0-8550f5718be8_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://misosoupkobo.booth.pm/",
+      "profileshopname": "みそしる工房",
+      "notes": ""
+    },
+    {
+      "id": 1219,
+      "profileName": "【無料】もちふぃった～　りみからアバタープロファイル",
+      "registeredDate": "2026-07-06 18:49:55",
+      "updatedDate": "2026-07-06 18:51:19",
+      "profileAuthor": "Nseエヌセ",
+      "downloadLocation": "https://neesu.booth.pm/items/8569468",
+      "avatarIds": [
+        "A1403",
+        "A1404"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e2baa952-01ad-46c4-a987-712ba300237e/i/8569468/406e0df7-b044-4920-b981-065c31d2a6c9_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://neesu.booth.pm/",
+      "profileshopname": "NEESU",
+      "notes": ""
+    },
+    {
+      "id": 1220,
+      "profileName": "鹿屋 -Rokuya-",
+      "registeredDate": "2026-07-06 18:51:36",
+      "updatedDate": "2026-07-06 18:52:10",
+      "profileAuthor": "鹿屋ギン助",
+      "downloadLocation": "https://rokkakuu.booth.pm/items/4292587",
+      "avatarIds": [
+        "A1405"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/66efa3e7-8fec-4f28-8376-2cea8f2fe50a/i/4292587/d7a61dc9-4be2-4683-a074-c11aef88cde3_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://rokkakuu.booth.pm/",
+      "profileshopname": "鹿屋庵",
       "notes": ""
     }
   ]
