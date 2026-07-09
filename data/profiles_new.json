@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06 18:52:38 JST",
+  "lastUpdated": "2026-07-09 16:02:02 JST",
   "profiles": [
     {
       "id": 1,
@@ -25213,9 +25213,9 @@
     },
     {
       "id": 1217,
-      "profileName": "Nelmelia/オリジナル3Dモデル",
+      "profileName": "Nelmelia",
       "registeredDate": "2026-07-06 18:48:15",
-      "updatedDate": "2026-07-06 18:48:39",
+      "updatedDate": "2026-07-06 18:58:10",
       "profileAuthor": "Mayday",
       "downloadLocation": "https://maydaykm.booth.pm/items/7614568",
       "avatarIds": [
@@ -25291,6 +25291,104 @@
       "profileAuthorUrl": "https://rokkakuu.booth.pm/",
       "profileshopname": "鹿屋庵",
       "notes": ""
+    },
+    {
+      "id": 1221,
+      "profileName": "「エグノエル」＆「ちびノエル」用もちふぃった～対応データ",
+      "registeredDate": "2026-07-09 15:43:16",
+      "updatedDate": "2026-07-09 15:45:56",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8592734",
+      "avatarIds": [
+        "A1406"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/8592734/caf41aea-1ce1-43ad-b82d-e11e5effbfd9_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "有料",
+      "price": "0",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1222,
+      "profileName": "海晴 -Kaisei-",
+      "registeredDate": "2026-07-09 15:46:07",
+      "updatedDate": "2026-07-09 15:47:00",
+      "profileAuthor": "MO-FU",
+      "downloadLocation": "https://mo-fu3d.booth.pm/items/8503283",
+      "avatarIds": [
+        "A1407"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/339d567f-7054-451b-9220-4bad9b2da2bd/i/8503283/e0aa8f9b-636b-4e70-814d-cf08951cbfb1_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://mo-fu3d.booth.pm/",
+      "profileshopname": "MO-FU",
+      "notes": ""
+    },
+    {
+      "id": 1223,
+      "profileName": "霧雨-KIRISAME-",
+      "registeredDate": "2026-07-09 15:47:01",
+      "updatedDate": "2026-07-09 15:47:38",
+      "profileAuthor": "ニボシ",
+      "downloadLocation": "https://nibosiya.booth.pm/items/8556031",
+      "avatarIds": [
+        "A1408"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/f03af7d7-31bf-49c1-b051-6718e95e41e0/i/8556031/4483b3ed-d57f-4248-9330-46d12a3eecce_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://nibosiya.booth.pm/",
+      "profileshopname": "nibosiや",
+      "notes": ""
+    },
+    {
+      "id": 1224,
+      "profileName": "楓花 -Fuka-",
+      "registeredDate": "2026-07-09 15:48:07",
+      "updatedDate": "2026-07-09 15:49:03",
+      "profileAuthor": "さいころワークス",
+      "downloadLocation": "https://saikoroworks.booth.pm/items/8469172",
+      "avatarIds": [
+        "A1409"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e3aa1533-3929-4fbe-8b1e-2c4d704e70b1/i/8469172/8fe6f294-ce6a-4281-8271-dc1f6d8e536b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://saikoroworks.booth.pm/",
+      "profileshopname": "さいころワークス",
+      "notes": ""
+    },
+    {
+      "id": 1225,
+      "profileName": "キッシュ+たわわ胸 もちふぃった～変換プロファイル（順方向）",
+      "registeredDate": "2026-07-09 15:56:57",
+      "updatedDate": "2026-07-09 16:02:01",
+      "profileAuthor": "TEWi_R",
+      "downloadLocation": "https://trworks.booth.pm/items/8589736",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/733fdbd7-d15a-4219-a33d-6b58e28a6cdf/i/8589736/4f4905b0-c0d1-46be-b64f-89f878bd98c9_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://trworks.booth.pm/",
+      "profileshopname": "TR Works",
+      "notes": "改変素体向けのプロファイル"
     }
   ]
 }

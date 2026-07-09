@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06 18:52:38 JST",
+  "lastUpdated": "2026-07-09 16:02:02 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -18130,6 +18130,58 @@
       "nameUrl": "https://rokkakuu.booth.pm/items/4292587",
       "authorUrl": "https://rokkakuu.booth.pm/",
       "shopname": "鹿屋庵",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1406",
+      "name": "「エグノエル」＆「ちびノエル」 Eggnoel & ChibiNoel",
+      "author": "天兎ひなた",
+      "nameUrl": "https://amatohinata.booth.pm/items/7980198",
+      "authorUrl": "https://amatohinata.booth.pm/",
+      "shopname": "あまとらんど - AmatoLand",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1407",
+      "name": "海晴 -Kaisei-",
+      "author": "MO-FU",
+      "nameUrl": "https://mo-fu3d.booth.pm/items/8503283",
+      "authorUrl": "https://mo-fu3d.booth.pm/",
+      "shopname": "MO-FU",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1408",
+      "name": "霧雨-KIRISAME-",
+      "author": "ニボシ",
+      "nameUrl": "https://nibosiya.booth.pm/items/8556031",
+      "authorUrl": "https://nibosiya.booth.pm/",
+      "shopname": "nibosiや",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1409",
+      "name": "楓花 -Fuka-",
+      "author": "さいころワークス",
+      "nameUrl": "https://saikoroworks.booth.pm/items/8469172",
+      "authorUrl": "https://saikoroworks.booth.pm/",
+      "shopname": "さいころワークス",
       "price": "",
       "bodyBase": "",
       "name_en": "",
