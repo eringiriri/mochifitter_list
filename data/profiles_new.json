@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13 18:11:40 JST",
+  "lastUpdated": "2026-07-16 19:20:20 JST",
   "profiles": [
     {
       "id": 1,
@@ -25708,6 +25708,126 @@
       "price": "0",
       "profileAuthorUrl": "https://yu-yu-shop.booth.pm/",
       "profileshopname": "YUYUYUYU Works",
+      "notes": ""
+    },
+    {
+      "id": 1242,
+      "profileName": "しろトリさん",
+      "registeredDate": "2026-07-16 19:12:29",
+      "updatedDate": "2026-07-16 19:13:22",
+      "profileAuthor": "努武衛門",
+      "downloadLocation": "https://domuemon.booth.pm/items/8394968",
+      "avatarIds": [
+        "A1428"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/94505b00-fd01-42de-9cd2-c4f8cb4a3cf0/i/8394968/995f0314-3d77-4d2a-96e9-26f2a271c708_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://domuemon.booth.pm/",
+      "profileshopname": "努武衛門工房",
+      "notes": ""
+    },
+    {
+      "id": 1243,
+      "profileName": "【両変換対応】輝夜 ＆ルルネ＆瑞希用もちふぃった～対応データ",
+      "registeredDate": "2026-07-16 19:13:22",
+      "updatedDate": "2026-07-16 19:15:32",
+      "profileAuthor": "エカケイソ",
+      "downloadLocation": "https://ekasilicon.booth.pm/items/8606448",
+      "avatarIds": [
+        "A0794",
+        "A1430",
+        "A1429"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/8606448/9f4da1d2-50d9-4bfd-b0d3-2f01124f7fd2_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "有料",
+      "price": "-",
+      "profileAuthorUrl": "https://ekasilicon.booth.pm/",
+      "profileshopname": "エカシリコン",
+      "notes": ""
+    },
+    {
+      "id": 1244,
+      "profileName": "「在羽」-Aruha-",
+      "registeredDate": "2026-07-16 19:16:10",
+      "updatedDate": "2026-07-16 19:16:46",
+      "profileAuthor": "Maki",
+      "downloadLocation": "https://mkmkdo.booth.pm/items/8593085",
+      "avatarIds": [
+        "A1431"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/c576046b-73fa-4cd2-824e-5ba009e499b7/i/8593085/6ec5935e-561c-49b3-8cb1-d42c0f9a030f_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://mkmkdo.booth.pm/",
+      "profileshopname": "まきまき堂",
+      "notes": ""
+    },
+    {
+      "id": 1245,
+      "profileName": "るもか",
+      "registeredDate": "2026-07-16 19:16:55",
+      "updatedDate": "2026-07-16 19:17:25",
+      "profileAuthor": "ナベラ",
+      "downloadLocation": "https://narynn.booth.pm/items/8495741",
+      "avatarIds": [
+        "A1432"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a2ba3765-c793-40b2-bc39-217a422d4af1/i/8495741/8b2a619a-13e9-4936-bd1e-05278306f613_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://narynn.booth.pm/",
+      "profileshopname": "Vault 6",
+      "notes": ""
+    },
+    {
+      "id": 1246,
+      "profileName": "Bernard用もちふぃった～プロファイル(順方向のみ)",
+      "registeredDate": "2026-07-16 19:17:33",
+      "updatedDate": "2026-07-16 19:17:57",
+      "profileAuthor": "Parabelum_JPN",
+      "downloadLocation": "https://parabellumjpn.booth.pm/items/8615587",
+      "avatarIds": [
+        "A1433"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/4da51782-b084-4e6f-a2f1-f6123dc5ea3f/i/8615587/c68669a3-7b38-43fd-9aa9-270ea0079097_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://parabellumjpn.booth.pm/",
+      "profileshopname": "Paraの物置",
+      "notes": ""
+    },
+    {
+      "id": 1247,
+      "profileName": "ショコラメイドちゃん_もちふぃった～変換プロファイル（順方向）",
+      "registeredDate": "2026-07-16 19:18:16",
+      "updatedDate": "2026-07-16 19:20:14",
+      "profileAuthor": "POPPO",
+      "downloadLocation": "https://poppo-shop.booth.pm/items/8616867",
+      "avatarIds": [],
+      "imageUrl": "https://booth.pximg.net/c/620x620/fd080b93-50c9-4a89-a7f8-30ac4bbe9f44/i/8616867/59b2713a-3661-4a62-be24-f92116a4d6ae_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://poppo-shop.booth.pm/",
+      "profileshopname": "P_Store",
       "notes": ""
     }
   ]
