@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16 19:20:20 JST",
+  "lastUpdated": "2026-07-20 14:36:00 JST",
   "profiles": [
     {
       "id": 1,
@@ -605,13 +605,13 @@
       "official": true,
       "downloadMethod": "スプレッドシート",
       "downloadLocation": "https://docs.google.com/spreadsheets/d/17bsf4xFF6C51m8R0U9fevwTuJNau5Q64OxFuoQZLZ24/edit?gid=0#gid=0",
-      "imageUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyJbt3BeSaBbfDDBMmpc24rLP8EMlPmdFkqGYcuVC0R-GhKVsvcHXZuGfKkfW8wmXGmagaEBCAMq06lZ1w9qVfcQk-5r9lld2Eph6Ll1hXKhwy63vv3p=w1200-h630-p",
+      "imageUrl": "",
       "pricing": "無料",
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-18",
+      "updatedDate": "2026-07-20 14:35:52",
       "notes": "",
       "avatarIds": [
         "A0035",
@@ -634,13 +634,13 @@
       "official": true,
       "downloadMethod": "GoogleDrive",
       "downloadLocation": "https://drive.google.com/drive/folders/1n--dNq1xkZO4VLRTFL69NjYxgQxW8xnT?usp=drive_link",
-      "imageUrl": "https://booth.pximg.net/c/620x620/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/6311566/d1c7a772-ac94-42d9-8204-f8a301ecc6a3_base_resized.jpg",
+      "imageUrl": "",
       "pricing": "無料",
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-07-20 14:35:32",
       "notes": "",
       "avatarIds": [
         "A0044",
@@ -1804,13 +1804,13 @@
       "official": true,
       "downloadMethod": "GoogleDrive",
       "downloadLocation": "https://drive.google.com/drive/folders/1K4HNXRDKUsaJ3GsXUxgY-PRLn_vOZzqW",
-      "imageUrl": "https://booth.pximg.net/c/620x620/0dcb072c-99a2-49be-a886-303570d34d3f/i/2186253/745dbd03-612f-4425-ab8e-b81c3a8a66ec_base_resized.jpg",
+      "imageUrl": "",
       "pricing": "無料",
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": false,
       "registeredDate": "2025-11-26",
-      "updatedDate": "2025-12-10",
+      "updatedDate": "2026-07-20 14:35:38",
       "notes": "",
       "avatarIds": [
         "A0135",
@@ -15980,13 +15980,13 @@
       "official": true,
       "downloadMethod": "GoogleDrive",
       "downloadLocation": "https://docs.google.com/spreadsheets/d/1Y8Yrfq-VrjLqBuFlCW302zmggl61qlGuFgTZTTNiPTA/",
-      "imageUrl": "https://lh7-us.googleusercontent.com/docs/AHkbwyLgnYfh0BEQg2C6JBGwq5kvOGITdg6vCj-cdfenyzTzbSvmELj4goDREMKONZkMIEPKx-_HEMXvQGrR4FL--LOWwDKG37C7Dr2pNq0LltHULGOiaxE=w1200-h630-p",
+      "imageUrl": "",
       "pricing": "無料",
       "price": "0",
       "forwardSupport": true,
       "reverseSupport": true,
       "registeredDate": "2026-02-11 19:55:33",
-      "updatedDate": "2026-07-03 01:59:01",
+      "updatedDate": "2026-07-20 14:35:46",
       "notes": "",
       "avatarIds": [
         "A0916",
@@ -25828,6 +25828,191 @@
       "price": "0",
       "profileAuthorUrl": "https://poppo-shop.booth.pm/",
       "profileshopname": "P_Store",
+      "notes": ""
+    },
+    {
+      "id": 1248,
+      "profileName": "五味",
+      "registeredDate": "2026-07-20 14:07:23",
+      "updatedDate": "2026-07-20 14:08:03",
+      "profileAuthor": "Kashi2k1",
+      "downloadLocation": "https://kashi2k1.booth.pm/items/8561302",
+      "avatarIds": [
+        "A1435"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/a2ce802f-9775-4196-91d7-2f1880f9e019/i/8561302/dbcdb8aa-b5fc-4e71-93af-29a27db317b4_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://kashi2k1.booth.pm/",
+      "profileshopname": "かしつ物産館",
+      "notes": ""
+    },
+    {
+      "id": 1249,
+      "profileName": "アイミィ用　もちふぃった～変換プロファイル",
+      "registeredDate": "2026-07-20 14:08:12",
+      "updatedDate": "2026-07-20 14:08:43",
+      "profileAuthor": "kinmame",
+      "downloadLocation": "https://kinnotofuya.booth.pm/items/8625661",
+      "avatarIds": [
+        "A0947"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/5db664be-b8ab-4df9-8ee8-e8eb39655927/i/8625661/1ed84c8c-b01d-46f3-9514-fe4d01363949_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://kinnotofuya.booth.pm/",
+      "profileshopname": "金乃豆腐屋",
+      "notes": ""
+    },
+    {
+      "id": 1250,
+      "profileName": "すず莉・改　suzuri-aratame-",
+      "registeredDate": "2026-07-20 14:09:21",
+      "updatedDate": "2026-07-20 14:12:03",
+      "profileAuthor": "夏樹テル",
+      "downloadLocation": "https://natsuki-teru.booth.pm/items/8551800",
+      "avatarIds": [
+        "A1436"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/5ac8b465-d436-467f-8b67-34948a6b09da/i/8551800/6e6a24fb-456d-458f-8beb-5035d1bee489_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://natsuki-teru.booth.pm/",
+      "profileshopname": "夏色テルミット",
+      "notes": ""
+    },
+    {
+      "id": 1251,
+      "profileName": "クレス / Cres",
+      "registeredDate": "2026-07-20 14:10:47",
+      "updatedDate": "2026-07-20 14:11:53",
+      "profileAuthor": "まいなす / Minus",
+      "downloadLocation": "https://nounaihaikibutu.booth.pm/items/8412502",
+      "avatarIds": [
+        "A1437"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/864300ab-bb69-4ce8-afef-e741455b79f2/i/8412502/6af9747f-e07b-4f0e-91df-818d76261636_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://nounaihaikibutu.booth.pm/",
+      "profileshopname": "-/minus",
+      "notes": ""
+    },
+    {
+      "id": 1252,
+      "profileName": "アミ -Ami-",
+      "registeredDate": "2026-07-20 14:14:19",
+      "updatedDate": "2026-07-20 14:15:20",
+      "profileAuthor": "SilverSword",
+      "downloadLocation": "https://silvykawaii.booth.pm/items/7089028",
+      "avatarIds": [
+        "A1438"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/3f11f593-a560-4161-9ee3-010bf6d0ad0f/i/7089028/2bb86162-a641-48b5-8355-16db7de5e6ff_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://silvykawaii.booth.pm/",
+      "profileshopname": "シルビかわいいコーナー",
+      "notes": ""
+    },
+    {
+      "id": 1253,
+      "profileName": "Elsisai～エルシア～",
+      "registeredDate": "2026-07-20 14:15:39",
+      "updatedDate": "2026-07-20 14:16:26",
+      "profileAuthor": "Unknown_kaizou",
+      "downloadLocation": "https://sirokibakousin.booth.pm/items/8627594",
+      "avatarIds": [
+        "A1439"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/327c360c-ac70-4ed5-9f0d-8061bd5f44e4/i/8627594/7679099c-1bbb-44ee-a149-2a1d27b79a1e_base_resized.jpg",
+      "official": true,
+      "forwardSupport": false,
+      "reverseSupport": true,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://sirokibakousin.booth.pm/",
+      "profileshopname": "Unknown_kaizou",
+      "notes": ""
+    },
+    {
+      "id": 1254,
+      "profileName": "『柚希-Yuzuki-』無料サンプルパッケージ",
+      "registeredDate": "2026-07-20 14:17:15",
+      "updatedDate": "2026-07-20 14:21:11",
+      "profileAuthor": "よず",
+      "downloadLocation": "https://vividplum.booth.pm/items/7479600",
+      "avatarIds": [
+        "A0291",
+        "A1440"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/f84cb78e-a4d4-411f-bc71-1944c64613d7/i/7479600/22f9f051-8afa-4baa-b19a-ebd15c609b0b_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://vividplum.booth.pm/",
+      "profileshopname": "VIVID PLUM",
+      "notes": ""
+    },
+    {
+      "id": 1255,
+      "profileName": "サン・ルセア・カーター（Sun_Lucea_Carter）",
+      "registeredDate": "2026-07-20 14:21:36",
+      "updatedDate": "2026-07-20 14:25:39",
+      "profileAuthor": "天狗天子",
+      "downloadLocation": "https://yorozuya-tenten.booth.pm/items/3399062",
+      "avatarIds": [
+        "A1441"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/24ffb8b3-c1df-463b-821b-80dc5a365f63/i/3399062/dd1c15e8-caec-47d2-bf12-29ac1d2db010_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://yorozuya-tenten.booth.pm/",
+      "profileshopname": "万屋天々。",
+      "notes": ""
+    },
+    {
+      "id": 1256,
+      "profileName": "りすきーしょっぷ もちふぃった～用プロファイルデータ - Google ドライブ",
+      "registeredDate": "2026-07-20 14:22:46",
+      "updatedDate": "2026-07-20 14:34:30",
+      "profileAuthor": "rikyu",
+      "downloadLocation": "https://drive.google.com/drive/folders/1G93AcSrdXXnrUz81TYNU0IdgO5mjGzPC",
+      "avatarIds": [
+        "A0409",
+        "A0408",
+        "A0410",
+        "A0411",
+        "A1442"
+      ],
+      "imageUrl": "",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://rikyuvrc.booth.pm/",
+      "profileshopname": "りすきーしょっぷ",
       "notes": ""
     }
   ]
