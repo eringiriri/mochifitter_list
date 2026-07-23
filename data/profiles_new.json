@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20 14:36:00 JST",
+  "lastUpdated": "2026-07-23 18:48:29 JST",
   "profiles": [
     {
       "id": 1,
@@ -26013,6 +26013,146 @@
       "price": "0",
       "profileAuthorUrl": "https://rikyuvrc.booth.pm/",
       "profileshopname": "りすきーしょっぷ",
+      "notes": ""
+    },
+    {
+      "id": 1257,
+      "profileName": "『テレサ-Teresa-』用 もちふぃった～ 変換プロファイル 【順方向】 #BELLFLOWER2015",
+      "registeredDate": "2026-07-23 18:39:13",
+      "updatedDate": "2026-07-23 18:40:46",
+      "profileAuthor": "桔梗（キキョウ）",
+      "downloadLocation": "https://bellflower2015.booth.pm/items/8642899",
+      "avatarIds": [
+        "A1443"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e18a11a3-126a-4c0c-8da5-be62057414c3/i/8642899/5f227c71-c27a-45af-99d5-da8f5c758949_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://bellflower2015.booth.pm/",
+      "profileshopname": "BELLFLOWER",
+      "notes": ""
+    },
+    {
+      "id": 1258,
+      "profileName": "『怜-Rei-』用 もちふぃった～ 変換プロファイル 【順方向】 #BELLFLOWER2015",
+      "registeredDate": "2026-07-23 18:40:07",
+      "updatedDate": "2026-07-23 18:40:31",
+      "profileAuthor": "桔梗（キキョウ）",
+      "downloadLocation": "https://bellflower2015.booth.pm/items/8634976",
+      "avatarIds": [
+        "A0476"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e18a11a3-126a-4c0c-8da5-be62057414c3/i/8634976/29153fc3-96a0-4fcb-8d17-eb3efa562f37_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://bellflower2015.booth.pm/",
+      "profileshopname": "BELLFLOWER",
+      "notes": "※オリジナル素体（旧素体）用です。斑霞共通素体用ではありません。"
+    },
+    {
+      "id": 1259,
+      "profileName": "『ウィンター』Winter",
+      "registeredDate": "2026-07-23 18:41:17",
+      "updatedDate": "2026-07-23 18:41:58",
+      "profileAuthor": "dawnofender",
+      "downloadLocation": "https://dawnofender.booth.pm/items/8498886",
+      "avatarIds": [
+        "A1444"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/b3490e62-30a2-4dd7-8656-184a1141ed19/i/8498886/20d9ecb7-6042-4de0-ac3f-a48041413ed5_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://dawnofender.booth.pm/",
+      "profileshopname": "dawn of ender",
+      "notes": ""
+    },
+    {
+      "id": 1260,
+      "profileName": "もちふぃった～プロファイル SDサフィーちゃん",
+      "registeredDate": "2026-07-23 18:42:44",
+      "updatedDate": "2026-07-23 18:43:46",
+      "profileAuthor": "黒永×もっかん",
+      "downloadLocation": "https://k-mokkan.booth.pm/items/8638601",
+      "avatarIds": [
+        "A1445"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e55d2424-9c39-4eec-8582-34b6aa7462ce/i/8638601/710eeab0-ef86-4114-9374-2cd8e832338d_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://k-mokkan.booth.pm/",
+      "profileshopname": "mk_lab",
+      "notes": ""
+    },
+    {
+      "id": 1261,
+      "profileName": "チェルシー -Chelsea-",
+      "registeredDate": "2026-07-23 18:44:17",
+      "updatedDate": "2026-07-23 18:44:57",
+      "profileAuthor": "Nic0 Labo",
+      "downloadLocation": "https://nic0-labo.booth.pm/items/7789655",
+      "avatarIds": [
+        "A1446"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/553857d4-54c2-4dc2-8081-d1a71184506a/i/7789655/cbb2acf5-39e3-47c6-bf48-a00d30dd40d5_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://nic0-labo.booth.pm/",
+      "profileshopname": "ニコ-ラボ Nic0-Labo",
+      "notes": ""
+    },
+    {
+      "id": 1262,
+      "profileName": "サイレト",
+      "registeredDate": "2026-07-23 18:45:21",
+      "updatedDate": "2026-07-23 18:46:03",
+      "profileAuthor": "月の夜明け",
+      "downloadLocation": "https://shikaduki.booth.pm/items/7645822",
+      "avatarIds": [
+        "A1447"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/7dd42e8f-a7e5-4a03-bf14-3cf9ca41bf48/i/7645822/12e64913-4e5f-4b65-9c4b-cc1ec4124ae3_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://shikaduki.booth.pm/",
+      "profileshopname": "鹿月牧場",
+      "notes": ""
+    },
+    {
+      "id": 1263,
+      "profileName": "【もちふぃった～】Saji サジ 順変換プロファイル",
+      "registeredDate": "2026-07-23 18:46:28",
+      "updatedDate": "2026-07-23 18:47:42",
+      "profileAuthor": "海星",
+      "downloadLocation": "https://shinkai11000m.booth.pm/items/8634614",
+      "avatarIds": [
+        "A1448"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/e977f185-6e6c-44f5-b5aa-df99be2c419e/i/8634614/38751c2b-84ed-468e-b7e9-ad0852536ab9_base_resized.jpg",
+      "official": false,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://shinkai11000m.booth.pm/",
+      "profileshopname": "深海11000m",
       "notes": ""
     }
   ]
