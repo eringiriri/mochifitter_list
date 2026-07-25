@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23 18:48:29 JST",
+  "lastUpdated": "2026-07-26 08:43:58 JST",
   "avatars": [
     {
       "id": "A0001",
@@ -18689,6 +18689,71 @@
       "nameUrl": "https://graelyth.booth.pm/items/6617028",
       "authorUrl": "https://graelyth.booth.pm/",
       "shopname": "Graelyth",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1449",
+      "name": "Felna族",
+      "author": "",
+      "nameUrl": "https://dragontail.booth.pm/items/8621534",
+      "authorUrl": "https://dragontail.booth.pm/",
+      "shopname": "dragontail",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1450",
+      "name": "フィニシフ",
+      "author": "ﾓｸﾓｸ",
+      "nameUrl": "https://mocmomo.booth.pm/items/8641564",
+      "authorUrl": "https://mocmomo.booth.pm/",
+      "shopname": "もくもくねどこ",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1451",
+      "name": "グミ族の「ギュミ」",
+      "author": "ﾓｸﾓｸ",
+      "nameUrl": "https://mocmomo.booth.pm/items/7341973",
+      "authorUrl": "https://mocmomo.booth.pm/",
+      "shopname": "もくもくねどこ",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1452",
+      "name": "Ala Catalina アラ カタリーナ",
+      "author": "noname_kai",
+      "nameUrl": "https://noname-kai.booth.pm/items/4776713",
+      "authorUrl": "https://noname-kai.booth.pm/",
+      "shopname": "noname-kai",
+      "price": "",
+      "bodyBase": "",
+      "name_en": "",
+      "name_ko": "",
+      "name_cn": ""
+    },
+    {
+      "id": "A1453",
+      "name": "聡子(Satoko)",
+      "author": "Sharono",
+      "nameUrl": "https://sharono.booth.pm/items/8627678",
+      "authorUrl": "https://sharono.booth.pm/",
+      "shopname": "Sharono屋",
       "price": "",
       "bodyBase": "",
       "name_en": "",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23 18:48:29 JST",
+  "lastUpdated": "2026-07-26 08:43:58 JST",
   "profiles": [
     {
       "id": 1,
@@ -26153,6 +26153,106 @@
       "price": "0",
       "profileAuthorUrl": "https://shinkai11000m.booth.pm/",
       "profileshopname": "深海11000m",
+      "notes": ""
+    },
+    {
+      "id": 1264,
+      "profileName": "Felna族",
+      "registeredDate": "2026-07-26 08:38:27",
+      "updatedDate": "2026-07-26 08:40:02",
+      "profileAuthor": "dragontail",
+      "downloadLocation": "https://dragontail.booth.pm/items/8621534",
+      "avatarIds": [
+        "A1449"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/4f37665c-1c6d-4e38-88af-8e1a757b6396/i/8621534/621362bd-9b13-46bc-b243-2523417f31c1_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://dragontail.booth.pm/",
+      "profileshopname": "dragontail",
+      "notes": ""
+    },
+    {
+      "id": 1265,
+      "profileName": "フィニシフ",
+      "registeredDate": "2026-07-26 08:39:26",
+      "updatedDate": "2026-07-26 08:39:59",
+      "profileAuthor": "ﾓｸﾓｸ",
+      "downloadLocation": "https://mocmomo.booth.pm/items/8641564",
+      "avatarIds": [
+        "A1450"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/7b5150c7-2003-498d-ba5d-cfac4537c501/i/8641564/f9cb6b38-4298-4d3f-a274-aabc3a8833a7_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://mocmomo.booth.pm/",
+      "profileshopname": "もくもくねどこ",
+      "notes": ""
+    },
+    {
+      "id": 1266,
+      "profileName": "グミ族の「ギュミ」",
+      "registeredDate": "2026-07-26 08:40:17",
+      "updatedDate": "2026-07-26 08:41:05",
+      "profileAuthor": "ﾓｸﾓｸ",
+      "downloadLocation": "https://mocmomo.booth.pm/items/7341973",
+      "avatarIds": [
+        "A1451"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/7b5150c7-2003-498d-ba5d-cfac4537c501/i/7341973/52921371-b6c7-4b71-a40d-d849fbdc75dc_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "アバター同梱",
+      "price": "-",
+      "profileAuthorUrl": "https://mocmomo.booth.pm/",
+      "profileshopname": "もくもくねどこ",
+      "notes": ""
+    },
+    {
+      "id": 1267,
+      "profileName": "Ala Catalina アラ カタリーナ",
+      "registeredDate": "2026-07-26 08:41:37",
+      "updatedDate": "2026-07-26 08:42:52",
+      "profileAuthor": "noname_kai",
+      "downloadLocation": "https://noname-kai.booth.pm/items/4776713",
+      "avatarIds": [
+        "A1452"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/39037476-7b62-4782-9606-d801a374dcaf/i/4776713/0a6d3a9c-3bb8-4105-9d2a-55bd67b5c8d1_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": false,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://noname-kai.booth.pm/",
+      "profileshopname": "noname-kai",
+      "notes": ""
+    },
+    {
+      "id": 1268,
+      "profileName": "聡子(Satoko)",
+      "registeredDate": "2026-07-26 08:43:06",
+      "updatedDate": "2026-07-26 08:43:50",
+      "profileAuthor": "Sharono",
+      "downloadLocation": "https://sharono.booth.pm/items/8627678",
+      "avatarIds": [
+        "A1453"
+      ],
+      "imageUrl": "https://booth.pximg.net/c/620x620/d84d54f0-8809-4972-baee-3f190b4e9fd3/i/8627678/a8f2d2da-4f9b-4012-ab32-0c13de433ca2_base_resized.jpg",
+      "official": true,
+      "forwardSupport": true,
+      "reverseSupport": true,
+      "pricing": "無料",
+      "price": "0",
+      "profileAuthorUrl": "https://sharono.booth.pm/",
+      "profileshopname": "Sharono屋",
       "notes": ""
     }
   ]
